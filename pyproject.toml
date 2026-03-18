@@ -1,10 +1,17 @@
 [project]
-name = "p2_SAM"
+name = "p2-sam"
 version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "faker",
+    "sqlalchemy",
+    "pyyaml",
+]
 
-[tool.setuptools]
-package-dir = {"" = "."}
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["*"]
+include = ["p2_sam*"]

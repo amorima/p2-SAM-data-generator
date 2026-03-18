@@ -1,3 +1,9 @@
 Metadata-Version: 2.4
-Name: p2_SAM
+Name: p2-sam
 Version: 0.1.0
+Requires-Python: >=3.10
+Requires-Dist: faker
+Requires-Dist: sqlalchemy
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
