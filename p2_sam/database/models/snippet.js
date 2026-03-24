@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    codigo_postal: {
     type: DataTypes.STRING(45),
-    primarykey: true,
+    primaryKey: true,
    },
   },
   {

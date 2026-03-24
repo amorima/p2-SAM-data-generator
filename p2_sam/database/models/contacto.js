@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    contacto: {
     type: DataTypes.STRING(45),
-    primarykey: true,
+    primaryKey: true,
    },
    entidade_nif_nipc: {
     type: DataTypes.STRING(45),

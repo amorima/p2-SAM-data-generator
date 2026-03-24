@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    id_pedido: {
     type: DataTypes.INTEGER,
-    primarykey: true,
+    primaryKey: true,
     autoIncrement: true,
     unique: true,
    },

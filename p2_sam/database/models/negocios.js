@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    nif_nipc: {
     type: DataTypes.STRING(9),
-    primarykey: true,
+    primaryKey: true,
    },
    geo_latitude: {
     type: DataTypes.DECIMAL(10, 8),

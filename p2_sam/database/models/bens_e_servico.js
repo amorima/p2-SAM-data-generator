@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    tipo_bem_servico: {
     type: DataTypes.STRING(10),
-    primarykey: true,
+    primaryKey: true,
    },
    tipo: {
     type: DataTypes.ENUM("bem", "servico"),
