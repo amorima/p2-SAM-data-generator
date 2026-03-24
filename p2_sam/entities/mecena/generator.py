@@ -6,4 +6,3 @@ nameList = []
 
 def generateName(n=100)
  while (nameList) < n:
-  
