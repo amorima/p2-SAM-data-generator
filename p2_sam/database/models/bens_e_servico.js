@@ -20,7 +20,7 @@ module.exports = (sequelize) => {
  );
 
  Bens_E_Servico.associate = (models) => {
-  // Cada doação pertence a um mecenas
+  // Cada Bens_E_Servico tem varios Bens_E_Servicos_Negocio e Pedido_Bens_E_Servicos
   Bens_E_Servico.hasMany(models.Bens_E_Servicos_Negocio, {
    foreignKey: "tipo_bem_servico",
    as: "bens_e_servicos_negocio",
