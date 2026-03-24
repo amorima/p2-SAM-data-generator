@@ -28,7 +28,7 @@ module.exports = (sequelize) => {
  );
 
  Instituicao.associate = (models) => {
-  // Cada doação pertence a um mecenas
+  // Cada pode ter varios pedidos
   Instituicao.hasMany(models.Pedido, {
    foreignKey: "nif_nipc",
    as: "pedido",

@@ -28,7 +28,7 @@ module.exports = (sequelize) => {
  );
 
  Contacto.associate = (models) => {
-  // Cada doação pertence a um mecenas
+  // Contacto pertence a entidade
   Contacto.belongsTo(models.Entidade, {
    foreignKey: "entidade_nif_nipc",
    as: "entidade",

@@ -32,10 +32,14 @@ module.exports = (sequelize) => {
  );
 
  negocio.associate = (models) => {
-  // Cada doação pertence a um mecenas
-  negocio.belongsTo(models.tb, {
-   foreignKey: "",
-   as: "",
+  // Cada negocio tem uma entidade e varias Bens_E_Servicos_Negocio
+  negocio.hasOne(models.Entidade, {
+   foreignKey: "nif_nipc",
+   as: "entidade",
+  });
+  negocio.hasMany(models.Bens_E_Servicos_Negocio, {
+   foreignKey: "negocio_nif_nipc",
+   as: "bens_e_servicos_negocio",
   });
  };
 

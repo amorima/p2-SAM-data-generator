@@ -24,7 +24,8 @@ module.exports = (sequelize) => {
  );
 
  Localidade.associate = (models) => {
-  // Cada doação pertence a um mecenas
+  // Cada localidade pertence a um mecenas
+  // ALTERAR POIS CADA LOCALIDADE PODE TER MAIS DE UM MECENAS E VICE VERSA
   Localidade.belongsTo(models.Mecena, {
    foreignKey: "mecena_nif_nipc",
    as: "mecena",
