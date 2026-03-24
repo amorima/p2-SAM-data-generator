@@ -1,27 +1,35 @@
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
- const t = sequelize.define(
-  "t",
+ const Bens_E_Servico = sequelize.define(
+  "bens_e_servico",
   {
-   codigo_postal: {
-    type: DataTypes.STRING(45),
+   tipo_bem_servico: {
+    type: DataTypes.STRING(10),
     primarykey: true,
+   },
+   tipo: {
+    type: DataTypes.ENUM("bem", "servico"),
+    allowNull: false,
    },
   },
   {
-   tableName: "",
+   tableName: "bens_e_servico",
    timestamps: false,
   }
  );
 
- t.associate = (models) => {
+ Bens_E_Servico.associate = (models) => {
   // Cada doação pertence a um mecenas
-  t.belongsTo(models.tb, {
-   foreignKey: "",
-   as: "",
+  Bens_E_Servico.hasMany(models.Bens_E_Servicos_Negocio, {
+   foreignKey: "tipo_bem_servico",
+   as: "bens_e_servicos_negocio",
+  });
+  Bens_E_Servico.hasMany(models.Pedido_Bens_E_Servicos, {
+   foreignKey: "tipo_bem_servico",
+   as: "pedido_bens_servicos",
   });
  };
 
- return t;
+ return Bens_E_Servico;
 };

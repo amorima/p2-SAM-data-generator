@@ -1,8 +1,8 @@
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
- const Pedido_Bens_E_Servico = sequelize.define(
-  "pedido_bens_e_servico",
+ const Pedido_Bens_E_Servicos = sequelize.define(
+  "pedido_bens_e_servicos",
   {
    id_pedido: {
     type: DataTypes.INTEGER,
@@ -21,26 +21,26 @@ module.exports = (sequelize) => {
    },
   },
   {
-   tableName: "pedido_bens_e_servico",
+   tableName: "pedido_bens_e_servicos",
    timestamps: false,
   }
  );
 
- Pedido_Bens_E_Servico.associate = (models) => {
+ Pedido_Bens_E_Servicos.associate = (models) => {
   // Cada doação pertence a um mecenas
-  Pedido_Bens_E_Servico.hasOne(models.Pedido, {
+  Pedido_Bens_E_Servicos.hasOne(models.Pedido, {
    foreignKey: "id_pedido",
    as: "pedido",
   });
-  Pedido_Bens_E_Servico.hasOne(models.Bens_E_Servico, {
+  Pedido_Bens_E_Servicos.hasOne(models.Bens_E_Servico, {
    foreignKey: "tipo_bem_servico",
    as: "bens_e_servico",
   });
-  Pedido_Bens_E_Servico.hasOne(models.Lead, {
+  Pedido_Bens_E_Servicos.hasOne(models.Lead, {
    foreignKey: "id_pedido",
    as: "lead",
   });
  };
 
- return Pedido_Bens_E_Servico;
+ return Pedido_Bens_E_Servicos;
 };
