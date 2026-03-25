@@ -31,8 +31,8 @@ module.exports = (sequelize) => {
    foreignKey: "nif_nipc",
    as: "instituicao",
   });
-  Pedido.hasMany(models.Pedido_Bens_E_Sercico, {
-   foreignKey: "id_Pedido",
+  Pedido.hasMany(models.Pedido_Bens_E_Sercicos, {
+   foreignKey: "id_pedido",
    as: "pedido_bens",
   });
  };

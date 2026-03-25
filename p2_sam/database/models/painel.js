@@ -1,7 +1,7 @@
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
- const t = sequelize.define(
+ const Painel = sequelize.define(
   "t",
   {
    codigo_postal: {
@@ -15,13 +15,13 @@ module.exports = (sequelize) => {
   }
  );
 
- t.associate = (models) => {
-  // Cada doação pertence a um mecenas
-  t.belongsTo(models.tb, {
+ Painel.associate = (models) => {
+  //
+  Painel.belongsTo(models.tb, {
    foreignKey: "",
    as: "",
   });
  };
 
- return t;
+ return Painel;
 };

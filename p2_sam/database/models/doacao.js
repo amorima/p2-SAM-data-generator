@@ -6,11 +6,11 @@ module.exports = (sequelize) => {
   {
    id_doacao: {
     type: DataTypes.INTEGER,
-    primarykey: true,
+    primaryKey: true,
     autoIncrement: true,
    },
    mecena_nif_nipc: {
-    type: DataTypes.INTEGER(9),
+    type: DataTypes.STRING(9),
     allowNull: false,
    },
    data: {
@@ -18,7 +18,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    valor_transacao: {
-    type: DataTypes.DECIMAL(10, 8),
+    type: DataTypes.DECIMAL(10, 2),
     allowNull: false,
    },
    tipo_donativo: {

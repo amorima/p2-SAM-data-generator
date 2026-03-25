@@ -1,7 +1,7 @@
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
- const negocio = sequelize.define(
+ const Negocio = sequelize.define(
   "negocio",
   {
    nif_nipc: {
@@ -33,7 +33,7 @@ module.exports = (sequelize) => {
 
  negocio.associate = (models) => {
   // Cada negocio tem uma entidade e varias Bens_E_Servicos_Negocio
-  negocio.hasOne(models.Entidade, {
+  negocio.belongsTo(models.Entidade, {
    foreignKey: "nif_nipc",
    as: "entidade",
   });

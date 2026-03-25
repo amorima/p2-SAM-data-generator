@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
   "Mecena",
   {
    nif_nipc: {
-    type: DataTypes.INTEGER(9),
+    type: DataTypes.STRING(9),
     primaryKey: true,
     allowNull: false,
    },

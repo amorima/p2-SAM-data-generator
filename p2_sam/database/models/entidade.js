@@ -1,68 +1,74 @@
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
- const Entidade = sequelize.define("Entidade", {
-  nif_nipc: {
-   type: DataTypes.INTEGER(9),
-   primarykey: true,
-   allowNull: false,
+ const Entidade = sequelize.define(
+  "Entidade",
+  {
+   nif_nipc: {
+    type: DataTypes.STRING(20),
+    primaryKey: true,
+    allowNull: false,
+   },
+   email_login: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+    unique: true,
+   },
+   password: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
+   nome_entidade: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
+   iban: {
+    type: DataTypes.STRING(23),
+    allowNull: true,
+    unique: true,
+   },
+   rua: {
+    type: DataTypes.STRING(200),
+    allowNull: false,
+   },
+   n_porta: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
   },
-  email_login: {
-   type: DataTypes.STRING(45),
-   allowNull: false,
-   unique: true,
-  },
-  password: {
-   type: DataTypes.STRING(45),
-   allowNull: false,
-  },
-  nome_entidade: {
-   type: DataTypes.STRING(45),
-   allowNull: false,
-  },
-  iban: {
-   type: DataTypes.STRING(23),
-   allowNull: false,
-   unique: true,
-  },
-  rua: {
-   type: DataTypes.STRING(200),
-   allowNull: false,
-  },
-  n_porta: {
-   type: DataTypes.STRING(45),
-   allowNull: false,
-  },
-  codigo_postal: {
-   type: DataTypes.STRING(10),
-   allowNull: false,
-  },
-  tableName: "entidade",
-  timestamps: false,
- });
+  {
+   tableName: "entidade",
+   timestamps: false,
+  }
+ );
 
  Entidade.associate = (models) => {
-  // Cada ator tem apenas uma entidade
+  // Herança — uma Entidade pode ser um destes três tipos
   Entidade.hasOne(models.Mecena, {
    foreignKey: "nif_nipc",
    as: "mecena",
-  }),
-   Entidade.hasOne(models.Negocio, {
-    foreignKey: "nif_nipc",
-    as: "negocio",
-   }),
-   Entidade.hasOne(models.Instituicao, {
-    foreignKey: "nif_nipc",
-    as: "instituicao",
-   });
-  Entidade.hasMany(models.Contactos, {
-   foreignKey: "entidade_nif_nipc",
-   as: "contacto",
   });
-  // cada entidade tem uma localidade
-  Entidade.hasOne(models.Localidade, {
-   foreignKey: "codigo_postal",
-   as: "localidade",
+  Entidade.hasOne(models.Negocio, {
+   foreignKey: "nif_nipc",
+   as: "negocio",
+  });
+  Entidade.hasOne(models.Instituicao, {
+   foreignKey: "nif_nipc",
+   as: "instituicao",
+  });
+
+  // Contactos
+  Entidade.hasMany(models.Contacto, {
+   foreignKey: "entidade_nif_nipc",
+   as: "contactos",
+  });
+
+  // Localidade — many-to-many via tabela de ligação
+  Entidade.belongsToMany(models.Localidade, {
+   through: models.Localidade_Entidade,
+   foreignKey: "entidade_nif_nipc",
+   otherKey: "localidade_codigo_postal",
+   as: "localidades",
   });
  };
 

@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
   {
    codigo_postal: {
     type: DataTypes.STRING(45),
-    primarykey: true,
+    primaryKey: true,
    },
    concelho: {
     type: DataTypes.STRING(45),
@@ -24,11 +24,10 @@ module.exports = (sequelize) => {
  );
 
  Localidade.associate = (models) => {
-  // Cada localidade pertence a um mecenas
-  // ALTERAR POIS CADA LOCALIDADE PODE TER MAIS DE UM MECENAS E VICE VERSA
-  Localidade.belongsTo(models.Mecena, {
-   foreignKey: "mecena_nif_nipc",
-   as: "mecena",
+  Localidade.belongsToMany(models.Entidade, {
+   through: models.Localidade_Entidade,
+   foreignKey: "localidade_codigo_postal",
+   as: "entidades",
   });
  };
 
