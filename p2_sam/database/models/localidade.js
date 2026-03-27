@@ -16,6 +16,14 @@ module.exports = (sequelize) => {
     type: DataTypes.STRING(45),
     allowNull: false,
    },
+   rua: {
+    type: DataTypes.STRING(200),
+    allowNull: false,
+   },
+   n_porta: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
   },
   {
    tableName: "localidade",

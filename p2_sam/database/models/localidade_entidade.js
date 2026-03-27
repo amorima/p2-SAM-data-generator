@@ -1,5 +1,8 @@
 const { DataTypes } = require("sequelize");
 
+// É uma tabela de ligação entre localidade e entidade
+// Armazena a referencia entre localidade e entidade
+
 module.exports = (sequelize) => {
  const Localidade_Entidade = sequelize.define(
   "localidade_entidade",
