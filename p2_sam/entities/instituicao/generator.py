@@ -12,10 +12,14 @@ TIPOS_INSTITUICAO = [
 
 def _gerar_nipc() -> str:
     """
-    Gera um NIPC com primeiro dígito 5 (entidade pública) ou 9 (pessoa coletiva).
-    ~35% começam por 5, ~65% por 9.
+    Gera um NIPC com primeiro dígito 5 (entidade pública) ou 9 (pessoa coletiva)
     """
     prefixo = random.choice(["5", "5", "5", "5", "9", "9", "9", "9", "9", "9", "9"])
+    prefixo = random.choices(
+        ["5", "9"],
+        weights=[35, 65], # aplicar peso ao prefixo de cada nif 
+        k=1
+    )[0]
     return prefixo + faker.numerify("########")
 
 
@@ -23,13 +27,7 @@ def generate_instituicao(localidades: list[dict]) -> dict:
     """
     Gera um registo de Instituição.
     Herda codigo_postal de uma localidade gerada e usa as suas
-    coordenadas internas (_latitude, _longitude) para geo_latitude/geo_longitude.
-
-    Schema (tabela Instituicao):
-        nif_nipc                  VARCHAR(20) PK
-        geo_latitude              DECIMAL(10,8)
-        geo_longitude             DECIMAL(11,8)
-        url_comprovativo_estatuto TEXT
+    coordenadas internas (_latitude, _longitude) para geo_latitude/geo_longitude
     """
     loc  = random.choice(localidades)
     nipc = _gerar_nipc()
@@ -49,8 +47,8 @@ def generate_instituicao(localidades: list[dict]) -> dict:
 
 def generate_instituicoes(n: int = 50, localidades: list[dict] = None) -> list[dict]:
     """
-    Gera n instituições únicas (por NIPC).
-    Requer a lista de localidades geradas para obter coordenadas reais.
+    Gera n instituições únicas (por NIPC)
+    Requer a lista de localidades geradas para obter coordenadas reais
     """
     if not localidades:
         raise ValueError("É necessário fornecer uma lista de localidades.")

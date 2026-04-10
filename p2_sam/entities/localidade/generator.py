@@ -68,27 +68,18 @@ def generate_localidades(n: int = 100) -> list[dict]:
         codigos_vistos.add(cp)
         resultados.append(registo)
 
-        if len(resultados) % 10 == 0:
-            decorrido = time.time() - inicio
-            print(f"  {len(resultados):>3}/{n}  |  {tentativas} tentativas  |  {decorrido:.1f}s decorridos")
-
     total = time.time() - inicio
     minutos, segundos = divmod(total, 60)
-
-    print(f"\n{'─' * 50}")
+    print(f"\n{chr(9472) * 50}")
     print(f"  Concluído!")
     print(f"  Registos válidos : {len(resultados)}")
     print(f"  Total tentativas : {tentativas}")
-    print(f"  Taxa de sucesso  : {len(resultados) / tentativas * 100:.1f}%")
     if minutos > 0:
         print(f"  Tempo total      : {int(minutos)}m {segundos:.1f}s")
     else:
         print(f"  Tempo total      : {segundos:.1f}s")
-    print(f"{'─' * 50}\n")
-
+    print(f"{chr(9472) * 50}\n")
     return resultados
-
-
 def strip_internal_fields(localidades: list[dict]) -> list[dict]:
     """Remove campos gerados para outras entidades (_latitude, _longitude) antes de exportar."""
     return [{k: v for k, v in loc.items() if not k.startswith("_")} for loc in localidades]

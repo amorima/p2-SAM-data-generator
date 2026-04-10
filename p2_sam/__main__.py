@@ -2,7 +2,7 @@ from pathlib import Path
 
 from p2_sam.entities.localidade.generator  import generate_localidades, strip_internal_fields
 from p2_sam.entities.instituicao.generator import generate_instituicoes
-from p2_sam.entities.mecena.generator      import generate_mecenas
+from p2_sam.entities.doacao.generator      import generate_mecenas
 from p2_sam.entities.doacao.generator      import generate_doacoes
 from p2_sam.exporters.csv_exporter         import export_csv
 from p2_sam.exporters.json_exporter        import export_json
