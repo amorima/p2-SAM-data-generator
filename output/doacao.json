@@ -1,0 +1,2002 @@
+[
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2021-09-10 15:55:13",
+    "valor_transacao": 49983.27,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-930494.pdf",
+    "estado": "cancelado",
+    "id_doacao": 1
+  },
+  {
+    "mecena_nif_nipc": "119494213",
+    "data": "2023-04-09 15:55:13",
+    "valor_transacao": 7014.51,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/119494213-839997.pdf",
+    "estado": "pendente",
+    "id_doacao": 2
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2024-04-14 15:55:13",
+    "valor_transacao": 26149.65,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-438834.pdf",
+    "estado": "pendente",
+    "id_doacao": 3
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2024-10-03 15:55:13",
+    "valor_transacao": 15250.74,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-796780.pdf",
+    "estado": "confirmado",
+    "id_doacao": 4
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2025-03-11 15:55:13",
+    "valor_transacao": 39829.12,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-351168.pdf",
+    "estado": "pendente",
+    "id_doacao": 5
+  },
+  {
+    "mecena_nif_nipc": "185151265",
+    "data": "2021-11-02 15:55:13",
+    "valor_transacao": 9047.24,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/185151265-578330.pdf",
+    "estado": "confirmado",
+    "id_doacao": 6
+  },
+  {
+    "mecena_nif_nipc": "944957488",
+    "data": "2023-12-05 15:55:13",
+    "valor_transacao": 31226.06,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/944957488-455020.pdf",
+    "estado": "pendente",
+    "id_doacao": 7
+  },
+  {
+    "mecena_nif_nipc": "959020968",
+    "data": "2025-05-30 15:55:13",
+    "valor_transacao": 11608.03,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/959020968-974374.pdf",
+    "estado": "cancelado",
+    "id_doacao": 8
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2022-01-17 15:55:13",
+    "valor_transacao": 20064.39,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-308427.pdf",
+    "estado": "cancelado",
+    "id_doacao": 9
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2022-03-12 15:55:13",
+    "valor_transacao": 47065.41,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-498475.pdf",
+    "estado": "cancelado",
+    "id_doacao": 10
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2021-11-15 15:55:13",
+    "valor_transacao": 6414.6,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-961568.pdf",
+    "estado": "pendente",
+    "id_doacao": 11
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2024-01-08 15:55:13",
+    "valor_transacao": 44094.84,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-803473.pdf",
+    "estado": "pendente",
+    "id_doacao": 12
+  },
+  {
+    "mecena_nif_nipc": "940867453",
+    "data": "2023-07-26 15:55:13",
+    "valor_transacao": 23583.67,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/940867453-701036.pdf",
+    "estado": "confirmado",
+    "id_doacao": 13
+  },
+  {
+    "mecena_nif_nipc": "902708487",
+    "data": "2025-01-16 15:55:13",
+    "valor_transacao": 15398.63,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902708487-306737.pdf",
+    "estado": "cancelado",
+    "id_doacao": 14
+  },
+  {
+    "mecena_nif_nipc": "144564311",
+    "data": "2024-12-14 15:55:13",
+    "valor_transacao": 38068.97,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/144564311-065968.pdf",
+    "estado": "confirmado",
+    "id_doacao": 15
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2025-07-22 15:55:13",
+    "valor_transacao": 38549.01,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-917114.pdf",
+    "estado": "cancelado",
+    "id_doacao": 16
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2021-06-28 15:55:13",
+    "valor_transacao": 10660.29,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-006163.pdf",
+    "estado": "confirmado",
+    "id_doacao": 17
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2024-11-28 15:55:13",
+    "valor_transacao": 42490.52,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-856846.pdf",
+    "estado": "pendente",
+    "id_doacao": 18
+  },
+  {
+    "mecena_nif_nipc": "559402774",
+    "data": "2023-11-20 15:55:13",
+    "valor_transacao": 39079.86,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/559402774-357621.pdf",
+    "estado": "cancelado",
+    "id_doacao": 19
+  },
+  {
+    "mecena_nif_nipc": "969940052",
+    "data": "2021-08-31 15:55:13",
+    "valor_transacao": 37705.52,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/969940052-436641.pdf",
+    "estado": "pendente",
+    "id_doacao": 20
+  },
+  {
+    "mecena_nif_nipc": "957579880",
+    "data": "2024-11-09 15:55:13",
+    "valor_transacao": 10210.35,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/957579880-147921.pdf",
+    "estado": "pendente",
+    "id_doacao": 21
+  },
+  {
+    "mecena_nif_nipc": "185151265",
+    "data": "2025-03-07 15:55:13",
+    "valor_transacao": 28759.31,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/185151265-347488.pdf",
+    "estado": "pendente",
+    "id_doacao": 22
+  },
+  {
+    "mecena_nif_nipc": "980428405",
+    "data": "2022-12-02 15:55:13",
+    "valor_transacao": 40124.08,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/980428405-104894.pdf",
+    "estado": "confirmado",
+    "id_doacao": 23
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2022-06-07 15:55:13",
+    "valor_transacao": 22280.14,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-943129.pdf",
+    "estado": "pendente",
+    "id_doacao": 24
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2025-08-21 15:55:13",
+    "valor_transacao": 27131.61,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-835666.pdf",
+    "estado": "pendente",
+    "id_doacao": 25
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2023-02-09 15:55:13",
+    "valor_transacao": 19801.22,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-318143.pdf",
+    "estado": "cancelado",
+    "id_doacao": 26
+  },
+  {
+    "mecena_nif_nipc": "284209350",
+    "data": "2024-11-24 15:55:13",
+    "valor_transacao": 3958.29,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/284209350-344550.pdf",
+    "estado": "confirmado",
+    "id_doacao": 27
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2022-02-05 15:55:13",
+    "valor_transacao": 40875.71,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-163222.pdf",
+    "estado": "confirmado",
+    "id_doacao": 28
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2024-07-22 15:55:13",
+    "valor_transacao": 17694.7,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-519461.pdf",
+    "estado": "confirmado",
+    "id_doacao": 29
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2025-10-09 15:55:13",
+    "valor_transacao": 48790.42,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-807341.pdf",
+    "estado": "confirmado",
+    "id_doacao": 30
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2023-01-21 15:55:13",
+    "valor_transacao": 39218.34,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-278140.pdf",
+    "estado": "confirmado",
+    "id_doacao": 31
+  },
+  {
+    "mecena_nif_nipc": "178320044",
+    "data": "2026-01-02 15:55:13",
+    "valor_transacao": 12300.63,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/178320044-455295.pdf",
+    "estado": "cancelado",
+    "id_doacao": 32
+  },
+  {
+    "mecena_nif_nipc": "940867453",
+    "data": "2024-07-27 15:55:13",
+    "valor_transacao": 38565.08,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/940867453-595626.pdf",
+    "estado": "confirmado",
+    "id_doacao": 33
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2021-09-09 15:55:13",
+    "valor_transacao": 35065.93,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-434293.pdf",
+    "estado": "confirmado",
+    "id_doacao": 34
+  },
+  {
+    "mecena_nif_nipc": "969940052",
+    "data": "2024-03-23 15:55:13",
+    "valor_transacao": 5040.07,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/969940052-992643.pdf",
+    "estado": "cancelado",
+    "id_doacao": 35
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2023-11-26 15:55:13",
+    "valor_transacao": 34041.06,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-523990.pdf",
+    "estado": "cancelado",
+    "id_doacao": 36
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2024-12-04 15:55:13",
+    "valor_transacao": 43970.16,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-637051.pdf",
+    "estado": "confirmado",
+    "id_doacao": 37
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2025-11-16 15:55:13",
+    "valor_transacao": 39311.95,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-300479.pdf",
+    "estado": "pendente",
+    "id_doacao": 38
+  },
+  {
+    "mecena_nif_nipc": "902708487",
+    "data": "2025-05-17 15:55:13",
+    "valor_transacao": 34141.94,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902708487-849552.pdf",
+    "estado": "pendente",
+    "id_doacao": 39
+  },
+  {
+    "mecena_nif_nipc": "284209350",
+    "data": "2022-04-12 15:55:13",
+    "valor_transacao": 27789.55,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/284209350-450197.pdf",
+    "estado": "pendente",
+    "id_doacao": 40
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2022-08-05 15:55:13",
+    "valor_transacao": 1878.54,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-781724.pdf",
+    "estado": "cancelado",
+    "id_doacao": 41
+  },
+  {
+    "mecena_nif_nipc": "980428405",
+    "data": "2025-06-01 15:55:13",
+    "valor_transacao": 33309.06,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/980428405-152942.pdf",
+    "estado": "confirmado",
+    "id_doacao": 42
+  },
+  {
+    "mecena_nif_nipc": "986683221",
+    "data": "2021-10-27 15:55:13",
+    "valor_transacao": 34836.12,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/986683221-251167.pdf",
+    "estado": "pendente",
+    "id_doacao": 43
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2022-12-06 15:55:13",
+    "valor_transacao": 23145.41,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-460828.pdf",
+    "estado": "cancelado",
+    "id_doacao": 44
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2026-01-20 15:55:13",
+    "valor_transacao": 1041.12,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-193463.pdf",
+    "estado": "confirmado",
+    "id_doacao": 45
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2024-02-09 15:55:13",
+    "valor_transacao": 33767.58,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-368393.pdf",
+    "estado": "pendente",
+    "id_doacao": 46
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2023-08-03 15:55:13",
+    "valor_transacao": 19663.86,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-798688.pdf",
+    "estado": "cancelado",
+    "id_doacao": 47
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2022-08-04 15:55:13",
+    "valor_transacao": 45016.45,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-129377.pdf",
+    "estado": "confirmado",
+    "id_doacao": 48
+  },
+  {
+    "mecena_nif_nipc": "179204732",
+    "data": "2025-12-26 15:55:13",
+    "valor_transacao": 27875.06,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/179204732-760704.pdf",
+    "estado": "pendente",
+    "id_doacao": 49
+  },
+  {
+    "mecena_nif_nipc": "957579880",
+    "data": "2025-02-12 15:55:13",
+    "valor_transacao": 2133.9,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/957579880-179224.pdf",
+    "estado": "cancelado",
+    "id_doacao": 50
+  },
+  {
+    "mecena_nif_nipc": "902708487",
+    "data": "2023-08-17 15:55:13",
+    "valor_transacao": 41765.26,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902708487-128032.pdf",
+    "estado": "confirmado",
+    "id_doacao": 51
+  },
+  {
+    "mecena_nif_nipc": "902191891",
+    "data": "2021-10-10 15:55:13",
+    "valor_transacao": 17241.22,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902191891-165005.pdf",
+    "estado": "cancelado",
+    "id_doacao": 52
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2024-01-26 15:55:13",
+    "valor_transacao": 27961.09,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-318677.pdf",
+    "estado": "cancelado",
+    "id_doacao": 53
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2025-11-24 15:55:13",
+    "valor_transacao": 14191.15,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-054053.pdf",
+    "estado": "confirmado",
+    "id_doacao": 54
+  },
+  {
+    "mecena_nif_nipc": "559402774",
+    "data": "2024-03-14 15:55:13",
+    "valor_transacao": 49235.38,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/559402774-956521.pdf",
+    "estado": "confirmado",
+    "id_doacao": 55
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2022-05-11 15:55:13",
+    "valor_transacao": 11202.02,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-983345.pdf",
+    "estado": "cancelado",
+    "id_doacao": 56
+  },
+  {
+    "mecena_nif_nipc": "930379824",
+    "data": "2025-09-09 15:55:13",
+    "valor_transacao": 35893.24,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/930379824-899663.pdf",
+    "estado": "confirmado",
+    "id_doacao": 57
+  },
+  {
+    "mecena_nif_nipc": "940867453",
+    "data": "2025-01-27 15:55:13",
+    "valor_transacao": 20015.1,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/940867453-997612.pdf",
+    "estado": "pendente",
+    "id_doacao": 58
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2023-06-25 15:55:13",
+    "valor_transacao": 37154.61,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-302258.pdf",
+    "estado": "confirmado",
+    "id_doacao": 59
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2021-07-13 15:55:13",
+    "valor_transacao": 42990.23,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-956621.pdf",
+    "estado": "cancelado",
+    "id_doacao": 60
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2025-06-12 15:55:13",
+    "valor_transacao": 4989.56,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-072386.pdf",
+    "estado": "cancelado",
+    "id_doacao": 61
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2021-12-31 15:55:13",
+    "valor_transacao": 41664.97,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-765796.pdf",
+    "estado": "pendente",
+    "id_doacao": 62
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2021-10-31 15:55:13",
+    "valor_transacao": 28151.07,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-645875.pdf",
+    "estado": "pendente",
+    "id_doacao": 63
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2022-02-04 15:55:13",
+    "valor_transacao": 21499.57,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-536755.pdf",
+    "estado": "pendente",
+    "id_doacao": 64
+  },
+  {
+    "mecena_nif_nipc": "947481120",
+    "data": "2025-04-22 15:55:13",
+    "valor_transacao": 16241.49,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/947481120-739627.pdf",
+    "estado": "confirmado",
+    "id_doacao": 65
+  },
+  {
+    "mecena_nif_nipc": "144564311",
+    "data": "2025-08-05 15:55:13",
+    "valor_transacao": 39008.2,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/144564311-828224.pdf",
+    "estado": "pendente",
+    "id_doacao": 66
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2022-09-12 15:55:13",
+    "valor_transacao": 49858.68,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-135898.pdf",
+    "estado": "pendente",
+    "id_doacao": 67
+  },
+  {
+    "mecena_nif_nipc": "959020968",
+    "data": "2021-07-01 15:55:13",
+    "valor_transacao": 16294.91,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/959020968-416008.pdf",
+    "estado": "cancelado",
+    "id_doacao": 68
+  },
+  {
+    "mecena_nif_nipc": "902606536",
+    "data": "2026-03-11 15:55:13",
+    "valor_transacao": 16901.25,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902606536-434923.pdf",
+    "estado": "confirmado",
+    "id_doacao": 69
+  },
+  {
+    "mecena_nif_nipc": "144564311",
+    "data": "2022-08-28 15:55:13",
+    "valor_transacao": 32315.27,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/144564311-235978.pdf",
+    "estado": "pendente",
+    "id_doacao": 70
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2024-07-30 15:55:13",
+    "valor_transacao": 29539.4,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-548230.pdf",
+    "estado": "cancelado",
+    "id_doacao": 71
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2024-05-26 15:55:13",
+    "valor_transacao": 12769.19,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-625080.pdf",
+    "estado": "cancelado",
+    "id_doacao": 72
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2023-06-05 15:55:13",
+    "valor_transacao": 24547.61,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-841453.pdf",
+    "estado": "pendente",
+    "id_doacao": 73
+  },
+  {
+    "mecena_nif_nipc": "902708487",
+    "data": "2024-08-21 15:55:13",
+    "valor_transacao": 19201.62,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902708487-441765.pdf",
+    "estado": "pendente",
+    "id_doacao": 74
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2024-08-12 15:55:13",
+    "valor_transacao": 4828.7,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-981056.pdf",
+    "estado": "pendente",
+    "id_doacao": 75
+  },
+  {
+    "mecena_nif_nipc": "912849101",
+    "data": "2022-10-21 15:55:13",
+    "valor_transacao": 41928.15,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/912849101-487909.pdf",
+    "estado": "confirmado",
+    "id_doacao": 76
+  },
+  {
+    "mecena_nif_nipc": "523107707",
+    "data": "2022-11-14 15:55:13",
+    "valor_transacao": 6552.0,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/523107707-575063.pdf",
+    "estado": "pendente",
+    "id_doacao": 77
+  },
+  {
+    "mecena_nif_nipc": "985359988",
+    "data": "2022-02-12 15:55:13",
+    "valor_transacao": 21018.32,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/985359988-149879.pdf",
+    "estado": "cancelado",
+    "id_doacao": 78
+  },
+  {
+    "mecena_nif_nipc": "974453998",
+    "data": "2021-06-02 15:55:13",
+    "valor_transacao": 48137.33,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/974453998-380828.pdf",
+    "estado": "pendente",
+    "id_doacao": 79
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2023-10-29 15:55:13",
+    "valor_transacao": 36357.71,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-930835.pdf",
+    "estado": "confirmado",
+    "id_doacao": 80
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2023-04-28 15:55:13",
+    "valor_transacao": 24829.76,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-848304.pdf",
+    "estado": "pendente",
+    "id_doacao": 81
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2021-08-30 15:55:13",
+    "valor_transacao": 13931.4,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-967703.pdf",
+    "estado": "confirmado",
+    "id_doacao": 82
+  },
+  {
+    "mecena_nif_nipc": "119494213",
+    "data": "2024-02-25 15:55:13",
+    "valor_transacao": 31353.12,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/119494213-867694.pdf",
+    "estado": "pendente",
+    "id_doacao": 83
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2024-02-18 15:55:13",
+    "valor_transacao": 27985.71,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-359456.pdf",
+    "estado": "confirmado",
+    "id_doacao": 84
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2023-02-09 15:55:13",
+    "valor_transacao": 34882.46,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-964490.pdf",
+    "estado": "cancelado",
+    "id_doacao": 85
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2022-06-17 15:55:13",
+    "valor_transacao": 18585.08,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-617651.pdf",
+    "estado": "pendente",
+    "id_doacao": 86
+  },
+  {
+    "mecena_nif_nipc": "940867453",
+    "data": "2022-08-18 15:55:13",
+    "valor_transacao": 32416.19,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/940867453-802483.pdf",
+    "estado": "pendente",
+    "id_doacao": 87
+  },
+  {
+    "mecena_nif_nipc": "986683221",
+    "data": "2024-12-26 15:55:13",
+    "valor_transacao": 15533.47,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/986683221-488214.pdf",
+    "estado": "confirmado",
+    "id_doacao": 88
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2025-12-14 15:55:13",
+    "valor_transacao": 14791.32,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-955015.pdf",
+    "estado": "cancelado",
+    "id_doacao": 89
+  },
+  {
+    "mecena_nif_nipc": "969285214",
+    "data": "2024-12-19 15:55:13",
+    "valor_transacao": 233.89,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/969285214-376289.pdf",
+    "estado": "pendente",
+    "id_doacao": 90
+  },
+  {
+    "mecena_nif_nipc": "144564311",
+    "data": "2022-09-19 15:55:13",
+    "valor_transacao": 27650.74,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/144564311-206590.pdf",
+    "estado": "cancelado",
+    "id_doacao": 91
+  },
+  {
+    "mecena_nif_nipc": "902606536",
+    "data": "2023-03-24 15:55:13",
+    "valor_transacao": 6872.66,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902606536-149934.pdf",
+    "estado": "cancelado",
+    "id_doacao": 92
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2024-02-17 15:55:13",
+    "valor_transacao": 23947.44,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-086153.pdf",
+    "estado": "pendente",
+    "id_doacao": 93
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2023-07-04 15:55:13",
+    "valor_transacao": 28382.64,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-261736.pdf",
+    "estado": "cancelado",
+    "id_doacao": 94
+  },
+  {
+    "mecena_nif_nipc": "956934140",
+    "data": "2024-08-29 15:55:13",
+    "valor_transacao": 43680.36,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/956934140-824881.pdf",
+    "estado": "pendente",
+    "id_doacao": 95
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2024-02-28 15:55:13",
+    "valor_transacao": 7569.49,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-505190.pdf",
+    "estado": "cancelado",
+    "id_doacao": 96
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2022-08-14 15:55:13",
+    "valor_transacao": 43862.89,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-968762.pdf",
+    "estado": "pendente",
+    "id_doacao": 97
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2023-03-28 15:55:13",
+    "valor_transacao": 47663.0,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-505778.pdf",
+    "estado": "pendente",
+    "id_doacao": 98
+  },
+  {
+    "mecena_nif_nipc": "284209350",
+    "data": "2024-06-11 15:55:13",
+    "valor_transacao": 5054.75,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/284209350-918429.pdf",
+    "estado": "confirmado",
+    "id_doacao": 99
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2023-05-28 15:55:13",
+    "valor_transacao": 13945.29,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-542339.pdf",
+    "estado": "confirmado",
+    "id_doacao": 100
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-05-27 15:55:13",
+    "valor_transacao": 8797.97,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-577213.pdf",
+    "estado": "confirmado",
+    "id_doacao": 101
+  },
+  {
+    "mecena_nif_nipc": "902606536",
+    "data": "2025-07-22 15:55:13",
+    "valor_transacao": 17643.3,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902606536-886402.pdf",
+    "estado": "confirmado",
+    "id_doacao": 102
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2025-12-20 15:55:13",
+    "valor_transacao": 4519.13,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-072146.pdf",
+    "estado": "cancelado",
+    "id_doacao": 103
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2021-08-04 15:55:13",
+    "valor_transacao": 6139.33,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-118855.pdf",
+    "estado": "cancelado",
+    "id_doacao": 104
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2023-12-24 15:55:13",
+    "valor_transacao": 15804.92,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-436125.pdf",
+    "estado": "cancelado",
+    "id_doacao": 105
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2022-03-17 15:55:13",
+    "valor_transacao": 10235.95,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-996254.pdf",
+    "estado": "cancelado",
+    "id_doacao": 106
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2023-10-04 15:55:13",
+    "valor_transacao": 40610.11,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-925607.pdf",
+    "estado": "cancelado",
+    "id_doacao": 107
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2021-09-10 15:55:13",
+    "valor_transacao": 13162.21,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-954351.pdf",
+    "estado": "confirmado",
+    "id_doacao": 108
+  },
+  {
+    "mecena_nif_nipc": "155484237",
+    "data": "2024-12-31 15:55:13",
+    "valor_transacao": 24553.31,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/155484237-487014.pdf",
+    "estado": "pendente",
+    "id_doacao": 109
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-07-10 15:55:13",
+    "valor_transacao": 8823.06,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-128789.pdf",
+    "estado": "pendente",
+    "id_doacao": 110
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2025-05-04 15:55:13",
+    "valor_transacao": 11710.59,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-141848.pdf",
+    "estado": "pendente",
+    "id_doacao": 111
+  },
+  {
+    "mecena_nif_nipc": "523071790",
+    "data": "2022-08-01 15:55:13",
+    "valor_transacao": 15091.82,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/523071790-072657.pdf",
+    "estado": "cancelado",
+    "id_doacao": 112
+  },
+  {
+    "mecena_nif_nipc": "911537691",
+    "data": "2022-04-04 15:55:13",
+    "valor_transacao": 35827.95,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911537691-435123.pdf",
+    "estado": "confirmado",
+    "id_doacao": 113
+  },
+  {
+    "mecena_nif_nipc": "986683221",
+    "data": "2023-09-14 15:55:13",
+    "valor_transacao": 45913.66,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/986683221-175032.pdf",
+    "estado": "cancelado",
+    "id_doacao": 114
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2023-02-09 15:55:13",
+    "valor_transacao": 2246.64,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-196458.pdf",
+    "estado": "confirmado",
+    "id_doacao": 115
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2022-09-07 15:55:13",
+    "valor_transacao": 18994.1,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-769814.pdf",
+    "estado": "cancelado",
+    "id_doacao": 116
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2022-10-21 15:55:13",
+    "valor_transacao": 302.17,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-470709.pdf",
+    "estado": "cancelado",
+    "id_doacao": 117
+  },
+  {
+    "mecena_nif_nipc": "119494213",
+    "data": "2025-10-10 15:55:13",
+    "valor_transacao": 13065.59,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/119494213-397052.pdf",
+    "estado": "pendente",
+    "id_doacao": 118
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2024-10-17 15:55:13",
+    "valor_transacao": 46469.81,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-172404.pdf",
+    "estado": "pendente",
+    "id_doacao": 119
+  },
+  {
+    "mecena_nif_nipc": "947481120",
+    "data": "2024-09-25 15:55:13",
+    "valor_transacao": 46979.82,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/947481120-031914.pdf",
+    "estado": "confirmado",
+    "id_doacao": 120
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2023-10-27 15:55:13",
+    "valor_transacao": 6959.74,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-187299.pdf",
+    "estado": "confirmado",
+    "id_doacao": 121
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2023-11-21 15:55:13",
+    "valor_transacao": 43889.07,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-812817.pdf",
+    "estado": "confirmado",
+    "id_doacao": 122
+  },
+  {
+    "mecena_nif_nipc": "947481120",
+    "data": "2025-06-26 15:55:13",
+    "valor_transacao": 26427.66,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/947481120-567239.pdf",
+    "estado": "cancelado",
+    "id_doacao": 123
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2026-03-21 15:55:13",
+    "valor_transacao": 36874.6,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-514440.pdf",
+    "estado": "confirmado",
+    "id_doacao": 124
+  },
+  {
+    "mecena_nif_nipc": "523071790",
+    "data": "2021-07-15 15:55:13",
+    "valor_transacao": 21211.77,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/523071790-932456.pdf",
+    "estado": "pendente",
+    "id_doacao": 125
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2021-10-19 15:55:13",
+    "valor_transacao": 693.97,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-825037.pdf",
+    "estado": "pendente",
+    "id_doacao": 126
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2023-02-16 15:55:13",
+    "valor_transacao": 42473.96,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-667460.pdf",
+    "estado": "cancelado",
+    "id_doacao": 127
+  },
+  {
+    "mecena_nif_nipc": "185151265",
+    "data": "2026-01-09 15:55:13",
+    "valor_transacao": 31362.61,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/185151265-950564.pdf",
+    "estado": "confirmado",
+    "id_doacao": 128
+  },
+  {
+    "mecena_nif_nipc": "911537691",
+    "data": "2023-03-18 15:55:13",
+    "valor_transacao": 1187.19,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911537691-480860.pdf",
+    "estado": "confirmado",
+    "id_doacao": 129
+  },
+  {
+    "mecena_nif_nipc": "959020968",
+    "data": "2023-12-12 15:55:13",
+    "valor_transacao": 7327.89,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/959020968-321703.pdf",
+    "estado": "confirmado",
+    "id_doacao": 130
+  },
+  {
+    "mecena_nif_nipc": "985359988",
+    "data": "2024-09-30 15:55:13",
+    "valor_transacao": 22884.96,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/985359988-215451.pdf",
+    "estado": "pendente",
+    "id_doacao": 131
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-08-26 15:55:13",
+    "valor_transacao": 652.24,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-499837.pdf",
+    "estado": "cancelado",
+    "id_doacao": 132
+  },
+  {
+    "mecena_nif_nipc": "546783169",
+    "data": "2023-01-13 15:55:13",
+    "valor_transacao": 39678.8,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/546783169-895024.pdf",
+    "estado": "confirmado",
+    "id_doacao": 133
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2023-07-02 15:55:13",
+    "valor_transacao": 34043.19,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-859182.pdf",
+    "estado": "confirmado",
+    "id_doacao": 134
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2022-02-13 15:55:13",
+    "valor_transacao": 3565.45,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-683939.pdf",
+    "estado": "confirmado",
+    "id_doacao": 135
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-01-07 15:55:13",
+    "valor_transacao": 23006.74,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-961871.pdf",
+    "estado": "pendente",
+    "id_doacao": 136
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2023-05-20 15:55:13",
+    "valor_transacao": 36966.76,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-573613.pdf",
+    "estado": "cancelado",
+    "id_doacao": 137
+  },
+  {
+    "mecena_nif_nipc": "992453410",
+    "data": "2024-02-08 15:55:13",
+    "valor_transacao": 17333.92,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/992453410-890732.pdf",
+    "estado": "pendente",
+    "id_doacao": 138
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-11-14 15:55:13",
+    "valor_transacao": 19931.81,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-974546.pdf",
+    "estado": "pendente",
+    "id_doacao": 139
+  },
+  {
+    "mecena_nif_nipc": "980428405",
+    "data": "2025-12-30 15:55:13",
+    "valor_transacao": 48552.77,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/980428405-930559.pdf",
+    "estado": "pendente",
+    "id_doacao": 140
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2024-09-19 15:55:13",
+    "valor_transacao": 16645.38,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-989179.pdf",
+    "estado": "confirmado",
+    "id_doacao": 141
+  },
+  {
+    "mecena_nif_nipc": "944957488",
+    "data": "2023-02-22 15:55:13",
+    "valor_transacao": 34456.25,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/944957488-000312.pdf",
+    "estado": "cancelado",
+    "id_doacao": 142
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2022-07-31 15:55:13",
+    "valor_transacao": 23573.03,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-043011.pdf",
+    "estado": "cancelado",
+    "id_doacao": 143
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2025-03-14 15:55:13",
+    "valor_transacao": 36018.13,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-432007.pdf",
+    "estado": "pendente",
+    "id_doacao": 144
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2022-02-12 15:55:13",
+    "valor_transacao": 1184.55,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-930279.pdf",
+    "estado": "confirmado",
+    "id_doacao": 145
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2022-07-31 15:55:13",
+    "valor_transacao": 32023.36,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-442688.pdf",
+    "estado": "cancelado",
+    "id_doacao": 146
+  },
+  {
+    "mecena_nif_nipc": "515285099",
+    "data": "2021-04-20 15:55:13",
+    "valor_transacao": 49460.82,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/515285099-654559.pdf",
+    "estado": "cancelado",
+    "id_doacao": 147
+  },
+  {
+    "mecena_nif_nipc": "938589464",
+    "data": "2023-12-20 15:55:13",
+    "valor_transacao": 17637.59,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/938589464-237359.pdf",
+    "estado": "confirmado",
+    "id_doacao": 148
+  },
+  {
+    "mecena_nif_nipc": "912849101",
+    "data": "2023-03-25 15:55:13",
+    "valor_transacao": 38244.55,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/912849101-215059.pdf",
+    "estado": "pendente",
+    "id_doacao": 149
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2025-09-25 15:55:13",
+    "valor_transacao": 48868.8,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-197773.pdf",
+    "estado": "cancelado",
+    "id_doacao": 150
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2024-04-07 15:55:13",
+    "valor_transacao": 5838.48,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-506347.pdf",
+    "estado": "cancelado",
+    "id_doacao": 151
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2023-10-25 15:55:13",
+    "valor_transacao": 25121.64,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-378977.pdf",
+    "estado": "cancelado",
+    "id_doacao": 152
+  },
+  {
+    "mecena_nif_nipc": "974453998",
+    "data": "2022-07-07 15:55:13",
+    "valor_transacao": 38231.11,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/974453998-519091.pdf",
+    "estado": "confirmado",
+    "id_doacao": 153
+  },
+  {
+    "mecena_nif_nipc": "911537691",
+    "data": "2023-01-04 15:55:13",
+    "valor_transacao": 49832.03,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911537691-718698.pdf",
+    "estado": "cancelado",
+    "id_doacao": 154
+  },
+  {
+    "mecena_nif_nipc": "969940052",
+    "data": "2025-12-04 15:55:13",
+    "valor_transacao": 26390.24,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/969940052-324516.pdf",
+    "estado": "confirmado",
+    "id_doacao": 155
+  },
+  {
+    "mecena_nif_nipc": "910553963",
+    "data": "2023-05-10 15:55:13",
+    "valor_transacao": 28009.79,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/910553963-946121.pdf",
+    "estado": "pendente",
+    "id_doacao": 156
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2022-04-08 15:55:13",
+    "valor_transacao": 36969.5,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-759251.pdf",
+    "estado": "cancelado",
+    "id_doacao": 157
+  },
+  {
+    "mecena_nif_nipc": "959020968",
+    "data": "2025-01-12 15:55:13",
+    "valor_transacao": 10951.79,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/959020968-878322.pdf",
+    "estado": "cancelado",
+    "id_doacao": 158
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2021-10-22 15:55:13",
+    "valor_transacao": 38170.13,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-468502.pdf",
+    "estado": "pendente",
+    "id_doacao": 159
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2024-09-16 15:55:13",
+    "valor_transacao": 28683.24,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-881304.pdf",
+    "estado": "pendente",
+    "id_doacao": 160
+  },
+  {
+    "mecena_nif_nipc": "997940446",
+    "data": "2025-12-26 15:55:13",
+    "valor_transacao": 3031.69,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/997940446-306459.pdf",
+    "estado": "cancelado",
+    "id_doacao": 161
+  },
+  {
+    "mecena_nif_nipc": "987805683",
+    "data": "2024-08-17 15:55:13",
+    "valor_transacao": 13230.13,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/987805683-063315.pdf",
+    "estado": "confirmado",
+    "id_doacao": 162
+  },
+  {
+    "mecena_nif_nipc": "911537691",
+    "data": "2025-07-29 15:55:13",
+    "valor_transacao": 30396.47,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911537691-103010.pdf",
+    "estado": "confirmado",
+    "id_doacao": 163
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2025-11-06 15:55:13",
+    "valor_transacao": 1662.7,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-472713.pdf",
+    "estado": "pendente",
+    "id_doacao": 164
+  },
+  {
+    "mecena_nif_nipc": "577620228",
+    "data": "2025-09-19 15:55:13",
+    "valor_transacao": 40779.56,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/577620228-096579.pdf",
+    "estado": "cancelado",
+    "id_doacao": 165
+  },
+  {
+    "mecena_nif_nipc": "179204732",
+    "data": "2025-09-07 15:55:13",
+    "valor_transacao": 36117.44,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/179204732-424434.pdf",
+    "estado": "cancelado",
+    "id_doacao": 166
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2023-07-20 15:55:13",
+    "valor_transacao": 27112.87,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-843249.pdf",
+    "estado": "confirmado",
+    "id_doacao": 167
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2024-05-04 15:55:13",
+    "valor_transacao": 39127.32,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-704373.pdf",
+    "estado": "confirmado",
+    "id_doacao": 168
+  },
+  {
+    "mecena_nif_nipc": "135965635",
+    "data": "2022-06-18 15:55:13",
+    "valor_transacao": 10698.19,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/135965635-082970.pdf",
+    "estado": "pendente",
+    "id_doacao": 169
+  },
+  {
+    "mecena_nif_nipc": "911616356",
+    "data": "2026-01-24 15:55:13",
+    "valor_transacao": 3221.78,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911616356-372172.pdf",
+    "estado": "cancelado",
+    "id_doacao": 170
+  },
+  {
+    "mecena_nif_nipc": "957579880",
+    "data": "2022-02-05 15:55:13",
+    "valor_transacao": 45011.52,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/957579880-675516.pdf",
+    "estado": "pendente",
+    "id_doacao": 171
+  },
+  {
+    "mecena_nif_nipc": "179204732",
+    "data": "2021-11-13 15:55:13",
+    "valor_transacao": 19318.97,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/179204732-989379.pdf",
+    "estado": "confirmado",
+    "id_doacao": 172
+  },
+  {
+    "mecena_nif_nipc": "911537691",
+    "data": "2025-05-02 15:55:13",
+    "valor_transacao": 7795.64,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/911537691-271510.pdf",
+    "estado": "pendente",
+    "id_doacao": 173
+  },
+  {
+    "mecena_nif_nipc": "994289585",
+    "data": "2023-11-23 15:55:13",
+    "valor_transacao": 10077.91,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/994289585-116928.pdf",
+    "estado": "confirmado",
+    "id_doacao": 174
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2024-03-22 15:55:13",
+    "valor_transacao": 24038.64,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-442631.pdf",
+    "estado": "confirmado",
+    "id_doacao": 175
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2023-04-15 15:55:13",
+    "valor_transacao": 500.48,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-676848.pdf",
+    "estado": "pendente",
+    "id_doacao": 176
+  },
+  {
+    "mecena_nif_nipc": "986683221",
+    "data": "2024-10-05 15:55:13",
+    "valor_transacao": 25105.25,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/986683221-826588.pdf",
+    "estado": "confirmado",
+    "id_doacao": 177
+  },
+  {
+    "mecena_nif_nipc": "131017753",
+    "data": "2025-06-10 15:55:13",
+    "valor_transacao": 33497.27,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/131017753-205842.pdf",
+    "estado": "pendente",
+    "id_doacao": 178
+  },
+  {
+    "mecena_nif_nipc": "933758990",
+    "data": "2025-07-12 15:55:13",
+    "valor_transacao": 7577.69,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/933758990-003430.pdf",
+    "estado": "pendente",
+    "id_doacao": 179
+  },
+  {
+    "mecena_nif_nipc": "930379824",
+    "data": "2023-04-08 15:55:13",
+    "valor_transacao": 16091.06,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/930379824-005320.pdf",
+    "estado": "pendente",
+    "id_doacao": 180
+  },
+  {
+    "mecena_nif_nipc": "902606536",
+    "data": "2021-12-19 15:55:13",
+    "valor_transacao": 33453.85,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902606536-459605.pdf",
+    "estado": "confirmado",
+    "id_doacao": 181
+  },
+  {
+    "mecena_nif_nipc": "956934140",
+    "data": "2022-06-07 15:55:13",
+    "valor_transacao": 26455.74,
+    "tipo_donativo": "monetario",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/956934140-300637.pdf",
+    "estado": "cancelado",
+    "id_doacao": 182
+  },
+  {
+    "mecena_nif_nipc": "929113324",
+    "data": "2022-11-13 15:55:13",
+    "valor_transacao": 32349.63,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/929113324-103560.pdf",
+    "estado": "confirmado",
+    "id_doacao": 183
+  },
+  {
+    "mecena_nif_nipc": "930379824",
+    "data": "2025-03-14 15:55:13",
+    "valor_transacao": 562.98,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/930379824-563061.pdf",
+    "estado": "pendente",
+    "id_doacao": 184
+  },
+  {
+    "mecena_nif_nipc": "943042033",
+    "data": "2025-12-03 15:55:13",
+    "valor_transacao": 17636.89,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/943042033-528992.pdf",
+    "estado": "pendente",
+    "id_doacao": 185
+  },
+  {
+    "mecena_nif_nipc": "205881851",
+    "data": "2021-11-06 15:55:13",
+    "valor_transacao": 22577.06,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/205881851-503160.pdf",
+    "estado": "confirmado",
+    "id_doacao": 186
+  },
+  {
+    "mecena_nif_nipc": "930379824",
+    "data": "2023-11-06 15:55:13",
+    "valor_transacao": 45380.96,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/930379824-781427.pdf",
+    "estado": "cancelado",
+    "id_doacao": 187
+  },
+  {
+    "mecena_nif_nipc": "960224463",
+    "data": "2022-11-12 15:55:13",
+    "valor_transacao": 10136.31,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/960224463-985429.pdf",
+    "estado": "confirmado",
+    "id_doacao": 188
+  },
+  {
+    "mecena_nif_nipc": "956934140",
+    "data": "2022-08-07 15:55:13",
+    "valor_transacao": 38591.84,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/956934140-566504.pdf",
+    "estado": "cancelado",
+    "id_doacao": 189
+  },
+  {
+    "mecena_nif_nipc": "515285099",
+    "data": "2022-08-04 15:55:13",
+    "valor_transacao": 21617.3,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/515285099-125060.pdf",
+    "estado": "pendente",
+    "id_doacao": 190
+  },
+  {
+    "mecena_nif_nipc": "930379824",
+    "data": "2025-06-29 15:55:13",
+    "valor_transacao": 823.19,
+    "tipo_donativo": "servico",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/930379824-681965.pdf",
+    "estado": "cancelado",
+    "id_doacao": 191
+  },
+  {
+    "mecena_nif_nipc": "902606536",
+    "data": "2023-11-04 15:55:13",
+    "valor_transacao": 2238.13,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/902606536-537550.pdf",
+    "estado": "cancelado",
+    "id_doacao": 192
+  },
+  {
+    "mecena_nif_nipc": "299844730",
+    "data": "2025-12-02 15:55:13",
+    "valor_transacao": 12572.15,
+    "tipo_donativo": "especie",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/299844730-504437.pdf",
+    "estado": "confirmado",
+    "id_doacao": 193
+  },
+  {
+    "mecena_nif_nipc": "980428405",
+    "data": "2025-04-18 15:55:13",
+    "valor_transacao": 7337.64,
+    "tipo_donativo": "servico",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/980428405-665578.pdf",
+    "estado": "pendente",
+    "id_doacao": 194
+  },
+  {
+    "mecena_nif_nipc": "938589464",
+    "data": "2025-07-28 15:55:13",
+    "valor_transacao": 38370.41,
+    "tipo_donativo": "monetario",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/938589464-025682.pdf",
+    "estado": "pendente",
+    "id_doacao": 195
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2022-05-13 15:55:13",
+    "valor_transacao": 15261.36,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-422734.pdf",
+    "estado": "confirmado",
+    "id_doacao": 196
+  },
+  {
+    "mecena_nif_nipc": "938589464",
+    "data": "2025-06-12 15:55:13",
+    "valor_transacao": 29882.34,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/938589464-747787.pdf",
+    "estado": "cancelado",
+    "id_doacao": 197
+  },
+  {
+    "mecena_nif_nipc": "178320044",
+    "data": "2024-06-10 15:55:13",
+    "valor_transacao": 34419.85,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/178320044-254785.pdf",
+    "estado": "cancelado",
+    "id_doacao": 198
+  },
+  {
+    "mecena_nif_nipc": "905558858",
+    "data": "2023-10-24 15:55:13",
+    "valor_transacao": 8450.97,
+    "tipo_donativo": "especie",
+    "anonimo": 0,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/905558858-034334.pdf",
+    "estado": "cancelado",
+    "id_doacao": 199
+  },
+  {
+    "mecena_nif_nipc": "948215609",
+    "data": "2022-11-14 15:55:13",
+    "valor_transacao": 20563.4,
+    "tipo_donativo": "voluntariado",
+    "anonimo": 1,
+    "url_comprovativo": "https://comprovativos.mecenas.pt/948215609-837623.pdf",
+    "estado": "cancelado",
+    "id_doacao": 200
+  }
+]
