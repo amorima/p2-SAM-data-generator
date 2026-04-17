@@ -34,7 +34,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    estado: {
-    type: DataTypes.ENUM("ACEITE", "PENDENTE", "REJEITADO"),
+    type: DataTypes.ENUM("ENTREGUE", "PENDENTE", "EXPIRADO"),
     allowNull: false,
    },
    pin_entrega: {

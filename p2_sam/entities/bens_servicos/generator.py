@@ -7,7 +7,7 @@ TIPOS_BENS_SERVICOS = ["alimentacao", "vestuario", "higiene",
                        "saude", "educacao", "transporte", "habitacao", "outro"]
 
 
-def generate_bem_servico() -> dict:
+def _generate_bem_servico() -> dict:
     tipo_bem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis bibendum leo, a malesuada erat"
 
     return {
@@ -23,7 +23,7 @@ def generate_bens_servicos(n: int = 50) -> list[dict]:
     print(f"A gerar {n} bens e serviços...\n")
 
     while len(resultados) < n:
-        registo = generate_bem_servico()
+        registo = _generate_bem_servico()
         tipo = registo["tipo_bem_servico"]
 
         if tipo in tipos_vistos:

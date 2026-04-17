@@ -23,6 +23,7 @@ const Pedido_Bens_E_Servicos = require("./pedido_bens_e_servicos.js")(
  sequelize
 );
 const Lead = require("./lead.js")(sequelize);
+const Painel = require("./painel.js")(sequelize);
 
 const models = {
  Entidade,
@@ -39,6 +40,7 @@ const models = {
  Pedido_Bens_E_Servicos,
  Lead,
  Locker_Inteligente,
+ Painel,
 };
 
 // Chamar os associate de cada model

@@ -1,452 +1,352 @@
 [
   {
-    "nif_nipc": "544973265",
-    "nome": "Centro Social Ramos Martins",
-    "tipo": "Centro Social",
-    "codigo_postal": "3030-005",
-    "geo_latitude": 40.2056,
-    "geo_longitude": -8.4196,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/544973265.pdf"
+    "nif_nipc": "967387839",
+    "codigo_postal": "1700-172",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/967387839.pdf"
   },
   {
-    "nif_nipc": "542821699",
-    "nome": "Centro Social Moura Assunção",
-    "tipo": "Centro Social",
-    "codigo_postal": "2709-505",
-    "geo_latitude": 38.8738,
-    "geo_longitude": -9.3984,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/542821699.pdf"
+    "nif_nipc": "992093914",
+    "codigo_postal": "2025-999",
+    "geo_latitude": 39.415,
+    "geo_longitude": -8.8219,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/992093914.pdf"
   },
   {
-    "nif_nipc": "952002685",
-    "nome": "Cooperativa Almeida Matos",
-    "tipo": "Cooperativa",
-    "codigo_postal": "4730-685",
-    "geo_latitude": 41.6473,
-    "geo_longitude": -8.4372,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/952002685.pdf"
+    "nif_nipc": "967914695",
+    "codigo_postal": "4805-478",
+    "geo_latitude": 41.4852,
+    "geo_longitude": -8.3518,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/967914695.pdf"
   },
   {
-    "nif_nipc": "569205691",
-    "nome": "Associação Cardoso Magalhães",
-    "tipo": "Associação",
-    "codigo_postal": "3220-084",
-    "geo_latitude": 40.0979,
-    "geo_longitude": -8.328,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/569205691.pdf"
-  },
-  {
-    "nif_nipc": "549771209",
-    "nome": "Federação Leite Maia",
-    "tipo": "Federação",
-    "codigo_postal": "9000-237",
+    "nif_nipc": "997551745",
+    "codigo_postal": "9060-114",
     "geo_latitude": 32.6333,
     "geo_longitude": -16.9,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/549771209.pdf"
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/997551745.pdf"
   },
   {
-    "nif_nipc": "910290703",
-    "nome": "ONG Pereira Vicente",
-    "tipo": "ONG",
-    "codigo_postal": "4575-006",
-    "geo_latitude": 41.0877,
-    "geo_longitude": -8.3012,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/910290703.pdf"
+    "nif_nipc": "508755163",
+    "codigo_postal": "4440-376",
+    "geo_latitude": 41.2104,
+    "geo_longitude": -8.4549,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/508755163.pdf"
   },
   {
-    "nif_nipc": "952693789",
-    "nome": "ONG Sá Torres",
-    "tipo": "ONG",
-    "codigo_postal": "2925-443",
-    "geo_latitude": 38.5167,
-    "geo_longitude": -9.0167,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/952693789.pdf"
+    "nif_nipc": "944037503",
+    "codigo_postal": "5370-644",
+    "geo_latitude": 41.4952,
+    "geo_longitude": -7.2354,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/944037503.pdf"
   },
   {
-    "nif_nipc": "597589177",
-    "nome": "Federação Matias Mendes",
-    "tipo": "Federação",
-    "codigo_postal": "4820-134",
-    "geo_latitude": 41.4542,
-    "geo_longitude": -8.168,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/597589177.pdf"
+    "nif_nipc": "945493951",
+    "codigo_postal": "1495-234",
+    "geo_latitude": 38.7025,
+    "geo_longitude": -9.2294,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/945493951.pdf"
   },
   {
-    "nif_nipc": "571689372",
-    "nome": "Federação Faria Loureiro",
-    "tipo": "Federação",
-    "codigo_postal": "4730-430",
-    "geo_latitude": 41.6559,
-    "geo_longitude": -8.4139,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/571689372.pdf"
+    "nif_nipc": "979134924",
+    "codigo_postal": "6200-455",
+    "geo_latitude": 40.286,
+    "geo_longitude": -7.504,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/979134924.pdf"
   },
   {
-    "nif_nipc": "924591187",
-    "nome": "IPSS Garcia Brito",
-    "tipo": "IPSS",
-    "codigo_postal": "4590-493",
-    "geo_latitude": 41.2562,
-    "geo_longitude": -8.3863,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/924591187.pdf"
+    "nif_nipc": "976676541",
+    "codigo_postal": "2855-199",
+    "geo_latitude": 38.645,
+    "geo_longitude": -9.1484,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/976676541.pdf"
   },
   {
-    "nif_nipc": "964312630",
-    "nome": "Mutualidade Paiva Neto",
-    "tipo": "Mutualidade",
-    "codigo_postal": "9000-089",
+    "nif_nipc": "973008435",
+    "codigo_postal": "4720-446",
+    "geo_latitude": 41.6528,
+    "geo_longitude": -8.3971,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/973008435.pdf"
+  },
+  {
+    "nif_nipc": "580774682",
+    "codigo_postal": "2845-456",
+    "geo_latitude": 38.6296,
+    "geo_longitude": -9.1156,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/580774682.pdf"
+  },
+  {
+    "nif_nipc": "557033399",
+    "codigo_postal": "4805-478",
+    "geo_latitude": 41.4852,
+    "geo_longitude": -8.3518,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/557033399.pdf"
+  },
+  {
+    "nif_nipc": "902141722",
+    "codigo_postal": "1495-234",
+    "geo_latitude": 38.7025,
+    "geo_longitude": -9.2294,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/902141722.pdf"
+  },
+  {
+    "nif_nipc": "588288768",
+    "codigo_postal": "4600-683",
+    "geo_latitude": 41.2766,
+    "geo_longitude": -8.0545,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/588288768.pdf"
+  },
+  {
+    "nif_nipc": "506956999",
+    "codigo_postal": "4410-360",
+    "geo_latitude": 41.0619,
+    "geo_longitude": -8.6319,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/506956999.pdf"
+  },
+  {
+    "nif_nipc": "968569822",
+    "codigo_postal": "8650-355",
+    "geo_latitude": 37.0086,
+    "geo_longitude": -8.9431,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/968569822.pdf"
+  },
+  {
+    "nif_nipc": "927282478",
+    "codigo_postal": "4905-280",
+    "geo_latitude": 41.7131,
+    "geo_longitude": -8.6867,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/927282478.pdf"
+  },
+  {
+    "nif_nipc": "594348492",
+    "codigo_postal": "2510-171",
+    "geo_latitude": 39.3547,
+    "geo_longitude": -9.163,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/594348492.pdf"
+  },
+  {
+    "nif_nipc": "918411827",
+    "codigo_postal": "4720-446",
+    "geo_latitude": 41.6528,
+    "geo_longitude": -8.3971,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/918411827.pdf"
+  },
+  {
+    "nif_nipc": "599492531",
+    "codigo_postal": "9060-114",
     "geo_latitude": 32.6333,
     "geo_longitude": -16.9,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/964312630.pdf"
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/599492531.pdf"
   },
   {
-    "nif_nipc": "502421659",
-    "nome": "IPSS Borges Pacheco",
-    "tipo": "IPSS",
-    "codigo_postal": "3220-217",
-    "geo_latitude": 40.0932,
-    "geo_longitude": -8.3326,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/502421659.pdf"
+    "nif_nipc": "995952980",
+    "codigo_postal": "6200-588",
+    "geo_latitude": 40.3145,
+    "geo_longitude": -7.4576,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/995952980.pdf"
   },
   {
-    "nif_nipc": "589919448",
-    "nome": "Fundação Assunção Silva",
-    "tipo": "Fundação",
-    "codigo_postal": "7090-082",
-    "geo_latitude": 38.3927,
-    "geo_longitude": -8.155,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/589919448.pdf"
+    "nif_nipc": "585700564",
+    "codigo_postal": "8600-503",
+    "geo_latitude": 37.102,
+    "geo_longitude": -8.6742,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/585700564.pdf"
   },
   {
-    "nif_nipc": "962684349",
-    "nome": "Centro Social Vaz Reis",
-    "tipo": "Centro Social",
-    "codigo_postal": "2750-047",
-    "geo_latitude": 38.7136,
-    "geo_longitude": -9.4447,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/962684349.pdf"
+    "nif_nipc": "995212368",
+    "codigo_postal": "3045-332",
+    "geo_latitude": 40.1895,
+    "geo_longitude": -8.5249,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/995212368.pdf"
   },
   {
-    "nif_nipc": "531266370",
-    "nome": "Cooperativa Vieira Torres",
-    "tipo": "Cooperativa",
-    "codigo_postal": "4830-211",
-    "geo_latitude": 41.6062,
-    "geo_longitude": -8.2416,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/531266370.pdf"
+    "nif_nipc": "540268318",
+    "codigo_postal": "2680-525",
+    "geo_latitude": 38.8259,
+    "geo_longitude": -9.1223,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/540268318.pdf"
   },
   {
-    "nif_nipc": "542067344",
-    "nome": "Associação Alves Assunção",
-    "tipo": "Associação",
-    "codigo_postal": "8000-232",
-    "geo_latitude": 37.0194,
-    "geo_longitude": -7.9322,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/542067344.pdf"
+    "nif_nipc": "913953422",
+    "codigo_postal": "4590-563",
+    "geo_latitude": 41.2766,
+    "geo_longitude": -8.3762,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/913953422.pdf"
   },
   {
-    "nif_nipc": "949803016",
-    "nome": "Federação Pinho Fonseca",
-    "tipo": "Federação",
-    "codigo_postal": "3830-462",
-    "geo_latitude": 40.6139,
-    "geo_longitude": -8.7507,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/949803016.pdf"
+    "nif_nipc": "936269882",
+    "codigo_postal": "2240-109",
+    "geo_latitude": 39.7389,
+    "geo_longitude": -8.4608,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/936269882.pdf"
   },
   {
-    "nif_nipc": "923737053",
-    "nome": "Centro Social Mendes Amaral",
-    "tipo": "Centro Social",
-    "codigo_postal": "2475-123",
-    "geo_latitude": 39.4247,
-    "geo_longitude": -8.97,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/923737053.pdf"
+    "nif_nipc": "967325747",
+    "codigo_postal": "5425-307",
+    "geo_latitude": 41.6401,
+    "geo_longitude": -7.5717,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/967325747.pdf"
   },
   {
-    "nif_nipc": "954138337",
-    "nome": "Federação Freitas Moura",
-    "tipo": "Federação",
-    "codigo_postal": "9000-237",
-    "geo_latitude": 32.6333,
-    "geo_longitude": -16.9,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/954138337.pdf"
+    "nif_nipc": "581226300",
+    "codigo_postal": "5100-462",
+    "geo_latitude": 41.1196,
+    "geo_longitude": -7.9417,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/581226300.pdf"
   },
   {
-    "nif_nipc": "938962103",
-    "nome": "Fundação Pinho Borges",
-    "tipo": "Fundação",
-    "codigo_postal": "2709-505",
-    "geo_latitude": 38.8738,
-    "geo_longitude": -9.3984,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/938962103.pdf"
-  },
-  {
-    "nif_nipc": "924492622",
-    "nome": "Centro Social Nascimento Matias",
-    "tipo": "Centro Social",
-    "codigo_postal": "3220-217",
-    "geo_latitude": 40.0932,
-    "geo_longitude": -8.3326,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/924492622.pdf"
-  },
-  {
-    "nif_nipc": "540860108",
-    "nome": "Centro Social Leal Almeida",
-    "tipo": "Centro Social",
-    "codigo_postal": "2900-473",
-    "geo_latitude": 38.5244,
-    "geo_longitude": -8.8882,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/540860108.pdf"
-  },
-  {
-    "nif_nipc": "585307735",
-    "nome": "Federação Borges Maia",
-    "tipo": "Federação",
-    "codigo_postal": "2420-410",
-    "geo_latitude": 39.7375,
-    "geo_longitude": -8.8086,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/585307735.pdf"
-  },
-  {
-    "nif_nipc": "967053710",
-    "nome": "Fundação Mota Gomes",
-    "tipo": "Fundação",
-    "codigo_postal": "4425-078",
-    "geo_latitude": 41.2357,
-    "geo_longitude": -8.6199,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/967053710.pdf"
-  },
-  {
-    "nif_nipc": "927192416",
-    "nome": "Associação Cunha Baptista",
-    "tipo": "Associação",
-    "codigo_postal": "4415-850",
-    "geo_latitude": 41.0351,
-    "geo_longitude": -8.507,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/927192416.pdf"
-  },
-  {
-    "nif_nipc": "517612304",
-    "nome": "Cooperativa Leal Castro",
-    "tipo": "Cooperativa",
-    "codigo_postal": "4830-211",
-    "geo_latitude": 41.6062,
-    "geo_longitude": -8.2416,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/517612304.pdf"
-  },
-  {
-    "nif_nipc": "910378524",
-    "nome": "Centro Social Moura Pires",
-    "tipo": "Centro Social",
-    "codigo_postal": "4425-008",
-    "geo_latitude": 41.2357,
-    "geo_longitude": -8.6199,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/910378524.pdf"
-  },
-  {
-    "nif_nipc": "558202370",
-    "nome": "Centro Social Costa Soares",
-    "tipo": "Centro Social",
-    "codigo_postal": "2900-473",
-    "geo_latitude": 38.5244,
-    "geo_longitude": -8.8882,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/558202370.pdf"
-  },
-  {
-    "nif_nipc": "999770520",
-    "nome": "IPSS Assunção Neves",
-    "tipo": "IPSS",
-    "codigo_postal": "9680-513",
+    "nif_nipc": "538807736",
+    "codigo_postal": "9680-314",
     "geo_latitude": 37.7167,
-    "geo_longitude": -25.4,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/999770520.pdf"
+    "geo_longitude": -25.45,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/538807736.pdf"
   },
   {
-    "nif_nipc": "934554190",
-    "nome": "IPSS Simões Sousa",
-    "tipo": "IPSS",
-    "codigo_postal": "3600-351",
-    "geo_latitude": 40.8166,
-    "geo_longitude": -7.9985,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/934554190.pdf"
+    "nif_nipc": "958359723",
+    "codigo_postal": "5090-107",
+    "geo_latitude": 41.406,
+    "geo_longitude": -7.4548,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/958359723.pdf"
   },
   {
-    "nif_nipc": "512463898",
-    "nome": "Fundação Sá Carneiro",
-    "tipo": "Fundação",
-    "codigo_postal": "3515-410",
-    "geo_latitude": 40.661,
-    "geo_longitude": -7.9097,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/512463898.pdf"
+    "nif_nipc": "576430922",
+    "codigo_postal": "5425-307",
+    "geo_latitude": 41.6401,
+    "geo_longitude": -7.5717,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/576430922.pdf"
   },
   {
-    "nif_nipc": "976930032",
-    "nome": "IPSS Andrade Loureiro",
-    "tipo": "IPSS",
-    "codigo_postal": "4820-134",
-    "geo_latitude": 41.4542,
-    "geo_longitude": -8.168,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/976930032.pdf"
+    "nif_nipc": "990974636",
+    "codigo_postal": "4410-002",
+    "geo_latitude": 41.051,
+    "geo_longitude": -8.6161,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/990974636.pdf"
   },
   {
-    "nif_nipc": "990149011",
-    "nome": "União Carvalho Alves",
-    "tipo": "União",
-    "codigo_postal": "4050-426",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/990149011.pdf"
+    "nif_nipc": "918151672",
+    "codigo_postal": "4440-376",
+    "geo_latitude": 41.2104,
+    "geo_longitude": -8.4549,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/918151672.pdf"
   },
   {
-    "nif_nipc": "539730613",
-    "nome": "Misericórdia Carvalho Torres",
-    "tipo": "Misericórdia",
-    "codigo_postal": "4810-791",
-    "geo_latitude": 41.4022,
-    "geo_longitude": -8.2563,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/539730613.pdf"
+    "nif_nipc": "511637504",
+    "codigo_postal": "2740-125",
+    "geo_latitude": 38.7175,
+    "geo_longitude": -9.2983,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/511637504.pdf"
   },
   {
-    "nif_nipc": "970539487",
-    "nome": "Centro Social Fernandes Esteves",
-    "tipo": "Centro Social",
-    "codigo_postal": "2780-012",
-    "geo_latitude": 38.691,
-    "geo_longitude": -9.3108,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/970539487.pdf"
+    "nif_nipc": "512954064",
+    "codigo_postal": "2410-300",
+    "geo_latitude": 39.7436,
+    "geo_longitude": -8.8071,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/512954064.pdf"
   },
   {
-    "nif_nipc": "579908824",
-    "nome": "Federação Guerreiro Batista",
-    "tipo": "Federação",
-    "codigo_postal": "8000-232",
-    "geo_latitude": 37.0194,
-    "geo_longitude": -7.9322,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/579908824.pdf"
+    "nif_nipc": "582431124",
+    "codigo_postal": "1950-157",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/582431124.pdf"
   },
   {
-    "nif_nipc": "922313710",
-    "nome": "Centro Social Figueiredo Santos",
-    "tipo": "Centro Social",
-    "codigo_postal": "2965-583",
-    "geo_latitude": 38.584,
-    "geo_longitude": -8.6906,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/922313710.pdf"
+    "nif_nipc": "934695735",
+    "codigo_postal": "3620-049",
+    "geo_latitude": 40.9801,
+    "geo_longitude": -7.7114,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/934695735.pdf"
   },
   {
-    "nif_nipc": "562968161",
-    "nome": "ONG Moura Araújo",
-    "tipo": "ONG",
-    "codigo_postal": "2475-123",
-    "geo_latitude": 39.4247,
-    "geo_longitude": -8.97,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/562968161.pdf"
+    "nif_nipc": "972775753",
+    "codigo_postal": "4440-376",
+    "geo_latitude": 41.2104,
+    "geo_longitude": -8.4549,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/972775753.pdf"
   },
   {
-    "nif_nipc": "583542858",
-    "nome": "Centro Social Vaz Batista",
-    "tipo": "Centro Social",
-    "codigo_postal": "4050-426",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/583542858.pdf"
+    "nif_nipc": "983762616",
+    "codigo_postal": "2760-062",
+    "geo_latitude": 38.7031,
+    "geo_longitude": -9.2767,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/983762616.pdf"
   },
   {
-    "nif_nipc": "953239037",
-    "nome": "Cooperativa Lima Machado",
-    "tipo": "Cooperativa",
-    "codigo_postal": "9680-513",
-    "geo_latitude": 37.7167,
-    "geo_longitude": -25.4,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/953239037.pdf"
+    "nif_nipc": "950124318",
+    "codigo_postal": "4835-421",
+    "geo_latitude": 41.4444,
+    "geo_longitude": -8.2962,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/950124318.pdf"
   },
   {
-    "nif_nipc": "582235844",
-    "nome": "IPSS Costa Brito",
-    "tipo": "IPSS",
-    "codigo_postal": "2475-123",
-    "geo_latitude": 39.4247,
-    "geo_longitude": -8.97,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/582235844.pdf"
+    "nif_nipc": "944355262",
+    "codigo_postal": "1170-285",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/944355262.pdf"
   },
   {
-    "nif_nipc": "985766368",
-    "nome": "Fundação Ribeiro Barbosa",
-    "tipo": "Fundação",
-    "codigo_postal": "4520-147",
-    "geo_latitude": 40.9273,
-    "geo_longitude": -8.5484,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/985766368.pdf"
+    "nif_nipc": "542006431",
+    "codigo_postal": "9240-213",
+    "geo_latitude": 32.7803,
+    "geo_longitude": -17.0352,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/542006431.pdf"
   },
   {
-    "nif_nipc": "557225675",
-    "nome": "Fundação Lima Soares",
-    "tipo": "Fundação",
-    "codigo_postal": "4890-014",
-    "geo_latitude": 41.373,
-    "geo_longitude": -8.0105,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/557225675.pdf"
+    "nif_nipc": "518345970",
+    "codigo_postal": "4410-360",
+    "geo_latitude": 41.0619,
+    "geo_longitude": -8.6319,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/518345970.pdf"
   },
   {
-    "nif_nipc": "575655392",
-    "nome": "Mutualidade Gonçalves Teixeira",
-    "tipo": "Mutualidade",
-    "codigo_postal": "3880-382",
-    "geo_latitude": 40.8586,
-    "geo_longitude": -8.6251,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/575655392.pdf"
+    "nif_nipc": "916366458",
+    "codigo_postal": "4635-687",
+    "geo_latitude": 41.21,
+    "geo_longitude": -8.2033,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/916366458.pdf"
   },
   {
-    "nif_nipc": "960635752",
-    "nome": "ONG Loureiro Monteiro",
-    "tipo": "ONG",
-    "codigo_postal": "9000-089",
-    "geo_latitude": 32.6333,
-    "geo_longitude": -16.9,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/960635752.pdf"
+    "nif_nipc": "562020072",
+    "codigo_postal": "6090-456",
+    "geo_latitude": 40.0886,
+    "geo_longitude": -7.2385,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/562020072.pdf"
   },
   {
-    "nif_nipc": "987386548",
-    "nome": "Mutualidade Soares Moura",
-    "tipo": "Mutualidade",
-    "codigo_postal": "3700-641",
-    "geo_latitude": 40.7765,
-    "geo_longitude": -8.4696,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/987386548.pdf"
+    "nif_nipc": "565864123",
+    "codigo_postal": "9200-032",
+    "geo_latitude": 32.7072,
+    "geo_longitude": -16.8183,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/565864123.pdf"
   },
   {
-    "nif_nipc": "975551721",
-    "nome": "Fundação Vaz Almeida",
-    "tipo": "Fundação",
-    "codigo_postal": "4200-995",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/975551721.pdf"
+    "nif_nipc": "513910985",
+    "codigo_postal": "2625-115",
+    "geo_latitude": 38.861,
+    "geo_longitude": -9.0645,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/513910985.pdf"
   },
   {
-    "nif_nipc": "989091148",
-    "nome": "Centro Social Marques Fernandes",
-    "tipo": "Centro Social",
-    "codigo_postal": "4000-346",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/989091148.pdf"
+    "nif_nipc": "549483959",
+    "codigo_postal": "4440-376",
+    "geo_latitude": 41.2104,
+    "geo_longitude": -8.4549,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/549483959.pdf"
   },
   {
-    "nif_nipc": "956382781",
-    "nome": "ONG Vaz Batista",
-    "tipo": "ONG",
-    "codigo_postal": "9000-237",
-    "geo_latitude": 32.6333,
-    "geo_longitude": -16.9,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/956382781.pdf"
+    "nif_nipc": "965631927",
+    "codigo_postal": "2680-525",
+    "geo_latitude": 38.8259,
+    "geo_longitude": -9.1223,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/965631927.pdf"
   },
   {
-    "nif_nipc": "502185163",
-    "nome": "Associação Alves Pereira",
-    "tipo": "Associação",
-    "codigo_postal": "4200-995",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
-    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/502185163.pdf"
+    "nif_nipc": "918313185",
+    "codigo_postal": "2845-456",
+    "geo_latitude": 38.6296,
+    "geo_longitude": -9.1156,
+    "url_comprovativo_estatuto": "https://docs.instituicoes.pt/918313185.pdf"
   }
 ]
