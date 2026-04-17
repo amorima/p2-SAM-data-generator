@@ -5,19 +5,19 @@ from faker import Faker
 faker = Faker("pt_PT")
 
 # Tipos de donativo conforme diagrama (ENUM)
-TIPOS_DONATIVO = ["monetario", "especie", "servico", "voluntariado"]
+TIPOS_DONATIVO = ["NUMERARIO", "ESPECIE"]
 
 # Estados da doação (ENUM)
-ESTADOS_DOACAO = ["pendente", "confirmado", "cancelado"]
+ESTADOS_DOACAO = ["PENDENTE", "ACEITE", "REJEITADO"]
 
 
 def _gerar_nif_mecena() -> str:
     """
     Gera um NIF/NIPC para Mecena.
     Distribuição realista:
-        1 , 2 → pessoa singular 
-        5  → pessoas coletivas
-        9  → pessoas coletivas ou sociedade irregular para ser mais próximo da realidade
+        1 , 2 - pessoa singular 
+        5  - pessoas coletivas
+        9  - pessoas coletivas ou sociedade irregular para ser mais próximo da realidade
 
     O Mecena é tipicamente uma empresa ou organização, daí 9 ser dominante e 5.
     """
@@ -73,7 +73,7 @@ def generate_doacao(mecenas: list[dict]) -> dict:
     Gera um registo de Doação ligado a um Mecena existente
     """
     mecena   = random.choice(mecenas)
-    anonimo  = random.choices([0, 1], weights=[75, 25], k=1)[0]
+    anonimo  = random.choices([0, 1], weights=[60, 40], k=1)[0]
     tipo     = random.choice(TIPOS_DONATIVO)
     valor    = round(random.uniform(50, 50000), 2)
     nif      = mecena["nif_nipc"]

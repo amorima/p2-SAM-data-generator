@@ -1,0 +1,902 @@
+[
+  {
+    "contacto": "hd-31707219",
+    "entidade_nif_nipc": "919231734",
+    "nome_contacto": "Anita Branco",
+    "descricao": "Vero quod molestiae deleniti explicabo vel."
+  },
+  {
+    "contacto": "920947820",
+    "entidade_nif_nipc": "905675994",
+    "nome_contacto": "Mara Loureiro",
+    "descricao": "Porro dolorum eligendi quas exercitationem vel aliquam."
+  },
+  {
+    "contacto": "295146549",
+    "entidade_nif_nipc": "964862889",
+    "nome_contacto": "Marta Silva",
+    "descricao": "Non blanditiis delectus sunt illo."
+  },
+  {
+    "contacto": "926315267",
+    "entidade_nif_nipc": "199758888",
+    "nome_contacto": "Mário Almeida",
+    "descricao": "Et laboriosam accusantium veritatis eos."
+  },
+  {
+    "contacto": "tiago24@example.net",
+    "entidade_nif_nipc": "222497896",
+    "nome_contacto": "José Tavares",
+    "descricao": "Id laboriosam provident asperiores dignissimos dolore."
+  },
+  {
+    "contacto": "263253404",
+    "entidade_nif_nipc": "134376344",
+    "nome_contacto": "José Araújo-Guerreiro",
+    "descricao": "Et cupiditate vitae inventore corporis nemo velit aspernatur amet porro."
+  },
+  {
+    "contacto": "alexandre27@example.org",
+    "entidade_nif_nipc": "905364564",
+    "nome_contacto": "Mélanie Matias",
+    "descricao": "Sunt asperiores recusandae nesciunt dolores temporibus eveniet facere occaecati ullam."
+  },
+  {
+    "contacto": "266302649",
+    "entidade_nif_nipc": "969912130",
+    "nome_contacto": "Nádia Santos",
+    "descricao": "Eos ut neque sequi labore in minima eligendi et porro."
+  },
+  {
+    "contacto": "202320521",
+    "entidade_nif_nipc": "995508745",
+    "nome_contacto": "Alexandra Pinto",
+    "descricao": "Natus magnam sunt rem modi aliquam."
+  },
+  {
+    "contacto": "283403040",
+    "entidade_nif_nipc": "524558413",
+    "nome_contacto": "Mateus de Paiva",
+    "descricao": "Reprehenderit illum error corporis eligendi asperiores enim."
+  },
+  {
+    "contacto": "Bi-71342408",
+    "entidade_nif_nipc": "962658973",
+    "nome_contacto": "Bianca Mota",
+    "descricao": "Sunt beatae beatae eveniet aspernatur voluptatibus animi."
+  },
+  {
+    "contacto": "253802996",
+    "entidade_nif_nipc": "150686450",
+    "nome_contacto": "Mauro Sousa",
+    "descricao": "Assumenda quam adipisci laudantium saepe similique officia saepe adipisci natus esse."
+  },
+  {
+    "contacto": "263721856",
+    "entidade_nif_nipc": "920707101",
+    "nome_contacto": "Mia Sousa",
+    "descricao": "Magni amet quas veritatis deserunt."
+  },
+  {
+    "contacto": "295114267",
+    "entidade_nif_nipc": "595494588",
+    "nome_contacto": "Lourenço Pires",
+    "descricao": "Laudantium non deserunt architecto."
+  },
+  {
+    "contacto": "gi-04684970",
+    "entidade_nif_nipc": "173699128",
+    "nome_contacto": "Mariana de Freitas",
+    "descricao": "Mollitia eius eos dicta neque harum dolores dolores consectetur sed velit."
+  },
+  {
+    "contacto": "aa-37928831",
+    "entidade_nif_nipc": "945043276",
+    "nome_contacto": "Santiago Loureiro",
+    "descricao": "Laborum nesciunt adipisci incidunt deleniti veniam alias aspernatur incidunt qui."
+  },
+  {
+    "contacto": "933470107",
+    "entidade_nif_nipc": "986350986",
+    "nome_contacto": "Denis de Cunha",
+    "descricao": "Unde enim debitis eaque in voluptates eligendi incidunt consectetur."
+  },
+  {
+    "contacto": "mcampos@example.com",
+    "entidade_nif_nipc": "248752395",
+    "nome_contacto": "Paulo Magalhães",
+    "descricao": "Nam expedita suscipit aliquid veritatis excepturi ut officia."
+  },
+  {
+    "contacto": "Vd-33417720",
+    "entidade_nif_nipc": "930150722",
+    "nome_contacto": "Bernardo Andrade",
+    "descricao": "Repudiandae adipisci id quae."
+  },
+  {
+    "contacto": "FD-39786593",
+    "entidade_nif_nipc": "986926085",
+    "nome_contacto": "Daniel Matos",
+    "descricao": "Consequatur quas vitae eaque tempora quaerat illum ut."
+  },
+  {
+    "contacto": "931130013",
+    "entidade_nif_nipc": "976686782",
+    "nome_contacto": "Jéssica Leal",
+    "descricao": "Consequuntur odio iusto doloremque rerum facilis."
+  },
+  {
+    "contacto": "912297905",
+    "entidade_nif_nipc": "932840564",
+    "nome_contacto": "Fabiana Sousa",
+    "descricao": "Sapiente praesentium cumque odit amet."
+  },
+  {
+    "contacto": "ktavares@example.net",
+    "entidade_nif_nipc": "967873647",
+    "nome_contacto": "Carlos Mota",
+    "descricao": "Consequatur ab optio vitae saepe sequi voluptatem maiores."
+  },
+  {
+    "contacto": "289191300",
+    "entidade_nif_nipc": "236977681",
+    "nome_contacto": "Noah Pacheco",
+    "descricao": "Est provident dolorum dolorum commodi harum provident."
+  },
+  {
+    "contacto": "967904315",
+    "entidade_nif_nipc": "974114486",
+    "nome_contacto": "Pedro Mota",
+    "descricao": "Odit aliquam explicabo sequi eveniet."
+  },
+  {
+    "contacto": "Wt-47467187",
+    "entidade_nif_nipc": "259164209",
+    "nome_contacto": "Lourenço Fernandes",
+    "descricao": "Repellat quia ducimus vitae amet rerum eveniet illo."
+  },
+  {
+    "contacto": "934073753",
+    "entidade_nif_nipc": "941703467",
+    "nome_contacto": "Filipa Coelho-Paiva",
+    "descricao": "Adipisci saepe ipsum nesciunt natus."
+  },
+  {
+    "contacto": "933185251",
+    "entidade_nif_nipc": "540327151",
+    "nome_contacto": "Hugo Nogueira-Macedo",
+    "descricao": "Sapiente ex minima laboriosam nemo odit sit sint similique quaerat quod."
+  },
+  {
+    "contacto": "920557935",
+    "entidade_nif_nipc": "961704851",
+    "nome_contacto": "Violeta Santos",
+    "descricao": "Corrupti quasi sint voluptatum exercitationem aspernatur illo illo voluptatum."
+  },
+  {
+    "contacto": "raquelmelo@example.org",
+    "entidade_nif_nipc": "563579919",
+    "nome_contacto": "Mia Paiva-Garcia",
+    "descricao": "Qui ad magnam ratione molestiae mollitia."
+  },
+  {
+    "contacto": "291485111",
+    "entidade_nif_nipc": "543078487",
+    "nome_contacto": "Noa Cunha",
+    "descricao": "Necessitatibus nulla voluptatibus explicabo dolorem quaerat esse reiciendis veritatis cum."
+  },
+  {
+    "contacto": "LB-07579687",
+    "entidade_nif_nipc": "958246909",
+    "nome_contacto": "Gonçalo Almeida",
+    "descricao": "Laudantium molestiae ipsa harum dolores."
+  },
+  {
+    "contacto": "298877687",
+    "entidade_nif_nipc": "931864210",
+    "nome_contacto": "Nelson Monteiro-Costa",
+    "descricao": "Magni numquam temporibus temporibus sunt quaerat perferendis ad autem omnis."
+  },
+  {
+    "contacto": "291059062",
+    "entidade_nif_nipc": "936540828",
+    "nome_contacto": "Irina Rocha",
+    "descricao": "Itaque quis nostrum natus facilis quae cumque facere fugiat repellat sit."
+  },
+  {
+    "contacto": "285370842",
+    "entidade_nif_nipc": "920545108",
+    "nome_contacto": "Mateus Fernandes",
+    "descricao": "Repellendus harum necessitatibus facilis culpa soluta modi doloribus."
+  },
+  {
+    "contacto": "220054835",
+    "entidade_nif_nipc": "996268689",
+    "nome_contacto": "Fábio Cunha",
+    "descricao": "Eaque possimus accusamus aliquam accusantium."
+  },
+  {
+    "contacto": "294373495",
+    "entidade_nif_nipc": "592428552",
+    "nome_contacto": "Sebastião Fonseca",
+    "descricao": "In alias quis consequatur animi."
+  },
+  {
+    "contacto": "loureiroluis@example.org",
+    "entidade_nif_nipc": "532228311",
+    "nome_contacto": "Marcos Rodrigues",
+    "descricao": "Dolore eum mollitia maxime."
+  },
+  {
+    "contacto": "216582514",
+    "entidade_nif_nipc": "507749969",
+    "nome_contacto": "Diana Batista",
+    "descricao": "Laboriosam amet deleniti ratione molestiae suscipit."
+  },
+  {
+    "contacto": "sebastiao14@example.com",
+    "entidade_nif_nipc": "912405127",
+    "nome_contacto": "João Nascimento",
+    "descricao": "Maiores cupiditate quam quae nisi voluptas quod perferendis."
+  },
+  {
+    "contacto": "219229899",
+    "entidade_nif_nipc": "969262870",
+    "nome_contacto": "Irina Gaspar",
+    "descricao": "Magni nulla commodi provident laboriosam."
+  },
+  {
+    "contacto": "245795177",
+    "entidade_nif_nipc": "160882857",
+    "nome_contacto": "Valentina Valente",
+    "descricao": "Cumque deleniti ipsa sint odit."
+  },
+  {
+    "contacto": "960770909",
+    "entidade_nif_nipc": "546330212",
+    "nome_contacto": "Luca da Melo",
+    "descricao": "Nostrum aut dicta sint animi quam fugiat tempore odit."
+  },
+  {
+    "contacto": "EQ-63498886",
+    "entidade_nif_nipc": "537079562",
+    "nome_contacto": "Madalena Anjos",
+    "descricao": "Beatae deserunt totam fugiat incidunt placeat."
+  },
+  {
+    "contacto": "227725409",
+    "entidade_nif_nipc": "148156284",
+    "nome_contacto": "Vítor Oliveira",
+    "descricao": "Quas itaque earum excepturi esse."
+  },
+  {
+    "contacto": "fariateresa@example.org",
+    "entidade_nif_nipc": "509171917",
+    "nome_contacto": "Nicole Matias",
+    "descricao": "Atque odit temporibus vel nulla."
+  },
+  {
+    "contacto": "258832377",
+    "entidade_nif_nipc": "946213644",
+    "nome_contacto": "Sara Branco",
+    "descricao": "Quia ducimus porro amet hic."
+  },
+  {
+    "contacto": "dY-74527924",
+    "entidade_nif_nipc": "928967950",
+    "nome_contacto": "Bruno Soares",
+    "descricao": "Omnis reiciendis modi porro ut."
+  },
+  {
+    "contacto": "919386226",
+    "entidade_nif_nipc": "511141011",
+    "nome_contacto": "Anita Teixeira",
+    "descricao": "Voluptatum rem sint sit molestiae necessitatibus dolore."
+  },
+  {
+    "contacto": "967759567",
+    "entidade_nif_nipc": "525557305",
+    "nome_contacto": "Jaime Ramos",
+    "descricao": "Iusto quas enim nobis."
+  },
+  {
+    "contacto": "207607352",
+    "entidade_nif_nipc": "578962025",
+    "nome_contacto": "AquaClean 81",
+    "descricao": "Cum neque dicta amet saepe aspernatur hic fuga."
+  },
+  {
+    "contacto": "aH-64463912",
+    "entidade_nif_nipc": "961076253",
+    "nome_contacto": "SolTec 61",
+    "descricao": "Recusandae quae ipsa quis nostrum."
+  },
+  {
+    "contacto": "920845418",
+    "entidade_nif_nipc": "977086600",
+    "nome_contacto": "MarInov 84",
+    "descricao": "Ut vitae ipsa quasi delectus."
+  },
+  {
+    "contacto": "254687627",
+    "entidade_nif_nipc": "949798358",
+    "nome_contacto": "FlexWork 63",
+    "descricao": "Sit ea consectetur officia voluptas officia."
+  },
+  {
+    "contacto": "tomasalves@example.com",
+    "entidade_nif_nipc": "991306777",
+    "nome_contacto": "TechLuso 04",
+    "descricao": "Magni voluptate consectetur eligendi exercitationem neque corporis soluta beatae."
+  },
+  {
+    "contacto": "eribeiro@example.net",
+    "entidade_nif_nipc": "920137058",
+    "nome_contacto": "NanoTech 05",
+    "descricao": "Neque excepturi expedita tempora dolor fugiat voluptates eum sapiente."
+  },
+  {
+    "contacto": "diogoloureiro@example.org",
+    "entidade_nif_nipc": "977578565",
+    "nome_contacto": "LogiFlow 91",
+    "descricao": "Officiis ea mollitia iste iure ab asperiores ab."
+  },
+  {
+    "contacto": "mario04@example.org",
+    "entidade_nif_nipc": "989125190",
+    "nome_contacto": "BioLab 79",
+    "descricao": "Adipisci alias architecto eveniet facere fugit beatae dicta totam."
+  },
+  {
+    "contacto": "933661025",
+    "entidade_nif_nipc": "524614686",
+    "nome_contacto": "DigitalPorto 20",
+    "descricao": "Eveniet reprehenderit nemo quis perferendis architecto provident aspernatur ut."
+  },
+  {
+    "contacto": "290510650",
+    "entidade_nif_nipc": "912144690",
+    "nome_contacto": "TurboLean 42",
+    "descricao": "Magni provident eius cumque excepturi totam nesciunt."
+  },
+  {
+    "contacto": "211076004",
+    "entidade_nif_nipc": "929622445",
+    "nome_contacto": "GreenEnergy 35",
+    "descricao": "Minus ex fugit cupiditate tempore quos quae blanditiis necessitatibus delectus."
+  },
+  {
+    "contacto": "lT-94023969",
+    "entidade_nif_nipc": "528229118",
+    "nome_contacto": "InovaMais 53",
+    "descricao": "Nihil eos distinctio saepe adipisci consectetur numquam."
+  },
+  {
+    "contacto": "Ff-05627712",
+    "entidade_nif_nipc": "905798883",
+    "nome_contacto": "NovaMed 00",
+    "descricao": "Fuga delectus cupiditate veritatis veritatis minus iure voluptates quis."
+  },
+  {
+    "contacto": "262443169",
+    "entidade_nif_nipc": "995940716",
+    "nome_contacto": "UrbanBuild 72",
+    "descricao": "Corrupti mollitia quisquam dignissimos id dolor corporis tempora dolor neque."
+  },
+  {
+    "contacto": "224063205",
+    "entidade_nif_nipc": "934048009",
+    "nome_contacto": "DataBridge 69",
+    "descricao": "Nisi praesentium et maiores quo iste tenetur nesciunt deserunt."
+  },
+  {
+    "contacto": "mendesnair@example.net",
+    "entidade_nif_nipc": "952767965",
+    "nome_contacto": "SmartRede 80",
+    "descricao": "Doloribus minus nobis ipsam labore odit dolorum."
+  },
+  {
+    "contacto": "962481607",
+    "entidade_nif_nipc": "534263121",
+    "nome_contacto": "AgroConde 30",
+    "descricao": "Quasi repellendus aperiam minima."
+  },
+  {
+    "contacto": "233420660",
+    "entidade_nif_nipc": "523165099",
+    "nome_contacto": "EcoVerde 23",
+    "descricao": "Ipsa quidem eligendi sapiente minus vel."
+  },
+  {
+    "contacto": "287082068",
+    "entidade_nif_nipc": "535512219",
+    "nome_contacto": "SafeGuard 65",
+    "descricao": "Ullam placeat architecto voluptatibus at."
+  },
+  {
+    "contacto": "262092635",
+    "entidade_nif_nipc": "911160956",
+    "nome_contacto": "MediCare 58",
+    "descricao": "Iure commodi voluptate adipisci aliquam error nesciunt hic."
+  },
+  {
+    "contacto": "joaquim47@example.net",
+    "entidade_nif_nipc": "971840177",
+    "nome_contacto": "AquaClean 64",
+    "descricao": "Corrupti hic deleniti eos dicta adipisci laboriosam natus."
+  },
+  {
+    "contacto": "qi-17278331",
+    "entidade_nif_nipc": "913552169",
+    "nome_contacto": "SolTec 31",
+    "descricao": "Voluptatem earum mollitia sed rem."
+  },
+  {
+    "contacto": "266200053",
+    "entidade_nif_nipc": "947487002",
+    "nome_contacto": "MarInov 82",
+    "descricao": "Sint alias earum officiis ab blanditiis dolore."
+  },
+  {
+    "contacto": "963746250",
+    "entidade_nif_nipc": "999849851",
+    "nome_contacto": "FlexWork 73",
+    "descricao": "Ex vitae veritatis earum eum esse quo."
+  },
+  {
+    "contacto": "266392795",
+    "entidade_nif_nipc": "911886517",
+    "nome_contacto": "TechLuso 79",
+    "descricao": "Sint modi expedita recusandae voluptatum rem."
+  },
+  {
+    "contacto": "203556115",
+    "entidade_nif_nipc": "515167632",
+    "nome_contacto": "NanoTech 96",
+    "descricao": "Explicabo cupiditate voluptas est voluptatum numquam quae."
+  },
+  {
+    "contacto": "962808410",
+    "entidade_nif_nipc": "949267253",
+    "nome_contacto": "LogiFlow 42",
+    "descricao": "Unde dicta alias quo explicabo cum."
+  },
+  {
+    "contacto": "mW-03273900",
+    "entidade_nif_nipc": "521997533",
+    "nome_contacto": "BioLab 56",
+    "descricao": "Eveniet iste suscipit error fugit aut."
+  },
+  {
+    "contacto": "As-37430531",
+    "entidade_nif_nipc": "904512433",
+    "nome_contacto": "DigitalPorto 56",
+    "descricao": "Molestias non eius dicta."
+  },
+  {
+    "contacto": "218343721",
+    "entidade_nif_nipc": "984561938",
+    "nome_contacto": "TurboLean 30",
+    "descricao": "Quisquam rem a aut minus delectus repudiandae minus consequuntur."
+  },
+  {
+    "contacto": "207494210",
+    "entidade_nif_nipc": "536968535",
+    "nome_contacto": "GreenEnergy 36",
+    "descricao": "Quis voluptate fugit molestiae recusandae est beatae animi earum et nulla."
+  },
+  {
+    "contacto": "OZ-67229579",
+    "entidade_nif_nipc": "956478890",
+    "nome_contacto": "InovaMais 88",
+    "descricao": "Neque quae mollitia provident nulla consectetur."
+  },
+  {
+    "contacto": "205396009",
+    "entidade_nif_nipc": "550159788",
+    "nome_contacto": "NovaMed 38",
+    "descricao": "Soluta similique odio minus voluptatum."
+  },
+  {
+    "contacto": "969109661",
+    "entidade_nif_nipc": "555741236",
+    "nome_contacto": "UrbanBuild 11",
+    "descricao": "Eum aut perferendis adipisci dolorem accusantium fugiat."
+  },
+  {
+    "contacto": "miguel60@example.org",
+    "entidade_nif_nipc": "541945647",
+    "nome_contacto": "DataBridge 54",
+    "descricao": "Odit amet aut minus enim architecto temporibus ullam facere eos."
+  },
+  {
+    "contacto": "233363666",
+    "entidade_nif_nipc": "909590302",
+    "nome_contacto": "SmartRede 81",
+    "descricao": "Nemo fugiat temporibus consectetur temporibus quibusdam saepe."
+  },
+  {
+    "contacto": "921807511",
+    "entidade_nif_nipc": "957168837",
+    "nome_contacto": "AgroConde 90",
+    "descricao": "Expedita doloribus magni a dolorum ipsa a corporis dignissimos animi ipsa."
+  },
+  {
+    "contacto": "263685357",
+    "entidade_nif_nipc": "923751528",
+    "nome_contacto": "EcoVerde 21",
+    "descricao": "Commodi illo aliquam nemo nostrum facilis exercitationem consequatur consectetur."
+  },
+  {
+    "contacto": "pintocarminho@example.org",
+    "entidade_nif_nipc": "908651054",
+    "nome_contacto": "SafeGuard 32",
+    "descricao": "Pariatur soluta molestiae hic voluptates itaque odio eaque architecto consequatur."
+  },
+  {
+    "contacto": "264304502",
+    "entidade_nif_nipc": "545486289",
+    "nome_contacto": "MediCare 88",
+    "descricao": "Dolor mollitia asperiores alias doloribus perspiciatis eum eos."
+  },
+  {
+    "contacto": "962037262",
+    "entidade_nif_nipc": "968484390",
+    "nome_contacto": "AquaClean 42",
+    "descricao": "Cum repellat unde placeat ut modi."
+  },
+  {
+    "contacto": "922480896",
+    "entidade_nif_nipc": "936095769",
+    "nome_contacto": "SolTec 85",
+    "descricao": "Eaque animi placeat sint."
+  },
+  {
+    "contacto": "960666138",
+    "entidade_nif_nipc": "966405521",
+    "nome_contacto": "MarInov 24",
+    "descricao": "Quibusdam repudiandae beatae asperiores suscipit nesciunt molestias fugiat."
+  },
+  {
+    "contacto": "929290416",
+    "entidade_nif_nipc": "574620713",
+    "nome_contacto": "FlexWork 44",
+    "descricao": "Illum corrupti sit laudantium reprehenderit."
+  },
+  {
+    "contacto": "LY-97133568",
+    "entidade_nif_nipc": "990466892",
+    "nome_contacto": "TechLuso 42",
+    "descricao": "Cupiditate voluptate quis ea aut odio quasi quia."
+  },
+  {
+    "contacto": "965271605",
+    "entidade_nif_nipc": "908059829",
+    "nome_contacto": "NanoTech 59",
+    "descricao": "Perspiciatis beatae doloribus culpa laborum voluptatum deserunt."
+  },
+  {
+    "contacto": "962861617",
+    "entidade_nif_nipc": "946397933",
+    "nome_contacto": "LogiFlow 46",
+    "descricao": "Error eaque eveniet beatae iste consequatur quaerat nemo."
+  },
+  {
+    "contacto": "270399435",
+    "entidade_nif_nipc": "547484702",
+    "nome_contacto": "BioLab 94",
+    "descricao": "Harum voluptatum animi voluptatibus nulla ea non."
+  },
+  {
+    "contacto": "928638086",
+    "entidade_nif_nipc": "549549859",
+    "nome_contacto": "DigitalPorto 76",
+    "descricao": "Quod officia eligendi hic iste fugiat."
+  },
+  {
+    "contacto": "241569913",
+    "entidade_nif_nipc": "931879114",
+    "nome_contacto": "TurboLean 88",
+    "descricao": "Qui odio consequatur ipsa est atque accusantium magnam magni."
+  },
+  {
+    "contacto": "935206983",
+    "entidade_nif_nipc": "544973265",
+    "nome_contacto": "Cooperativa Horizonte de Figueira da Foz",
+    "descricao": "Tenetur perspiciatis neque harum maxime est voluptatibus vero voluptate quidem maiores."
+  },
+  {
+    "contacto": "915036455",
+    "entidade_nif_nipc": "542821699",
+    "nome_contacto": "Associação Renascer de Porto Santo",
+    "descricao": "Quae eum tempore at tenetur."
+  },
+  {
+    "contacto": "211552072",
+    "entidade_nif_nipc": "952002685",
+    "nome_contacto": "Lar dos Avós de Guarda",
+    "descricao": "Dolorem iusto iste quisquam omnis delectus magnam quas odio."
+  },
+  {
+    "contacto": "964883684",
+    "entidade_nif_nipc": "569205691",
+    "nome_contacto": "IPSS Caridade de Santa Maria da Feira",
+    "descricao": "Vero totam ut atque vitae alias dignissimos possimus nobis."
+  },
+  {
+    "contacto": "guilhermefernandes@example.org",
+    "entidade_nif_nipc": "549771209",
+    "nome_contacto": "Centro Social Raízes de Funchal",
+    "descricao": "Sunt magni officia vel aliquam consequatur."
+  },
+  {
+    "contacto": "Sr-50359439",
+    "entidade_nif_nipc": "910290703",
+    "nome_contacto": "ONG Futuro de Fátima",
+    "descricao": "Possimus explicabo minima necessitatibus occaecati vero."
+  },
+  {
+    "contacto": "218825591",
+    "entidade_nif_nipc": "952693789",
+    "nome_contacto": "União do Bem de Estarreja",
+    "descricao": "Numquam ullam sunt explicabo laborum tempora aut debitis repellat aperiam."
+  },
+  {
+    "contacto": "212174917",
+    "entidade_nif_nipc": "597589177",
+    "nome_contacto": "Fundação Caminho de Faro",
+    "descricao": "Dignissimos distinctio deleniti quibusdam aperiam fuga facere."
+  },
+  {
+    "contacto": "Ms-09063454",
+    "entidade_nif_nipc": "571689372",
+    "nome_contacto": "Casa do Povo de Faro",
+    "descricao": "Maiores recusandae tempora nobis voluptatum quae necessitatibus eaque soluta."
+  },
+  {
+    "contacto": "NI-95284394",
+    "entidade_nif_nipc": "924591187",
+    "nome_contacto": "Associação Luz de Coimbra",
+    "descricao": "Nam fugiat beatae quasi temporibus harum vero eum accusantium itaque."
+  },
+  {
+    "contacto": "226919914",
+    "entidade_nif_nipc": "964312630",
+    "nome_contacto": "Centro de Apoio Social de Elvas",
+    "descricao": "Optio harum illum explicabo totam sequi fuga beatae delectus."
+  },
+  {
+    "contacto": "962917300",
+    "entidade_nif_nipc": "502421659",
+    "nome_contacto": "Federação Progresso de Tondela",
+    "descricao": "Minima nihil ut at velit in ab ad modi perspiciatis."
+  },
+  {
+    "contacto": "268868869",
+    "entidade_nif_nipc": "589919448",
+    "nome_contacto": "Misericórdia do Vale de Santarém",
+    "descricao": "Perspiciatis veritatis accusamus magnam doloremque a eveniet voluptatum."
+  },
+  {
+    "contacto": "GE-44352064",
+    "entidade_nif_nipc": "962684349",
+    "nome_contacto": "Centro Comunitário Serra de Amora",
+    "descricao": "Voluptates fugiat corrupti voluptates maxime ad magnam dolore voluptas reiciendis."
+  },
+  {
+    "contacto": "961418651",
+    "entidade_nif_nipc": "531266370",
+    "nome_contacto": "União Solidária de Sacavém",
+    "descricao": "Est alias perferendis ea ratione fugit beatae sit minima."
+  },
+  {
+    "contacto": "965808319",
+    "entidade_nif_nipc": "542067344",
+    "nome_contacto": "Fundação Terra Nova de Ponte de Sor",
+    "descricao": "Cupiditate veritatis modi doloremque reiciendis earum."
+  },
+  {
+    "contacto": "213413225",
+    "entidade_nif_nipc": "949803016",
+    "nome_contacto": "Lar São Francisco de Castelo Branco",
+    "descricao": "Iure minima molestias expedita blanditiis."
+  },
+  {
+    "contacto": "282352349",
+    "entidade_nif_nipc": "923737053",
+    "nome_contacto": "Cooperativa Fraternidade de Aveiro",
+    "descricao": "Ea exercitationem veritatis aut ea dolores earum dicta tempora."
+  },
+  {
+    "contacto": "250221532",
+    "entidade_nif_nipc": "954138337",
+    "nome_contacto": "Associação Rede Viva de Lixa",
+    "descricao": "Quis fuga sunt incidunt natus quae laboriosam similique possimus."
+  },
+  {
+    "contacto": "291989077",
+    "entidade_nif_nipc": "938962103",
+    "nome_contacto": "Fundação Esperança de Caniço",
+    "descricao": "Tenetur ea tempore non aspernatur temporibus tenetur impedit recusandae maxime."
+  },
+  {
+    "contacto": "216552474",
+    "entidade_nif_nipc": "924492622",
+    "nome_contacto": "Cooperativa Horizonte de Penafiel",
+    "descricao": "Ratione unde architecto praesentium doloribus consequuntur placeat."
+  },
+  {
+    "contacto": "marcos31@example.com",
+    "entidade_nif_nipc": "540860108",
+    "nome_contacto": "Associação Renascer de Vila Franca de Xira",
+    "descricao": "Iure ullam sequi illo cupiditate ducimus ut."
+  },
+  {
+    "contacto": "jN-63289689",
+    "entidade_nif_nipc": "585307735",
+    "nome_contacto": "Lar dos Avós de Rio Maior",
+    "descricao": "Quis dolores cupiditate inventore necessitatibus."
+  },
+  {
+    "contacto": "DD-45790952",
+    "entidade_nif_nipc": "967053710",
+    "nome_contacto": "IPSS Caridade de Odivelas",
+    "descricao": "Corrupti dolor nobis adipisci cum ullam nobis delectus officiis."
+  },
+  {
+    "contacto": "jvicente@example.net",
+    "entidade_nif_nipc": "927192416",
+    "nome_contacto": "Centro Social Raízes de Torres Vedras",
+    "descricao": "Omnis odio minima vel iure."
+  },
+  {
+    "contacto": "210535115",
+    "entidade_nif_nipc": "517612304",
+    "nome_contacto": "ONG Futuro de Montijo",
+    "descricao": "Voluptate itaque sed libero est reprehenderit possimus modi."
+  },
+  {
+    "contacto": "210586146",
+    "entidade_nif_nipc": "910378524",
+    "nome_contacto": "União do Bem de Câmara de Lobos",
+    "descricao": "Voluptas officia libero asperiores nisi."
+  },
+  {
+    "contacto": "920522951",
+    "entidade_nif_nipc": "558202370",
+    "nome_contacto": "Fundação Caminho de Rebordosa",
+    "descricao": "Animi ab officiis at laudantium ea."
+  },
+  {
+    "contacto": "274040966",
+    "entidade_nif_nipc": "999770520",
+    "nome_contacto": "Casa do Povo de Espinho",
+    "descricao": "Placeat sint distinctio provident ipsum distinctio quidem beatae eligendi soluta."
+  },
+  {
+    "contacto": "914577737",
+    "entidade_nif_nipc": "934554190",
+    "nome_contacto": "Associação Luz de Vale de Cambra",
+    "descricao": "Et consequatur molestiae voluptatem excepturi ut sint accusantium illum consequuntur a."
+  },
+  {
+    "contacto": "Xj-19620120",
+    "entidade_nif_nipc": "512463898",
+    "nome_contacto": "Centro de Apoio Social de Almada",
+    "descricao": "Dolores sapiente tempora eos ad."
+  },
+  {
+    "contacto": "236584021",
+    "entidade_nif_nipc": "976930032",
+    "nome_contacto": "Federação Progresso de Loures",
+    "descricao": "Quia at dolore nobis laborum reiciendis tempora sapiente."
+  },
+  {
+    "contacto": "237719650",
+    "entidade_nif_nipc": "990149011",
+    "nome_contacto": "Misericórdia do Vale de Alcobaça",
+    "descricao": "Quos delectus earum molestias illo."
+  },
+  {
+    "contacto": "gg-70519695",
+    "entidade_nif_nipc": "539730613",
+    "nome_contacto": "Centro Comunitário Serra de Lagos",
+    "descricao": "Dolore laborum error exercitationem at dolorem."
+  },
+  {
+    "contacto": "249758240",
+    "entidade_nif_nipc": "970539487",
+    "nome_contacto": "União Solidária de Penafiel",
+    "descricao": "Blanditiis amet corporis quisquam porro voluptatibus laboriosam quaerat esse voluptates."
+  },
+  {
+    "contacto": "275069887",
+    "entidade_nif_nipc": "579908824",
+    "nome_contacto": "Fundação Terra Nova de Vila Real de Santo António",
+    "descricao": "Modi neque molestias magnam vero ipsa quibusdam."
+  },
+  {
+    "contacto": "md-78411060",
+    "entidade_nif_nipc": "922313710",
+    "nome_contacto": "Lar São Francisco de Fundão",
+    "descricao": "Similique quasi officiis delectus nesciunt veritatis."
+  },
+  {
+    "contacto": "zsousa@example.org",
+    "entidade_nif_nipc": "562968161",
+    "nome_contacto": "Cooperativa Fraternidade de Maia",
+    "descricao": "Dolore occaecati facilis vitae nostrum quas architecto."
+  },
+  {
+    "contacto": "922450183",
+    "entidade_nif_nipc": "583542858",
+    "nome_contacto": "Associação Rede Viva de Vila Nova de Santo André",
+    "descricao": "Amet exercitationem dolore reiciendis recusandae tempora."
+  },
+  {
+    "contacto": "268021558",
+    "entidade_nif_nipc": "953239037",
+    "nome_contacto": "Fundação Esperança de Loulé",
+    "descricao": "Maiores esse placeat sit quia quam fugiat eligendi nihil."
+  },
+  {
+    "contacto": "298339102",
+    "entidade_nif_nipc": "582235844",
+    "nome_contacto": "Cooperativa Horizonte de Torres Novas",
+    "descricao": "Numquam qui vero consequatur necessitatibus veritatis delectus velit praesentium."
+  },
+  {
+    "contacto": "bS-14634809",
+    "entidade_nif_nipc": "985766368",
+    "nome_contacto": "Associação Renascer de Mealhada",
+    "descricao": "Quam consequatur explicabo atque ducimus."
+  },
+  {
+    "contacto": "219134382",
+    "entidade_nif_nipc": "557225675",
+    "nome_contacto": "Lar dos Avós de Castelo Branco",
+    "descricao": "Assumenda enim nobis mollitia at rem."
+  },
+  {
+    "contacto": "939124151",
+    "entidade_nif_nipc": "575655392",
+    "nome_contacto": "IPSS Caridade de Esposende",
+    "descricao": "Eveniet reiciendis delectus sed voluptatem."
+  },
+  {
+    "contacto": "207357443",
+    "entidade_nif_nipc": "960635752",
+    "nome_contacto": "Centro Social Raízes de Ribeira Grande",
+    "descricao": "Facilis tempora cum eum ex molestias odit voluptates dolorem sint."
+  },
+  {
+    "contacto": "298269802",
+    "entidade_nif_nipc": "987386548",
+    "nome_contacto": "ONG Futuro de Valbom",
+    "descricao": "Enim quasi asperiores et natus doloribus."
+  },
+  {
+    "contacto": "256518690",
+    "entidade_nif_nipc": "975551721",
+    "nome_contacto": "União do Bem de Vila Nova de Famalicão",
+    "descricao": "Vitae pariatur fugiat illo cum nostrum distinctio rem."
+  },
+  {
+    "contacto": "280513543",
+    "entidade_nif_nipc": "989091148",
+    "nome_contacto": "Fundação Caminho de Fundão",
+    "descricao": "Qui repellat quod consequuntur velit sed at quia sunt."
+  },
+  {
+    "contacto": "936792233",
+    "entidade_nif_nipc": "956382781",
+    "nome_contacto": "Casa do Povo de Amarante",
+    "descricao": "Dolore eius adipisci soluta aut nam blanditiis commodi perferendis."
+  },
+  {
+    "contacto": "267314566",
+    "entidade_nif_nipc": "502185163",
+    "nome_contacto": "Associação Luz de Chaves",
+    "descricao": "Repellat quidem repudiandae nesciunt veniam est nostrum unde."
+  }
+]

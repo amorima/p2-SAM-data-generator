@@ -1,151 +1,16 @@
 [
   {
-    "codigo_postal": "2135-258",
-    "rua": "Praça de Garcia",
-    "freguesia": "Samora Correia",
-    "concelho": "Benavente",
-    "distrito": "Santarém",
-    "n_porta": "88",
+    "codigo_postal": "4704-514",
+    "rua": "Alameda Leite",
+    "freguesia": "Braga",
+    "concelho": "Braga",
+    "distrito": "Braga",
+    "n_porta": "09",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2330-282",
-    "rua": "R. Daniela Simões",
-    "freguesia": "Entroncamento",
-    "concelho": "Entroncamento",
-    "distrito": "Santarém",
-    "n_porta": "21",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2770-112",
-    "rua": "Praça de Carreiras",
-    "freguesia": "Paço de Arcos",
-    "concelho": "Oeiras",
-    "distrito": "Lisboa",
-    "n_porta": "25",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3810-481",
-    "rua": "Alameda da Pedreira",
-    "freguesia": "Aveiro",
-    "concelho": "Aveiro",
-    "distrito": "Aveiro",
-    "n_porta": "27",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3600-456",
-    "rua": "Travessa das Garças",
-    "freguesia": "Coura",
-    "concelho": "Castro Daire",
-    "distrito": "Viseu",
-    "n_porta": "20",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2415-504",
-    "rua": "R. de Faria",
-    "freguesia": "Leiria",
-    "concelho": "Leiria",
-    "distrito": "Leiria",
-    "n_porta": "20",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4905-427",
-    "rua": "Av Tomé Carvalho",
-    "freguesia": "Barroselas",
-    "concelho": "Viana do Castelo",
-    "distrito": "Viana do Castelo",
-    "n_porta": "25",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4970-707",
-    "rua": "Largo Pereira",
-    "freguesia": "Freita",
-    "concelho": "Arcos de Valdevez",
-    "distrito": "Viana do Castelo",
-    "n_porta": "74",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8125-555",
-    "rua": "Travessa Azevedo",
-    "freguesia": "Vilamoura",
-    "concelho": "Loulé",
-    "distrito": "Faro",
-    "n_porta": "32",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2825-184",
-    "rua": "R. do Buraco",
-    "freguesia": "Monte de Caparica",
-    "concelho": "Almada",
-    "distrito": "Setúbal",
-    "n_porta": "94",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2435-663",
-    "rua": "Largo dos Bacalhoeiros",
-    "freguesia": "Seiça",
-    "concelho": "Ourém",
-    "distrito": "Santarém",
-    "n_porta": "11",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4690-225",
-    "rua": "Alameda da Foz",
-    "freguesia": "Outeiro",
-    "concelho": "Cinfães",
-    "distrito": "Viseu",
-    "n_porta": "39",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4405-269",
-    "rua": "Avenida de Guerreiro",
-    "freguesia": "Vila Nova de Gaia",
-    "concelho": "Vila Nova de Gaia",
-    "distrito": "Porto",
-    "n_porta": "77",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8200-293",
-    "rua": "Av de Marques de Oliveira",
-    "freguesia": "Albufeira",
-    "concelho": "Albufeira",
-    "distrito": "Faro",
-    "n_porta": "72",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "9300-137",
-    "rua": "Av Vieira",
-    "freguesia": "Câmara de Lobos",
-    "concelho": "Câmara de Lobos",
-    "distrito": "Madeira",
-    "n_porta": "94",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3870-113",
-    "rua": "Av Edgar Mota",
-    "freguesia": "Murtosa",
-    "concelho": "Murtosa",
-    "distrito": "Aveiro",
-    "n_porta": "39",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "1170-188",
-    "rua": "Rua do Rou",
+    "codigo_postal": "1170-026",
+    "rua": "R. Lorena Carneiro",
     "freguesia": "Lisboa",
     "concelho": "Lisboa",
     "distrito": "Lisboa",
@@ -153,750 +18,885 @@
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4830-060",
-    "rua": "Rua Gaspar Ramos",
-    "freguesia": "Calvos",
-    "concelho": "Póvoa de Lanhoso",
-    "distrito": "Braga",
-    "n_porta": "81",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4605-304",
-    "rua": "Praça Catarina Jesus",
-    "freguesia": "Vila Meã",
-    "concelho": "Amarante",
+    "codigo_postal": "4425-533",
+    "rua": "Avenida de São Pedro",
+    "freguesia": "Maia",
+    "concelho": "Maia",
     "distrito": "Porto",
-    "n_porta": "81",
+    "n_porta": "83",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "6260-141",
-    "rua": "Avenida Reis",
-    "freguesia": "Manteigas",
-    "concelho": "Manteigas",
-    "distrito": "Guarda",
-    "n_porta": "28",
+    "codigo_postal": "9000-089",
+    "rua": "Alameda Madalena Anjos",
+    "freguesia": "Funchal",
+    "concelho": "Funchal",
+    "distrito": "Madeira",
+    "n_porta": "37",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4000-227",
-    "rua": "Largo de Abreu",
+    "codigo_postal": "4350-276",
+    "rua": "Praça de Sousa",
     "freguesia": "Porto",
     "concelho": "Porto",
     "distrito": "Porto",
-    "n_porta": "93",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8100-538",
-    "rua": "Praça da Bela Vista",
-    "freguesia": "Loulé",
-    "concelho": "Loulé",
-    "distrito": "Faro",
-    "n_porta": "80",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4835-624",
-    "rua": "Avenida Batista",
-    "freguesia": "Guimarães",
-    "concelho": "Guimarães",
-    "distrito": "Braga",
-    "n_porta": "64",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2794-021",
-    "rua": "R. Enzo Amorim",
-    "freguesia": "Carnaxide",
-    "concelho": "Oeiras",
-    "distrito": "Lisboa",
-    "n_porta": "43",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4525-366",
-    "rua": "Av Paiva",
-    "freguesia": "Louredo",
-    "concelho": "Santa Maria da Feira",
-    "distrito": "Aveiro",
-    "n_porta": "81",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2870-034",
-    "rua": "Av Associação Empresarial de Portugal",
-    "freguesia": "Montijo",
-    "concelho": "Montijo",
-    "distrito": "Setúbal",
-    "n_porta": "72",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2910-803",
-    "rua": "R. Violeta Barbosa",
-    "freguesia": "Setúbal",
-    "concelho": "Setúbal",
-    "distrito": "Setúbal",
-    "n_porta": "44",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "6215-058",
-    "rua": "Travessa Silva",
-    "freguesia": "Barco",
-    "concelho": "Covilhã",
-    "distrito": "Castelo Branco",
-    "n_porta": "56",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4705-085",
-    "rua": "Travessa de Batista",
-    "freguesia": "Braga",
-    "concelho": "Braga",
-    "distrito": "Braga",
-    "n_porta": "80",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4690-580",
-    "rua": "Travessa Jorge Martins",
-    "freguesia": "Souto",
-    "concelho": "Cinfães",
-    "distrito": "Viseu",
-    "n_porta": "38",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "5360-011",
-    "rua": "Largo de Freitas",
-    "freguesia": "Assares",
-    "concelho": "Vila Flor",
-    "distrito": "Bragança",
-    "n_porta": "98",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8970-030",
-    "rua": "R. de Brito",
-    "freguesia": "Montinho do Cerro",
-    "concelho": "Alcoutim",
-    "distrito": "Faro",
-    "n_porta": "34",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2950-295",
-    "rua": "Rua Edgar Brito",
-    "freguesia": "Palmela",
-    "concelho": "Palmela",
-    "distrito": "Setúbal",
-    "n_porta": "48",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3230-276",
-    "rua": "Av do Carvalhido",
-    "freguesia": "Penela",
-    "concelho": "Penela",
-    "distrito": "Coimbra",
-    "n_porta": "34",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3620-333",
-    "rua": "Praça Gustavo Morais",
-    "freguesia": "Moimenta da Beira",
-    "concelho": "Moimenta da Beira",
-    "distrito": "Viseu",
-    "n_porta": "45",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3100-697",
-    "rua": "Largo Joel Assunção",
-    "freguesia": "Gavária",
-    "concelho": "Pombal",
-    "distrito": "Leiria",
-    "n_porta": "95",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4610-301",
-    "rua": "R. de Neptuno",
-    "freguesia": "Friande",
-    "concelho": "Felgueiras",
-    "distrito": "Porto",
-    "n_porta": "08",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2600-446",
-    "rua": "Praça Tomás Pires",
-    "freguesia": "Alhandra",
-    "concelho": "Vila Franca de Xira",
-    "distrito": "Lisboa",
     "n_porta": "18",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4425-380",
-    "rua": "Alameda da Nau Catrineta",
+    "codigo_postal": "4520-483",
+    "rua": "Avenida Neto",
+    "freguesia": "Valada",
+    "concelho": "Santa Maria da Feira",
+    "distrito": "Aveiro",
+    "n_porta": "99",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3600-351",
+    "rua": "Alameda Matias Martins",
+    "freguesia": "Raso",
+    "concelho": "Castro Daire",
+    "distrito": "Viseu",
+    "n_porta": "04",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "8200-409",
+    "rua": "Alameda de Fonseca",
+    "freguesia": "Guia",
+    "concelho": "Albufeira",
+    "distrito": "Faro",
+    "n_porta": "28",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4890-014",
+    "rua": "Travessa Macedo",
+    "freguesia": "Arnoia",
+    "concelho": "Celorico de Basto",
+    "distrito": "Braga",
+    "n_porta": "91",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "1495-029",
+    "rua": "Avenida de Soares",
+    "freguesia": "Algés",
+    "concelho": "Oeiras",
+    "distrito": "Lisboa",
+    "n_porta": "20",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4440-820",
+    "rua": "Travessa de Vaz",
+    "freguesia": "Valongo",
+    "concelho": "Valongo",
+    "distrito": "Porto",
+    "n_porta": "71",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4425-078",
+    "rua": "Rua Flor Castro",
     "freguesia": "Maia",
     "concelho": "Maia",
     "distrito": "Porto",
-    "n_porta": "32",
+    "n_porta": "85",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2730-138",
-    "rua": "Avenida Pires",
-    "freguesia": "Barcarena",
-    "concelho": "Oeiras",
-    "distrito": "Lisboa",
-    "n_porta": "92",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2950-547",
-    "rua": "Avenida Violeta Tavares",
-    "freguesia": "Lagoínha",
-    "concelho": "Palmela",
-    "distrito": "Setúbal",
-    "n_porta": "65",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4495-273",
-    "rua": "Travessa Fernando Carvalho",
-    "freguesia": "Amorim",
-    "concelho": "Póvoa de Varzim",
+    "codigo_postal": "4780-126",
+    "rua": "Rua Maria Barros",
+    "freguesia": "Burgães",
+    "concelho": "Santo Tirso",
     "distrito": "Porto",
-    "n_porta": "65",
+    "n_porta": "59",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2425-687",
-    "rua": "Av Neves",
-    "freguesia": "Casal",
-    "concelho": "Leiria",
+    "codigo_postal": "3020-835",
+    "rua": "Avenida Grande de Cima",
+    "freguesia": "Souselas",
+    "concelho": "Coimbra",
+    "distrito": "Coimbra",
+    "n_porta": "77",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2525-083",
+    "rua": "Avenida André Santos",
+    "freguesia": "Atouguia da Baleia",
+    "concelho": "Peniche",
     "distrito": "Leiria",
-    "n_porta": "36",
+    "n_porta": "13",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2620-522",
-    "rua": "Rua das Comunidades Portuguesas",
-    "freguesia": "Ramada",
-    "concelho": "Odivelas",
+    "codigo_postal": "9000-237",
+    "rua": "Av de Domingues",
+    "freguesia": "Funchal",
+    "concelho": "Funchal",
+    "distrito": "Madeira",
+    "n_porta": "57",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "7080-154",
+    "rua": "Av de Cima",
+    "freguesia": "Vendas Novas",
+    "concelho": "Vendas Novas",
+    "distrito": "Évora",
+    "n_porta": "93",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "8900-241",
+    "rua": "Av Lopes",
+    "freguesia": "Vila Real de Santo António",
+    "concelho": "Vila Real de Santo António",
+    "distrito": "Faro",
+    "n_porta": "55",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4820-139",
+    "rua": "Praça de Magalhães",
+    "freguesia": "Fafe",
+    "concelho": "Fafe",
+    "distrito": "Braga",
+    "n_porta": "46",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2475-123",
+    "rua": "Rua Leite",
+    "freguesia": "Benedita",
+    "concelho": "Alcobaça",
+    "distrito": "Leiria",
+    "n_porta": "03",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4830-211",
+    "rua": "R. das Andrezas",
+    "freguesia": "Fontarcada",
+    "concelho": "Póvoa de Lanhoso",
+    "distrito": "Braga",
+    "n_porta": "44",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4415-850",
+    "rua": "Alameda Valente",
+    "freguesia": "Sandim",
+    "concelho": "Vila Nova de Gaia",
+    "distrito": "Porto",
+    "n_porta": "99",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2785-509",
+    "rua": "Praça de Moura",
+    "freguesia": "Outeiro de Polima",
+    "concelho": "Cascais",
     "distrito": "Lisboa",
-    "n_porta": "67",
+    "n_porta": "52",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2860-652",
-    "rua": "Alameda Baptista",
-    "freguesia": "Sarilhos Pequenos",
+    "codigo_postal": "2910-257",
+    "rua": "Alameda Oliveira",
+    "freguesia": "Setúbal",
+    "concelho": "Setúbal",
+    "distrito": "Setúbal",
+    "n_porta": "75",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2900-473",
+    "rua": "Largo de Faria",
+    "freguesia": "Setúbal",
+    "concelho": "Setúbal",
+    "distrito": "Setúbal",
+    "n_porta": "15",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "5400-338",
+    "rua": "Travessa de Campos",
+    "freguesia": "Chaves",
+    "concelho": "Chaves",
+    "distrito": "Vila Real",
+    "n_porta": "28",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4590-493",
+    "rua": "Av Castro",
+    "freguesia": "Modelos",
+    "concelho": "Paços de Ferreira",
+    "distrito": "Porto",
+    "n_porta": "12",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2860-341",
+    "rua": "Rua Rafaela Paiva",
+    "freguesia": "Carvalhinho",
     "concelho": "Moita",
     "distrito": "Setúbal",
-    "n_porta": "34",
+    "n_porta": "25",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2645-531",
-    "rua": "Avenida do Seminário",
-    "freguesia": "Alcabideche",
-    "concelho": "Cascais",
+    "codigo_postal": "2780-012",
+    "rua": "Largo Bruno Paiva",
+    "freguesia": "Oeiras",
+    "concelho": "Oeiras",
     "distrito": "Lisboa",
     "n_porta": "11",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "1350-291",
-    "rua": "Avenida de Lopes",
+    "codigo_postal": "2735-033",
+    "rua": "Praça de Silva",
+    "freguesia": "Agualva-Cacém",
+    "concelho": "Sintra",
+    "distrito": "Lisboa",
+    "n_porta": "06",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "7005-223",
+    "rua": "Praça Leonardo Gaspar",
+    "freguesia": "Évora",
+    "concelho": "Évora",
+    "distrito": "Évora",
+    "n_porta": "38",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3515-410",
+    "rua": "Alameda Abreu",
+    "freguesia": "Viseu",
+    "concelho": "Viseu",
+    "distrito": "Viseu",
+    "n_porta": "73",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2520-200",
+    "rua": "Travessa de Irene de Castro",
+    "freguesia": "Peniche",
+    "concelho": "Peniche",
+    "distrito": "Leiria",
+    "n_porta": "34",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3880-382",
+    "rua": "Praça de Paiva",
+    "freguesia": "Ovar",
+    "concelho": "Ovar",
+    "distrito": "Aveiro",
+    "n_porta": "83",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3220-217",
+    "rua": "Praça do Barredo",
+    "freguesia": "Miranda do Corvo",
+    "concelho": "Miranda do Corvo",
+    "distrito": "Coimbra",
+    "n_porta": "81",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "6100-777",
+    "rua": "Rua do Leal",
+    "freguesia": "Sertã",
+    "concelho": "Sertã",
+    "distrito": "Castelo Branco",
+    "n_porta": "50",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2410-375",
+    "rua": "Rua Larissa Leite",
+    "freguesia": "Leiria",
+    "concelho": "Leiria",
+    "distrito": "Leiria",
+    "n_porta": "79",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4300-531",
+    "rua": "Avenida Lúcia Vieira",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "44",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3700-641",
+    "rua": "Rua da França",
+    "freguesia": "Retorto",
+    "concelho": "Oliveira de Azeméis",
+    "distrito": "Aveiro",
+    "n_porta": "11",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3220-084",
+    "rua": "Rua de Andrade",
+    "freguesia": "Espinho",
+    "concelho": "Miranda do Corvo",
+    "distrito": "Coimbra",
+    "n_porta": "07",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4430-824",
+    "rua": "Alameda de Coelho",
+    "freguesia": "Avintes",
+    "concelho": "Vila Nova de Gaia",
+    "distrito": "Porto",
+    "n_porta": "98",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2680-130",
+    "rua": "Alameda de Assunção",
+    "freguesia": "Camarate",
+    "concelho": "Loures",
+    "distrito": "Lisboa",
+    "n_porta": "31",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4525-347",
+    "rua": "Av de Sobre-o-Douro",
+    "freguesia": "Guisande",
+    "concelho": "Santa Maria da Feira",
+    "distrito": "Aveiro",
+    "n_porta": "04",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "1950-089",
+    "rua": "Alameda Batista",
     "freguesia": "Lisboa",
     "concelho": "Lisboa",
     "distrito": "Lisboa",
-    "n_porta": "85",
+    "n_porta": "50",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2830-274",
-    "rua": "R. Emma Branco",
-    "freguesia": "Barreiro",
-    "concelho": "Barreiro",
+    "codigo_postal": "2825-438",
+    "rua": "Largo Macedo",
+    "freguesia": "Santo António de Caparica",
+    "concelho": "Almada",
     "distrito": "Setúbal",
-    "n_porta": "41",
+    "n_porta": "34",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "3860-433",
-    "rua": "Rua de Mendes",
-    "freguesia": "Pardilhó",
-    "concelho": "Estarreja",
+    "codigo_postal": "8100-272",
+    "rua": "Avenida Antunes",
+    "freguesia": "Loulé",
+    "concelho": "Loulé",
+    "distrito": "Faro",
+    "n_porta": "40",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4730-430",
+    "rua": "Rua Cunha",
+    "freguesia": "Sabariz",
+    "concelho": "Vila Verde",
+    "distrito": "Braga",
+    "n_porta": "44",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4050-426",
+    "rua": "Largo do Olival",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "14",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3144-001",
+    "rua": "Largo de Abreu",
+    "freguesia": "Montemor-o-Velho",
+    "concelho": "Montemor-o-Velho",
+    "distrito": "Coimbra",
+    "n_porta": "62",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3830-462",
+    "rua": "Av Barbosa",
+    "freguesia": "Costa Nova do Prado",
+    "concelho": "Ílhavo",
     "distrito": "Aveiro",
-    "n_porta": "95",
+    "n_porta": "55",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4495-263",
-    "rua": "Avenida Assunção",
-    "freguesia": "Amorim",
-    "concelho": "Póvoa de Varzim",
+    "codigo_postal": "2965-583",
+    "rua": "Largo de 25 de Abril",
+    "freguesia": "Águas de Moura",
+    "concelho": "Palmela",
+    "distrito": "Setúbal",
+    "n_porta": "40",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "5360-402",
+    "rua": "Rua Matias",
+    "freguesia": "Vila Flor",
+    "concelho": "Vila Flor",
+    "distrito": "Bragança",
+    "n_porta": "79",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4900-340",
+    "rua": "R. de Miranda",
+    "freguesia": "Viana do Castelo",
+    "concelho": "Viana do Castelo",
+    "distrito": "Viana do Castelo",
+    "n_porta": "17",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2709-505",
+    "rua": "Praça de Vieira",
+    "freguesia": "São João das Lampas",
+    "concelho": "Sintra",
+    "distrito": "Lisboa",
+    "n_porta": "78",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3330-310",
+    "rua": "Praça Carlos Sá",
+    "freguesia": "Góis",
+    "concelho": "Góis",
+    "distrito": "Coimbra",
+    "n_porta": "11",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3270-022",
+    "rua": "Avenida de Matias",
+    "freguesia": "Graça",
+    "concelho": "Pedrógão Grande",
+    "distrito": "Leiria",
+    "n_porta": "59",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2750-047",
+    "rua": "Alameda Lúcia Moreira",
+    "freguesia": "Aldeia de Juzo",
+    "concelho": "Cascais",
+    "distrito": "Lisboa",
+    "n_porta": "47",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2660-352",
+    "rua": "Largo do Prof. Ruy Luís Gomes",
+    "freguesia": "Santo António dos Cavaleiros",
+    "concelho": "Loures",
+    "distrito": "Lisboa",
+    "n_porta": "19",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "8000-232",
+    "rua": "Avenida de Vaz",
+    "freguesia": "Faro",
+    "concelho": "Faro",
+    "distrito": "Faro",
+    "n_porta": "78",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4640-700",
+    "rua": "Av Jesus",
+    "freguesia": "Frende",
+    "concelho": "Baião",
     "distrito": "Porto",
-    "n_porta": "95",
+    "n_porta": "47",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "7080-019",
-    "rua": "Praça Oliveira",
-    "freguesia": "Vendas Novas",
-    "concelho": "Vendas Novas",
-    "distrito": "Évora",
-    "n_porta": "13",
+    "codigo_postal": "2650-056",
+    "rua": "Av de Pereira",
+    "freguesia": "Amadora",
+    "concelho": "Amadora",
+    "distrito": "Lisboa",
+    "n_porta": "07",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4590-666",
-    "rua": "Rua de Mendes",
-    "freguesia": "Raimonda",
-    "concelho": "Paços de Ferreira",
+    "codigo_postal": "2540-445",
+    "rua": "Alameda de Gonçalves",
+    "freguesia": "Salgueiro",
+    "concelho": "Bombarral",
+    "distrito": "Leiria",
+    "n_porta": "04",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4575-006",
+    "rua": "Largo de Branco",
+    "freguesia": "Alpendorada e Matos",
+    "concelho": "Marco de Canaveses",
     "distrito": "Porto",
-    "n_porta": "93",
+    "n_porta": "38",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "2910-507",
-    "rua": "Rua das Portas do Mar",
-    "freguesia": "Setúbal",
+    "codigo_postal": "4730-685",
+    "rua": "Rua dos Vice-reis",
+    "freguesia": "Vila Verde",
+    "concelho": "Vila Verde",
+    "distrito": "Braga",
+    "n_porta": "65",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "5120-028",
+    "rua": "Rua William Fonseca",
+    "freguesia": "Arcos",
+    "concelho": "Tabuaço",
+    "distrito": "Viseu",
+    "n_porta": "65",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "5030-476",
+    "rua": "Alameda Clara Campos",
+    "freguesia": "Santa Marta de Penaguião",
+    "concelho": "Santa Marta de Penaguião",
+    "distrito": "Vila Real",
+    "n_porta": "11",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2420-410",
+    "rua": "Largo Reis",
+    "freguesia": "Fonte Oleiro",
+    "concelho": "Leiria",
+    "distrito": "Leiria",
+    "n_porta": "87",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "1100-328",
+    "rua": "R. Torres",
+    "freguesia": "Lisboa",
+    "concelho": "Lisboa",
+    "distrito": "Lisboa",
+    "n_porta": "78",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2925-443",
+    "rua": "Travessa do Bolhão",
+    "freguesia": "Azeitão",
     "concelho": "Setúbal",
     "distrito": "Setúbal",
-    "n_porta": "85",
+    "n_porta": "57",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4770-047",
-    "rua": "Travessa de Campolide",
-    "freguesia": "Vale de São Martinho",
-    "concelho": "Vila Nova de Famalicão",
+    "codigo_postal": "4820-134",
+    "rua": "Avenida Araújo",
+    "freguesia": "Fafe",
+    "concelho": "Fafe",
     "distrito": "Braga",
-    "n_porta": "85",
+    "n_porta": "58",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "3865-127",
-    "rua": "Rua José Garcia",
-    "freguesia": "Fermelã",
-    "concelho": "Estarreja",
-    "distrito": "Aveiro",
+    "codigo_postal": "4410-121",
+    "rua": "Largo Rúben Paiva",
+    "freguesia": "São Félix da Marinha",
+    "concelho": "Vila Nova de Gaia",
+    "distrito": "Porto",
+    "n_porta": "32",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4200-995",
+    "rua": "Alameda do Buraco",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "36",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "9680-513",
+    "rua": "Travessa Machado",
+    "freguesia": "Ribeira das Taínhas",
+    "concelho": "Vila Franca do Campo",
+    "distrito": "Azores",
+    "n_porta": "50",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4810-791",
+    "rua": "Alameda de Andrade",
+    "freguesia": "Gémeos",
+    "concelho": "Guimarães",
+    "distrito": "Braga",
+    "n_porta": "76",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3660-199",
+    "rua": "Largo Amaral",
+    "freguesia": "Rio de Mel",
+    "concelho": "São Pedro do Sul",
+    "distrito": "Viseu",
     "n_porta": "80",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "5100-793",
-    "rua": "R. de Baptista",
-    "freguesia": "Sande",
-    "concelho": "Lamego",
+    "codigo_postal": "4710-080",
+    "rua": "Avenida Costa",
+    "freguesia": "Braga",
+    "concelho": "Braga",
+    "distrito": "Braga",
+    "n_porta": "96",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4050-637",
+    "rua": "Praça Moreira",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "33",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "7400-541",
+    "rua": "R. Miranda",
+    "freguesia": "Vale de Açor",
+    "concelho": "Ponte de Sor",
+    "distrito": "Portalegre",
+    "n_porta": "11",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3640-212",
+    "rua": "Praça Vera Andrade",
+    "freguesia": "Sernancelhe",
+    "concelho": "Sernancelhe",
+    "distrito": "Viseu",
+    "n_porta": "12",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3260-215",
+    "rua": "Praça Cruz",
+    "freguesia": "Portela da Aldeia Fundeira",
+    "concelho": "Figueiró dos Vinhos",
+    "distrito": "Leiria",
+    "n_porta": "15",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2680-316",
+    "rua": "R. Filipe Paiva",
+    "freguesia": "Apelação",
+    "concelho": "Loures",
+    "distrito": "Lisboa",
+    "n_porta": "56",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4000-346",
+    "rua": "Praça Correia",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "50",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "7090-082",
+    "rua": "Av das Andorinhas",
+    "freguesia": "Monte Chão da Casinha",
+    "concelho": "Viana do Alentejo",
+    "distrito": "Évora",
+    "n_porta": "32",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4520-147",
+    "rua": "Praça Catarina Vicente",
+    "freguesia": "Santa Maria da Feira",
+    "concelho": "Santa Maria da Feira",
+    "distrito": "Aveiro",
+    "n_porta": "84",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4400-560",
+    "rua": "Alameda Inês Figueiredo",
+    "freguesia": "Vila Nova de Gaia",
+    "concelho": "Vila Nova de Gaia",
+    "distrito": "Porto",
+    "n_porta": "51",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "1700-416",
+    "rua": "R. de Rodrigues",
+    "freguesia": "Lisboa",
+    "concelho": "Lisboa",
+    "distrito": "Lisboa",
+    "n_porta": "88",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4585-405",
+    "rua": "Rua Alícia Marques",
+    "freguesia": "Rebordosa",
+    "concelho": "Paredes",
+    "distrito": "Porto",
+    "n_porta": "89",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4425-008",
+    "rua": "Alameda Carvalho",
+    "freguesia": "Maia",
+    "concelho": "Maia",
+    "distrito": "Porto",
+    "n_porta": "65",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4300-067",
+    "rua": "Travessa Barbosa",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "66",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "6050-133",
+    "rua": "Alameda Professor Gonçalves Ferreira",
+    "freguesia": "Amieira do Tejo",
+    "concelho": "Nisa",
+    "distrito": "Portalegre",
+    "n_porta": "61",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "4100-328",
+    "rua": "Rua de Matias",
+    "freguesia": "Porto",
+    "concelho": "Porto",
+    "distrito": "Porto",
+    "n_porta": "78",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2590-075",
+    "rua": "Avenida Matos",
+    "freguesia": "Sobral de Monte Agraço",
+    "concelho": "Sobral de Monte Agraço",
+    "distrito": "Lisboa",
+    "n_porta": "16",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2860-253",
+    "rua": "Avenida Mariana Ramos",
+    "freguesia": "Cabeço Verde",
+    "concelho": "Moita",
+    "distrito": "Setúbal",
+    "n_porta": "65",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "2050-438",
+    "rua": "Rua do Regado",
+    "freguesia": "Vale do Paraiso",
+    "concelho": "Azambuja",
+    "distrito": "Lisboa",
+    "n_porta": "59",
+    "pais": "Portugal"
+  },
+  {
+    "codigo_postal": "3525-501",
+    "rua": "R. da Rainha",
+    "freguesia": "Aguieira",
+    "concelho": "Nelas",
     "distrito": "Viseu",
     "n_porta": "62",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "7480-118",
-    "rua": "Praça Inês Abreu",
-    "freguesia": "Avis",
-    "concelho": "Avis",
-    "distrito": "Portalegre",
-    "n_porta": "38",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3230-243",
-    "rua": "Travessa Araújo",
-    "freguesia": "Melhorado",
-    "concelho": "Penela",
+    "codigo_postal": "3030-005",
+    "rua": "Rua Neto",
+    "freguesia": "Coimbra",
+    "concelho": "Coimbra",
     "distrito": "Coimbra",
-    "n_porta": "54",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "7900-047",
-    "rua": "Av de Coelho",
-    "freguesia": "Alfundão",
-    "concelho": "Ferreira do Alentejo",
-    "distrito": "Beja",
-    "n_porta": "10",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3560-999",
-    "rua": "Praça Silva",
-    "freguesia": "Sátão",
-    "concelho": "Sátão",
-    "distrito": "Viseu",
-    "n_porta": "88",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4795-390",
-    "rua": "R. Joaquim Barros",
-    "freguesia": "São Mamede de Negrelos",
-    "concelho": "Santo Tirso",
-    "distrito": "Porto",
-    "n_porta": "41",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "9600-021",
-    "rua": "Rua Cunha",
-    "freguesia": "Calhetas",
-    "concelho": "Ribeira Grande",
-    "distrito": "Azores",
-    "n_porta": "16",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "6200-119",
-    "rua": "Travessa de Cardoso",
-    "freguesia": "Covilhã",
-    "concelho": "Covilhã",
-    "distrito": "Castelo Branco",
-    "n_porta": "91",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "7645-249",
-    "rua": "R. da Aldeia",
-    "freguesia": "Vila Nova de Milfontes",
-    "concelho": "Odemira",
-    "distrito": "Beja",
-    "n_porta": "15",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3810-046",
-    "rua": "Travessa Ariana Campos",
-    "freguesia": "Aveiro",
-    "concelho": "Aveiro",
-    "distrito": "Aveiro",
     "n_porta": "14",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4515-206",
-    "rua": "Av Adriana Pereira",
-    "freguesia": "Foz Sousa",
-    "concelho": "Gondomar",
-    "distrito": "Porto",
-    "n_porta": "39",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3730-102",
-    "rua": "Travessa de Cruz",
-    "freguesia": "Cepelos",
-    "concelho": "Vale de Cambra",
-    "distrito": "Aveiro",
-    "n_porta": "28",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2925-723",
-    "rua": "Alameda de Gaspar",
-    "freguesia": "Aldeia de Irmãos",
-    "concelho": "Setúbal",
-    "distrito": "Setúbal",
-    "n_porta": "52",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3060-010",
-    "rua": "Alameda Manuel Ricardo Espírito Santo",
-    "freguesia": "Ançã",
-    "concelho": "Cantanhede",
-    "distrito": "Coimbra",
-    "n_porta": "15",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3105-449",
-    "rua": "Travessa Leal",
-    "freguesia": "Ponte Nova",
-    "concelho": "Pombal",
-    "distrito": "Leiria",
-    "n_porta": "99",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2435-372",
-    "rua": "Alameda Baptista",
-    "freguesia": "Lavradio",
-    "concelho": "Ourém",
-    "distrito": "Santarém",
-    "n_porta": "99",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4990-756",
-    "rua": "R. Larissa Vieira",
-    "freguesia": "Seara",
-    "concelho": "Ponte de Lima",
+    "codigo_postal": "4910-386",
+    "rua": "Largo Constança Domingues",
+    "freguesia": "Vila Praia de Âncora",
+    "concelho": "Caminha",
     "distrito": "Viana do Castelo",
-    "n_porta": "92",
+    "n_porta": "48",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4495-227",
-    "rua": "Av Visconde de Alvalade",
-    "freguesia": "Navais",
-    "concelho": "Póvoa de Varzim",
-    "distrito": "Porto",
-    "n_porta": "83",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8550-432",
-    "rua": "R. de Assunção",
-    "freguesia": "Monchique",
-    "concelho": "Monchique",
-    "distrito": "Faro",
-    "n_porta": "99",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2840-622",
-    "rua": "Rua Henriques",
-    "freguesia": "Seixal",
-    "concelho": "Seixal",
-    "distrito": "Setúbal",
-    "n_porta": "83",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4420-547",
-    "rua": "Av Brito",
-    "freguesia": "Valbom",
-    "concelho": "Gondomar",
-    "distrito": "Porto",
-    "n_porta": "68",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3045-372",
-    "rua": "Avenida Samuel Barbosa",
-    "freguesia": "Arzila",
-    "concelho": "Coimbra",
-    "distrito": "Coimbra",
-    "n_porta": "75",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2745-379",
-    "rua": "Praça Paiva",
-    "freguesia": "Pego Longo",
-    "concelho": "Sintra",
-    "distrito": "Lisboa",
-    "n_porta": "45",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3680-018",
-    "rua": "Avenida Amaral",
-    "freguesia": "Mourão",
-    "concelho": "Oliveira de Frades",
-    "distrito": "Viseu",
-    "n_porta": "07",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4775-262",
-    "rua": "Alameda de Castro",
-    "freguesia": "Viatodos",
-    "concelho": "Barcelos",
-    "distrito": "Braga",
-    "n_porta": "50",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "7090-033",
-    "rua": "Alameda Inês Amorim",
-    "freguesia": "Alcáçovas",
-    "concelho": "Viana do Alentejo",
-    "distrito": "Évora",
-    "n_porta": "60",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4250-080",
-    "rua": "Praça de Ramos",
-    "freguesia": "Porto",
-    "concelho": "Porto",
-    "distrito": "Porto",
-    "n_porta": "03",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2815-817",
-    "rua": "Avenida de Sá",
-    "freguesia": "Sobreda",
-    "concelho": "Almada",
-    "distrito": "Setúbal",
-    "n_porta": "03",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2800-048",
-    "rua": "Largo de João Augusto Ribeiro",
-    "freguesia": "Almada",
-    "concelho": "Almada",
-    "distrito": "Setúbal",
-    "n_porta": "18",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "7470-078",
-    "rua": "Alameda de Henriques",
-    "freguesia": "Cano",
-    "concelho": "Sousel",
-    "distrito": "Portalegre",
-    "n_porta": "53",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2685-330",
-    "rua": "Avenida Artur Carneiro",
-    "freguesia": "Prior Velho",
-    "concelho": "Loures",
-    "distrito": "Lisboa",
+    "codigo_postal": "4500-348",
+    "rua": "Avenida Ricardo Batista",
+    "freguesia": "Espinho",
+    "concelho": "Espinho",
+    "distrito": "Aveiro",
     "n_porta": "29",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4810-845",
-    "rua": "Av de Vicente",
-    "freguesia": "Serzedo",
-    "concelho": "Guimarães",
-    "distrito": "Braga",
-    "n_porta": "63",
+    "codigo_postal": "4415-201",
+    "rua": "Alameda Leite",
+    "freguesia": "Pedroso",
+    "concelho": "Vila Nova de Gaia",
+    "distrito": "Porto",
+    "n_porta": "85",
     "pais": "Portugal"
   },
   {
-    "codigo_postal": "4520-614",
-    "rua": "Av Brito",
-    "freguesia": "Paçô",
-    "concelho": "Santa Maria da Feira",
-    "distrito": "Aveiro",
-    "n_porta": "40",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2395-327",
-    "rua": "Alameda de Mota",
-    "freguesia": "Vale Alto",
-    "concelho": "Alcanena",
-    "distrito": "Santarém",
-    "n_porta": "68",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2500-731",
-    "rua": "Praça de Pacheco",
-    "freguesia": "Carrasqueira",
-    "concelho": "Caldas da Rainha",
-    "distrito": "Leiria",
-    "n_porta": "83",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4705-336",
-    "rua": "Avenida Pinho",
-    "freguesia": "Braga",
-    "concelho": "Braga",
-    "distrito": "Braga",
-    "n_porta": "08",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4705-726",
-    "rua": "Avenida Miriam Pires",
-    "freguesia": "Figueiredo",
-    "concelho": "Braga",
-    "distrito": "Braga",
-    "n_porta": "43",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "2435-630",
-    "rua": "Travessa de Gaspar",
-    "freguesia": "Seiça",
-    "concelho": "Ourém",
-    "distrito": "Santarém",
-    "n_porta": "80",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4810-795",
-    "rua": "Av dos Navegadores",
-    "freguesia": "Calvos",
-    "concelho": "Guimarães",
-    "distrito": "Braga",
-    "n_porta": "19",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4910-160",
-    "rua": "Alameda Abreu",
-    "freguesia": "Caminha",
-    "concelho": "Caminha",
-    "distrito": "Viana do Castelo",
-    "n_porta": "42",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "7900-575",
-    "rua": "Avenida das Cegonhas",
-    "freguesia": "Ferreira do Alentejo",
-    "concelho": "Ferreira do Alentejo",
-    "distrito": "Beja",
-    "n_porta": "87",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "4820-171",
-    "rua": "R. República da Colômbia",
-    "freguesia": "Fafe",
-    "concelho": "Fafe",
-    "distrito": "Braga",
-    "n_porta": "78",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "3630-372",
-    "rua": "R. Vicente Neto",
-    "freguesia": "Póvoa de Penela",
-    "concelho": "Penedono",
+    "codigo_postal": "5120-396",
+    "rua": "Praça de Grijó",
+    "freguesia": "Tabuaço",
+    "concelho": "Tabuaço",
     "distrito": "Viseu",
-    "n_porta": "86",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "8950-312",
-    "rua": "Alameda Santos",
-    "freguesia": "Alfarrobeira",
-    "concelho": "Castro Marim",
-    "distrito": "Faro",
-    "n_porta": "08",
-    "pais": "Portugal"
-  },
-  {
-    "codigo_postal": "9600-427",
-    "rua": "Largo Oliveira",
-    "freguesia": "Santa Bárbara",
-    "concelho": "Ribeira Grande",
-    "distrito": "Azores",
-    "n_porta": "80",
+    "n_porta": "03",
     "pais": "Portugal"
   }
 ]

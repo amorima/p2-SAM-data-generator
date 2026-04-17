@@ -5,10 +5,18 @@ module.exports = (sequelize) => {
   "Localidade",
   {
    codigo_postal: {
-    type: DataTypes.STRING(45),
+    type: DataTypes.STRING(8),
     primaryKey: true,
    },
    concelho: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
+   distrito: {
+    type: DataTypes.STRING(45),
+    allowNull: false,
+   },
+   freguesia: {
     type: DataTypes.STRING(45),
     allowNull: false,
    },

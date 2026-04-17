@@ -1,0 +1,212 @@
+[
+  {
+    "token_api": "3f76794d-81ca-44b6-be8c-46317074a401",
+    "geo_latitude": 41.0355,
+    "geo_longitude": -8.6226,
+    "raio_alcance": 78,
+    "id_dispositivo": 1
+  },
+  {
+    "token_api": "5b3fc1ed-fc2f-4bfb-bd5f-e3dc0d10127d",
+    "geo_latitude": 41.1496,
+    "geo_longitude": -8.611,
+    "raio_alcance": 136,
+    "id_dispositivo": 2
+  },
+  {
+    "token_api": "d526685c-cc3f-428a-91bd-e24254e241a9",
+    "geo_latitude": 40.8586,
+    "geo_longitude": -8.6251,
+    "raio_alcance": 278,
+    "id_dispositivo": 3
+  },
+  {
+    "token_api": "536b1125-c094-4d6e-abfb-1445c580585e",
+    "geo_latitude": 38.8036,
+    "geo_longitude": -9.1281,
+    "raio_alcance": 179,
+    "id_dispositivo": 4
+  },
+  {
+    "token_api": "b83e6d06-ccaf-41db-8379-f111cf3565c7",
+    "geo_latitude": 38.8159,
+    "geo_longitude": -9.1548,
+    "raio_alcance": 249,
+    "id_dispositivo": 5
+  },
+  {
+    "token_api": "b8e9c8aa-7116-4aa9-91fa-9deee17fa4c6",
+    "geo_latitude": 39.7436,
+    "geo_longitude": -8.8071,
+    "raio_alcance": 123,
+    "id_dispositivo": 6
+  },
+  {
+    "token_api": "4c845521-7ce1-4eef-b66d-5aea2f3d0a04",
+    "geo_latitude": 41.1496,
+    "geo_longitude": -8.611,
+    "raio_alcance": 468,
+    "id_dispositivo": 7
+  },
+  {
+    "token_api": "1faad338-32c1-47ac-a28e-abc94d2b7daa",
+    "geo_latitude": 38.7169,
+    "geo_longitude": -9.349,
+    "raio_alcance": 322,
+    "id_dispositivo": 8
+  },
+  {
+    "token_api": "a389a07a-bd1a-4897-bb73-704068c793ae",
+    "geo_latitude": 38.7538,
+    "geo_longitude": -9.2308,
+    "raio_alcance": 199,
+    "id_dispositivo": 9
+  },
+  {
+    "token_api": "ce2a36ee-da4a-45c4-8106-7e6e6b21fec1",
+    "geo_latitude": 38.3927,
+    "geo_longitude": -8.155,
+    "raio_alcance": 478,
+    "id_dispositivo": 10
+  },
+  {
+    "token_api": "ec5ac628-d0e7-4d49-a945-ef48b6c23674",
+    "geo_latitude": 38.5667,
+    "geo_longitude": -7.9,
+    "raio_alcance": 87,
+    "id_dispositivo": 11
+  },
+  {
+    "token_api": "897f7dc1-d24b-4c09-8c53-a7c39810b148",
+    "geo_latitude": 40.8166,
+    "geo_longitude": -7.9985,
+    "raio_alcance": 444,
+    "id_dispositivo": 12
+  },
+  {
+    "token_api": "d67dc3a5-e36f-41e2-9b41-cf129c872a82",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "raio_alcance": 87,
+    "id_dispositivo": 13
+  },
+  {
+    "token_api": "b26b6f9b-4bd8-4eb1-901e-27f0a3789fcc",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "raio_alcance": 236,
+    "id_dispositivo": 14
+  },
+  {
+    "token_api": "e9838c6a-5e10-4431-adf8-08dc28d76357",
+    "geo_latitude": 41.4542,
+    "geo_longitude": -8.168,
+    "raio_alcance": 291,
+    "id_dispositivo": 15
+  },
+  {
+    "token_api": "eaf18845-2439-43a9-992c-d574a1716f2a",
+    "geo_latitude": 41.1161,
+    "geo_longitude": -7.5679,
+    "raio_alcance": 387,
+    "id_dispositivo": 16
+  },
+  {
+    "token_api": "f19c5808-7724-4f77-8c93-ca223afbae99",
+    "geo_latitude": 40.5026,
+    "geo_longitude": -7.9158,
+    "raio_alcance": 397,
+    "id_dispositivo": 17
+  },
+  {
+    "token_api": "776ee235-a475-4f9c-9c61-417040071a60",
+    "geo_latitude": 39.4247,
+    "geo_longitude": -8.97,
+    "raio_alcance": 91,
+    "id_dispositivo": 18
+  },
+  {
+    "token_api": "639ff71c-7082-4449-949c-714dc0312500",
+    "geo_latitude": 39.3105,
+    "geo_longitude": -9.1245,
+    "raio_alcance": 259,
+    "id_dispositivo": 19
+  },
+  {
+    "token_api": "d2238432-d0f0-47a1-ac2e-4752dc80bdd6",
+    "geo_latitude": 37.0194,
+    "geo_longitude": -7.9322,
+    "raio_alcance": 323,
+    "id_dispositivo": 20
+  },
+  {
+    "token_api": "c6512ceb-4507-4867-92dc-46bc4964feca",
+    "geo_latitude": 41.811,
+    "geo_longitude": -8.8525,
+    "raio_alcance": 254,
+    "id_dispositivo": 21
+  },
+  {
+    "token_api": "9dea25b0-5713-40af-9f87-49427adc4111",
+    "geo_latitude": 41.6932,
+    "geo_longitude": -8.8329,
+    "raio_alcance": 289,
+    "id_dispositivo": 22
+  },
+  {
+    "token_api": "2198f7cf-6397-4f9d-b767-04ade5894815",
+    "geo_latitude": 41.0355,
+    "geo_longitude": -8.6226,
+    "raio_alcance": 302,
+    "id_dispositivo": 23
+  },
+  {
+    "token_api": "93c6d300-e855-4591-abc7-65bfed798dc1",
+    "geo_latitude": 39.3558,
+    "geo_longitude": -9.3811,
+    "raio_alcance": 229,
+    "id_dispositivo": 24
+  },
+  {
+    "token_api": "2a7e5f39-748b-45f0-88cd-7408b1909db1",
+    "geo_latitude": 41.2241,
+    "geo_longitude": -8.4067,
+    "raio_alcance": 202,
+    "id_dispositivo": 25
+  },
+  {
+    "token_api": "63a405e3-71e4-4567-98cf-911d221f52d3",
+    "geo_latitude": 40.0979,
+    "geo_longitude": -8.328,
+    "raio_alcance": 186,
+    "id_dispositivo": 26
+  },
+  {
+    "token_api": "ace81990-1eb2-4feb-b22f-1536315f6b35",
+    "geo_latitude": 40.0932,
+    "geo_longitude": -8.3326,
+    "raio_alcance": 75,
+    "id_dispositivo": 27
+  },
+  {
+    "token_api": "127f43ce-409c-448e-b522-4164408c694e",
+    "geo_latitude": 41.2357,
+    "geo_longitude": -8.6199,
+    "raio_alcance": 222,
+    "id_dispositivo": 28
+  },
+  {
+    "token_api": "7882d8e0-7653-492f-b200-86941d26bca3",
+    "geo_latitude": 38.7167,
+    "geo_longitude": -9.1333,
+    "raio_alcance": 362,
+    "id_dispositivo": 29
+  },
+  {
+    "token_api": "08c768eb-4b75-4776-aeff-6a594b8d0d3a",
+    "geo_latitude": 41.2562,
+    "geo_longitude": -8.3863,
+    "raio_alcance": 319,
+    "id_dispositivo": 30
+  }
+]

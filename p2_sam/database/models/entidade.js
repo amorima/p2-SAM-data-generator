@@ -27,12 +27,8 @@ module.exports = (sequelize) => {
     allowNull: true,
     unique: true,
    },
-   rua: {
-    type: DataTypes.STRING(200),
-    allowNull: false,
-   },
-   n_porta: {
-    type: DataTypes.STRING(45),
+   codigo_postal: {
+    type: DataTypes.STRING(8),
     allowNull: false,
    },
   },

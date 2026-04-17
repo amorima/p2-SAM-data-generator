@@ -23,11 +23,8 @@ module.exports = (sequelize) => {
    },
    tipo_donativo: {
     type: DataTypes.ENUM(
-     "numerário",
-     "cheque",
-     "transferência",
-     "multibanco",
-     "mbway"
+     "ESPECIE",
+     "NUMERARIO",
     ), // caso se adicione um novo metodo de pagamento, adicionar aqui
     allowNull: false,
    },
@@ -40,7 +37,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    estado: {
-    type: DataTypes.ENUM("pendente", "finalizado", "rejeitado"),
+    type: DataTypes.ENUM("ACEITE", "REJEITADO", "PENDENTE"),
     allowNull: false,
    },
   },

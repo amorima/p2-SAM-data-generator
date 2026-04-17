@@ -1,0 +1,502 @@
+[
+  {
+    "nome": "Isabel do Gonçalves",
+    "contacto": "926272098",
+    "rgpd": 1
+  },
+  {
+    "nome": "Lourenço do Mendes",
+    "contacto": "911162271",
+    "rgpd": 1
+  },
+  {
+    "nome": "Gabriela Andrade",
+    "contacto": "928857811",
+    "rgpd": 1
+  },
+  {
+    "nome": "Gabriela Magalhães",
+    "contacto": "913856295",
+    "rgpd": 1
+  },
+  {
+    "nome": "Catarina Pires",
+    "contacto": "937323346",
+    "rgpd": 1
+  },
+  {
+    "nome": "Matias Pinheiro",
+    "contacto": "933812419",
+    "rgpd": 1
+  },
+  {
+    "nome": "Guilherme Coelho",
+    "contacto": "918538706",
+    "rgpd": 0
+  },
+  {
+    "nome": "Carlos Paiva",
+    "contacto": "932921667",
+    "rgpd": 1
+  },
+  {
+    "nome": "Luciana Pinheiro",
+    "contacto": "969776622",
+    "rgpd": 1
+  },
+  {
+    "nome": "Lisandro Pires",
+    "contacto": "967608937",
+    "rgpd": 1
+  },
+  {
+    "nome": "Ângela-Raquel Nascimento",
+    "contacto": "939454756",
+    "rgpd": 1
+  },
+  {
+    "nome": "Madalena da Vicente",
+    "contacto": "916273756",
+    "rgpd": 1
+  },
+  {
+    "nome": "Ana do Miranda",
+    "contacto": "964103037",
+    "rgpd": 1
+  },
+  {
+    "nome": "Bruno Macedo",
+    "contacto": "935506919",
+    "rgpd": 1
+  },
+  {
+    "nome": "Santiago Cruz",
+    "contacto": "916367670",
+    "rgpd": 0
+  },
+  {
+    "nome": "Isabel Magalhães",
+    "contacto": "965851270",
+    "rgpd": 1
+  },
+  {
+    "nome": "Miguel Cardoso",
+    "contacto": "927533351",
+    "rgpd": 1
+  },
+  {
+    "nome": "Ariana Carvalho",
+    "contacto": "912827821",
+    "rgpd": 1
+  },
+  {
+    "nome": "Débora Costa-Neto",
+    "contacto": "965683945",
+    "rgpd": 1
+  },
+  {
+    "nome": "Fernando Gaspar",
+    "contacto": "911036448",
+    "rgpd": 1
+  },
+  {
+    "nome": "Letícia Brito",
+    "contacto": "915527093",
+    "rgpd": 1
+  },
+  {
+    "nome": "Sandro Fonseca",
+    "contacto": "935802439",
+    "rgpd": 1
+  },
+  {
+    "nome": "Leonardo Maia",
+    "contacto": "924136858",
+    "rgpd": 1
+  },
+  {
+    "nome": "Eduarda Simões",
+    "contacto": "961945045",
+    "rgpd": 1
+  },
+  {
+    "nome": "Martim Antunes",
+    "contacto": "923846255",
+    "rgpd": 1
+  },
+  {
+    "nome": "Sebastião Pinto",
+    "contacto": "921811110",
+    "rgpd": 1
+  },
+  {
+    "nome": "Joel Martins",
+    "contacto": "924354556",
+    "rgpd": 1
+  },
+  {
+    "nome": "Luana Castro",
+    "contacto": "925005757",
+    "rgpd": 1
+  },
+  {
+    "nome": "Samuel Garcia",
+    "contacto": "961711476",
+    "rgpd": 1
+  },
+  {
+    "nome": "Duarte Vicente",
+    "contacto": "936769608",
+    "rgpd": 1
+  },
+  {
+    "nome": "Maria Miranda",
+    "contacto": "918697043",
+    "rgpd": 1
+  },
+  {
+    "nome": "Lia Henriques",
+    "contacto": "926114615",
+    "rgpd": 1
+  },
+  {
+    "nome": "Sofia Nunes",
+    "contacto": "925522211",
+    "rgpd": 1
+  },
+  {
+    "nome": "Pedro Vicente",
+    "contacto": "968258119",
+    "rgpd": 1
+  },
+  {
+    "nome": "Fabiana Coelho",
+    "contacto": "928821761",
+    "rgpd": 1
+  },
+  {
+    "nome": "Juliana Abreu",
+    "contacto": "914239562",
+    "rgpd": 1
+  },
+  {
+    "nome": "Érica-Irina Magalhães",
+    "contacto": "935724846",
+    "rgpd": 1
+  },
+  {
+    "nome": "Joana Esteves",
+    "contacto": "930151367",
+    "rgpd": 1
+  },
+  {
+    "nome": "Yasmin da Martins",
+    "contacto": "916540138",
+    "rgpd": 1
+  },
+  {
+    "nome": "Miguel Assunção",
+    "contacto": "914350691",
+    "rgpd": 1
+  },
+  {
+    "nome": "Vitória Henriques",
+    "contacto": "938491983",
+    "rgpd": 1
+  },
+  {
+    "nome": "Bruno Garcia",
+    "contacto": "920230874",
+    "rgpd": 1
+  },
+  {
+    "nome": "Clara Pereira",
+    "contacto": "965380552",
+    "rgpd": 1
+  },
+  {
+    "nome": "Larissa-Jéssica Amorim",
+    "contacto": "937239334",
+    "rgpd": 1
+  },
+  {
+    "nome": "Cristiano Barros",
+    "contacto": "935853499",
+    "rgpd": 1
+  },
+  {
+    "nome": "Ricardo Cruz",
+    "contacto": "934229091",
+    "rgpd": 1
+  },
+  {
+    "nome": "Gabriela Leite",
+    "contacto": "937407997",
+    "rgpd": 1
+  },
+  {
+    "nome": "Salomé do Garcia",
+    "contacto": "920390863",
+    "rgpd": 1
+  },
+  {
+    "nome": "Soraia Monteiro",
+    "contacto": "919149697",
+    "rgpd": 1
+  },
+  {
+    "nome": "William Moreira",
+    "contacto": "934666296",
+    "rgpd": 1
+  },
+  {
+    "nome": "Lorena Figueiredo",
+    "contacto": "924835484",
+    "rgpd": 1
+  },
+  {
+    "nome": "Yara Mendes",
+    "contacto": "968150140",
+    "rgpd": 1
+  },
+  {
+    "nome": "Sérgio da Lima",
+    "contacto": "926672419",
+    "rgpd": 1
+  },
+  {
+    "nome": "Carlos Amaral",
+    "contacto": "964952038",
+    "rgpd": 1
+  },
+  {
+    "nome": "Clara Vieira-Henriques",
+    "contacto": "914332779",
+    "rgpd": 1
+  },
+  {
+    "nome": "Artur Neves",
+    "contacto": "913168572",
+    "rgpd": 1
+  },
+  {
+    "nome": "Anita Oliveira",
+    "contacto": "937692879",
+    "rgpd": 1
+  },
+  {
+    "nome": "Nair Morais",
+    "contacto": "968270039",
+    "rgpd": 1
+  },
+  {
+    "nome": "José Pinto",
+    "contacto": "916370448",
+    "rgpd": 1
+  },
+  {
+    "nome": "Leonardo Azevedo-Borges",
+    "contacto": "929794990",
+    "rgpd": 1
+  },
+  {
+    "nome": "Mara-Nair Magalhães",
+    "contacto": "936726157",
+    "rgpd": 1
+  },
+  {
+    "nome": "Rodrigo Nascimento",
+    "contacto": "934518428",
+    "rgpd": 1
+  },
+  {
+    "nome": "Isabel Branco",
+    "contacto": "930902844",
+    "rgpd": 1
+  },
+  {
+    "nome": "Nair Guerreiro",
+    "contacto": "933825684",
+    "rgpd": 1
+  },
+  {
+    "nome": "Francisca Cardoso",
+    "contacto": "968811533",
+    "rgpd": 1
+  },
+  {
+    "nome": "Raquel-Miriam Azevedo",
+    "contacto": "927952052",
+    "rgpd": 1
+  },
+  {
+    "nome": "Érica Costa",
+    "contacto": "924408573",
+    "rgpd": 1
+  },
+  {
+    "nome": "Kévim Tavares-Moreira",
+    "contacto": "920944268",
+    "rgpd": 1
+  },
+  {
+    "nome": "Gabriela Pires",
+    "contacto": "915795549",
+    "rgpd": 0
+  },
+  {
+    "nome": "Filipa Antunes",
+    "contacto": "928571479",
+    "rgpd": 1
+  },
+  {
+    "nome": "Clara Monteiro",
+    "contacto": "910110546",
+    "rgpd": 1
+  },
+  {
+    "nome": "Jorge do Gomes",
+    "contacto": "937770292",
+    "rgpd": 1
+  },
+  {
+    "nome": "Melissa Borges-Loureiro",
+    "contacto": "915040378",
+    "rgpd": 0
+  },
+  {
+    "nome": "Martim Esteves",
+    "contacto": "969893780",
+    "rgpd": 0
+  },
+  {
+    "nome": "Ângelo Vicente-Batista",
+    "contacto": "910949149",
+    "rgpd": 1
+  },
+  {
+    "nome": "Afonso Campos",
+    "contacto": "929418889",
+    "rgpd": 1
+  },
+  {
+    "nome": "Afonso Anjos",
+    "contacto": "910847662",
+    "rgpd": 1
+  },
+  {
+    "nome": "José Melo",
+    "contacto": "913488607",
+    "rgpd": 1
+  },
+  {
+    "nome": "Gaspar Teixeira",
+    "contacto": "921970877",
+    "rgpd": 1
+  },
+  {
+    "nome": "Samuel Gaspar",
+    "contacto": "924063727",
+    "rgpd": 0
+  },
+  {
+    "nome": "Samuel Correia",
+    "contacto": "927096121",
+    "rgpd": 1
+  },
+  {
+    "nome": "Daniela Neto",
+    "contacto": "917027450",
+    "rgpd": 1
+  },
+  {
+    "nome": "Maria Pires-Miranda",
+    "contacto": "934975543",
+    "rgpd": 1
+  },
+  {
+    "nome": "Manuel Ribeiro",
+    "contacto": "930521679",
+    "rgpd": 1
+  },
+  {
+    "nome": "Micael Coelho",
+    "contacto": "916521410",
+    "rgpd": 1
+  },
+  {
+    "nome": "Helena Domingues",
+    "contacto": "915078398",
+    "rgpd": 1
+  },
+  {
+    "nome": "Ivo Guerreiro",
+    "contacto": "929086143",
+    "rgpd": 1
+  },
+  {
+    "nome": "William Abreu",
+    "contacto": "927524473",
+    "rgpd": 1
+  },
+  {
+    "nome": "Pilar do Gomes",
+    "contacto": "969891896",
+    "rgpd": 1
+  },
+  {
+    "nome": "Marco Andrade",
+    "contacto": "931693884",
+    "rgpd": 1
+  },
+  {
+    "nome": "Lúcia Nascimento",
+    "contacto": "927600691",
+    "rgpd": 1
+  },
+  {
+    "nome": "Isabela Vicente-Amorim",
+    "contacto": "926682815",
+    "rgpd": 0
+  },
+  {
+    "nome": "Márcio Domingues",
+    "contacto": "910568173",
+    "rgpd": 1
+  },
+  {
+    "nome": "Diego Monteiro",
+    "contacto": "925647693",
+    "rgpd": 1
+  },
+  {
+    "nome": "Diogo Gomes",
+    "contacto": "913804102",
+    "rgpd": 0
+  },
+  {
+    "nome": "Violeta da Santos",
+    "contacto": "920678904",
+    "rgpd": 1
+  },
+  {
+    "nome": "Renato Fonseca",
+    "contacto": "912040480",
+    "rgpd": 1
+  },
+  {
+    "nome": "Wilson Neto",
+    "contacto": "911786419",
+    "rgpd": 0
+  },
+  {
+    "nome": "Afonso Cardoso",
+    "contacto": "964091134",
+    "rgpd": 1
+  },
+  {
+    "nome": "Duarte do Freitas",
+    "contacto": "926315423",
+    "rgpd": 1
+  }
+]

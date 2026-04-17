@@ -16,7 +16,7 @@ module.exports = (sequelize) => {
     type: DataTypes.DECIMAL(11, 8),
     allowNull: false,
    },
-   url_certidao_estatuto: {
+   url_comprovativo_estatuto: {
     type: DataTypes.TEXT,
     allowNull: false,
    },

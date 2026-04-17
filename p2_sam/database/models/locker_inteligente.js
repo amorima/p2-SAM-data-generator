@@ -10,7 +10,7 @@ module.exports = (sequelize) => {
     autoIncrement: true,
    },
    estado: {
-    type: DataTypes.ENUM("LIVRE", "OCUPADO", "MANUTENCAO"),
+    type: DataTypes.ENUM("DISPONIVEL", "INDISPONIVEL", "OCUPADO", "MANUTENCAO"),
     allowNull: false,
    },
    codigo_mestre: {
