@@ -75,7 +75,7 @@ def main() -> None:
     export_csv(cidadaos,  "cidadao", OUTPUT_DIR)
     export_json(cidadaos, "cidadao", OUTPUT_DIR)
 
-    bens_servicos = generate_bens_servicos(n=50)
+    bens_servicos = generate_bens_servicos()
     export_csv(bens_servicos,  "bens_servicos", OUTPUT_DIR)
     export_json(bens_servicos, "bens_servicos", OUTPUT_DIR)
 

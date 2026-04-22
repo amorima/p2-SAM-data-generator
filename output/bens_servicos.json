@@ -1,202 +1,210 @@
 [
   {
-    "tipo_bem_servico": "Kcsm ihJkRrfG",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Arroz",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "qYwP uuQjocJt",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Feijão",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "veuo gxYoVxlY",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Massa",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "OlcR XnZRroxx",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Azeite",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "CAKy RheMXDyC",
-    "tipo": "higiene"
+    "tipo_bem_servico": "Açúcar",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "ErLd VxwHLVGU",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Sal",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "UXbz OOtYXPvX",
-    "tipo": "higiene"
+    "tipo_bem_servico": "Leite",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "blnA fumpshrC",
-    "tipo": "transporte"
+    "tipo_bem_servico": "Conservas de peixe",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "Qukf HQDHFOYk",
-    "tipo": "outro"
+    "tipo_bem_servico": "Sopa em pó",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "LaAQ IJJiWWhR",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Farinha",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "EAkm YXOOrRgD",
-    "tipo": "saude"
+    "tipo_bem_servico": "Casaco de inverno",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "bUgH ZKmBNUyo",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Calças de ganga",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "neaw HapQbOeE",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Camisolas",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "vcXm SfzwHTpH",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Meias",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "AFZe aSFgwPox",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Roupa interior",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "ggmc DOJvSUOg",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Sapatos",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "jzDR kzRaGEsP",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Botas de chuva",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "buFC rlYSoiFl",
-    "tipo": "higiene"
+    "tipo_bem_servico": "Fraldas",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "LmSV nytQWYin",
-    "tipo": "outro"
+    "tipo_bem_servico": "Champô",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "wpsy aaxGBVcq",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Gel de banho",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "OfgK UCZOzDqN",
-    "tipo": "outro"
+    "tipo_bem_servico": "Pasta de dentes",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "zvKN TJhGFYiD",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Papel higiénico",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "yoWi xnDYCsmU",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Pensos higiénicos",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "DlFk cwWOwOiQ",
-    "tipo": "higiene"
+    "tipo_bem_servico": "Sabonete",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "gnpp rBuUiRPZ",
-    "tipo": "transporte"
+    "tipo_bem_servico": "Paracetamol",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "dZaT PwJnSSVu",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Ibuprofeno",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "QHbH BjTQPhIF",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Pensos rápidos",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "GNjm ChBIbiFS",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Álcool etílico",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "MInF rHzTBYHa",
-    "tipo": "outro"
+    "tipo_bem_servico": "Termómetro",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "bntz rMqKyBzO",
-    "tipo": "saude"
+    "tipo_bem_servico": "Medidor de tensão",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "gBiw RsVVofrt",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Vitaminas",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "dmQs lNmmySEe",
-    "tipo": "saude"
+    "tipo_bem_servico": "Cadernos",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "PbiE DTYsJJoc",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Lápis e canetas",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "rvAM pBUAiQPK",
-    "tipo": "saude"
+    "tipo_bem_servico": "Mochila escolar",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "utpp heMhXbPz",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Livros escolares",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "Tcjd CDwRqetn",
-    "tipo": "outro"
+    "tipo_bem_servico": "Régua e compasso",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "oaRv XDBohWJy",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Borracha",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "XNpQ KwyyprTp",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Passe mensal",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "WmcM GzzoBQrK",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Bilhete de autocarro",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "fsGQ rTtHBtIG",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Bilhete de metro",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "jTAU yCFQZxgC",
-    "tipo": "transporte"
+    "tipo_bem_servico": "Cobertor",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "MJaM ftkPxFCD",
-    "tipo": "saude"
+    "tipo_bem_servico": "Lençóis",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "wafW sviqsJYZ",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Almofada",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "XVTG nKmpEPAB",
-    "tipo": "educacao"
+    "tipo_bem_servico": "Toalhas de banho",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "QVZL SjqItBNc",
-    "tipo": "habitacao"
+    "tipo_bem_servico": "Detergente para a roupa",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "Yciw jWyTPGse",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Lixívia",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "Ovns upmkcmqj",
-    "tipo": "saude"
+    "tipo_bem_servico": "Esfregão",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "ZkLD VZrSNmVl",
-    "tipo": "saude"
+    "tipo_bem_servico": "Brinquedos para crianças",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "pIyh LrhBjngt",
-    "tipo": "alimentacao"
+    "tipo_bem_servico": "Material de escritório",
+    "tipo_bem": "bem"
   },
   {
-    "tipo_bem_servico": "CqVc FwBTyCQn",
-    "tipo": "vestuario"
+    "tipo_bem_servico": "Pilhas",
+    "tipo_bem": "bem"
+  },
+  {
+    "tipo_bem_servico": "Velas",
+    "tipo_bem": "bem"
+  },
+  {
+    "tipo_bem_servico": "Lanternas",
+    "tipo_bem": "bem"
   }
 ]

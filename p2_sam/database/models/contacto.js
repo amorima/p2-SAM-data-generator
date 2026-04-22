@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
     primaryKey: true,
    },
    entidade_nif_nipc: {
-    type: DataTypes.STRING(45),
+    type: DataTypes.STRING(9),
     allowNull: false,
    },
    nome_contacto: {
@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    descricao: {
-    type: DataTypes.STRING(500),
+    type: DataTypes.STRING(255),
     allowNull: false,
    },
   },

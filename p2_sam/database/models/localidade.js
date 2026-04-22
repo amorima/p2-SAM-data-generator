@@ -29,14 +29,14 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    n_porta: {
-    type: DataTypes.STRING(45),
+    type: DataTypes.STRING(5),
     allowNull: false,
    },
   },
   {
    tableName: "localidade",
    timestamps: false,
-  }
+  },
  );
 
  Localidade.associate = (models) => {

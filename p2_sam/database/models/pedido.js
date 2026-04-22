@@ -7,11 +7,10 @@ module.exports = (sequelize) => {
    id_pedido: {
     type: DataTypes.INTEGER,
     primaryKey: true,
-    autoIncrement: true,
     unique: true,
    },
    nif_nipc: {
-    type: DataTypes.STRING(20),
+    type: DataTypes.STRING(9),
     allowNull: false,
    },
    estado: {
@@ -22,7 +21,7 @@ module.exports = (sequelize) => {
   {
    tableName: "pedido",
    timestamps: false,
-  }
+  },
  );
 
  Pedido.associate = (models) => {

@@ -1,212 +1,212 @@
 [
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "Hx38Di51IL06Aq51",
-    "geo_latitude": 38.7167,
-    "geo_longitude": -9.1333,
+    "estado": "OCUPADO",
+    "codigo_mestre": "Rf20PG46JW49ff75",
+    "geo_latitude": 39.601,
+    "geo_longitude": -8.9701,
     "id_locker": 1
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "kI98dl49uk74sF33",
-    "geo_latitude": 41.1336,
-    "geo_longitude": -8.6174,
+    "estado": "INDISPONIVEL",
+    "codigo_mestre": "Uu45mI38bm88yB37",
+    "geo_latitude": 38.7057,
+    "geo_longitude": -9.3977,
     "id_locker": 2
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "Bc66QC20uM27Hi66",
-    "geo_latitude": 41.051,
-    "geo_longitude": -8.6161,
+    "codigo_mestre": "tT63rT87CG63KY41",
+    "geo_latitude": 40.4617,
+    "geo_longitude": -8.7247,
     "id_locker": 3
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "fQ55Ug11iT89Za90",
+    "estado": "OCUPADO",
+    "codigo_mestre": "wB34XI47tG41dW75",
     "geo_latitude": 41.5503,
     "geo_longitude": -8.4201,
     "id_locker": 4
   },
   {
     "estado": "OCUPADO",
-    "codigo_mestre": "pZ05JY60Nl22vt80",
-    "geo_latitude": 41.2357,
-    "geo_longitude": -8.6199,
+    "codigo_mestre": "Hf04Hw84jh40bC27",
+    "geo_latitude": 38.7833,
+    "geo_longitude": -27.25,
     "id_locker": 5
   },
   {
-    "estado": "INDISPONIVEL",
-    "codigo_mestre": "eO05Yw59hW37CK35",
-    "geo_latitude": 39.415,
-    "geo_longitude": -8.8219,
+    "estado": "OCUPADO",
+    "codigo_mestre": "Fr25NH99SE91qL07",
+    "geo_latitude": 37.1353,
+    "geo_longitude": -8.4532,
     "id_locker": 6
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "uL22dd97QO14qR21",
-    "geo_latitude": 40.1271,
-    "geo_longitude": -8.8616,
+    "estado": "OCUPADO",
+    "codigo_mestre": "Bg37dA12dd43DZ91",
+    "geo_latitude": 40.1776,
+    "geo_longitude": -7.6984,
     "id_locker": 7
   },
   {
     "estado": "OCUPADO",
-    "codigo_mestre": "ts83VG21QD60Fn58",
-    "geo_latitude": 37.102,
-    "geo_longitude": -8.6742,
+    "codigo_mestre": "Ic84DE95uP82Sf15",
+    "geo_latitude": 40.6328,
+    "geo_longitude": -7.4972,
     "id_locker": 8
   },
   {
-    "estado": "OCUPADO",
-    "codigo_mestre": "fR24GJ98TG61Sn46",
-    "geo_latitude": 37.7167,
-    "geo_longitude": -25.45,
+    "estado": "INDISPONIVEL",
+    "codigo_mestre": "QJ30EI15ky01Wz08",
+    "geo_latitude": 41.5503,
+    "geo_longitude": -8.4201,
     "id_locker": 9
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "lu90cq50wE97Sb83",
-    "geo_latitude": 38.1196,
-    "geo_longitude": -8.0631,
+    "codigo_mestre": "Ia45ss27dm73bD30",
+    "geo_latitude": 41.7672,
+    "geo_longitude": -8.5839,
     "id_locker": 10
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "Jm23cD38AU56GY84",
-    "geo_latitude": 41.0335,
-    "geo_longitude": -8.5497,
+    "estado": "OCUPADO",
+    "codigo_mestre": "by72kd10Nu10vU03",
+    "geo_latitude": 40.4617,
+    "geo_longitude": -8.7247,
     "id_locker": 11
   },
   {
-    "estado": "INDISPONIVEL",
-    "codigo_mestre": "ux54Yx22Mo19sa45",
-    "geo_latitude": 39.1224,
-    "geo_longitude": -7.2862,
+    "estado": "OCUPADO",
+    "codigo_mestre": "lx42BL49iE32wJ80",
+    "geo_latitude": 41.1397,
+    "geo_longitude": -7.8,
     "id_locker": 12
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "KN19Yb02Rw82rC62",
-    "geo_latitude": 40.1271,
-    "geo_longitude": -8.8616,
+    "codigo_mestre": "FF49ik07qR72NJ36",
+    "geo_latitude": 42.0226,
+    "geo_longitude": -8.4875,
     "id_locker": 13
   },
   {
-    "estado": "MANUTENCAO",
-    "codigo_mestre": "bl22rt83RS37iK32",
-    "geo_latitude": 37.8167,
-    "geo_longitude": -25.5167,
+    "estado": "OCUPADO",
+    "codigo_mestre": "Bc42nU08tr28Is37",
+    "geo_latitude": 41.2915,
+    "geo_longitude": -8.4454,
     "id_locker": 14
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "zK20mc04Ex62hc21",
-    "geo_latitude": 38.6296,
-    "geo_longitude": -9.1156,
+    "codigo_mestre": "ub91Uj56Zv02ih79",
+    "geo_latitude": 41.0032,
+    "geo_longitude": -8.4593,
     "id_locker": 15
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "eg10MN77HE30jC09",
-    "geo_latitude": 41.6528,
-    "geo_longitude": -8.3971,
+    "codigo_mestre": "np17Sn06Gm12RK51",
+    "geo_latitude": 38.5244,
+    "geo_longitude": -8.8882,
     "id_locker": 16
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "ju81oo02LF29Sn04",
-    "geo_latitude": 41.2766,
-    "geo_longitude": -8.3762,
+    "estado": "OCUPADO",
+    "codigo_mestre": "gP00IA79ZV29yE21",
+    "geo_latitude": 37.4285,
+    "geo_longitude": -7.8233,
     "id_locker": 17
   },
   {
-    "estado": "MANUTENCAO",
-    "codigo_mestre": "WR98JC55Gq84KT19",
-    "geo_latitude": 38.9792,
-    "geo_longitude": -8.8076,
+    "estado": "OCUPADO",
+    "codigo_mestre": "eY29yD65CS71cG43",
+    "geo_latitude": 39.6207,
+    "geo_longitude": -8.6524,
     "id_locker": 18
   },
   {
-    "estado": "MANUTENCAO",
-    "codigo_mestre": "tu51RB50im78qk28",
-    "geo_latitude": 38.6447,
-    "geo_longitude": -9.0924,
+    "estado": "OCUPADO",
+    "codigo_mestre": "pa67Ro31vc30wu96",
+    "geo_latitude": 38.8815,
+    "geo_longitude": -7.1628,
     "id_locker": 19
   },
   {
-    "estado": "OCUPADO",
-    "codigo_mestre": "jp16UY99Nj59JX00",
-    "geo_latitude": 38.8247,
-    "geo_longitude": -9.1048,
+    "estado": "DISPONIVEL",
+    "codigo_mestre": "lW43BR26xv35lr67",
+    "geo_latitude": 41.1496,
+    "geo_longitude": -8.611,
     "id_locker": 20
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "Ff98eb82Jy97zb47",
-    "geo_latitude": 38.7167,
-    "geo_longitude": -9.1333,
+    "codigo_mestre": "uJ60KY90sT99SF30",
+    "geo_latitude": 40.7554,
+    "geo_longitude": -8.0726,
     "id_locker": 21
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "EO22Fo34Pj94aJ95",
-    "geo_latitude": 38.6644,
-    "geo_longitude": -8.6178,
+    "estado": "MANUTENCAO",
+    "codigo_mestre": "nY33Av03hE03Ns58",
+    "geo_latitude": 37.195,
+    "geo_longitude": -7.4177,
     "id_locker": 22
   },
   {
-    "estado": "INDISPONIVEL",
-    "codigo_mestre": "MU68JM49dk66On05",
-    "geo_latitude": 41.0335,
-    "geo_longitude": -8.5497,
+    "estado": "OCUPADO",
+    "codigo_mestre": "QT83iU42ux24Dw36",
+    "geo_latitude": 41.2083,
+    "geo_longitude": -8.2828,
     "id_locker": 23
   },
   {
-    "estado": "INDISPONIVEL",
-    "codigo_mestre": "tQ69wr41dt80QQ02",
-    "geo_latitude": 32.7803,
-    "geo_longitude": -17.0352,
+    "estado": "DISPONIVEL",
+    "codigo_mestre": "er47pK47hd97qm09",
+    "geo_latitude": 41.1257,
+    "geo_longitude": -7.7847,
     "id_locker": 24
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "CO15CH21Jz32vf02",
-    "geo_latitude": 38.7167,
-    "geo_longitude": -9.1333,
+    "estado": "OCUPADO",
+    "codigo_mestre": "Sn07YD07Ay93mw16",
+    "geo_latitude": 39.8466,
+    "geo_longitude": -8.7994,
     "id_locker": 25
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "vg91hh58Hx33YS03",
-    "geo_latitude": 41.1336,
-    "geo_longitude": -8.6174,
+    "codigo_mestre": "JS05ma84zu17BB90",
+    "geo_latitude": 37.4285,
+    "geo_longitude": -7.8233,
     "id_locker": 26
   },
   {
-    "estado": "DISPONIVEL",
-    "codigo_mestre": "zr75YE89mx52Gd72",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
+    "estado": "OCUPADO",
+    "codigo_mestre": "tG42dj11zo31Cc85",
+    "geo_latitude": 38.8024,
+    "geo_longitude": -9.1922,
     "id_locker": 27
   },
   {
-    "estado": "OCUPADO",
-    "codigo_mestre": "gK29BY56dF39eV44",
-    "geo_latitude": 41.1496,
-    "geo_longitude": -8.611,
+    "estado": "DISPONIVEL",
+    "codigo_mestre": "er41ff24gT81iN45",
+    "geo_latitude": 38.5244,
+    "geo_longitude": -8.8882,
     "id_locker": 28
   },
   {
     "estado": "DISPONIVEL",
-    "codigo_mestre": "KF16vA88BD04pd09",
-    "geo_latitude": 38.5091,
-    "geo_longitude": -9.1666,
+    "codigo_mestre": "EA15Jc34bo32wt71",
+    "geo_latitude": 37.85,
+    "geo_longitude": -25.3167,
     "id_locker": 29
   },
   {
-    "estado": "MANUTENCAO",
-    "codigo_mestre": "Xt39HZ08JS21gL91",
-    "geo_latitude": 40.6372,
-    "geo_longitude": -7.3904,
+    "estado": "DISPONIVEL",
+    "codigo_mestre": "sv75vN19IV77bd31",
+    "geo_latitude": 41.0355,
+    "geo_longitude": -8.6226,
     "id_locker": 30
   }
 ]
