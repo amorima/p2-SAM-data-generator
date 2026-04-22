@@ -10,11 +10,11 @@ module.exports = (sequelize) => {
     autoIncrement: true,
    },
    negocio_nif_nipc: {
-    type: DataTypes.STRING(20),
+    type: DataTypes.STRING(9),
     allowNull: false,
    },
    tipo_bem_servico: {
-    type: DataTypes.STRING(100),
+    type: DataTypes.STRING(10),
     allowNull: false,
    },
    descricao: {

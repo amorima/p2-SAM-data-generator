@@ -1,502 +1,502 @@
 [
   {
-    "nif_nipc": "994352323",
+    "nif_nipc": "973955414",
     "estado": "PENDENTE",
     "id_pedido": 1
   },
   {
-    "nif_nipc": "945669982",
+    "nif_nipc": "589174724",
     "estado": "ACEITE",
     "id_pedido": 2
   },
   {
-    "nif_nipc": "994352323",
-    "estado": "PENDENTE",
+    "nif_nipc": "574392743",
+    "estado": "ACEITE",
     "id_pedido": 3
   },
   {
-    "nif_nipc": "593389417",
+    "nif_nipc": "964852408",
     "estado": "ACEITE",
     "id_pedido": 4
   },
   {
-    "nif_nipc": "555359872",
+    "nif_nipc": "953398629",
     "estado": "ACEITE",
     "id_pedido": 5
   },
   {
-    "nif_nipc": "948448360",
-    "estado": "REJEITADO",
+    "nif_nipc": "545784110",
+    "estado": "ACEITE",
     "id_pedido": 6
   },
   {
-    "nif_nipc": "596562843",
+    "nif_nipc": "920001406",
     "estado": "PENDENTE",
     "id_pedido": 7
   },
   {
-    "nif_nipc": "530317315",
-    "estado": "PENDENTE",
+    "nif_nipc": "958028934",
+    "estado": "ACEITE",
     "id_pedido": 8
   },
   {
-    "nif_nipc": "593389417",
-    "estado": "PENDENTE",
+    "nif_nipc": "988391538",
+    "estado": "ACEITE",
     "id_pedido": 9
   },
   {
-    "nif_nipc": "956356802",
+    "nif_nipc": "586261670",
     "estado": "PENDENTE",
     "id_pedido": 10
   },
   {
-    "nif_nipc": "942104675",
-    "estado": "REJEITADO",
+    "nif_nipc": "933770447",
+    "estado": "PENDENTE",
     "id_pedido": 11
   },
   {
-    "nif_nipc": "921443856",
+    "nif_nipc": "586261670",
     "estado": "PENDENTE",
     "id_pedido": 12
   },
   {
-    "nif_nipc": "900734327",
+    "nif_nipc": "950864923",
     "estado": "PENDENTE",
     "id_pedido": 13
   },
   {
-    "nif_nipc": "901793432",
-    "estado": "ACEITE",
+    "nif_nipc": "977988152",
+    "estado": "REJEITADO",
     "id_pedido": 14
   },
   {
-    "nif_nipc": "976978452",
-    "estado": "ACEITE",
+    "nif_nipc": "933770447",
+    "estado": "PENDENTE",
     "id_pedido": 15
   },
   {
-    "nif_nipc": "903590130",
+    "nif_nipc": "912400066",
     "estado": "ACEITE",
     "id_pedido": 16
   },
   {
-    "nif_nipc": "584982196",
+    "nif_nipc": "907607146",
     "estado": "REJEITADO",
     "id_pedido": 17
   },
   {
-    "nif_nipc": "925711173",
-    "estado": "ACEITE",
+    "nif_nipc": "976149520",
+    "estado": "PENDENTE",
     "id_pedido": 18
   },
   {
-    "nif_nipc": "997030619",
+    "nif_nipc": "960524129",
     "estado": "ACEITE",
     "id_pedido": 19
   },
   {
-    "nif_nipc": "501485640",
-    "estado": "PENDENTE",
+    "nif_nipc": "503608899",
+    "estado": "REJEITADO",
     "id_pedido": 20
   },
   {
-    "nif_nipc": "569946707",
-    "estado": "PENDENTE",
+    "nif_nipc": "590220975",
+    "estado": "ACEITE",
     "id_pedido": 21
   },
   {
-    "nif_nipc": "508323816",
+    "nif_nipc": "961582457",
     "estado": "ACEITE",
     "id_pedido": 22
   },
   {
-    "nif_nipc": "908621239",
+    "nif_nipc": "966074709",
     "estado": "ACEITE",
     "id_pedido": 23
   },
   {
-    "nif_nipc": "945669982",
+    "nif_nipc": "953398629",
     "estado": "PENDENTE",
     "id_pedido": 24
   },
   {
-    "nif_nipc": "518279284",
-    "estado": "REJEITADO",
+    "nif_nipc": "500834510",
+    "estado": "ACEITE",
     "id_pedido": 25
   },
   {
-    "nif_nipc": "593389417",
-    "estado": "REJEITADO",
+    "nif_nipc": "574392743",
+    "estado": "ACEITE",
     "id_pedido": 26
   },
   {
-    "nif_nipc": "921443856",
+    "nif_nipc": "933770447",
     "estado": "PENDENTE",
     "id_pedido": 27
   },
   {
-    "nif_nipc": "977898090",
+    "nif_nipc": "538337155",
     "estado": "ACEITE",
     "id_pedido": 28
   },
   {
-    "nif_nipc": "976364985",
-    "estado": "ACEITE",
+    "nif_nipc": "944373485",
+    "estado": "REJEITADO",
     "id_pedido": 29
   },
   {
-    "nif_nipc": "956257005",
+    "nif_nipc": "502552297",
     "estado": "ACEITE",
     "id_pedido": 30
   },
   {
-    "nif_nipc": "597310154",
+    "nif_nipc": "958028934",
     "estado": "ACEITE",
     "id_pedido": 31
   },
   {
-    "nif_nipc": "994352323",
+    "nif_nipc": "562152652",
     "estado": "ACEITE",
     "id_pedido": 32
   },
   {
-    "nif_nipc": "956356802",
-    "estado": "ACEITE",
+    "nif_nipc": "586798761",
+    "estado": "PENDENTE",
     "id_pedido": 33
   },
   {
-    "nif_nipc": "904464313",
-    "estado": "REJEITADO",
+    "nif_nipc": "964968633",
+    "estado": "ACEITE",
     "id_pedido": 34
   },
   {
-    "nif_nipc": "942183964",
+    "nif_nipc": "571983057",
     "estado": "ACEITE",
     "id_pedido": 35
   },
   {
-    "nif_nipc": "930402376",
-    "estado": "PENDENTE",
+    "nif_nipc": "964968633",
+    "estado": "ACEITE",
     "id_pedido": 36
   },
   {
-    "nif_nipc": "972103056",
+    "nif_nipc": "554369555",
     "estado": "ACEITE",
     "id_pedido": 37
   },
   {
-    "nif_nipc": "904464313",
-    "estado": "REJEITADO",
+    "nif_nipc": "944373485",
+    "estado": "PENDENTE",
     "id_pedido": 38
   },
   {
-    "nif_nipc": "505990313",
+    "nif_nipc": "932507043",
     "estado": "ACEITE",
     "id_pedido": 39
   },
   {
-    "nif_nipc": "957956690",
-    "estado": "REJEITADO",
+    "nif_nipc": "562152652",
+    "estado": "PENDENTE",
     "id_pedido": 40
   },
   {
-    "nif_nipc": "948448360",
+    "nif_nipc": "988391538",
     "estado": "ACEITE",
     "id_pedido": 41
   },
   {
-    "nif_nipc": "962062755",
+    "nif_nipc": "976149520",
     "estado": "ACEITE",
     "id_pedido": 42
   },
   {
-    "nif_nipc": "920126341",
+    "nif_nipc": "917852672",
     "estado": "PENDENTE",
     "id_pedido": 43
   },
   {
-    "nif_nipc": "994352323",
-    "estado": "REJEITADO",
+    "nif_nipc": "929955876",
+    "estado": "ACEITE",
     "id_pedido": 44
   },
   {
-    "nif_nipc": "920126341",
+    "nif_nipc": "961049787",
     "estado": "ACEITE",
     "id_pedido": 45
   },
   {
-    "nif_nipc": "501485640",
-    "estado": "PENDENTE",
+    "nif_nipc": "977988152",
+    "estado": "ACEITE",
     "id_pedido": 46
   },
   {
-    "nif_nipc": "556556941",
+    "nif_nipc": "977988152",
     "estado": "PENDENTE",
     "id_pedido": 47
   },
   {
-    "nif_nipc": "555359872",
+    "nif_nipc": "508715060",
     "estado": "PENDENTE",
     "id_pedido": 48
   },
   {
-    "nif_nipc": "956257005",
+    "nif_nipc": "964852408",
     "estado": "ACEITE",
     "id_pedido": 49
   },
   {
-    "nif_nipc": "900734327",
-    "estado": "ACEITE",
+    "nif_nipc": "920001406",
+    "estado": "REJEITADO",
     "id_pedido": 50
   },
   {
-    "nif_nipc": "505990313",
-    "estado": "REJEITADO",
+    "nif_nipc": "562152652",
+    "estado": "PENDENTE",
     "id_pedido": 51
   },
   {
-    "nif_nipc": "501485640",
+    "nif_nipc": "928328860",
     "estado": "ACEITE",
     "id_pedido": 52
   },
   {
-    "nif_nipc": "530317315",
+    "nif_nipc": "974135672",
     "estado": "ACEITE",
     "id_pedido": 53
   },
   {
-    "nif_nipc": "919218413",
-    "estado": "PENDENTE",
+    "nif_nipc": "958028934",
+    "estado": "ACEITE",
     "id_pedido": 54
   },
   {
-    "nif_nipc": "942183964",
+    "nif_nipc": "958028934",
     "estado": "PENDENTE",
     "id_pedido": 55
   },
   {
-    "nif_nipc": "575360251",
-    "estado": "REJEITADO",
+    "nif_nipc": "510788836",
+    "estado": "ACEITE",
     "id_pedido": 56
   },
   {
-    "nif_nipc": "994352323",
+    "nif_nipc": "929955876",
     "estado": "ACEITE",
     "id_pedido": 57
   },
   {
-    "nif_nipc": "501485640",
+    "nif_nipc": "562152652",
     "estado": "ACEITE",
     "id_pedido": 58
   },
   {
-    "nif_nipc": "505990313",
-    "estado": "PENDENTE",
+    "nif_nipc": "966074709",
+    "estado": "ACEITE",
     "id_pedido": 59
   },
   {
-    "nif_nipc": "956257005",
+    "nif_nipc": "586261670",
     "estado": "PENDENTE",
     "id_pedido": 60
   },
   {
-    "nif_nipc": "945669982",
-    "estado": "ACEITE",
+    "nif_nipc": "510788836",
+    "estado": "REJEITADO",
     "id_pedido": 61
   },
   {
-    "nif_nipc": "956257005",
+    "nif_nipc": "586798761",
     "estado": "PENDENTE",
     "id_pedido": 62
   },
   {
-    "nif_nipc": "545102425",
-    "estado": "REJEITADO",
+    "nif_nipc": "974135672",
+    "estado": "PENDENTE",
     "id_pedido": 63
   },
   {
-    "nif_nipc": "908621239",
+    "nif_nipc": "508715060",
     "estado": "PENDENTE",
     "id_pedido": 64
   },
   {
-    "nif_nipc": "921443856",
-    "estado": "ACEITE",
+    "nif_nipc": "988391538",
+    "estado": "PENDENTE",
     "id_pedido": 65
   },
   {
-    "nif_nipc": "997030619",
+    "nif_nipc": "961582457",
     "estado": "PENDENTE",
     "id_pedido": 66
   },
   {
-    "nif_nipc": "545102425",
-    "estado": "REJEITADO",
+    "nif_nipc": "554369555",
+    "estado": "PENDENTE",
     "id_pedido": 67
   },
   {
-    "nif_nipc": "976364985",
-    "estado": "ACEITE",
+    "nif_nipc": "966074709",
+    "estado": "PENDENTE",
     "id_pedido": 68
   },
   {
-    "nif_nipc": "942104675",
+    "nif_nipc": "958028934",
     "estado": "ACEITE",
     "id_pedido": 69
   },
   {
-    "nif_nipc": "569946707",
-    "estado": "PENDENTE",
+    "nif_nipc": "912896189",
+    "estado": "ACEITE",
     "id_pedido": 70
   },
   {
-    "nif_nipc": "942104675",
-    "estado": "PENDENTE",
+    "nif_nipc": "907607146",
+    "estado": "ACEITE",
     "id_pedido": 71
   },
   {
-    "nif_nipc": "901793432",
+    "nif_nipc": "589174724",
     "estado": "ACEITE",
     "id_pedido": 72
   },
   {
-    "nif_nipc": "903590130",
-    "estado": "ACEITE",
+    "nif_nipc": "503608899",
+    "estado": "REJEITADO",
     "id_pedido": 73
   },
   {
-    "nif_nipc": "575360251",
-    "estado": "PENDENTE",
+    "nif_nipc": "920001406",
+    "estado": "ACEITE",
     "id_pedido": 74
   },
   {
-    "nif_nipc": "551157468",
+    "nif_nipc": "969166823",
     "estado": "ACEITE",
     "id_pedido": 75
   },
   {
-    "nif_nipc": "918072417",
+    "nif_nipc": "998948524",
     "estado": "PENDENTE",
     "id_pedido": 76
   },
   {
-    "nif_nipc": "976978452",
-    "estado": "PENDENTE",
+    "nif_nipc": "977988152",
+    "estado": "ACEITE",
     "id_pedido": 77
   },
   {
-    "nif_nipc": "596562843",
-    "estado": "PENDENTE",
+    "nif_nipc": "538337155",
+    "estado": "REJEITADO",
     "id_pedido": 78
   },
   {
-    "nif_nipc": "518279284",
+    "nif_nipc": "933770447",
     "estado": "ACEITE",
     "id_pedido": 79
   },
   {
-    "nif_nipc": "962062755",
-    "estado": "PENDENTE",
+    "nif_nipc": "928328860",
+    "estado": "ACEITE",
     "id_pedido": 80
   },
   {
-    "nif_nipc": "508323816",
+    "nif_nipc": "932507043",
     "estado": "ACEITE",
     "id_pedido": 81
   },
   {
-    "nif_nipc": "597310154",
+    "nif_nipc": "508715060",
     "estado": "ACEITE",
     "id_pedido": 82
   },
   {
-    "nif_nipc": "569946707",
+    "nif_nipc": "920001406",
     "estado": "ACEITE",
     "id_pedido": 83
   },
   {
-    "nif_nipc": "962062755",
+    "nif_nipc": "929955876",
     "estado": "ACEITE",
     "id_pedido": 84
   },
   {
-    "nif_nipc": "920126341",
-    "estado": "ACEITE",
+    "nif_nipc": "510788836",
+    "estado": "REJEITADO",
     "id_pedido": 85
   },
   {
-    "nif_nipc": "919218413",
+    "nif_nipc": "917852672",
     "estado": "ACEITE",
     "id_pedido": 86
   },
   {
-    "nif_nipc": "501485640",
-    "estado": "ACEITE",
+    "nif_nipc": "586798761",
+    "estado": "PENDENTE",
     "id_pedido": 87
   },
   {
-    "nif_nipc": "942183964",
+    "nif_nipc": "586798761",
     "estado": "PENDENTE",
     "id_pedido": 88
   },
   {
-    "nif_nipc": "918072417",
+    "nif_nipc": "974135672",
     "estado": "ACEITE",
     "id_pedido": 89
   },
   {
-    "nif_nipc": "930402376",
-    "estado": "PENDENTE",
+    "nif_nipc": "912400066",
+    "estado": "ACEITE",
     "id_pedido": 90
   },
   {
-    "nif_nipc": "530317315",
-    "estado": "PENDENTE",
+    "nif_nipc": "574392743",
+    "estado": "REJEITADO",
     "id_pedido": 91
   },
   {
-    "nif_nipc": "956257005",
+    "nif_nipc": "933770447",
     "estado": "PENDENTE",
     "id_pedido": 92
   },
   {
-    "nif_nipc": "994352323",
-    "estado": "ACEITE",
+    "nif_nipc": "562152652",
+    "estado": "PENDENTE",
     "id_pedido": 93
   },
   {
-    "nif_nipc": "903590130",
+    "nif_nipc": "912400066",
     "estado": "PENDENTE",
     "id_pedido": 94
   },
   {
-    "nif_nipc": "518279284",
-    "estado": "ACEITE",
+    "nif_nipc": "977988152",
+    "estado": "PENDENTE",
     "id_pedido": 95
   },
   {
-    "nif_nipc": "942104675",
+    "nif_nipc": "966074709",
     "estado": "PENDENTE",
     "id_pedido": 96
   },
   {
-    "nif_nipc": "962062755",
+    "nif_nipc": "970890209",
     "estado": "PENDENTE",
     "id_pedido": 97
   },
   {
-    "nif_nipc": "940860397",
-    "estado": "ACEITE",
+    "nif_nipc": "912400066",
+    "estado": "PENDENTE",
     "id_pedido": 98
   },
   {
-    "nif_nipc": "997030619",
+    "nif_nipc": "976149520",
     "estado": "ACEITE",
     "id_pedido": 99
   },
   {
-    "nif_nipc": "505990313",
-    "estado": "ACEITE",
+    "nif_nipc": "907513869",
+    "estado": "REJEITADO",
     "id_pedido": 100
   }
 ]

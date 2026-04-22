@@ -1,51 +1,53 @@
-tipo_bem_servico,tipo
-Kcsm ihJkRrfG,vestuario
-qYwP uuQjocJt,habitacao
-veuo gxYoVxlY,educacao
-OlcR XnZRroxx,vestuario
-CAKy RheMXDyC,higiene
-ErLd VxwHLVGU,alimentacao
-UXbz OOtYXPvX,higiene
-blnA fumpshrC,transporte
-Qukf HQDHFOYk,outro
-LaAQ IJJiWWhR,alimentacao
-EAkm YXOOrRgD,saude
-bUgH ZKmBNUyo,habitacao
-neaw HapQbOeE,educacao
-vcXm SfzwHTpH,educacao
-AFZe aSFgwPox,educacao
-ggmc DOJvSUOg,habitacao
-jzDR kzRaGEsP,habitacao
-buFC rlYSoiFl,higiene
-LmSV nytQWYin,outro
-wpsy aaxGBVcq,habitacao
-OfgK UCZOzDqN,outro
-zvKN TJhGFYiD,vestuario
-yoWi xnDYCsmU,vestuario
-DlFk cwWOwOiQ,higiene
-gnpp rBuUiRPZ,transporte
-dZaT PwJnSSVu,alimentacao
-QHbH BjTQPhIF,alimentacao
-GNjm ChBIbiFS,alimentacao
-MInF rHzTBYHa,outro
-bntz rMqKyBzO,saude
-gBiw RsVVofrt,alimentacao
-dmQs lNmmySEe,saude
-PbiE DTYsJJoc,habitacao
-rvAM pBUAiQPK,saude
-utpp heMhXbPz,educacao
-Tcjd CDwRqetn,outro
-oaRv XDBohWJy,vestuario
-XNpQ KwyyprTp,alimentacao
-WmcM GzzoBQrK,habitacao
-fsGQ rTtHBtIG,habitacao
-jTAU yCFQZxgC,transporte
-MJaM ftkPxFCD,saude
-wafW sviqsJYZ,educacao
-XVTG nKmpEPAB,educacao
-QVZL SjqItBNc,habitacao
-Yciw jWyTPGse,vestuario
-Ovns upmkcmqj,saude
-ZkLD VZrSNmVl,saude
-pIyh LrhBjngt,alimentacao
-CqVc FwBTyCQn,vestuario
+tipo_bem_servico,tipo_bem
+Arroz,bem
+Feijão,bem
+Massa,bem
+Azeite,bem
+Açúcar,bem
+Sal,bem
+Leite,bem
+Conservas de peixe,bem
+Sopa em pó,bem
+Farinha,bem
+Casaco de inverno,bem
+Calças de ganga,bem
+Camisolas,bem
+Meias,bem
+Roupa interior,bem
+Sapatos,bem
+Botas de chuva,bem
+Fraldas,bem
+Champô,bem
+Gel de banho,bem
+Pasta de dentes,bem
+Papel higiénico,bem
+Pensos higiénicos,bem
+Sabonete,bem
+Paracetamol,bem
+Ibuprofeno,bem
+Pensos rápidos,bem
+Álcool etílico,bem
+Termómetro,bem
+Medidor de tensão,bem
+Vitaminas,bem
+Cadernos,bem
+Lápis e canetas,bem
+Mochila escolar,bem
+Livros escolares,bem
+Régua e compasso,bem
+Borracha,bem
+Passe mensal,bem
+Bilhete de autocarro,bem
+Bilhete de metro,bem
+Cobertor,bem
+Lençóis,bem
+Almofada,bem
+Toalhas de banho,bem
+Detergente para a roupa,bem
+Lixívia,bem
+Esfregão,bem
+Brinquedos para crianças,bem
+Material de escritório,bem
+Pilhas,bem
+Velas,bem
+Lanternas,bem

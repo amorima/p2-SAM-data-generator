@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
   "Entidade",
   {
    nif_nipc: {
-    type: DataTypes.STRING(20),
+    type: DataTypes.STRING(9),
     primaryKey: true,
     allowNull: false,
    },
