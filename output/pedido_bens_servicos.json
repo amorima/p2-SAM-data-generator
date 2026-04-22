@@ -1,752 +1,752 @@
 [
   {
-    "id_pedido": 71,
-    "tipo_bem_servico": "Cobertor",
-    "publico": 1
-  },
-  {
-    "id_pedido": 52,
-    "tipo_bem_servico": "Vitaminas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 46,
-    "tipo_bem_servico": "Pensos higiénicos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 99,
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "publico": 1
-  },
-  {
-    "id_pedido": 97,
-    "tipo_bem_servico": "Bilhete de metro",
-    "publico": 0
-  },
-  {
-    "id_pedido": 23,
-    "tipo_bem_servico": "Conservas de peixe",
-    "publico": 0
-  },
-  {
-    "id_pedido": 58,
-    "tipo_bem_servico": "Sal",
-    "publico": 0
-  },
-  {
-    "id_pedido": 72,
-    "tipo_bem_servico": "Farinha",
-    "publico": 1
-  },
-  {
-    "id_pedido": 63,
-    "tipo_bem_servico": "Azeite",
-    "publico": 0
-  },
-  {
-    "id_pedido": 90,
-    "tipo_bem_servico": "Lençóis",
-    "publico": 1
-  },
-  {
-    "id_pedido": 25,
-    "tipo_bem_servico": "Lanternas",
-    "publico": 0
-  },
-  {
-    "id_pedido": 30,
-    "tipo_bem_servico": "Velas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 80,
-    "tipo_bem_servico": "Azeite",
-    "publico": 1
-  },
-  {
     "id_pedido": 4,
-    "tipo_bem_servico": "Sal",
-    "publico": 0
-  },
-  {
-    "id_pedido": 31,
-    "tipo_bem_servico": "Passe mensal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 77,
-    "tipo_bem_servico": "Lençóis",
-    "publico": 0
-  },
-  {
-    "id_pedido": 5,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 49,
-    "tipo_bem_servico": "Gel de banho",
-    "publico": 1
-  },
-  {
-    "id_pedido": 36,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 16,
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "publico": 1
-  },
-  {
-    "id_pedido": 27,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 16,
-    "tipo_bem_servico": "Mochila escolar",
-    "publico": 1
-  },
-  {
-    "id_pedido": 62,
-    "tipo_bem_servico": "Álcool etílico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 23,
-    "tipo_bem_servico": "Régua e compasso",
-    "publico": 1
-  },
-  {
-    "id_pedido": 43,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 0
-  },
-  {
-    "id_pedido": 9,
-    "tipo_bem_servico": "Sabonete",
-    "publico": 1
-  },
-  {
-    "id_pedido": 74,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 0
-  },
-  {
-    "id_pedido": 60,
-    "tipo_bem_servico": "Velas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 21,
-    "tipo_bem_servico": "Papel higiénico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 76,
-    "tipo_bem_servico": "Sal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 10,
     "tipo_bem_servico": "Farinha",
     "publico": 1
   },
   {
-    "id_pedido": 79,
-    "tipo_bem_servico": "Termómetro",
-    "publico": 1
-  },
-  {
-    "id_pedido": 27,
-    "tipo_bem_servico": "Cadernos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 100,
-    "tipo_bem_servico": "Régua e compasso",
+    "id_pedido": 72,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
     "publico": 0
-  },
-  {
-    "id_pedido": 7,
-    "tipo_bem_servico": "Ibuprofeno",
-    "publico": 1
-  },
-  {
-    "id_pedido": 18,
-    "tipo_bem_servico": "Cobertor",
-    "publico": 1
-  },
-  {
-    "id_pedido": 98,
-    "tipo_bem_servico": "Lanternas",
-    "publico": 0
-  },
-  {
-    "id_pedido": 5,
-    "tipo_bem_servico": "Pilhas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 3,
-    "tipo_bem_servico": "Toalhas de banho",
-    "publico": 0
-  },
-  {
-    "id_pedido": 26,
-    "tipo_bem_servico": "Mochila escolar",
-    "publico": 1
-  },
-  {
-    "id_pedido": 69,
-    "tipo_bem_servico": "Passe mensal",
-    "publico": 1
   },
   {
     "id_pedido": 71,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 0
-  },
-  {
-    "id_pedido": 64,
-    "tipo_bem_servico": "Bilhete de autocarro",
-    "publico": 1
-  },
-  {
-    "id_pedido": 29,
-    "tipo_bem_servico": "Cadernos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 34,
-    "tipo_bem_servico": "Farinha",
-    "publico": 1
-  },
-  {
-    "id_pedido": 70,
-    "tipo_bem_servico": "Cadernos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 79,
-    "tipo_bem_servico": "Gel de banho",
-    "publico": 0
-  },
-  {
-    "id_pedido": 11,
-    "tipo_bem_servico": "Leite",
-    "publico": 0
-  },
-  {
-    "id_pedido": 15,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 5,
-    "tipo_bem_servico": "Vitaminas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 86,
-    "tipo_bem_servico": "Borracha",
-    "publico": 1
-  },
-  {
-    "id_pedido": 39,
-    "tipo_bem_servico": "Medidor de tensão",
-    "publico": 0
-  },
-  {
-    "id_pedido": 51,
-    "tipo_bem_servico": "Ibuprofeno",
-    "publico": 0
-  },
-  {
-    "id_pedido": 40,
-    "tipo_bem_servico": "Bilhete de metro",
-    "publico": 1
-  },
-  {
-    "id_pedido": 33,
-    "tipo_bem_servico": "Roupa interior",
-    "publico": 1
-  },
-  {
-    "id_pedido": 3,
-    "tipo_bem_servico": "Gel de banho",
-    "publico": 1
-  },
-  {
-    "id_pedido": 12,
-    "tipo_bem_servico": "Lençóis",
-    "publico": 0
-  },
-  {
-    "id_pedido": 88,
-    "tipo_bem_servico": "Feijão",
-    "publico": 0
-  },
-  {
-    "id_pedido": 35,
-    "tipo_bem_servico": "Champô",
-    "publico": 1
-  },
-  {
-    "id_pedido": 18,
     "tipo_bem_servico": "Sopa em pó",
-    "publico": 1
-  },
-  {
-    "id_pedido": 45,
-    "tipo_bem_servico": "Esfregão",
-    "publico": 1
-  },
-  {
-    "id_pedido": 91,
-    "tipo_bem_servico": "Passe mensal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 44,
-    "tipo_bem_servico": "Gel de banho",
-    "publico": 1
-  },
-  {
-    "id_pedido": 15,
-    "tipo_bem_servico": "Álcool etílico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 38,
-    "tipo_bem_servico": "Massa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 25,
-    "tipo_bem_servico": "Bilhete de metro",
-    "publico": 0
-  },
-  {
-    "id_pedido": 23,
-    "tipo_bem_servico": "Fraldas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 6,
-    "tipo_bem_servico": "Açúcar",
-    "publico": 0
-  },
-  {
-    "id_pedido": 59,
-    "tipo_bem_servico": "Leite",
-    "publico": 1
-  },
-  {
-    "id_pedido": 64,
-    "tipo_bem_servico": "Sabonete",
-    "publico": 1
-  },
-  {
-    "id_pedido": 90,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 10,
-    "tipo_bem_servico": "Mochila escolar",
-    "publico": 1
-  },
-  {
-    "id_pedido": 30,
-    "tipo_bem_servico": "Almofada",
-    "publico": 1
-  },
-  {
-    "id_pedido": 97,
-    "tipo_bem_servico": "Mochila escolar",
-    "publico": 1
-  },
-  {
-    "id_pedido": 87,
-    "tipo_bem_servico": "Bilhete de autocarro",
-    "publico": 1
-  },
-  {
-    "id_pedido": 46,
-    "tipo_bem_servico": "Borracha",
-    "publico": 1
-  },
-  {
-    "id_pedido": 10,
-    "tipo_bem_servico": "Esfregão",
-    "publico": 1
-  },
-  {
-    "id_pedido": 57,
-    "tipo_bem_servico": "Régua e compasso",
-    "publico": 1
-  },
-  {
-    "id_pedido": 64,
-    "tipo_bem_servico": "Meias",
-    "publico": 1
-  },
-  {
-    "id_pedido": 10,
-    "tipo_bem_servico": "Medidor de tensão",
-    "publico": 1
-  },
-  {
-    "id_pedido": 84,
-    "tipo_bem_servico": "Esfregão",
-    "publico": 0
-  },
-  {
-    "id_pedido": 34,
-    "tipo_bem_servico": "Casaco de inverno",
-    "publico": 1
-  },
-  {
-    "id_pedido": 62,
-    "tipo_bem_servico": "Botas de chuva",
-    "publico": 0
-  },
-  {
-    "id_pedido": 49,
-    "tipo_bem_servico": "Toalhas de banho",
-    "publico": 0
-  },
-  {
-    "id_pedido": 25,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 79,
-    "tipo_bem_servico": "Calças de ganga",
-    "publico": 1
-  },
-  {
-    "id_pedido": 96,
-    "tipo_bem_servico": "Sal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 69,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 33,
-    "tipo_bem_servico": "Lençóis",
-    "publico": 1
-  },
-  {
-    "id_pedido": 86,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 44,
-    "tipo_bem_servico": "Cobertor",
-    "publico": 1
-  },
-  {
-    "id_pedido": 82,
-    "tipo_bem_servico": "Casaco de inverno",
-    "publico": 1
-  },
-  {
-    "id_pedido": 62,
-    "tipo_bem_servico": "Bilhete de autocarro",
-    "publico": 1
-  },
-  {
-    "id_pedido": 78,
-    "tipo_bem_servico": "Camisolas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 61,
-    "tipo_bem_servico": "Gel de banho",
-    "publico": 1
-  },
-  {
-    "id_pedido": 76,
-    "tipo_bem_servico": "Álcool etílico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 13,
-    "tipo_bem_servico": "Velas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 55,
-    "tipo_bem_servico": "Pilhas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 66,
-    "tipo_bem_servico": "Fraldas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 13,
-    "tipo_bem_servico": "Sopa em pó",
-    "publico": 1
-  },
-  {
-    "id_pedido": 85,
-    "tipo_bem_servico": "Champô",
-    "publico": 0
-  },
-  {
-    "id_pedido": 56,
-    "tipo_bem_servico": "Pasta de dentes",
-    "publico": 0
-  },
-  {
-    "id_pedido": 82,
-    "tipo_bem_servico": "Botas de chuva",
-    "publico": 0
-  },
-  {
-    "id_pedido": 47,
-    "tipo_bem_servico": "Botas de chuva",
-    "publico": 1
-  },
-  {
-    "id_pedido": 72,
-    "tipo_bem_servico": "Papel higiénico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 68,
-    "tipo_bem_servico": "Sapatos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 71,
-    "tipo_bem_servico": "Lanternas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 52,
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "publico": 1
-  },
-  {
-    "id_pedido": 44,
-    "tipo_bem_servico": "Almofada",
-    "publico": 1
-  },
-  {
-    "id_pedido": 63,
-    "tipo_bem_servico": "Régua e compasso",
-    "publico": 1
-  },
-  {
-    "id_pedido": 94,
-    "tipo_bem_servico": "Esfregão",
-    "publico": 1
-  },
-  {
-    "id_pedido": 8,
-    "tipo_bem_servico": "Borracha",
-    "publico": 1
-  },
-  {
-    "id_pedido": 72,
-    "tipo_bem_servico": "Azeite",
-    "publico": 1
-  },
-  {
-    "id_pedido": 49,
-    "tipo_bem_servico": "Passe mensal",
     "publico": 1
   },
   {
     "id_pedido": 73,
-    "tipo_bem_servico": "Álcool etílico",
+    "tipo_bem_servico": "Banco de horas voluntário",
     "publico": 1
   },
   {
-    "id_pedido": 48,
-    "tipo_bem_servico": "Toalhas de banho",
+    "id_pedido": 40,
+    "tipo_bem_servico": "Fisioterapia",
     "publico": 1
   },
   {
-    "id_pedido": 25,
-    "tipo_bem_servico": "Mochila escolar",
+    "id_pedido": 79,
+    "tipo_bem_servico": "Lápis e canetas",
     "publico": 1
   },
   {
-    "id_pedido": 27,
-    "tipo_bem_servico": "Papel higiénico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 85,
-    "tipo_bem_servico": "Termómetro",
+    "id_pedido": 42,
+    "tipo_bem_servico": "Fraldas",
     "publico": 0
   },
   {
-    "id_pedido": 18,
-    "tipo_bem_servico": "Pensos rápidos",
-    "publico": 0
-  },
-  {
-    "id_pedido": 2,
-    "tipo_bem_servico": "Almofada",
+    "id_pedido": 94,
+    "tipo_bem_servico": "Casaco de inverno",
     "publico": 1
   },
   {
-    "id_pedido": 95,
+    "id_pedido": 40,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "publico": 1
+  },
+  {
+    "id_pedido": 22,
     "tipo_bem_servico": "Bilhete de autocarro",
     "publico": 1
   },
   {
-    "id_pedido": 50,
-    "tipo_bem_servico": "Feijão",
-    "publico": 1
-  },
-  {
-    "id_pedido": 38,
+    "id_pedido": 64,
     "tipo_bem_servico": "Azeite",
     "publico": 1
   },
   {
-    "id_pedido": 20,
-    "tipo_bem_servico": "Álcool etílico",
-    "publico": 1
-  },
-  {
-    "id_pedido": 50,
-    "tipo_bem_servico": "Fraldas",
-    "publico": 1
-  },
-  {
-    "id_pedido": 34,
-    "tipo_bem_servico": "Sal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 81,
-    "tipo_bem_servico": "Ibuprofeno",
-    "publico": 1
-  },
-  {
-    "id_pedido": 84,
-    "tipo_bem_servico": "Detergente para a roupa",
-    "publico": 1
-  },
-  {
-    "id_pedido": 52,
-    "tipo_bem_servico": "Régua e compasso",
+    "id_pedido": 42,
+    "tipo_bem_servico": "Roupa interior",
     "publico": 0
+  },
+  {
+    "id_pedido": 22,
+    "tipo_bem_servico": "Sopa em pó",
+    "publico": 1
   },
   {
     "id_pedido": 2,
-    "tipo_bem_servico": "Brinquedos para crianças",
+    "tipo_bem_servico": "Acompanhamento de idosos",
     "publico": 1
   },
   {
-    "id_pedido": 36,
-    "tipo_bem_servico": "Azeite",
-    "publico": 1
-  },
-  {
-    "id_pedido": 27,
-    "tipo_bem_servico": "Livros escolares",
+    "id_pedido": 50,
+    "tipo_bem_servico": "Consulta de enfermagem",
     "publico": 0
   },
   {
-    "id_pedido": 72,
-    "tipo_bem_servico": "Brinquedos para crianças",
+    "id_pedido": 11,
+    "tipo_bem_servico": "Transporte de idosos",
     "publico": 1
   },
   {
-    "id_pedido": 23,
-    "tipo_bem_servico": "Almofada",
+    "id_pedido": 75,
+    "tipo_bem_servico": "Arroz",
+    "publico": 0
+  },
+  {
+    "id_pedido": 96,
+    "tipo_bem_servico": "Sabonete",
+    "publico": 0
+  },
+  {
+    "id_pedido": 94,
+    "tipo_bem_servico": "Sopa em pó",
     "publico": 1
   },
   {
-    "id_pedido": 70,
+    "id_pedido": 57,
+    "tipo_bem_servico": "Lápis e canetas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 65,
     "tipo_bem_servico": "Esfregão",
     "publico": 1
   },
   {
-    "id_pedido": 78,
+    "id_pedido": 51,
+    "tipo_bem_servico": "Calças de ganga",
+    "publico": 1
+  },
+  {
+    "id_pedido": 98,
+    "tipo_bem_servico": "Pasta de dentes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 51,
+    "tipo_bem_servico": "Medidor de tensão",
+    "publico": 1
+  },
+  {
+    "id_pedido": 31,
+    "tipo_bem_servico": "Açúcar",
+    "publico": 1
+  },
+  {
+    "id_pedido": 14,
+    "tipo_bem_servico": "Transporte de idosos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 47,
+    "tipo_bem_servico": "Almofada",
+    "publico": 1
+  },
+  {
+    "id_pedido": 26,
+    "tipo_bem_servico": "Toalhas de banho",
+    "publico": 0
+  },
+  {
+    "id_pedido": 27,
+    "tipo_bem_servico": "Fraldas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 48,
+    "tipo_bem_servico": "Lixívia",
+    "publico": 1
+  },
+  {
+    "id_pedido": 94,
+    "tipo_bem_servico": "Transporte de idosos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 2,
+    "tipo_bem_servico": "Toalhas de banho",
+    "publico": 1
+  },
+  {
+    "id_pedido": 13,
+    "tipo_bem_servico": "Bilhete de metro",
+    "publico": 0
+  },
+  {
+    "id_pedido": 22,
+    "tipo_bem_servico": "Passe mensal",
+    "publico": 1
+  },
+  {
+    "id_pedido": 93,
+    "tipo_bem_servico": "Gel de banho",
+    "publico": 0
+  },
+  {
+    "id_pedido": 52,
+    "tipo_bem_servico": "Termómetro",
+    "publico": 1
+  },
+  {
+    "id_pedido": 94,
     "tipo_bem_servico": "Cobertor",
+    "publico": 0
+  },
+  {
+    "id_pedido": 54,
+    "tipo_bem_servico": "Botas de chuva",
+    "publico": 1
+  },
+  {
+    "id_pedido": 24,
+    "tipo_bem_servico": "Pensos rápidos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 47,
+    "tipo_bem_servico": "Lixívia",
+    "publico": 1
+  },
+  {
+    "id_pedido": 80,
+    "tipo_bem_servico": "Lápis e canetas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 50,
+    "tipo_bem_servico": "Farinha",
+    "publico": 0
+  },
+  {
+    "id_pedido": 79,
+    "tipo_bem_servico": "Açúcar",
+    "publico": 0
+  },
+  {
+    "id_pedido": 100,
+    "tipo_bem_servico": "Leite",
+    "publico": 0
+  },
+  {
+    "id_pedido": 7,
+    "tipo_bem_servico": "Sabonete",
+    "publico": 1
+  },
+  {
+    "id_pedido": 37,
+    "tipo_bem_servico": "Formação profissional",
+    "publico": 1
+  },
+  {
+    "id_pedido": 13,
+    "tipo_bem_servico": "Azeite",
+    "publico": 0
+  },
+  {
+    "id_pedido": 67,
+    "tipo_bem_servico": "Pensos higiénicos",
+    "publico": 0
+  },
+  {
+    "id_pedido": 30,
+    "tipo_bem_servico": "Livros escolares",
+    "publico": 1
+  },
+  {
+    "id_pedido": 61,
+    "tipo_bem_servico": "Velas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 6,
+    "tipo_bem_servico": "Champô",
+    "publico": 1
+  },
+  {
+    "id_pedido": 71,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "publico": 1
+  },
+  {
+    "id_pedido": 43,
+    "tipo_bem_servico": "Sabonete",
+    "publico": 1
+  },
+  {
+    "id_pedido": 66,
+    "tipo_bem_servico": "Roupa interior",
+    "publico": 1
+  },
+  {
+    "id_pedido": 59,
+    "tipo_bem_servico": "Medidor de tensão",
+    "publico": 1
+  },
+  {
+    "id_pedido": 56,
+    "tipo_bem_servico": "Passe mensal",
+    "publico": 1
+  },
+  {
+    "id_pedido": 1,
+    "tipo_bem_servico": "Calças de ganga",
+    "publico": 1
+  },
+  {
+    "id_pedido": 55,
+    "tipo_bem_servico": "Pasta de dentes",
+    "publico": 0
+  },
+  {
+    "id_pedido": 85,
+    "tipo_bem_servico": "Livros escolares",
+    "publico": 1
+  },
+  {
+    "id_pedido": 89,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "publico": 1
+  },
+  {
+    "id_pedido": 29,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "publico": 0
+  },
+  {
+    "id_pedido": 29,
+    "tipo_bem_servico": "Gel de banho",
+    "publico": 0
+  },
+  {
+    "id_pedido": 41,
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "publico": 1
+  },
+  {
+    "id_pedido": 96,
+    "tipo_bem_servico": "Pilhas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 79,
+    "tipo_bem_servico": "Medidor de tensão",
+    "publico": 1
+  },
+  {
+    "id_pedido": 85,
+    "tipo_bem_servico": "Pilhas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 70,
+    "tipo_bem_servico": "Apoio jurídico",
+    "publico": 1
+  },
+  {
+    "id_pedido": 32,
+    "tipo_bem_servico": "Apoio ao arrendamento",
+    "publico": 1
+  },
+  {
+    "id_pedido": 85,
+    "tipo_bem_servico": "Gel de banho",
+    "publico": 1
+  },
+  {
+    "id_pedido": 59,
+    "tipo_bem_servico": "Esfregão",
+    "publico": 0
+  },
+  {
+    "id_pedido": 67,
+    "tipo_bem_servico": "Botas de chuva",
+    "publico": 1
+  },
+  {
+    "id_pedido": 4,
+    "tipo_bem_servico": "Livros escolares",
+    "publico": 0
+  },
+  {
+    "id_pedido": 24,
+    "tipo_bem_servico": "Aulas de português para imigrantes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 59,
+    "tipo_bem_servico": "Gel de banho",
+    "publico": 1
+  },
+  {
+    "id_pedido": 29,
+    "tipo_bem_servico": "Lápis e canetas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 62,
+    "tipo_bem_servico": "Bilhete de metro",
+    "publico": 0
+  },
+  {
+    "id_pedido": 11,
+    "tipo_bem_servico": "Consulta de enfermagem",
+    "publico": 1
+  },
+  {
+    "id_pedido": 96,
+    "tipo_bem_servico": "Apoio social",
+    "publico": 1
+  },
+  {
+    "id_pedido": 46,
+    "tipo_bem_servico": "Pasta de dentes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 50,
+    "tipo_bem_servico": "Medidor de tensão",
+    "publico": 0
+  },
+  {
+    "id_pedido": 70,
+    "tipo_bem_servico": "Meias",
+    "publico": 1
+  },
+  {
+    "id_pedido": 29,
+    "tipo_bem_servico": "Detergente para a roupa",
+    "publico": 0
+  },
+  {
+    "id_pedido": 58,
+    "tipo_bem_servico": "Medidor de tensão",
+    "publico": 0
+  },
+  {
+    "id_pedido": 10,
+    "tipo_bem_servico": "Arroz",
+    "publico": 1
+  },
+  {
+    "id_pedido": 43,
+    "tipo_bem_servico": "Acompanhamento de idosos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 89,
+    "tipo_bem_servico": "Azeite",
+    "publico": 0
+  },
+  {
+    "id_pedido": 12,
+    "tipo_bem_servico": "Calças de ganga",
+    "publico": 1
+  },
+  {
+    "id_pedido": 91,
+    "tipo_bem_servico": "Consulta de enfermagem",
+    "publico": 0
+  },
+  {
+    "id_pedido": 50,
+    "tipo_bem_servico": "Massa",
+    "publico": 0
+  },
+  {
+    "id_pedido": 20,
+    "tipo_bem_servico": "Régua e compasso",
+    "publico": 0
+  },
+  {
+    "id_pedido": 43,
+    "tipo_bem_servico": "Material de escritório",
+    "publico": 1
+  },
+  {
+    "id_pedido": 69,
+    "tipo_bem_servico": "Limpeza de habitação",
+    "publico": 0
+  },
+  {
+    "id_pedido": 3,
+    "tipo_bem_servico": "Brinquedos para crianças",
+    "publico": 1
+  },
+  {
+    "id_pedido": 68,
+    "tipo_bem_servico": "Detergente para a roupa",
+    "publico": 0
+  },
+  {
+    "id_pedido": 47,
+    "tipo_bem_servico": "Leite",
+    "publico": 1
+  },
+  {
+    "id_pedido": 37,
+    "tipo_bem_servico": "Sabonete",
+    "publico": 1
+  },
+  {
+    "id_pedido": 70,
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "publico": 1
+  },
+  {
+    "id_pedido": 91,
+    "tipo_bem_servico": "Limpeza de habitação",
+    "publico": 1
+  },
+  {
+    "id_pedido": 49,
+    "tipo_bem_servico": "Consulta médica",
+    "publico": 0
+  },
+  {
+    "id_pedido": 64,
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "publico": 1
+  },
+  {
+    "id_pedido": 72,
+    "tipo_bem_servico": "Apoio social",
+    "publico": 0
+  },
+  {
+    "id_pedido": 97,
+    "tipo_bem_servico": "Livros escolares",
+    "publico": 0
+  },
+  {
+    "id_pedido": 1,
+    "tipo_bem_servico": "Pasta de dentes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 96,
+    "tipo_bem_servico": "Apoio psicológico",
+    "publico": 1
+  },
+  {
+    "id_pedido": 40,
+    "tipo_bem_servico": "Borracha",
+    "publico": 1
+  },
+  {
+    "id_pedido": 67,
+    "tipo_bem_servico": "Reparações domésticas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 43,
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "publico": 1
+  },
+  {
+    "id_pedido": 99,
+    "tipo_bem_servico": "Transporte escolar",
+    "publico": 0
+  },
+  {
+    "id_pedido": 61,
+    "tipo_bem_servico": "Feijão",
+    "publico": 0
+  },
+  {
+    "id_pedido": 83,
+    "tipo_bem_servico": "Paracetamol",
+    "publico": 1
+  },
+  {
+    "id_pedido": 7,
+    "tipo_bem_servico": "Massa",
+    "publico": 1
+  },
+  {
+    "id_pedido": 95,
+    "tipo_bem_servico": "Apoio psicológico",
+    "publico": 1
+  },
+  {
+    "id_pedido": 12,
+    "tipo_bem_servico": "Velas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 19,
+    "tipo_bem_servico": "Botas de chuva",
+    "publico": 1
+  },
+  {
+    "id_pedido": 69,
+    "tipo_bem_servico": "Champô",
+    "publico": 0
+  },
+  {
+    "id_pedido": 57,
+    "tipo_bem_servico": "Meias",
+    "publico": 1
+  },
+  {
+    "id_pedido": 20,
+    "tipo_bem_servico": "Apoio social",
+    "publico": 0
+  },
+  {
+    "id_pedido": 92,
+    "tipo_bem_servico": "Aulas de português para imigrantes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 66,
+    "tipo_bem_servico": "Pilhas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 9,
+    "tipo_bem_servico": "Pensos higiénicos",
+    "publico": 0
+  },
+  {
+    "id_pedido": 60,
+    "tipo_bem_servico": "Sal",
+    "publico": 1
+  },
+  {
+    "id_pedido": 54,
+    "tipo_bem_servico": "Régua e compasso",
+    "publico": 1
+  },
+  {
+    "id_pedido": 95,
+    "tipo_bem_servico": "Passe mensal",
+    "publico": 0
+  },
+  {
+    "id_pedido": 24,
+    "tipo_bem_servico": "Feijão",
+    "publico": 1
+  },
+  {
+    "id_pedido": 15,
+    "tipo_bem_servico": "Farinha",
+    "publico": 0
+  },
+  {
+    "id_pedido": 2,
+    "tipo_bem_servico": "Passe mensal",
+    "publico": 1
+  },
+  {
+    "id_pedido": 27,
+    "tipo_bem_servico": "Pensos higiénicos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 98,
+    "tipo_bem_servico": "Cadernos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 17,
+    "tipo_bem_servico": "Pasta de dentes",
+    "publico": 1
+  },
+  {
+    "id_pedido": 33,
+    "tipo_bem_servico": "Lápis e canetas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 46,
+    "tipo_bem_servico": "Acompanhamento de idosos",
     "publico": 1
   },
   {
     "id_pedido": 55,
     "tipo_bem_servico": "Régua e compasso",
+    "publico": 0
+  },
+  {
+    "id_pedido": 98,
+    "tipo_bem_servico": "Pensos higiénicos",
     "publico": 1
   },
   {
-    "id_pedido": 26,
-    "tipo_bem_servico": "Detergente para a roupa",
+    "id_pedido": 78,
+    "tipo_bem_servico": "Transporte para consultas",
     "publico": 0
   },
   {
-    "id_pedido": 25,
+    "id_pedido": 6,
+    "tipo_bem_servico": "Vitaminas",
+    "publico": 0
+  },
+  {
+    "id_pedido": 21,
+    "tipo_bem_servico": "Vitaminas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 50,
+    "tipo_bem_servico": "Borracha",
+    "publico": 1
+  },
+  {
+    "id_pedido": 66,
     "tipo_bem_servico": "Toalhas de banho",
-    "publico": 0
+    "publico": 1
   },
   {
-    "id_pedido": 95,
-    "tipo_bem_servico": "Leite",
-    "publico": 0
+    "id_pedido": 88,
+    "tipo_bem_servico": "Botas de chuva",
+    "publico": 1
   },
   {
-    "id_pedido": 19,
-    "tipo_bem_servico": "Almofada",
+    "id_pedido": 62,
+    "tipo_bem_servico": "Pensos rápidos",
+    "publico": 1
+  },
+  {
+    "id_pedido": 21,
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "publico": 1
+  },
+  {
+    "id_pedido": 75,
+    "tipo_bem_servico": "Velas",
+    "publico": 1
+  },
+  {
+    "id_pedido": 16,
+    "tipo_bem_servico": "Lençóis",
     "publico": 0
   },
   {
     "id_pedido": 45,
-    "tipo_bem_servico": "Pasta de dentes",
+    "tipo_bem_servico": "Fisioterapia",
+    "publico": 0
+  },
+  {
+    "id_pedido": 85,
+    "tipo_bem_servico": "Pensos rápidos",
     "publico": 1
   },
   {
-    "id_pedido": 23,
-    "tipo_bem_servico": "Passe mensal",
-    "publico": 1
-  },
-  {
-    "id_pedido": 42,
-    "tipo_bem_servico": "Cadernos",
-    "publico": 1
-  },
-  {
-    "id_pedido": 12,
+    "id_pedido": 14,
     "tipo_bem_servico": "Sopa em pó",
     "publico": 1
   },
   {
-    "id_pedido": 86,
-    "tipo_bem_servico": "Meias",
+    "id_pedido": 5,
+    "tipo_bem_servico": "Acompanhamento de idosos",
     "publico": 1
   },
   {
-    "id_pedido": 2,
-    "tipo_bem_servico": "Casaco de inverno",
-    "publico": 1
-  },
-  {
-    "id_pedido": 68,
-    "tipo_bem_servico": "Bilhete de autocarro",
+    "id_pedido": 35,
+    "tipo_bem_servico": "Calças de ganga",
     "publico": 0
   },
   {
-    "id_pedido": 58,
-    "tipo_bem_servico": "Velas",
+    "id_pedido": 78,
+    "tipo_bem_servico": "Azeite",
+    "publico": 1
+  },
+  {
+    "id_pedido": 31,
+    "tipo_bem_servico": "Explicações escolares",
     "publico": 1
   }
 ]

@@ -5,18 +5,18 @@ module.exports = (sequelize) => {
   "bens_e_servico",
   {
    tipo_bem_servico: {
-    type: DataTypes.STRING(10),
+    type: DataTypes.STRING(50),
     primaryKey: true,
    },
    tipo_bem: {
-    type: DataTypes.ENUM("alimentação", "vestuario", "higiene", "educação", "saude", "transporte", "habitacao", "outro"),
+    type: DataTypes.ENUM("bem", "servico"),
     allowNull: false,
    },
   },
   {
    tableName: "bens_e_servico",
    timestamps: false,
-  }
+  },
  );
 
  Bens_E_Servico.associate = (models) => {

@@ -8,13 +8,12 @@ module.exports = {
     primaryKey: true,
     allowNull: false,
     autoIncrement: true,
-    reference: { model: "pedido", key: "id_pedido" },
-    onDelete: "CASCADE",
+    references: { model: "pedido", key: "id_pedido" },
    },
    tipo_bem_servico: {
     type: Sequelize.STRING(255),
     allowNull: false,
-    reference: { model: "bem_servico", key: "tipo" },
+    references: { model: "bem_servico", key: "tipo" },
     onDelete: "CASCADE",
    },
    publico: {

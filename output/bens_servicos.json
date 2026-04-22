@@ -1,210 +1,294 @@
 [
   {
     "tipo_bem_servico": "Arroz",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Feijão",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Massa",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Azeite",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Açúcar",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Sal",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Leite",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Conservas de peixe",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Sopa em pó",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Farinha",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Casaco de inverno",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Calças de ganga",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Camisolas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Meias",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Roupa interior",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Sapatos",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Botas de chuva",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Fraldas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Champô",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Gel de banho",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Pasta de dentes",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Papel higiénico",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Pensos higiénicos",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Sabonete",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Paracetamol",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Ibuprofeno",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Pensos rápidos",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Álcool etílico",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Termómetro",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Medidor de tensão",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Vitaminas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Cadernos",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Lápis e canetas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Mochila escolar",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Livros escolares",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Régua e compasso",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Borracha",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Passe mensal",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Bilhete de autocarro",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Bilhete de metro",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Cobertor",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Lençóis",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Almofada",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Toalhas de banho",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Detergente para a roupa",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Lixívia",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Esfregão",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Brinquedos para crianças",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Material de escritório",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Pilhas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Velas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
   },
   {
     "tipo_bem_servico": "Lanternas",
-    "tipo_bem": "bem"
+    "tipo": "bem"
+  },
+  {
+    "tipo_bem_servico": "Consulta médica",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Consulta de enfermagem",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Fisioterapia",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Apoio psicológico",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Transporte para consultas",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Explicações escolares",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Aulas de português para imigrantes",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Formação profissional",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Apoio à literacia digital",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Reparações domésticas",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Limpeza de habitação",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Apoio ao arrendamento",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Pinturas e obras",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Transporte de idosos",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Transporte escolar",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Apoio jurídico",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Apoio social",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Acompanhamento de idosos",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Cuidados ao domicílio",
+    "tipo": "servico"
+  },
+  {
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "tipo": "servico"
   }
 ]

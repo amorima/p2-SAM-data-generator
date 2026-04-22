@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
   "locker_inteligente",
   {
    id_locker: {
-    type: DataTypes.STRING(45),
+    type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true,
    },
