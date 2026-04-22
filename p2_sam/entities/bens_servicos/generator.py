@@ -37,11 +37,34 @@ BENS_POR_CATEGORIA = {
     ],
 }
 
+SERVICOS_POR_CATEGORIA = {
+    "saude": [
+        "Consulta médica", "Consulta de enfermagem", "Fisioterapia",
+        "Apoio psicológico", "Transporte para consultas",
+    ],
+    "educacao": [
+        "Explicações escolares", "Aulas de português para imigrantes",
+        "Formação profissional", "Apoio à literacia digital",
+    ],
+    "habitacao": [
+        "Reparações domésticas", "Limpeza de habitação",
+        "Apoio ao arrendamento", "Pinturas e obras",
+    ],
+    "transporte": [
+        "Transporte de idosos", "Transporte escolar",
+        "Serviço de mobilidade reduzida",
+    ],
+    "outro": [
+        "Apoio jurídico", "Apoio social", "Acompanhamento de idosos",
+        "Cuidados ao domicílio", "Banco de horas voluntário",
+    ],
+}
+
 
 def generate_bens_servicos() -> list[dict]:
     """
-    Gera um registo por cada bem do dicionário, associado à sua categoria.
-    tipo_bem_servico é a PK — cada bem é único e estático.
+    Gera um registo por cada bem e serviço dos dicionários.
+    tipo_bem_servico é a PK — cada entrada é única e estática.
     tipo mapeia para o ENUM do model: 'bem' ou 'servico'.
     """
     resultados = []
@@ -50,7 +73,14 @@ def generate_bens_servicos() -> list[dict]:
         for bem in bens:
             resultados.append({
                 "tipo_bem_servico": bem,
-                "tipo_bem": "bem",
+                "tipo": "bem",
+            })
+
+    for categoria, servicos in SERVICOS_POR_CATEGORIA.items():
+        for servico in servicos:
+            resultados.append({
+                "tipo_bem_servico": servico,
+                "tipo": "servico",
             })
 
     print(f"  Concluído! {len(resultados)} bens e serviços gerados.\n")
