@@ -49,7 +49,7 @@ module.exports = (sequelize) => {
   {
    tableName: "leads",
    timestamps: false,
-  }
+  },
  );
 
  Lead.associate = (models) => {

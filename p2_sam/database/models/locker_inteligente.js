@@ -21,15 +21,19 @@ module.exports = (sequelize) => {
     type: DataTypes.DECIMAL(10, 8),
     allowNull: false,
    },
-   codigo_mestre: {
+   geo_longitude: {
     type: DataTypes.DECIMAL(11, 8),
+    allowNull: false,
+   },
+   codigo_mestre: {
+    type: DataTypes.STRING(45),
     allowNull: false,
    },
   },
   {
    tableName: "locker_inteligente",
    timestamps: false,
-  }
+  },
  );
 
  Locker_Inteligente.associate = (models) => {
