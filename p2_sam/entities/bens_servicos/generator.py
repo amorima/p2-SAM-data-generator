@@ -5,58 +5,58 @@ faker = Faker("pt_PT")
 
 BENS_POR_CATEGORIA = {
     "alimentacao": [
-        "Arroz", "Feijão", "Massa", "Azeite", "Açúcar", "Sal",
-        "Leite", "Conservas de peixe", "Sopa em pó", "Farinha",
+        "arroz", "feijao", "massa", "azeite", "acucar", "sal",
+        "leite", "conservas de peixe", "sopa em po", "farinha",
     ],
     "vestuario": [
-        "Casaco de inverno", "Calças de ganga", "Camisolas",
-        "Meias", "Roupa interior", "Sapatos", "Botas de chuva",
+        "casaco de inverno", "calcas de ganga", "camisolas",
+        "meias", "roupa interior", "sapatos", "botas de chuva",
     ],
     "higiene": [
-        "Fraldas", "Champô", "Gel de banho", "Pasta de dentes",
-        "Papel higiénico", "Pensos higiénicos", "Sabonete",
+        "fraldas", "champo", "gel de banho", "pasta de dentes",
+        "papel higienico", "pensos higienicos", "sabonete",
     ],
     "saude": [
-        "Paracetamol", "Ibuprofeno", "Pensos rápidos", "Álcool etílico",
-        "Termómetro", "Medidor de tensão", "Vitaminas",
+        "paracetamol", "ibuprofeno", "pensos rapidos", "alcool etilico",
+        "termometro", "medidor de tensao", "vitaminas",
     ],
     "educacao": [
-        "Cadernos", "Lápis e canetas", "Mochila escolar",
-        "Livros escolares", "Régua e compasso", "Borracha",
+        "cadernos", "lapis e canetas", "mochila escolar",
+        "livros escolares", "regua e compasso", "borracha",
     ],
     "transporte": [
-        "Passe mensal", "Bilhete de autocarro", "Bilhete de metro",
+        "passe mensal", "bilhete de autocarro", "bilhete de metro",
     ],
     "habitacao": [
-        "Cobertor", "Lençóis", "Almofada", "Toalhas de banho",
-        "Detergente para a roupa", "Lixívia", "Esfregão",
+        "cobertor", "lencois", "almofada", "toalhas de banho",
+        "detergente para a roupa", "lixivia", "esfregao",
     ],
     "outro": [
-        "Brinquedos para crianças", "Material de escritório",
-        "Pilhas", "Velas", "Lanternas",
+        "brinquedos para criancas", "material de escritorio",
+        "pilhas", "velas", "lanternas",
     ],
 }
 
 SERVICOS_POR_CATEGORIA = {
     "saude": [
-        "Consulta médica", "Consulta de enfermagem", "Fisioterapia",
-        "Apoio psicológico", "Transporte para consultas",
+        "consulta medica", "consulta de enfermagem", "fisioterapia",
+        "apoio psicologico", "transporte para consultas",
     ],
     "educacao": [
-        "Explicações escolares", "Aulas de português para imigrantes",
-        "Formação profissional", "Apoio à literacia digital",
+        "explicacoes escolares", "aulas de portugues para imigrantes",
+        "formacao profissional", "apoio a literacia digital",
     ],
     "habitacao": [
-        "Reparações domésticas", "Limpeza de habitação",
-        "Apoio ao arrendamento", "Pinturas e obras",
+        "reparacoes domesticas", "limpeza de habitacao",
+        "apoio ao arrendamento", "pinturas e obras",
     ],
     "transporte": [
-        "Transporte de idosos", "Transporte escolar",
-        "Serviço de mobilidade reduzida",
+        "transporte de idosos", "transporte escolar",
+        "servico de mobilidade reduzida",
     ],
     "outro": [
-        "Apoio jurídico", "Apoio social", "Acompanhamento de idosos",
-        "Cuidados ao domicílio", "Banco de horas voluntário",
+        "apoio juridico", "apoio social", "acompanhamento de idosos",
+        "cuidados ao domicilio", "banco de horas voluntario",
     ],
 }
 
