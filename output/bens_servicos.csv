@@ -1,74 +1,74 @@
 tipo_bem_servico,tipo
-Arroz,bem
-Feijão,bem
-Massa,bem
-Azeite,bem
-Açúcar,bem
-Sal,bem
-Leite,bem
-Conservas de peixe,bem
-Sopa em pó,bem
-Farinha,bem
-Casaco de inverno,bem
-Calças de ganga,bem
-Camisolas,bem
-Meias,bem
-Roupa interior,bem
-Sapatos,bem
-Botas de chuva,bem
-Fraldas,bem
-Champô,bem
-Gel de banho,bem
-Pasta de dentes,bem
-Papel higiénico,bem
-Pensos higiénicos,bem
-Sabonete,bem
-Paracetamol,bem
-Ibuprofeno,bem
-Pensos rápidos,bem
-Álcool etílico,bem
-Termómetro,bem
-Medidor de tensão,bem
-Vitaminas,bem
-Cadernos,bem
-Lápis e canetas,bem
-Mochila escolar,bem
-Livros escolares,bem
-Régua e compasso,bem
-Borracha,bem
-Passe mensal,bem
-Bilhete de autocarro,bem
-Bilhete de metro,bem
-Cobertor,bem
-Lençóis,bem
-Almofada,bem
-Toalhas de banho,bem
-Detergente para a roupa,bem
-Lixívia,bem
-Esfregão,bem
-Brinquedos para crianças,bem
-Material de escritório,bem
-Pilhas,bem
-Velas,bem
-Lanternas,bem
-Consulta médica,servico
-Consulta de enfermagem,servico
-Fisioterapia,servico
-Apoio psicológico,servico
-Transporte para consultas,servico
-Explicações escolares,servico
-Aulas de português para imigrantes,servico
-Formação profissional,servico
-Apoio à literacia digital,servico
-Reparações domésticas,servico
-Limpeza de habitação,servico
-Apoio ao arrendamento,servico
-Pinturas e obras,servico
-Transporte de idosos,servico
-Transporte escolar,servico
-Serviço de mobilidade reduzida,servico
-Apoio jurídico,servico
-Apoio social,servico
-Acompanhamento de idosos,servico
-Cuidados ao domicílio,servico
-Banco de horas voluntário,servico
+arroz,bem
+feijao,bem
+massa,bem
+azeite,bem
+acucar,bem
+sal,bem
+leite,bem
+conservas de peixe,bem
+sopa em po,bem
+farinha,bem
+casaco de inverno,bem
+calcas de ganga,bem
+camisolas,bem
+meias,bem
+roupa interior,bem
+sapatos,bem
+botas de chuva,bem
+fraldas,bem
+champo,bem
+gel de banho,bem
+pasta de dentes,bem
+papel higienico,bem
+pensos higienicos,bem
+sabonete,bem
+paracetamol,bem
+ibuprofeno,bem
+pensos rapidos,bem
+alcool etilico,bem
+termometro,bem
+medidor de tensao,bem
+vitaminas,bem
+cadernos,bem
+lapis e canetas,bem
+mochila escolar,bem
+livros escolares,bem
+regua e compasso,bem
+borracha,bem
+passe mensal,bem
+bilhete de autocarro,bem
+bilhete de metro,bem
+cobertor,bem
+lencois,bem
+almofada,bem
+toalhas de banho,bem
+detergente para a roupa,bem
+lixivia,bem
+esfregao,bem
+brinquedos para criancas,bem
+material de escritorio,bem
+pilhas,bem
+velas,bem
+lanternas,bem
+consulta medica,servico
+consulta de enfermagem,servico
+fisioterapia,servico
+apoio psicologico,servico
+transporte para consultas,servico
+explicacoes escolares,servico
+aulas de portugues para imigrantes,servico
+formacao profissional,servico
+apoio a literacia digital,servico
+reparacoes domesticas,servico
+limpeza de habitacao,servico
+apoio ao arrendamento,servico
+pinturas e obras,servico
+transporte de idosos,servico
+transporte escolar,servico
+servico de mobilidade reduzida,servico
+apoio juridico,servico
+apoio social,servico
+acompanhamento de idosos,servico
+cuidados ao domicilio,servico
+banco de horas voluntario,servico

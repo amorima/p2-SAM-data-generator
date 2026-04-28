@@ -13,7 +13,7 @@ module.exports = {
    tipo_bem_servico: {
     type: Sequelize.STRING(255),
     allowNull: false,
-    references: { model: "bem_servico", key: "tipo" },
+    references: { model: "bem_e_servicos", key: "tipo" },
     onDelete: "CASCADE",
    },
    publico: {

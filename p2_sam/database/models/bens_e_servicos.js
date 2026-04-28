@@ -2,19 +2,19 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
  const Bens_E_Servico = sequelize.define(
-  "bens_e_servico",
+  "bens_e_servicos",
   {
    tipo_bem_servico: {
     type: DataTypes.STRING(50),
     primaryKey: true,
    },
-   tipo_bem: {
+   tipo: {
     type: DataTypes.ENUM("bem", "servico"),
     allowNull: false,
    },
   },
   {
-   tableName: "bens_e_servico",
+   tableName: "bens_e_servicos",
    timestamps: false,
   },
  );

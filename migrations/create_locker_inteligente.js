@@ -4,13 +4,13 @@ module.exports = {
  async up(queryInterface, Sequelize) {
   await queryInterface.createTable("locker_inteligente", {
    id_locker: {
-    type: Sequelize.STRING(45),
+    type: Sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,
     autoIncrement: true,
    },
    estado: {
-    type: Sequelize.ENUM("DISPONIVEL", "OCUPADO", "MANUTENCAO"),
+    type: Sequelize.ENUM("DISPONIVEL", "INDISPONIVEL", "OCUPADO", "MANUTENCAO"),
     allowNull: false,
    },
    codigo_mestre: {

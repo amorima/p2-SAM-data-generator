@@ -1,151 +1,151 @@
 id_pedido,tipo_bem_servico,publico
-4,Farinha,1
-72,Serviço de mobilidade reduzida,0
-71,Sopa em pó,1
-73,Banco de horas voluntário,1
-40,Fisioterapia,1
-79,Lápis e canetas,1
-42,Fraldas,0
-94,Casaco de inverno,1
-40,Serviço de mobilidade reduzida,1
-22,Bilhete de autocarro,1
-64,Azeite,1
-42,Roupa interior,0
-22,Sopa em pó,1
-2,Acompanhamento de idosos,1
-50,Consulta de enfermagem,0
-11,Transporte de idosos,1
-75,Arroz,0
-96,Sabonete,0
-94,Sopa em pó,1
-57,Lápis e canetas,1
-65,Esfregão,1
-51,Calças de ganga,1
-98,Pasta de dentes,1
-51,Medidor de tensão,1
-31,Açúcar,1
-14,Transporte de idosos,1
-47,Almofada,1
-26,Toalhas de banho,0
-27,Fraldas,1
-48,Lixívia,1
-94,Transporte de idosos,1
-2,Toalhas de banho,1
-13,Bilhete de metro,0
-22,Passe mensal,1
-93,Gel de banho,0
-52,Termómetro,1
-94,Cobertor,0
-54,Botas de chuva,1
-24,Pensos rápidos,1
-47,Lixívia,1
-80,Lápis e canetas,0
-50,Farinha,0
-79,Açúcar,0
-100,Leite,0
-7,Sabonete,1
-37,Formação profissional,1
-13,Azeite,0
-67,Pensos higiénicos,0
-30,Livros escolares,1
-61,Velas,1
-6,Champô,1
-71,Serviço de mobilidade reduzida,1
-43,Sabonete,1
-66,Roupa interior,1
-59,Medidor de tensão,1
-56,Passe mensal,1
-1,Calças de ganga,1
-55,Pasta de dentes,0
-85,Livros escolares,1
-89,Serviço de mobilidade reduzida,1
-29,Serviço de mobilidade reduzida,0
-29,Gel de banho,0
-41,Banco de horas voluntário,1
-96,Pilhas,0
-79,Medidor de tensão,1
-85,Pilhas,0
-70,Apoio jurídico,1
-32,Apoio ao arrendamento,1
-85,Gel de banho,1
-59,Esfregão,0
-67,Botas de chuva,1
-4,Livros escolares,0
-24,Aulas de português para imigrantes,1
-59,Gel de banho,1
-29,Lápis e canetas,1
-62,Bilhete de metro,0
-11,Consulta de enfermagem,1
-96,Apoio social,1
-46,Pasta de dentes,1
-50,Medidor de tensão,0
-70,Meias,1
-29,Detergente para a roupa,0
-58,Medidor de tensão,0
-10,Arroz,1
-43,Acompanhamento de idosos,1
-89,Azeite,0
-12,Calças de ganga,1
-91,Consulta de enfermagem,0
-50,Massa,0
-20,Régua e compasso,0
-43,Material de escritório,1
-69,Limpeza de habitação,0
-3,Brinquedos para crianças,1
-68,Detergente para a roupa,0
-47,Leite,1
-37,Sabonete,1
-70,Banco de horas voluntário,1
-91,Limpeza de habitação,1
-49,Consulta médica,0
-64,Serviço de mobilidade reduzida,1
-72,Apoio social,0
-97,Livros escolares,0
-1,Pasta de dentes,1
-96,Apoio psicológico,1
-40,Borracha,1
-67,Reparações domésticas,0
-43,Banco de horas voluntário,1
-99,Transporte escolar,0
-61,Feijão,0
-83,Paracetamol,1
-7,Massa,1
-95,Apoio psicológico,1
-12,Velas,0
-19,Botas de chuva,1
-69,Champô,0
-57,Meias,1
-20,Apoio social,0
-92,Aulas de português para imigrantes,1
-66,Pilhas,1
-9,Pensos higiénicos,0
-60,Sal,1
-54,Régua e compasso,1
-95,Passe mensal,0
-24,Feijão,1
-15,Farinha,0
-2,Passe mensal,1
-27,Pensos higiénicos,1
-98,Cadernos,1
-17,Pasta de dentes,1
-33,Lápis e canetas,0
-46,Acompanhamento de idosos,1
-55,Régua e compasso,0
-98,Pensos higiénicos,1
-78,Transporte para consultas,0
-6,Vitaminas,0
-21,Vitaminas,1
-50,Borracha,1
-66,Toalhas de banho,1
-88,Botas de chuva,1
-62,Pensos rápidos,1
-21,Banco de horas voluntário,1
-75,Velas,1
-16,Lençóis,0
-45,Fisioterapia,0
-85,Pensos rápidos,1
-14,Sopa em pó,1
-5,Acompanhamento de idosos,1
-35,Calças de ganga,0
-78,Azeite,1
-31,Explicações escolares,1
+62,sal,1
+9,livros escolares,0
+22,termometro,1
+10,regua e compasso,1
+84,toalhas de banho,1
+39,apoio social,1
+87,toalhas de banho,0
+60,bilhete de metro,0
+52,reparacoes domesticas,1
+15,feijao,1
+98,consulta medica,0
+6,feijao,1
+49,brinquedos para criancas,1
+52,pensos rapidos,1
+44,consulta de enfermagem,1
+53,fisioterapia,1
+25,ibuprofeno,1
+33,cadernos,1
+62,ibuprofeno,0
+99,azeite,1
+21,meias,1
+76,detergente para a roupa,1
+94,massa,1
+47,massa,1
+67,champo,0
+24,mochila escolar,0
+34,termometro,1
+12,consulta de enfermagem,1
+64,velas,0
+38,roupa interior,1
+84,ibuprofeno,0
+77,apoio social,1
+26,formacao profissional,1
+80,conservas de peixe,1
+59,apoio psicologico,0
+94,farinha,1
+79,servico de mobilidade reduzida,0
+18,apoio a literacia digital,1
+85,pasta de dentes,0
+36,medidor de tensao,1
+19,sabonete,1
+27,reparacoes domesticas,0
+60,consulta medica,1
+38,apoio a literacia digital,1
+30,camisolas,1
+84,meias,1
+70,limpeza de habitacao,1
+26,camisolas,1
+63,apoio social,0
+27,aulas de portugues para imigrantes,0
+74,massa,1
+6,detergente para a roupa,1
+30,sal,0
+35,cobertor,1
+98,medidor de tensao,1
+5,apoio social,1
+31,conservas de peixe,0
+9,bilhete de metro,1
+40,consulta medica,1
+46,pasta de dentes,1
+99,esfregao,1
+72,transporte escolar,0
+29,roupa interior,1
+73,massa,1
+4,transporte de idosos,1
+37,almofada,1
+62,leite,1
+83,transporte de idosos,1
+83,paracetamol,0
+97,pensos higienicos,1
+5,pasta de dentes,1
+11,apoio psicologico,0
+28,azeite,1
+63,transporte escolar,0
+45,explicacoes escolares,1
+35,acucar,1
+19,pilhas,1
+83,meias,0
+7,lixivia,1
+44,explicacoes escolares,1
+43,pilhas,1
+51,feijao,1
+99,medidor de tensao,1
+89,transporte para consultas,1
+71,mochila escolar,1
+80,pasta de dentes,0
+53,consulta medica,1
+10,transporte para consultas,1
+64,camisolas,1
+29,pinturas e obras,1
+80,servico de mobilidade reduzida,1
+19,medidor de tensao,0
+72,almofada,1
+47,borracha,1
+72,massa,1
+5,sabonete,0
+11,servico de mobilidade reduzida,0
+56,meias,1
+51,velas,1
+60,explicacoes escolares,1
+11,lanternas,1
+23,fisioterapia,1
+61,transporte para consultas,0
+60,velas,1
+93,almofada,1
+36,passe mensal,1
+32,apoio juridico,1
+41,explicacoes escolares,1
+23,papel higienico,1
+15,sal,0
+99,camisolas,0
+30,papel higienico,1
+78,arroz,0
+50,gel de banho,1
+72,lixivia,1
+84,reparacoes domesticas,1
+14,explicacoes escolares,0
+81,botas de chuva,1
+99,pinturas e obras,0
+91,consulta de enfermagem,1
+47,termometro,1
+20,bilhete de autocarro,0
+73,servico de mobilidade reduzida,1
+39,botas de chuva,1
+42,vitaminas,0
+3,almofada,1
+25,pensos higienicos,1
+47,formacao profissional,0
+75,almofada,0
+22,detergente para a roupa,0
+10,lapis e canetas,1
+88,feijao,1
+64,mochila escolar,1
+22,brinquedos para criancas,1
+89,passe mensal,1
+33,sabonete,1
+28,pilhas,1
+85,paracetamol,1
+57,lanternas,1
+2,feijao,0
+94,ibuprofeno,1
+32,ibuprofeno,0
+70,medidor de tensao,1
+11,acompanhamento de idosos,1
+100,cuidados ao domicilio,1
+65,cuidados ao domicilio,1
+64,borracha,1
+16,lanternas,1
+88,apoio psicologico,1
+40,esfregao,1
