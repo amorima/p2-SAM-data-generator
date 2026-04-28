@@ -7,14 +7,13 @@ module.exports = {
     type: Sequelize.STRING(45),
     primaryKey: true,
     allowNull: false,
-    reference: { model: "entidade", key: "nif_nipc" },
-    onDelete: "CASCADE",
+    references: { model: "entidade", key: "nif_nipc" },
    },
    localidade_codigo_postal: {
     type: Sequelize.STRING(45),
     primaryKey: true,
     allowNull: false,
-    reference: { model: "localidade", key: "codigo_postal" },
+    references: { model: "localidade", key: "codigo_postal" },
     onDelete: "CASCADE",
    },
   });

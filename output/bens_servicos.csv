@@ -1,4 +1,4 @@
-tipo_bem_servico,tipo_bem
+tipo_bem_servico,tipo
 Arroz,bem
 Feijão,bem
 Massa,bem
@@ -51,3 +51,24 @@ Material de escritório,bem
 Pilhas,bem
 Velas,bem
 Lanternas,bem
+Consulta médica,servico
+Consulta de enfermagem,servico
+Fisioterapia,servico
+Apoio psicológico,servico
+Transporte para consultas,servico
+Explicações escolares,servico
+Aulas de português para imigrantes,servico
+Formação profissional,servico
+Apoio à literacia digital,servico
+Reparações domésticas,servico
+Limpeza de habitação,servico
+Apoio ao arrendamento,servico
+Pinturas e obras,servico
+Transporte de idosos,servico
+Transporte escolar,servico
+Serviço de mobilidade reduzida,servico
+Apoio jurídico,servico
+Apoio social,servico
+Acompanhamento de idosos,servico
+Cuidados ao domicílio,servico
+Banco de horas voluntário,servico

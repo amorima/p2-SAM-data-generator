@@ -12,6 +12,7 @@ Projeto académico desenvolvido no âmbito da Licenciatura em Tecnologias e Sist
 - [Arquitetura de Dados](#arquitetura-de-dados)
 - [Estrutura do Repositório](#estrutura-do-repositório)
 - [Entidades Geradas](#entidades-geradas)
+- [Notas de Geração](#notas-de-geração)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Utilização](#utilização)
@@ -27,7 +28,7 @@ Este repositório é responsável pela **geração de dados sintéticos realista
 Os dados gerados cobrem as duas bases de dados do projeto:
 
 - **MySQL** — dados relacionais e transacionais (entidades, doações, pedidos, lockers, etc.)
-- **MongoDB** — dados não relacionais de telemetria IoT, auditoria financeira e logs de interação
+- **MongoDB** — dados não relacionais de telemetria IoT, auditoria financeira, logs de interação, notificações e vouchers
 
 ---
 
@@ -46,7 +47,9 @@ Dispositivos IoT / Frontend Web
 
 **MySQL** armazena dados transacionais e de negócio: entidades, mecenas, doações, pedidos, lockers e painéis.
 
-**MongoDB** armazena dados de alto volume e estrutura variável: telemetria dos equipamentos IoT, auditoria de pagamentos e logs de comportamento dos utilizadores nos painéis digitais.
+**MongoDB** armazena dados de alto volume e estrutura variável: telemetria dos equipamentos IoT, auditoria de pagamentos, logs de comportamento dos utilizadores nos painéis digitais, notificações e vouchers.
+
+A interoperabilidade entre as duas bases de dados é assegurada pela camada de aplicação (Backend). Os documentos MongoDB armazenam os identificadores únicos (PKs) das entidades SQL, permitindo o cruzamento de informação sempre que necessário.
 
 ---
 
@@ -55,14 +58,12 @@ Dispositivos IoT / Frontend Web
 ```
 p2-SAM-data-generator/
 ├── p2_sam/
-│   ├── __main__.py                  # Ponto de entrada — orquestra toda a geração
+│   ├── __main__.py                        # Ponto de entrada — orquestra toda a geração
 │   ├── entities/
 │   │   ├── localidade/
-│   │   │   ├── generator.py         # Gera códigos postais válidos via GeoNames
-│   │   │   └── schema.py
+│   │   │   └── generator.py               # Gera códigos postais válidos via GeoNames
 │   │   ├── entidade/
-│   │   │   ├── generator.py         # Agrega NIFs de mecenas, negócios e instituições
-│   │   │   └── schema.py
+│   │   │   └── generator.py               # Agrega NIFs de mecenas, negócios e instituições
 │   │   ├── mecena/
 │   │   │   └── generator.py
 │   │   ├── doacao/
@@ -76,7 +77,7 @@ p2-SAM-data-generator/
 │   │   ├── pedido/
 │   │   │   └── generator.py
 │   │   ├── bens_servicos/
-│   │   │   └── generator.py
+│   │   │   └── generator.py               # Dicionário estático de bens e serviços
 │   │   ├── pedido_bens_servico/
 │   │   │   └── generator.py
 │   │   ├── painel_digital/
@@ -85,12 +86,19 @@ p2-SAM-data-generator/
 │   │   │   └── generator.py
 │   │   ├── cidadao/
 │   │   │   └── generator.py
-│   │   └── lead/
-│   │       └── generator.py
+│   │   ├── lead/
+│   │   │   └── generator.py
+│   │   └── nosql/
+│   │       ├── locker_telemetry_generator.py
+│   │       ├── financial_log_generator.py  # Um log por cada doação gerada
+│   │       ├── interaction_log_generator.py
+│   │       ├── notification_generator.py
+│   │       └── voucher_generator.py
 │   └── exporters/
-│       ├── csv_exporter.py          # Exporta qualquer entidade para CSV
-│       └── json_exporter.py         # Exporta qualquer entidade para JSON
-├── models/                          # Models Sequelize (MySQL)
+│       ├── csv_exporter.py                # Exporta qualquer entidade para CSV
+│       ├── json_exporter.py               # Exporta qualquer entidade para JSON
+│       └── mongodb_exporter.py            # Exporta coleções NoSQL para JSON
+├── models/                                # Models Sequelize (MySQL)
 │   ├── index.js
 │   ├── entidade.js
 │   ├── mecenas.js
@@ -107,11 +115,32 @@ p2-SAM-data-generator/
 │   ├── painel.js
 │   ├── locker_inteligente.js
 │   └── lead.js
+├── migrations/                            # Migrations Sequelize (MySQL)
+│   ├── 01-create-localidade.js
+│   ├── 02-create-entidade.js
+│   ├── 03-create-localidade-entidade.js
+│   ├── 04-create-mecena.js
+│   ├── 05-create-doacao.js
+│   ├── 06-create-negocio.js
+│   ├── 07-create-instituicao.js
+│   ├── 08-create-contacto.js
+│   ├── 09-create-bens-e-servico.js
+│   ├── 10-create-bens-e-servicos-negocio.js
+│   ├── 11-create-pedido.js
+│   ├── 12-create-pedido-bens-e-servicos.js
+│   ├── 13-create-painel.js
+│   ├── 14-create-locker-inteligente.js
+│   ├── 15-create-cidadao.js
+│   └── 16-create-lead.js
+├── seeders/                               # Seeders Sequelize (MySQL)
+│   ├── 01-seed-localidade.js
+│   ├── 02-seed-entidade.js
+│   └── 03-seed-localidade-entidade.js
 ├── config/
-│   └── database.js                  # Configuração da ligação Sequelize
-├── output/                          # Ficheiros gerados (JSON + CSV) — não versionado
+│   └── database.js                        # Configuração da ligação Sequelize
+├── output/                                # Ficheiros gerados (JSON + CSV) — não versionado
 ├── tests/
-│   └── codigo_postal_rua.py         # Testes isolados
+│   └── codigo_postal_rua.py               # Testes isolados
 ├── pyproject.toml
 └── README.md
 ```
@@ -120,10 +149,12 @@ p2-SAM-data-generator/
 
 ## Entidades Geradas
 
+### MySQL
+
 A geração segue a ordem de dependências — entidades sem dependências são criadas primeiro, as que referenciam outras são criadas depois.
 
 | Ordem | Entidade | Quantidade | Dependências |
-|-------|----------|-----------|--------------|
+|-------|----------|------------|--------------|
 | 1 | `Localidade` | 100 | — |
 | 2 | `Mecena` | 50 | — |
 | 3 | `Negocio` | 50 | Localidade |
@@ -134,13 +165,27 @@ A geração segue a ordem de dependências — entidades sem dependências são 
 | 8 | `Painel_Digital` | 30 | Localidade |
 | 9 | `Locker_Inteligente` | 30 | Localidade |
 | 10 | `Cidadao` | 100 | — |
-| 11 | `Bens_E_Servicos` | 50 | — |
+| 11 | `Bens_E_Servicos` | ~55 (estático) | — |
 | 12 | `Pedido` | 100 | Entidade |
 | 13 | `Pedido_Bens_E_Servicos` | 150 | Pedido + Bens_E_Servicos |
 | 14 | `Bens_E_Servicos_Negocio` | 100 | Negocio + Bens_E_Servicos |
 | 15 | `Lead` | 100 | Painel + Pedido + Locker + Cidadao |
 
-### Notas de geração
+### MongoDB
+
+As coleções NoSQL são geradas após toda a geração SQL, pois referenciam PKs das tabelas relacionais.
+
+| Coleção | Quantidade | Referência SQL |
+|---------|------------|----------------|
+| `locker_telemetry` | 200 | `locker_inteligente.id_locker` / `painel.id_dispositivo` |
+| `financial_log` | 1 por doação (200) | `doacao.id_doacao` |
+| `interaction_log` | 300 | `painel.id_dispositivo` |
+| `notification` | 150 | `leads.id_lead` |
+| `vouchers` | 100 | `entidade.nif_nipc` + `negocio.nif_nipc` |
+
+---
+
+## Notas de Geração
 
 **Localidade** — os códigos postais são gerados com `faker.postcode()` (locale `pt_PT`) e validados contra a base GeoNames via [pgeocode](https://pgeocode.readthedocs.io/). Códigos inválidos são descartados e regenerados. As coordenadas geográficas reais ficam disponíveis internamente (prefixo `_`) para uso por outras entidades, mas não são exportadas nesta tabela.
 
@@ -149,14 +194,18 @@ A geração segue a ordem de dependências — entidades sem dependências são 
 - `Negocio`: `5` ou `9` (maioria `9` — empresas privadas)
 - `Instituicao`: `5` ou `9` (entidades públicas e coletivas sem fins lucrativos)
 
-**Entidade** — não gera NIFs próprios. Agrega os NIFs já gerados por `Mecena`, `Negocio` e `Instituicao`, e cria para cada um o `email_login` (formato `primeiro.ultimo@dominio` para pessoas, `nomedaorganizacao@dominio` para organizações), `password`, `iban` e `codigo_postal`.
+**Entidade** — não gera NIFs próprios. Agrega os NIFs já gerados por `Mecena`, `Negocio` e `Instituicao`, e cria para cada um o `email_login` (formato `primeiro.ultimo@dominio` para pessoas, `nomedaorganizacao@dominio` para organizações), `password`, `iban` e endereço.
+
+**Bens_E_Servicos** — geração estática a partir de dois dicionários: `BENS_POR_CATEGORIA` e `SERVICOS_POR_CATEGORIA`. Cada entrada é única e serve como PK da tabela. Os valores não têm acentos nem maiúsculas para compatibilidade com a BD. O campo `tipo` mapeia para o ENUM do model: `"bem"` ou `"servico"`.
+
+**Financial_Log** — cada doação gera exatamente um log financeiro, partilhando a mesma data. Garante cobertura total de auditoria sem registos órfãos.
 
 ---
 
 ## Pré-requisitos
 
 - Python 3.11+
-- Node.js 18+ (para os models Sequelize)
+- Node.js 18+ (para os models, migrations e seeders Sequelize)
 
 ---
 
@@ -196,9 +245,9 @@ O terminal mostra o progresso da geração de cada entidade, incluindo número d
 Para alterar as quantidades geradas, editar as chamadas em `p2_sam/__main__.py`:
 
 ```python
-localidades = generate_localidades(n=100)   # alterar n
-mecenas     = generate_mecenas(n=50)
-doacoes     = generate_doacoes(n=200, mecenas=mecenas)
+localidades  = generate_localidades(n=100)
+mecenas      = generate_mecenas(n=50)
+doacoes      = generate_doacoes(n=200, mecenas=mecenas)
 # ...
 ```
 
@@ -206,25 +255,33 @@ doacoes     = generate_doacoes(n=200, mecenas=mecenas)
 
 ## Output
 
-Após a execução, a pasta `output/` contém um par de ficheiros por entidade:
+Após a execução, a pasta `output/` contém os ficheiros gerados:
 
 ```
 output/
-├── localidade.json / localidade.csv
-├── entidade.json   / entidade.csv
-├── mecena.json     / mecena.csv
-├── doacao.json     / doacao.csv
-├── negocio.json    / negocio.csv
-├── instituicao.json / instituicao.csv
-├── contacto.json   / contacto.csv
-├── pedido.json     / pedido.csv
-├── bens_servicos.json / bens_servicos.csv
+├── # MySQL — par JSON + CSV por entidade
+├── localidade.json           / localidade.csv
+├── entidade.json             / entidade.csv
+├── mecena.json               / mecena.csv
+├── doacao.json               / doacao.csv
+├── negocio.json              / negocio.csv
+├── instituicao.json          / instituicao.csv
+├── contacto.json             / contacto.csv
+├── pedido.json               / pedido.csv
+├── bens_servicos.json        / bens_servicos.csv
 ├── pedido_bens_servicos.json / pedido_bens_servicos.csv
 ├── bens_servicos_negocio.json / bens_servicos_negocio.csv
-├── painel_digital.json / painel_digital.csv
-├── locker.json     / locker.csv
-├── cidadao.json    / cidadao.csv
-└── lead.json       / lead.csv
+├── painel_digital.json       / painel_digital.csv
+├── locker.json               / locker.csv
+├── cidadao.json              / cidadao.csv
+├── lead.json                 / lead.csv
+│
+└── # MongoDB — apenas JSON, prefixado com nosql_
+    ├── nosql_locker_telemetry.json
+    ├── nosql_financial_log.json
+    ├── nosql_interaction_log.json
+    ├── nosql_notification.json
+    └── nosql_vouchers.json
 ```
 
 A pasta `output/` está no `.gitignore` — os ficheiros gerados não são versionados.
@@ -233,13 +290,30 @@ A pasta `output/` está no `.gitignore` — os ficheiros gerados não são versi
 
 ## Migração para a Base de Dados
 
-Os ficheiros JSON gerados podem ser consumidos pelos seeders Sequelize para popular a base de dados MySQL. O padrão de importação em cada seeder é:
+### MySQL — Sequelize
 
-```javascript
-const data = require('../../output/localidade.json');
-await Localidade.bulkCreate(data, { ignoreDuplicates: true });
+Correr as migrations para criar as tabelas:
+
+```bash
+npx sequelize-cli db:migrate
 ```
 
-A ordem de inserção deve respeitar as foreign keys — a mesma ordem da tabela de entidades acima.
+Correr os seeders para popular a base de dados com os dados gerados:
 
-Os models Sequelize estão na pasta `models/` e a configuração da ligação à base de dados em `config/database.js`.
+```bash
+npx sequelize-cli db:seed:all
+```
+
+A ordem de execução respeita automaticamente as foreign keys pela numeração dos ficheiros (`01-`, `02-`, etc.).
+
+### MongoDB
+
+Os ficheiros `nosql_*.json` podem ser importados diretamente com o `mongoimport`:
+
+```bash
+mongoimport --db sam --collection locker_telemetry --file output/nosql_locker_telemetry.json --jsonArray
+mongoimport --db sam --collection financial_log     --file output/nosql_financial_log.json     --jsonArray
+mongoimport --db sam --collection interaction_log   --file output/nosql_interaction_log.json   --jsonArray
+mongoimport --db sam --collection notification      --file output/nosql_notification.json      --jsonArray
+mongoimport --db sam --collection vouchers          --file output/nosql_vouchers.json          --jsonArray
+```

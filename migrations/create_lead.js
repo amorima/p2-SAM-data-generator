@@ -2,7 +2,7 @@
 
 module.exports = {
  async up(queryInterface, Sequelize) {
-  await queryInterface.createTable("lead", {
+  await queryInterface.createTable("leads", {
    id_lead: {
     type: Sequelize.INTEGER,
     primaryKey: true,
@@ -16,31 +16,31 @@ module.exports = {
    id_painel: {
     type: Sequelize.INTEGER,
     allowNull: false,
-    reference: { model: "painel", key: "id_dispositivo" },
+    references: { model: "painel", key: "id_dispositivo" },
     onDelete: "CASCADE",
    },
    nome_cidadao: {
     type: Sequelize.STRING(50),
     allowNull: false,
-    reference: { model: "cidadao", key: "nome" },
+    references: { model: "cidadao", key: "nome" },
     onDelete: "CASCADE",
    },
    contacto_cidadao: {
     type: Sequelize.STRING(13),
     allowNull: false,
-    reference: { model: "cidadao", key: "contacto" },
+    references: { model: "cidadao", key: "contacto" },
     onDelete: "CASCADE",
    },
    id_pedido: {
     type: Sequelize.INTEGER,
     allowNull: false,
-    reference: { model: "pedido_bens_e_servicos", key: "id_pedido" },
+    references: { model: "pedido_bens_e_servicos", key: "id_pedido" },
     onDelete: "CASCADE",
    },
    item_pedido: {
     type: Sequelize.STRING(100),
     allowNull: false,
-    reference: { model: "pedido_bens_e_servicos", key: "tipo_bem_servico" },
+    references: { model: "pedido_bens_e_servicos", key: "tipo_bem_servico" },
     onDelete: "CASCADE",
    },
    estado: {
@@ -54,13 +54,13 @@ module.exports = {
    id_locker: {
     type: Sequelize.INTEGER,
     allowNull: false,
-    reference: { model: "locker", key: "id_locker" },
+    references: { model: "locker_inteligente", key: "id_locker" },
     onDelete: "CASCADE",
    },
   });
  },
 
  async down(queryInterface) {
-  await queryInterface.dropTable("lead");
+  await queryInterface.dropTable("leads");
  },
 };

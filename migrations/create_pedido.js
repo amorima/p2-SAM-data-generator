@@ -12,7 +12,7 @@ module.exports = {
     type: Sequelize.STRING(9),
     allowNull: false,
     unique: true,
-    reference: { model: "instituicao", key: "nif_nipc" },
+    references: { model: "instituicao", key: "nif_nipc" },
    },
    estado: {
     type: Sequelize.ENUM("PENDENTE", "ACEITE", "REJEITADO"),

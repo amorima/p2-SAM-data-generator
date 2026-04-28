@@ -16,6 +16,13 @@ from p2_sam.entities.pedido_bens_servico.generator import generate_pedidos_bens_
 from p2_sam.entities.lead.generator import generate_leads
 from p2_sam.exporters.csv_exporter import export_csv
 from p2_sam.exporters.json_exporter import export_json
+from p2_sam.entities.nosql.locker_telemetry.generator import generate_locker_telemetries
+from p2_sam.entities.nosql.financial.generator import generate_financial_logs
+from p2_sam.entities.nosql.interaction.generator import generate_interaction_logs
+from p2_sam.entities.nosql.notification.generator import generate_notifications
+from p2_sam.entities.nosql.voucher.generator import generate_vouchers
+from p2_sam.exporters.mongodb_exporter import export_nosql
+
 
 OUTPUT_DIR = Path(__file__).parent.parent / "output"
 
@@ -104,6 +111,25 @@ def main() -> None:
     )
     export_csv(leads,  "lead", OUTPUT_DIR)
     export_json(leads, "lead", OUTPUT_DIR)
+
+    # ── NoSQL ─────────────────────────────────────────────────────────────────
+
+    telemetrias = generate_locker_telemetries(
+        n=200, lockers=lockers, paineis=paineis)
+    export_nosql(telemetrias, "locker_telemetry", OUTPUT_DIR)
+
+    # um log por cada doação gerada — sem n, a lista de doações define a quantidade
+    financial_logs = generate_financial_logs(doacoes=doacoes)
+    export_nosql(financial_logs, "financial_log", OUTPUT_DIR)
+
+    interaction_logs = generate_interaction_logs(n=300, paineis=paineis)
+    export_nosql(interaction_logs, "interaction_log", OUTPUT_DIR)
+
+    notifications = generate_notifications(n=150, leads=leads)
+    export_nosql(notifications, "notification", OUTPUT_DIR)
+
+    vouchers = generate_vouchers(n=100, entidades=entidades, negocios=negocios)
+    export_nosql(vouchers, "vouchers", OUTPUT_DIR)
 
 
 if __name__ == "__main__":

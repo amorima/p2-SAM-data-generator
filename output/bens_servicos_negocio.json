@@ -1,702 +1,702 @@
 [
   {
-    "negocio_nif_nipc": "541393881",
-    "tipo_bem_servico": "Ibuprofeno",
-    "descricao": "Atque assumenda dolorem ullam esse consectetur culpa dolorum mollitia cum voluptas.",
-    "valor_total": 1189.41,
-    "desconto": 19.84
-  },
-  {
-    "negocio_nif_nipc": "541393881",
-    "tipo_bem_servico": "Azeite",
-    "descricao": "Sint ex occaecati exercitationem laudantium quo unde tempore amet.",
-    "valor_total": 45.94,
-    "desconto": 15.8
-  },
-  {
-    "negocio_nif_nipc": "979275662",
-    "tipo_bem_servico": "Sopa em pó",
-    "descricao": "Qui quo libero tempora minus labore excepturi unde eos quas.",
-    "valor_total": 2380.18,
-    "desconto": 31.77
-  },
-  {
-    "negocio_nif_nipc": "979389701",
-    "tipo_bem_servico": "Papel higiénico",
-    "descricao": "Vitae itaque sed dicta iure ratione praesentium maxime assumenda maxime ullam.",
-    "valor_total": 3368.16,
-    "desconto": 34.71
-  },
-  {
-    "negocio_nif_nipc": "950430739",
-    "tipo_bem_servico": "Sopa em pó",
-    "descricao": "Nihil consequuntur repellendus minima quisquam in architecto sunt deleniti voluptates aspernatur aspernatur.",
-    "valor_total": 1175.56,
-    "desconto": 34.26
-  },
-  {
-    "negocio_nif_nipc": "596557535",
-    "tipo_bem_servico": "Esfregão",
-    "descricao": "Exercitationem possimus culpa repellat facere minus hic rem sed ullam repudiandae.",
-    "valor_total": 1143.31,
-    "desconto": 38.73
-  },
-  {
-    "negocio_nif_nipc": "541183348",
-    "tipo_bem_servico": "Roupa interior",
-    "descricao": "Ipsa aliquam similique eos ab similique.",
-    "valor_total": 900.32,
-    "desconto": 37.17
-  },
-  {
-    "negocio_nif_nipc": "923769674",
-    "tipo_bem_servico": "Sapatos",
-    "descricao": "Eligendi labore atque dolorem iste molestias harum laborum corrupti consequuntur ea.",
-    "valor_total": 585.17,
-    "desconto": 5.07
-  },
-  {
-    "negocio_nif_nipc": "942468403",
-    "tipo_bem_servico": "Leite",
-    "descricao": "Incidunt debitis omnis sint sequi blanditiis laboriosam quae delectus officia.",
-    "valor_total": 3705.99,
-    "desconto": 20.28
-  },
-  {
-    "negocio_nif_nipc": "949023474",
-    "tipo_bem_servico": "Lápis e canetas",
-    "descricao": "Aliquid praesentium nesciunt atque nam fugit sint molestiae.",
-    "valor_total": 3563.35,
-    "desconto": 27.25
-  },
-  {
-    "negocio_nif_nipc": "979275662",
-    "tipo_bem_servico": "Sapatos",
-    "descricao": "Quasi cumque eum a adipisci sunt.",
-    "valor_total": 2645.21,
-    "desconto": 45.76
-  },
-  {
-    "negocio_nif_nipc": "590856427",
-    "tipo_bem_servico": "Lápis e canetas",
-    "descricao": "Dolores maiores placeat at distinctio eligendi veniam iure itaque adipisci adipisci dolorum cum.",
-    "valor_total": 2472.75,
-    "desconto": 3.91
-  },
-  {
-    "negocio_nif_nipc": "973796836",
-    "tipo_bem_servico": "Álcool etílico",
-    "descricao": "Doloremque similique at vitae explicabo maiores voluptas consequuntur.",
-    "valor_total": 72.79,
-    "desconto": 0.73
-  },
-  {
-    "negocio_nif_nipc": "546226439",
-    "tipo_bem_servico": "Vitaminas",
-    "descricao": "Sint voluptatibus nostrum quae architecto exercitationem recusandae quam.",
-    "valor_total": 4663.67,
-    "desconto": 47.01
-  },
-  {
-    "negocio_nif_nipc": "540752536",
-    "tipo_bem_servico": "Pilhas",
-    "descricao": "Corporis eius consequatur voluptate quibusdam molestiae molestiae reprehenderit reiciendis aliquid fugit quibusdam exercitationem.",
-    "valor_total": 2589.09,
-    "desconto": 7.85
-  },
-  {
-    "negocio_nif_nipc": "980987449",
-    "tipo_bem_servico": "Casaco de inverno",
-    "descricao": "Ullam dolore pariatur nisi voluptatum vitae suscipit.",
-    "valor_total": 256.79,
-    "desconto": 43.58
-  },
-  {
-    "negocio_nif_nipc": "906651988",
-    "tipo_bem_servico": "Paracetamol",
-    "descricao": "Ratione eos sunt laborum maiores tenetur nostrum in voluptates omnis aliquam unde sed culpa.",
-    "valor_total": 4710.93,
-    "desconto": 7.21
-  },
-  {
-    "negocio_nif_nipc": "913245202",
-    "tipo_bem_servico": "Pilhas",
-    "descricao": "Cum mollitia nostrum optio nulla harum.",
-    "valor_total": 2766.52,
-    "desconto": 30.75
-  },
-  {
-    "negocio_nif_nipc": "925448143",
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "descricao": "Quaerat porro odit eveniet fuga officia sunt eum harum unde.",
-    "valor_total": 2621.16,
-    "desconto": 34.65
-  },
-  {
-    "negocio_nif_nipc": "942468403",
-    "tipo_bem_servico": "Camisolas",
-    "descricao": "Repudiandae at earum laboriosam mollitia soluta fugit eum quod voluptates optio tenetur suscipit.",
-    "valor_total": 2572.59,
-    "desconto": 46.07
-  },
-  {
-    "negocio_nif_nipc": "596557535",
-    "tipo_bem_servico": "Meias",
-    "descricao": "Provident quod sit tempora ex placeat asperiores ad deleniti dignissimos ipsum aliquid at.",
-    "valor_total": 3379.64,
-    "desconto": 33.99
-  },
-  {
-    "negocio_nif_nipc": "983587119",
-    "tipo_bem_servico": "Champô",
-    "descricao": "Facilis aspernatur sed officiis cumque voluptates aliquid quisquam praesentium temporibus sequi ad alias.",
-    "valor_total": 3716.09,
-    "desconto": 11.53
-  },
-  {
-    "negocio_nif_nipc": "514821090",
-    "tipo_bem_servico": "Toalhas de banho",
-    "descricao": "Eligendi inventore ullam quae in velit iure.",
-    "valor_total": 4978.67,
-    "desconto": 18.3
-  },
-  {
-    "negocio_nif_nipc": "950115737",
-    "tipo_bem_servico": "Lanternas",
-    "descricao": "Corrupti beatae dicta assumenda eum nobis enim alias.",
-    "valor_total": 1331.88,
-    "desconto": 9.81
-  },
-  {
-    "negocio_nif_nipc": "972630898",
-    "tipo_bem_servico": "Lápis e canetas",
-    "descricao": "Ipsa perferendis quam quasi vel libero corrupti placeat.",
-    "valor_total": 3152.19,
-    "desconto": 48.75
-  },
-  {
-    "negocio_nif_nipc": "925448143",
-    "tipo_bem_servico": "Toalhas de banho",
-    "descricao": "Vel repellat sunt iusto error libero ea exercitationem eos.",
-    "valor_total": 540.39,
-    "desconto": 18.29
-  },
-  {
-    "negocio_nif_nipc": "950115737",
-    "tipo_bem_servico": "Feijão",
-    "descricao": "Accusantium aliquam excepturi culpa ab occaecati aliquid.",
-    "valor_total": 2965.81,
-    "desconto": 21.54
-  },
-  {
-    "negocio_nif_nipc": "933782951",
-    "tipo_bem_servico": "Leite",
-    "descricao": "Nulla nulla laborum saepe mollitia sint minima nobis recusandae libero.",
-    "valor_total": 4767.76,
-    "desconto": 12.2
-  },
-  {
-    "negocio_nif_nipc": "590856427",
-    "tipo_bem_servico": "Ibuprofeno",
-    "descricao": "Natus nam ad non totam qui.",
-    "valor_total": 47.31,
-    "desconto": 10.13
-  },
-  {
-    "negocio_nif_nipc": "983587119",
-    "tipo_bem_servico": "Fraldas",
-    "descricao": "Harum officia amet neque corporis laborum.",
-    "valor_total": 3941.58,
-    "desconto": 18.34
-  },
-  {
-    "negocio_nif_nipc": "986075725",
-    "tipo_bem_servico": "Bilhete de autocarro",
-    "descricao": "Culpa quo id accusantium perferendis officia.",
-    "valor_total": 1443.52,
-    "desconto": 35.24
-  },
-  {
-    "negocio_nif_nipc": "978935451",
-    "tipo_bem_servico": "Massa",
-    "descricao": "Quaerat iure ratione perspiciatis ipsa inventore ut assumenda tempore nemo quis blanditiis.",
-    "valor_total": 371.03,
-    "desconto": 13.13
-  },
-  {
-    "negocio_nif_nipc": "942468403",
-    "tipo_bem_servico": "Mochila escolar",
-    "descricao": "Laboriosam enim labore voluptatum repudiandae temporibus explicabo magnam architecto doloremque quos accusantium eaque rem.",
-    "valor_total": 4850.62,
-    "desconto": 4.86
-  },
-  {
-    "negocio_nif_nipc": "911325356",
-    "tipo_bem_servico": "Sopa em pó",
-    "descricao": "Porro quis pariatur iste debitis omnis facilis deleniti dolor.",
-    "valor_total": 4295.89,
-    "desconto": 9.24
-  },
-  {
-    "negocio_nif_nipc": "541393881",
-    "tipo_bem_servico": "Material de escritório",
-    "descricao": "Tempora laudantium provident dolores doloremque sapiente a iste voluptas soluta.",
-    "valor_total": 3644.14,
-    "desconto": 26.93
-  },
-  {
-    "negocio_nif_nipc": "541183348",
-    "tipo_bem_servico": "Borracha",
-    "descricao": "Eaque fugiat facere sed voluptatem et.",
-    "valor_total": 1349.12,
-    "desconto": 13.23
-  },
-  {
-    "negocio_nif_nipc": "962504755",
-    "tipo_bem_servico": "Toalhas de banho",
-    "descricao": "Nihil natus optio nemo omnis soluta delectus.",
-    "valor_total": 3438.51,
-    "desconto": 35.4
-  },
-  {
-    "negocio_nif_nipc": "980987449",
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "descricao": "Impedit illo dicta ullam dolor repellat quo animi iste non explicabo libero delectus.",
-    "valor_total": 310.09,
-    "desconto": 30.85
-  },
-  {
-    "negocio_nif_nipc": "559014540",
-    "tipo_bem_servico": "Azeite",
-    "descricao": "Amet accusantium nam beatae quaerat repudiandae.",
-    "valor_total": 1172.35,
-    "desconto": 27.05
-  },
-  {
-    "negocio_nif_nipc": "987100282",
-    "tipo_bem_servico": "Lençóis",
-    "descricao": "Aut nemo neque repudiandae odit repellat eos iure sunt rem autem laborum delectus.",
-    "valor_total": 4749.66,
-    "desconto": 22.12
-  },
-  {
-    "negocio_nif_nipc": "925448143",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Quae nostrum fugit harum impedit occaecati magni unde.",
-    "valor_total": 2987.66,
-    "desconto": 40.05
-  },
-  {
-    "negocio_nif_nipc": "950115737",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Tenetur illo assumenda quo voluptatem aliquid itaque nostrum ea minus.",
-    "valor_total": 3875.27,
-    "desconto": 2.01
-  },
-  {
-    "negocio_nif_nipc": "514821090",
-    "tipo_bem_servico": "Conservas de peixe",
-    "descricao": "Perspiciatis beatae inventore quaerat perferendis repellat nam ducimus quaerat.",
-    "valor_total": 2295.68,
-    "desconto": 2.84
-  },
-  {
-    "negocio_nif_nipc": "962504755",
-    "tipo_bem_servico": "Feijão",
-    "descricao": "Id in consequuntur assumenda atque et perspiciatis reprehenderit alias.",
-    "valor_total": 4862.67,
-    "desconto": 30.47
-  },
-  {
-    "negocio_nif_nipc": "933782951",
-    "tipo_bem_servico": "Cobertor",
-    "descricao": "Ea quis dignissimos magnam corrupti earum atque.",
-    "valor_total": 4838.42,
-    "desconto": 22.94
-  },
-  {
-    "negocio_nif_nipc": "906651988",
-    "tipo_bem_servico": "Feijão",
-    "descricao": "Sed quia cum adipisci modi recusandae.",
-    "valor_total": 96.45,
-    "desconto": 0.11
-  },
-  {
-    "negocio_nif_nipc": "908945137",
-    "tipo_bem_servico": "Meias",
-    "descricao": "Delectus asperiores incidunt ipsum quibusdam inventore laudantium facilis libero quaerat voluptate expedita pariatur.",
-    "valor_total": 1877.15,
-    "desconto": 31.47
-  },
-  {
-    "negocio_nif_nipc": "979275662",
-    "tipo_bem_servico": "Mochila escolar",
-    "descricao": "Animi saepe laborum aperiam at aspernatur.",
-    "valor_total": 837.25,
-    "desconto": 39.17
-  },
-  {
-    "negocio_nif_nipc": "983587119",
-    "tipo_bem_servico": "Botas de chuva",
-    "descricao": "Quae eaque aut cupiditate optio vero.",
-    "valor_total": 1683.16,
-    "desconto": 23.31
-  },
-  {
-    "negocio_nif_nipc": "984865251",
-    "tipo_bem_servico": "Camisolas",
-    "descricao": "Accusamus similique accusantium consequuntur quis laudantium mollitia saepe quidem nisi rerum.",
-    "valor_total": 2688.92,
-    "desconto": 24.77
-  },
-  {
-    "negocio_nif_nipc": "546226439",
-    "tipo_bem_servico": "Pilhas",
-    "descricao": "Non provident fuga libero quia aliquam fuga culpa laborum aliquam suscipit.",
-    "valor_total": 2362.27,
-    "desconto": 8.12
-  },
-  {
-    "negocio_nif_nipc": "994263478",
-    "tipo_bem_servico": "Almofada",
-    "descricao": "In iure magni repellendus vel excepturi amet repellat excepturi.",
-    "valor_total": 2910.36,
-    "desconto": 40.21
-  },
-  {
-    "negocio_nif_nipc": "957580292",
-    "tipo_bem_servico": "Brinquedos para crianças",
-    "descricao": "Non ipsa quaerat magnam suscipit possimus.",
-    "valor_total": 4692.06,
-    "desconto": 42.93
-  },
-  {
-    "negocio_nif_nipc": "546226439",
-    "tipo_bem_servico": "Sal",
-    "descricao": "Quas deserunt vel nostrum molestiae quidem sunt officia ullam adipisci eos.",
-    "valor_total": 2559.59,
-    "desconto": 32.19
-  },
-  {
-    "negocio_nif_nipc": "917774462",
-    "tipo_bem_servico": "Material de escritório",
-    "descricao": "Fuga eveniet asperiores reiciendis quibusdam quidem.",
-    "valor_total": 824.23,
-    "desconto": 34.0
-  },
-  {
-    "negocio_nif_nipc": "986823513",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Amet ullam fugiat itaque fuga molestias animi repellendus deleniti qui minima.",
-    "valor_total": 4236.17,
-    "desconto": 39.97
-  },
-  {
-    "negocio_nif_nipc": "541393881",
-    "tipo_bem_servico": "Açúcar",
-    "descricao": "Vitae impedit adipisci tenetur consequatur itaque eligendi voluptas eligendi maxime aperiam unde vel hic.",
-    "valor_total": 3297.54,
-    "desconto": 34.84
-  },
-  {
-    "negocio_nif_nipc": "950115737",
-    "tipo_bem_servico": "Azeite",
-    "descricao": "Hic eius mollitia minus distinctio aperiam reprehenderit earum error facere voluptas ab ullam.",
-    "valor_total": 2666.77,
-    "desconto": 36.6
-  },
-  {
-    "negocio_nif_nipc": "979389701",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Magni corrupti recusandae quae perspiciatis id incidunt magni asperiores tempora aperiam.",
-    "valor_total": 2498.23,
-    "desconto": 44.55
-  },
-  {
-    "negocio_nif_nipc": "979389701",
-    "tipo_bem_servico": "Lanternas",
-    "descricao": "Iure voluptates nesciunt nulla sit veritatis praesentium maxime possimus sit aperiam.",
-    "valor_total": 2472.82,
-    "desconto": 42.19
-  },
-  {
-    "negocio_nif_nipc": "507967628",
-    "tipo_bem_servico": "Botas de chuva",
-    "descricao": "Delectus tenetur dicta quidem quibusdam officia deleniti cumque sint.",
-    "valor_total": 4649.1,
-    "desconto": 7.72
-  },
-  {
-    "negocio_nif_nipc": "986075725",
-    "tipo_bem_servico": "Álcool etílico",
-    "descricao": "Dicta consectetur ea laboriosam veniam debitis placeat magni doloremque maiores nam expedita sed.",
-    "valor_total": 139.07,
-    "desconto": 7.99
-  },
-  {
-    "negocio_nif_nipc": "930732398",
-    "tipo_bem_servico": "Roupa interior",
-    "descricao": "Ex dignissimos eius corrupti impedit similique eveniet commodi fuga necessitatibus recusandae quis ab.",
-    "valor_total": 2680.23,
-    "desconto": 26.06
-  },
-  {
-    "negocio_nif_nipc": "952225942",
-    "tipo_bem_servico": "Meias",
-    "descricao": "Soluta nam consectetur molestias quasi nam magnam et autem accusantium aliquid optio ipsa.",
-    "valor_total": 3044.48,
+    "negocio_nif_nipc": "913825744",
+    "tipo_bem_servico": "Bilhete de metro",
+    "descricao": "Temporibus quas eos nisi doloribus velit ullam aperiam vel ab totam totam ad.",
+    "valor_total": 3541.67,
     "desconto": 13.32
   },
   {
-    "negocio_nif_nipc": "995313750",
-    "tipo_bem_servico": "Meias",
-    "descricao": "Doloremque alias culpa reiciendis voluptates corporis vitae.",
-    "valor_total": 512.26,
-    "desconto": 13.92
+    "negocio_nif_nipc": "910432031",
+    "tipo_bem_servico": "Álcool etílico",
+    "descricao": "Voluptatibus optio quod vitae a temporibus veritatis neque.",
+    "valor_total": 8.48,
+    "desconto": 44.69
   },
   {
-    "negocio_nif_nipc": "541183348",
-    "tipo_bem_servico": "Bilhete de metro",
-    "descricao": "Facere aliquid nesciunt illo dignissimos eaque.",
-    "valor_total": 1304.6,
-    "desconto": 17.17
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Consulta médica",
+    "descricao": "Repellendus distinctio placeat quod dolore nesciunt neque dolore reiciendis.",
+    "valor_total": 1552.63,
+    "desconto": 24.86
   },
   {
-    "negocio_nif_nipc": "979275662",
-    "tipo_bem_servico": "Sabonete",
-    "descricao": "Nisi omnis dicta ut nisi atque alias facere.",
-    "valor_total": 4450.46,
-    "desconto": 6.78
+    "negocio_nif_nipc": "982719670",
+    "tipo_bem_servico": "Fraldas",
+    "descricao": "Corrupti repellat a eos maiores dolor unde libero aliquam necessitatibus.",
+    "valor_total": 632.64,
+    "desconto": 34.75
   },
   {
-    "negocio_nif_nipc": "952225942",
-    "tipo_bem_servico": "Conservas de peixe",
-    "descricao": "Eaque eum esse vel accusamus expedita rerum quas labore corrupti dolor velit harum.",
-    "valor_total": 4998.64,
-    "desconto": 13.26
+    "negocio_nif_nipc": "957052429",
+    "tipo_bem_servico": "Roupa interior",
+    "descricao": "Voluptatem beatae blanditiis nesciunt nihil labore quam officiis pariatur iusto earum maiores.",
+    "valor_total": 1144.41,
+    "desconto": 18.31
   },
   {
-    "negocio_nif_nipc": "541183348",
-    "tipo_bem_servico": "Bilhete de autocarro",
-    "descricao": "Illo nemo eaque similique optio fuga occaecati consequuntur ab.",
-    "valor_total": 4721.03,
-    "desconto": 45.85
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Régua e compasso",
+    "descricao": "Sit libero id reprehenderit labore cum deleniti.",
+    "valor_total": 2995.63,
+    "desconto": 12.85
   },
   {
-    "negocio_nif_nipc": "984865251",
-    "tipo_bem_servico": "Velas",
-    "descricao": "Repellendus reiciendis at ducimus quia totam dolorum error voluptates.",
-    "valor_total": 972.27,
-    "desconto": 12.19
+    "negocio_nif_nipc": "990643270",
+    "tipo_bem_servico": "Medidor de tensão",
+    "descricao": "Adipisci mollitia consequatur expedita fuga minima labore temporibus itaque itaque asperiores.",
+    "valor_total": 2599.06,
+    "desconto": 47.31
   },
   {
-    "negocio_nif_nipc": "983587119",
-    "tipo_bem_servico": "Sapatos",
-    "descricao": "Consequatur voluptas doloribus aliquam cupiditate voluptas assumenda eaque qui fugiat incidunt earum.",
-    "valor_total": 4949.5,
-    "desconto": 2.96
+    "negocio_nif_nipc": "518826643",
+    "tipo_bem_servico": "Casaco de inverno",
+    "descricao": "Blanditiis eaque architecto pariatur sequi facere exercitationem.",
+    "valor_total": 2612.26,
+    "desconto": 38.04
   },
   {
-    "negocio_nif_nipc": "514821090",
-    "tipo_bem_servico": "Sabonete",
-    "descricao": "Sed blanditiis illo laboriosam temporibus quis quasi quaerat similique quaerat.",
-    "valor_total": 2024.32,
-    "desconto": 1.5
+    "negocio_nif_nipc": "902394987",
+    "tipo_bem_servico": "Transporte para consultas",
+    "descricao": "Quia tempore debitis minus similique hic.",
+    "valor_total": 860.59,
+    "desconto": 14.46
   },
   {
-    "negocio_nif_nipc": "962504755",
-    "tipo_bem_servico": "Arroz",
-    "descricao": "Soluta tempore sit recusandae sit odit harum a velit.",
-    "valor_total": 673.45,
-    "desconto": 48.45
+    "negocio_nif_nipc": "525856876",
+    "tipo_bem_servico": "Vitaminas",
+    "descricao": "Sint nostrum debitis repellendus deleniti sint tempore culpa nesciunt.",
+    "valor_total": 1788.53,
+    "desconto": 46.03
   },
   {
-    "negocio_nif_nipc": "986067686",
-    "tipo_bem_servico": "Termómetro",
-    "descricao": "Hic atque distinctio cupiditate magnam illo accusamus quam autem.",
-    "valor_total": 1877.28,
-    "desconto": 32.67
+    "negocio_nif_nipc": "984752775",
+    "tipo_bem_servico": "Acompanhamento de idosos",
+    "descricao": "Ipsa aut sapiente aut ipsam quaerat temporibus molestias voluptate quos.",
+    "valor_total": 3455.02,
+    "desconto": 38.4
   },
   {
-    "negocio_nif_nipc": "590856427",
-    "tipo_bem_servico": "Conservas de peixe",
-    "descricao": "Magni animi voluptas tenetur debitis dolorem beatae sit sit vitae.",
-    "valor_total": 549.03,
-    "desconto": 48.63
+    "negocio_nif_nipc": "990643270",
+    "tipo_bem_servico": "Formação profissional",
+    "descricao": "Explicabo tempore assumenda tenetur autem eum possimus tenetur doloribus quam sunt expedita.",
+    "valor_total": 1281.6,
+    "desconto": 11.87
   },
   {
-    "negocio_nif_nipc": "906651988",
-    "tipo_bem_servico": "Bilhete de metro",
-    "descricao": "Totam incidunt quae cumque accusantium dolorum eligendi ad.",
-    "valor_total": 4958.61,
-    "desconto": 3.07
+    "negocio_nif_nipc": "940818451",
+    "tipo_bem_servico": "Brinquedos para crianças",
+    "descricao": "Mollitia accusantium facere voluptates beatae cumque architecto placeat reprehenderit omnis natus.",
+    "valor_total": 3822.8,
+    "desconto": 27.99
   },
   {
-    "negocio_nif_nipc": "980868965",
-    "tipo_bem_servico": "Sapatos",
-    "descricao": "Impedit repudiandae sed consequatur quis harum explicabo.",
-    "valor_total": 1036.47,
-    "desconto": 13.43
-  },
-  {
-    "negocio_nif_nipc": "911325356",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Optio iste facilis velit reprehenderit facilis iste ut.",
-    "valor_total": 1102.72,
-    "desconto": 21.08
-  },
-  {
-    "negocio_nif_nipc": "911325356",
-    "tipo_bem_servico": "Paracetamol",
-    "descricao": "Accusamus vero molestiae cum similique molestiae eligendi eos ab ratione deleniti.",
-    "valor_total": 686.06,
-    "desconto": 41.96
-  },
-  {
-    "negocio_nif_nipc": "906391941",
-    "tipo_bem_servico": "Sapatos",
-    "descricao": "Rerum quam tempore excepturi aliquam eaque perferendis aliquam deleniti.",
-    "valor_total": 4239.04,
-    "desconto": 11.52
-  },
-  {
-    "negocio_nif_nipc": "514821090",
-    "tipo_bem_servico": "Gel de banho",
-    "descricao": "Aspernatur commodi ratione quo repellendus praesentium.",
-    "valor_total": 641.16,
-    "desconto": 15.83
-  },
-  {
-    "negocio_nif_nipc": "986067686",
-    "tipo_bem_servico": "Livros escolares",
-    "descricao": "Labore doloribus nulla ipsam dolore saepe.",
-    "valor_total": 1224.55,
-    "desconto": 19.79
-  },
-  {
-    "negocio_nif_nipc": "995313750",
-    "tipo_bem_servico": "Lápis e canetas",
-    "descricao": "Rem amet omnis blanditiis adipisci labore quis sit omnis reiciendis libero et.",
-    "valor_total": 2756.24,
-    "desconto": 38.92
-  },
-  {
-    "negocio_nif_nipc": "980868965",
-    "tipo_bem_servico": "Azeite",
-    "descricao": "Consectetur sit asperiores corporis labore laudantium.",
-    "valor_total": 1559.69,
-    "desconto": 35.6
-  },
-  {
-    "negocio_nif_nipc": "957580292",
-    "tipo_bem_servico": "Detergente para a roupa",
-    "descricao": "Rerum nesciunt praesentium suscipit ad tenetur id deserunt sapiente earum nisi non tenetur.",
-    "valor_total": 3924.66,
-    "desconto": 36.7
-  },
-  {
-    "negocio_nif_nipc": "911634461",
-    "tipo_bem_servico": "Botas de chuva",
-    "descricao": "Error distinctio molestiae sequi incidunt sint similique voluptate minima temporibus recusandae facere.",
-    "valor_total": 1531.35,
-    "desconto": 46.54
-  },
-  {
-    "negocio_nif_nipc": "925448143",
-    "tipo_bem_servico": "Termómetro",
-    "descricao": "Sunt quidem maiores maxime porro quos optio rerum placeat.",
-    "valor_total": 3537.75,
-    "desconto": 37.35
-  },
-  {
-    "negocio_nif_nipc": "994263478",
-    "tipo_bem_servico": "Massa",
-    "descricao": "Ea quam sit aliquid rerum voluptatem at officia.",
-    "valor_total": 780.94,
-    "desconto": 9.0
-  },
-  {
-    "negocio_nif_nipc": "986823513",
-    "tipo_bem_servico": "Pilhas",
-    "descricao": "Quas aliquid a beatae fugiat beatae rerum.",
-    "valor_total": 4526.35,
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Leite",
+    "descricao": "Tempora laborum cum veniam totam necessitatibus maxime occaecati quibusdam dolore magni ut ipsam.",
+    "valor_total": 1289.64,
     "desconto": 10.69
   },
   {
-    "negocio_nif_nipc": "984865251",
-    "tipo_bem_servico": "Cadernos",
-    "descricao": "Totam ipsam laudantium minus reiciendis totam assumenda eos quos fugiat perspiciatis ipsa eaque.",
-    "valor_total": 3978.37,
-    "desconto": 10.57
+    "negocio_nif_nipc": "929127137",
+    "tipo_bem_servico": "Banco de horas voluntário",
+    "descricao": "Consequatur totam fugit provident fugit sint eos ipsam quia id atque.",
+    "valor_total": 914.39,
+    "desconto": 6.33
   },
   {
-    "negocio_nif_nipc": "950115737",
-    "tipo_bem_servico": "Sal",
-    "descricao": "Optio dolorem eaque quam error velit nihil rerum quasi sint quod tempore recusandae.",
-    "valor_total": 2801.88,
-    "desconto": 9.71
+    "negocio_nif_nipc": "910567485",
+    "tipo_bem_servico": "Sopa em pó",
+    "descricao": "Suscipit placeat quidem quos vel fugiat.",
+    "valor_total": 3829.71,
+    "desconto": 39.75
   },
   {
-    "negocio_nif_nipc": "541183348",
-    "tipo_bem_servico": "Vitaminas",
-    "descricao": "Alias inventore eaque architecto placeat ipsa aliquid quo unde praesentium.",
-    "valor_total": 3005.47,
-    "desconto": 36.87
+    "negocio_nif_nipc": "525856876",
+    "tipo_bem_servico": "Transporte de idosos",
+    "descricao": "Itaque quas minus sequi voluptas quidem illum optio omnis corporis soluta.",
+    "valor_total": 287.08,
+    "desconto": 34.15
   },
   {
-    "negocio_nif_nipc": "973796836",
+    "negocio_nif_nipc": "965906200",
+    "tipo_bem_servico": "Apoio social",
+    "descricao": "Recusandae ullam consectetur sapiente modi ab quod maiores dolorum.",
+    "valor_total": 2971.95,
+    "desconto": 5.07
+  },
+  {
+    "negocio_nif_nipc": "910567485",
+    "tipo_bem_servico": "Sapatos",
+    "descricao": "Totam rerum repellendus consequatur iusto cupiditate ipsum esse impedit assumenda.",
+    "valor_total": 3781.68,
+    "desconto": 13.35
+  },
+  {
+    "negocio_nif_nipc": "923986559",
+    "tipo_bem_servico": "Farinha",
+    "descricao": "Excepturi voluptates odit praesentium reprehenderit quisquam illo exercitationem aut.",
+    "valor_total": 4597.51,
+    "desconto": 17.45
+  },
+  {
+    "negocio_nif_nipc": "518826643",
+    "tipo_bem_servico": "Pensos rápidos",
+    "descricao": "Voluptates voluptas unde ex itaque minima.",
+    "valor_total": 299.16,
+    "desconto": 18.11
+  },
+  {
+    "negocio_nif_nipc": "968988135",
     "tipo_bem_servico": "Esfregão",
-    "descricao": "Inventore atque officia velit exercitationem reiciendis excepturi necessitatibus.",
-    "valor_total": 2148.78,
-    "desconto": 36.25
+    "descricao": "Libero rerum earum quaerat incidunt occaecati excepturi dignissimos.",
+    "valor_total": 1123.83,
+    "desconto": 22.28
   },
   {
-    "negocio_nif_nipc": "590856427",
-    "tipo_bem_servico": "Pasta de dentes",
-    "descricao": "Quia quis temporibus eveniet quaerat saepe quibusdam eveniet maxime eveniet quae commodi ducimus.",
-    "valor_total": 1102.59,
-    "desconto": 4.79
+    "negocio_nif_nipc": "923986559",
+    "tipo_bem_servico": "Paracetamol",
+    "descricao": "Laborum deleniti commodi blanditiis excepturi corporis expedita ipsa quasi commodi harum.",
+    "valor_total": 951.22,
+    "desconto": 8.54
   },
   {
-    "negocio_nif_nipc": "911325356",
-    "tipo_bem_servico": "Meias",
-    "descricao": "Facilis facilis adipisci impedit cupiditate earum fuga.",
-    "valor_total": 987.76,
-    "desconto": 15.12
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Sal",
+    "descricao": "Quos cupiditate reiciendis assumenda maiores voluptates corporis ipsam id.",
+    "valor_total": 460.08,
+    "desconto": 43.78
   },
   {
-    "negocio_nif_nipc": "979389701",
+    "negocio_nif_nipc": "968988135",
+    "tipo_bem_servico": "Aulas de português para imigrantes",
+    "descricao": "Ea id vero similique vero exercitationem a odio deleniti.",
+    "valor_total": 851.08,
+    "desconto": 43.16
+  },
+  {
+    "negocio_nif_nipc": "995358805",
+    "tipo_bem_servico": "Arroz",
+    "descricao": "Alias non ab fuga nemo maiores ut occaecati quod sequi fugit optio eos.",
+    "valor_total": 3436.63,
+    "desconto": 29.17
+  },
+  {
+    "negocio_nif_nipc": "984752775",
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "descricao": "Quis sit quas suscipit numquam eaque numquam aperiam.",
+    "valor_total": 3017.44,
+    "desconto": 28.93
+  },
+  {
+    "negocio_nif_nipc": "968988135",
+    "tipo_bem_servico": "Explicações escolares",
+    "descricao": "Vitae magni expedita natus saepe nihil deserunt consectetur nostrum repellendus odio.",
+    "valor_total": 1603.68,
+    "desconto": 34.05
+  },
+  {
+    "negocio_nif_nipc": "990643270",
+    "tipo_bem_servico": "Pensos higiénicos",
+    "descricao": "Temporibus veniam atque similique minima blanditiis est dolor consequuntur tempora cumque neque accusantium.",
+    "valor_total": 4288.99,
+    "desconto": 36.92
+  },
+  {
+    "negocio_nif_nipc": "545188923",
+    "tipo_bem_servico": "Medidor de tensão",
+    "descricao": "Nesciunt veniam error accusantium mollitia amet architecto minus illo nemo illum.",
+    "valor_total": 4831.93,
+    "desconto": 41.7
+  },
+  {
+    "negocio_nif_nipc": "982719670",
+    "tipo_bem_servico": "Camisolas",
+    "descricao": "Dicta a eaque optio quas provident eveniet.",
+    "valor_total": 2225.26,
+    "desconto": 6.7
+  },
+  {
+    "negocio_nif_nipc": "913690161",
+    "tipo_bem_servico": "Passe mensal",
+    "descricao": "Accusantium voluptates numquam est quas in excepturi ipsam ipsa.",
+    "valor_total": 3709.23,
+    "desconto": 28.47
+  },
+  {
+    "negocio_nif_nipc": "959094225",
+    "tipo_bem_servico": "Roupa interior",
+    "descricao": "Dignissimos esse soluta dignissimos minus asperiores cumque qui blanditiis nisi assumenda.",
+    "valor_total": 4807.78,
+    "desconto": 22.81
+  },
+  {
+    "negocio_nif_nipc": "959094225",
     "tipo_bem_servico": "Feijão",
-    "descricao": "Et delectus harum corporis beatae delectus explicabo voluptate maxime odio ipsum.",
-    "valor_total": 2661.22,
-    "desconto": 18.53
+    "descricao": "Nobis minus molestias eligendi assumenda beatae suscipit quis.",
+    "valor_total": 1381.08,
+    "desconto": 3.68
   },
   {
-    "negocio_nif_nipc": "913245202",
-    "tipo_bem_servico": "Casaco de inverno",
-    "descricao": "Placeat laborum reprehenderit ducimus ex quibusdam error laborum cupiditate dolorum hic animi.",
-    "valor_total": 894.95,
-    "desconto": 13.46
-  },
-  {
-    "negocio_nif_nipc": "957580292",
+    "negocio_nif_nipc": "908416463",
     "tipo_bem_servico": "Massa",
-    "descricao": "Autem tenetur aliquam voluptas dolore aliquid sed qui aspernatur debitis doloribus.",
-    "valor_total": 1260.26,
-    "desconto": 37.3
+    "descricao": "Voluptatibus fuga provident occaecati temporibus ex libero veritatis optio soluta doloribus.",
+    "valor_total": 1346.02,
+    "desconto": 30.48
   },
   {
-    "negocio_nif_nipc": "983587119",
+    "negocio_nif_nipc": "937536010",
+    "tipo_bem_servico": "Leite",
+    "descricao": "Vero esse minima neque culpa tempora impedit odit maxime odit illo.",
+    "valor_total": 4738.57,
+    "desconto": 47.65
+  },
+  {
+    "negocio_nif_nipc": "988310317",
+    "tipo_bem_servico": "Almofada",
+    "descricao": "Beatae ab excepturi molestias laboriosam reiciendis minus eaque eum.",
+    "valor_total": 2701.94,
+    "desconto": 10.56
+  },
+  {
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Camisolas",
+    "descricao": "Ut eaque quia nemo quia quae.",
+    "valor_total": 2577.24,
+    "desconto": 35.89
+  },
+  {
+    "negocio_nif_nipc": "913690161",
+    "tipo_bem_servico": "Leite",
+    "descricao": "Maiores quaerat quaerat saepe beatae ea.",
+    "valor_total": 4880.84,
+    "desconto": 36.91
+  },
+  {
+    "negocio_nif_nipc": "929127137",
+    "tipo_bem_servico": "Reparações domésticas",
+    "descricao": "Dolore eveniet aspernatur corrupti magnam occaecati consequatur beatae eum architecto facere nihil id.",
+    "valor_total": 1344.12,
+    "desconto": 2.96
+  },
+  {
+    "negocio_nif_nipc": "525856876",
+    "tipo_bem_servico": "Sopa em pó",
+    "descricao": "Dignissimos magni natus sunt harum veritatis sapiente.",
+    "valor_total": 4085.78,
+    "desconto": 23.84
+  },
+  {
+    "negocio_nif_nipc": "956545458",
+    "tipo_bem_servico": "Calças de ganga",
+    "descricao": "Quibusdam praesentium ducimus nulla nihil totam voluptate consequatur eaque temporibus.",
+    "valor_total": 4981.65,
+    "desconto": 3.03
+  },
+  {
+    "negocio_nif_nipc": "985210338",
+    "tipo_bem_servico": "Farinha",
+    "descricao": "Dolorem illo vitae id veritatis molestias tempore libero.",
+    "valor_total": 1582.68,
+    "desconto": 22.79
+  },
+  {
+    "negocio_nif_nipc": "971425873",
+    "tipo_bem_servico": "Apoio jurídico",
+    "descricao": "Minima amet maxime sapiente enim dolor adipisci itaque dolorum distinctio modi cupiditate.",
+    "valor_total": 4307.2,
+    "desconto": 27.53
+  },
+  {
+    "negocio_nif_nipc": "911140481",
+    "tipo_bem_servico": "Transporte escolar",
+    "descricao": "Aliquam labore repellat aut sequi delectus quo quas beatae.",
+    "valor_total": 859.81,
+    "desconto": 39.74
+  },
+  {
+    "negocio_nif_nipc": "523974089",
+    "tipo_bem_servico": "Consulta de enfermagem",
+    "descricao": "Ut cumque nihil in rerum a consequatur dolor.",
+    "valor_total": 4687.19,
+    "desconto": 40.35
+  },
+  {
+    "negocio_nif_nipc": "953648075",
+    "tipo_bem_servico": "Pinturas e obras",
+    "descricao": "Voluptate dolore tempora non doloribus vitae fugit non.",
+    "valor_total": 4565.15,
+    "desconto": 49.56
+  },
+  {
+    "negocio_nif_nipc": "531419293",
+    "tipo_bem_servico": "Limpeza de habitação",
+    "descricao": "Nesciunt dolorum saepe ex repellendus neque labore ea aut.",
+    "valor_total": 1822.51,
+    "desconto": 2.27
+  },
+  {
+    "negocio_nif_nipc": "985210338",
     "tipo_bem_servico": "Régua e compasso",
-    "descricao": "Inventore eum cupiditate nisi sapiente magni cupiditate architecto necessitatibus laboriosam qui reiciendis.",
-    "valor_total": 3587.91,
-    "desconto": 19.01
+    "descricao": "Blanditiis sint iusto voluptatibus necessitatibus doloribus dignissimos quos omnis.",
+    "valor_total": 3019.16,
+    "desconto": 45.39
   },
   {
-    "negocio_nif_nipc": "980868965",
+    "negocio_nif_nipc": "910567485",
+    "tipo_bem_servico": "Aulas de português para imigrantes",
+    "descricao": "Necessitatibus eos modi optio magnam alias magnam culpa magni.",
+    "valor_total": 1099.12,
+    "desconto": 2.48
+  },
+  {
+    "negocio_nif_nipc": "984752775",
+    "tipo_bem_servico": "Pilhas",
+    "descricao": "A aperiam soluta itaque libero blanditiis.",
+    "valor_total": 2570.18,
+    "desconto": 49.32
+  },
+  {
+    "negocio_nif_nipc": "913825744",
+    "tipo_bem_servico": "Transporte para consultas",
+    "descricao": "Aliquam sapiente nisi optio ab aut.",
+    "valor_total": 1151.89,
+    "desconto": 10.88
+  },
+  {
+    "negocio_nif_nipc": "937536010",
+    "tipo_bem_servico": "Sopa em pó",
+    "descricao": "Nulla nulla explicabo facere optio hic mollitia culpa perferendis.",
+    "valor_total": 87.64,
+    "desconto": 36.47
+  },
+  {
+    "negocio_nif_nipc": "961645316",
+    "tipo_bem_servico": "Apoio ao arrendamento",
+    "descricao": "Laboriosam repudiandae nihil repellendus sint soluta.",
+    "valor_total": 3602.32,
+    "desconto": 14.29
+  },
+  {
+    "negocio_nif_nipc": "968988135",
+    "tipo_bem_servico": "Limpeza de habitação",
+    "descricao": "Quia quaerat ipsam praesentium dignissimos beatae itaque impedit necessitatibus commodi odit enim inventore.",
+    "valor_total": 2895.28,
+    "desconto": 42.64
+  },
+  {
+    "negocio_nif_nipc": "961645316",
+    "tipo_bem_servico": "Cuidados ao domicílio",
+    "descricao": "Eius quibusdam aliquid hic aliquam aliquam.",
+    "valor_total": 3686.61,
+    "desconto": 47.32
+  },
+  {
+    "negocio_nif_nipc": "525856876",
+    "tipo_bem_servico": "Lápis e canetas",
+    "descricao": "Cupiditate delectus tenetur aperiam repellat quo non ratione voluptatum illum autem quidem suscipit.",
+    "valor_total": 3339.92,
+    "desconto": 37.84
+  },
+  {
+    "negocio_nif_nipc": "572957057",
+    "tipo_bem_servico": "Brinquedos para crianças",
+    "descricao": "Dicta assumenda dolor recusandae excepturi voluptatum beatae rerum molestiae autem amet commodi aliquid.",
+    "valor_total": 4199.95,
+    "desconto": 18.65
+  },
+  {
+    "negocio_nif_nipc": "536242061",
+    "tipo_bem_servico": "Termómetro",
+    "descricao": "Minima hic tempore excepturi labore cumque illo ab harum ducimus doloremque repudiandae.",
+    "valor_total": 3036.52,
+    "desconto": 40.82
+  },
+  {
+    "negocio_nif_nipc": "961645316",
+    "tipo_bem_servico": "Bilhete de autocarro",
+    "descricao": "Ipsum ipsum soluta perferendis non nam et ipsum pariatur explicabo quia.",
+    "valor_total": 3913.36,
+    "desconto": 0.65
+  },
+  {
+    "negocio_nif_nipc": "910432031",
+    "tipo_bem_servico": "Roupa interior",
+    "descricao": "Aspernatur ipsa iste sint ipsum deserunt illum hic maxime blanditiis debitis velit.",
+    "valor_total": 844.12,
+    "desconto": 16.7
+  },
+  {
+    "negocio_nif_nipc": "990643270",
+    "tipo_bem_servico": "Sapatos",
+    "descricao": "Provident porro voluptatibus corporis vero delectus quo consequuntur id quae facilis voluptate nesciunt eius.",
+    "valor_total": 3119.82,
+    "desconto": 38.19
+  },
+  {
+    "negocio_nif_nipc": "984752775",
+    "tipo_bem_servico": "Sabonete",
+    "descricao": "Quasi ea voluptatibus placeat sit sed.",
+    "valor_total": 3951.41,
+    "desconto": 2.79
+  },
+  {
+    "negocio_nif_nipc": "965906200",
+    "tipo_bem_servico": "Reparações domésticas",
+    "descricao": "Quo suscipit asperiores ipsam reiciendis minus laborum incidunt laudantium maxime.",
+    "valor_total": 2854.15,
+    "desconto": 2.27
+  },
+  {
+    "negocio_nif_nipc": "913690161",
+    "tipo_bem_servico": "Apoio à literacia digital",
+    "descricao": "Totam mollitia nemo vitae consequatur reprehenderit expedita voluptates quisquam dolore iure.",
+    "valor_total": 740.15,
+    "desconto": 5.5
+  },
+  {
+    "negocio_nif_nipc": "929127137",
+    "tipo_bem_servico": "Explicações escolares",
+    "descricao": "Aspernatur aperiam quos numquam dolore soluta reiciendis recusandae.",
+    "valor_total": 2726.35,
+    "desconto": 24.93
+  },
+  {
+    "negocio_nif_nipc": "984710804",
+    "tipo_bem_servico": "Medidor de tensão",
+    "descricao": "Quia doloremque adipisci numquam possimus incidunt inventore quis consequuntur velit.",
+    "valor_total": 2084.85,
+    "desconto": 6.45
+  },
+  {
+    "negocio_nif_nipc": "908416463",
+    "tipo_bem_servico": "Lápis e canetas",
+    "descricao": "Ipsa minus repellendus maiores non omnis mollitia aliquid veritatis.",
+    "valor_total": 3596.23,
+    "desconto": 28.37
+  },
+  {
+    "negocio_nif_nipc": "565806454",
+    "tipo_bem_servico": "Material de escritório",
+    "descricao": "Sed expedita doloribus animi quod consequuntur cupiditate.",
+    "valor_total": 1756.47,
+    "desconto": 30.45
+  },
+  {
+    "negocio_nif_nipc": "939267184",
+    "tipo_bem_servico": "Esfregão",
+    "descricao": "Sapiente quas odit repudiandae at facilis sunt corrupti iure neque.",
+    "valor_total": 494.44,
+    "desconto": 22.03
+  },
+  {
+    "negocio_nif_nipc": "984710804",
+    "tipo_bem_servico": "Pinturas e obras",
+    "descricao": "Odio dolor hic dolorum consequuntur voluptas aliquam eveniet eveniet provident.",
+    "valor_total": 469.81,
+    "desconto": 34.57
+  },
+  {
+    "negocio_nif_nipc": "910795502",
+    "tipo_bem_servico": "Feijão",
+    "descricao": "Ipsum consequatur libero cupiditate laborum laborum.",
+    "valor_total": 6.12,
+    "desconto": 20.26
+  },
+  {
+    "negocio_nif_nipc": "518826643",
+    "tipo_bem_servico": "Cobertor",
+    "descricao": "Non ex odio asperiores voluptatem impedit neque dolor.",
+    "valor_total": 2230.74,
+    "desconto": 43.73
+  },
+  {
+    "negocio_nif_nipc": "999313307",
+    "tipo_bem_servico": "Cobertor",
+    "descricao": "Nihil quia quae id placeat saepe vel debitis error sunt inventore saepe.",
+    "valor_total": 4013.24,
+    "desconto": 5.36
+  },
+  {
+    "negocio_nif_nipc": "940818451",
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "descricao": "Molestias similique odio repudiandae pariatur voluptatem fuga eum architecto blanditiis deleniti commodi labore.",
+    "valor_total": 1808.24,
+    "desconto": 1.67
+  },
+  {
+    "negocio_nif_nipc": "989314251",
+    "tipo_bem_servico": "Toalhas de banho",
+    "descricao": "Delectus rem officiis dicta rem quia illum unde.",
+    "valor_total": 3872.88,
+    "desconto": 2.86
+  },
+  {
+    "negocio_nif_nipc": "913690161",
+    "tipo_bem_servico": "Ibuprofeno",
+    "descricao": "Quia ea illum reiciendis molestias adipisci deleniti blanditiis voluptate dicta nisi occaecati corrupti.",
+    "valor_total": 633.3,
+    "desconto": 19.95
+  },
+  {
+    "negocio_nif_nipc": "569052498",
+    "tipo_bem_servico": "Azeite",
+    "descricao": "Magnam error optio aut tenetur numquam earum ratione similique maxime nesciunt.",
+    "valor_total": 4800.99,
+    "desconto": 30.22
+  },
+  {
+    "negocio_nif_nipc": "929127137",
     "tipo_bem_servico": "Lixívia",
-    "descricao": "Alias magnam dolorum quaerat totam fuga cum voluptas officiis alias iure eveniet veritatis.",
-    "valor_total": 4078.96,
-    "desconto": 18.81
+    "descricao": "Molestiae rerum distinctio iure amet dignissimos.",
+    "valor_total": 1282.46,
+    "desconto": 40.42
+  },
+  {
+    "negocio_nif_nipc": "940818451",
+    "tipo_bem_servico": "Limpeza de habitação",
+    "descricao": "Cumque at placeat similique repellat culpa iure labore saepe distinctio.",
+    "valor_total": 1809.1,
+    "desconto": 42.35
+  },
+  {
+    "negocio_nif_nipc": "523974089",
+    "tipo_bem_servico": "Medidor de tensão",
+    "descricao": "Sint enim distinctio voluptate dicta ad quia dolor tenetur blanditiis illum iusto nostrum.",
+    "valor_total": 1312.94,
+    "desconto": 18.65
+  },
+  {
+    "negocio_nif_nipc": "988760297",
+    "tipo_bem_servico": "Arroz",
+    "descricao": "Fuga exercitationem temporibus cupiditate animi occaecati incidunt numquam numquam autem.",
+    "valor_total": 2286.0,
+    "desconto": 6.27
+  },
+  {
+    "negocio_nif_nipc": "572957057",
+    "tipo_bem_servico": "Farinha",
+    "descricao": "Rem reiciendis quas nihil non minus enim dolore aliquam repellat voluptatibus accusamus.",
+    "valor_total": 465.44,
+    "desconto": 28.41
+  },
+  {
+    "negocio_nif_nipc": "518826643",
+    "tipo_bem_servico": "Acompanhamento de idosos",
+    "descricao": "Iste repellendus asperiores consectetur sunt aliquid porro quibusdam labore qui a quis labore.",
+    "valor_total": 3226.66,
+    "desconto": 23.26
+  },
+  {
+    "negocio_nif_nipc": "988310317",
+    "tipo_bem_servico": "Sopa em pó",
+    "descricao": "Natus qui ut assumenda modi ratione dolore.",
+    "valor_total": 2638.97,
+    "desconto": 0.11
+  },
+  {
+    "negocio_nif_nipc": "533297484",
+    "tipo_bem_servico": "Apoio social",
+    "descricao": "Id odio iure a deleniti aspernatur maxime ullam iste itaque voluptatibus.",
+    "valor_total": 1996.73,
+    "desconto": 16.7
+  },
+  {
+    "negocio_nif_nipc": "536242061",
+    "tipo_bem_servico": "Régua e compasso",
+    "descricao": "Blanditiis ullam excepturi facilis eius eum beatae placeat quia iste hic soluta.",
+    "valor_total": 3113.01,
+    "desconto": 15.37
+  },
+  {
+    "negocio_nif_nipc": "961645316",
+    "tipo_bem_servico": "Feijão",
+    "descricao": "Incidunt delectus adipisci impedit autem nulla tenetur aspernatur provident.",
+    "valor_total": 3550.13,
+    "desconto": 27.55
+  },
+  {
+    "negocio_nif_nipc": "989314251",
+    "tipo_bem_servico": "Almofada",
+    "descricao": "Ut nobis dolorem illo atque deserunt aperiam similique aliquid nemo voluptas similique.",
+    "valor_total": 122.54,
+    "desconto": 23.76
+  },
+  {
+    "negocio_nif_nipc": "982719670",
+    "tipo_bem_servico": "Medidor de tensão",
+    "descricao": "Tempora ut dolorum autem saepe veniam ab.",
+    "valor_total": 1657.37,
+    "desconto": 13.0
+  },
+  {
+    "negocio_nif_nipc": "989314251",
+    "tipo_bem_servico": "Apoio jurídico",
+    "descricao": "Dicta aut nihil reiciendis sequi soluta reprehenderit aperiam beatae.",
+    "valor_total": 2200.48,
+    "desconto": 13.62
+  },
+  {
+    "negocio_nif_nipc": "525856876",
+    "tipo_bem_servico": "Reparações domésticas",
+    "descricao": "Cumque molestias voluptates quia occaecati ea vitae soluta.",
+    "valor_total": 3614.21,
+    "desconto": 19.92
+  },
+  {
+    "negocio_nif_nipc": "999313307",
+    "tipo_bem_servico": "Meias",
+    "descricao": "Praesentium illo eius eos alias aspernatur eius a praesentium soluta.",
+    "valor_total": 2925.72,
+    "desconto": 18.65
+  },
+  {
+    "negocio_nif_nipc": "957052429",
+    "tipo_bem_servico": "Feijão",
+    "descricao": "Animi nihil nihil praesentium aliquid ratione recusandae.",
+    "valor_total": 3838.02,
+    "desconto": 41.56
+  },
+  {
+    "negocio_nif_nipc": "928800117",
+    "tipo_bem_servico": "Velas",
+    "descricao": "Magni vel numquam pariatur esse expedita sunt doloribus molestias sed reprehenderit.",
+    "valor_total": 954.49,
+    "desconto": 13.57
+  },
+  {
+    "negocio_nif_nipc": "988760297",
+    "tipo_bem_servico": "Serviço de mobilidade reduzida",
+    "descricao": "Magni incidunt eligendi exercitationem architecto qui impedit.",
+    "valor_total": 1576.87,
+    "desconto": 30.57
+  },
+  {
+    "negocio_nif_nipc": "928800117",
+    "tipo_bem_servico": "Azeite",
+    "descricao": "Itaque ex fuga adipisci voluptatibus doloribus sit cupiditate.",
+    "valor_total": 1503.18,
+    "desconto": 36.61
+  },
+  {
+    "negocio_nif_nipc": "908416463",
+    "tipo_bem_servico": "Termómetro",
+    "descricao": "Nihil at quas alias totam ratione cupiditate libero.",
+    "valor_total": 3317.84,
+    "desconto": 25.79
+  },
+  {
+    "negocio_nif_nipc": "923986559",
+    "tipo_bem_servico": "Roupa interior",
+    "descricao": "Rem consequuntur hic pariatur hic culpa veritatis ab ea harum animi.",
+    "valor_total": 1080.29,
+    "desconto": 39.94
+  },
+  {
+    "negocio_nif_nipc": "989314251",
+    "tipo_bem_servico": "Transporte escolar",
+    "descricao": "Et iste modi deleniti tenetur nam repudiandae occaecati odit blanditiis.",
+    "valor_total": 2002.31,
+    "desconto": 6.03
   }
 ]
