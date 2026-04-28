@@ -1,6 +1,6 @@
 "use strict";
 
-const contacto = require("../p2_sam/database/models/contacto");
+const contacto = require("../models/contacto");
 
 module.exports = {
  async up(queryInterface, Sequelize) {
