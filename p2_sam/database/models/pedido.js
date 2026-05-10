@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
    foreignKey: "nif_nipc",
    as: "instituicao",
   });
-  Pedido.hasMany(models.Pedido_Bens_E_Sercicos, {
+  Pedido.hasMany(models.Pedido_Bens_E_Servicos, {
    foreignKey: "id_pedido",
    as: "pedido_bens",
   });

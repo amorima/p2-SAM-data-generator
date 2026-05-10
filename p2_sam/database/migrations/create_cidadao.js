@@ -1,7 +1,5 @@
 "use strict";
 
-const contacto = require("../models/contacto");
-
 module.exports = {
  async up(queryInterface, Sequelize) {
   await queryInterface.createTable("cidadao", {
@@ -13,6 +11,7 @@ module.exports = {
    contacto: {
     type: Sequelize.STRING(13),
     allowNull: false,
+    unique: true,
    },
    rgpd: {
     type: Sequelize.TINYINT,

@@ -2,11 +2,12 @@
 
 module.exports = {
  async up(queryInterface, Sequelize) {
-  await queryInterface.createTable("bens_e_servico_negocio", {
+  await queryInterface.createTable("bens_e_servicos_negocio", {
    id_oferta: {
     type: Sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,
+    autoIncrement: true,
    },
    negocio_nif_nipc: {
     type: Sequelize.STRING(9),
@@ -15,9 +16,10 @@ module.exports = {
     onDelete: "CASCADE",
    },
    tipo_bem_servico: {
-    type: Sequelize.STRING(10),
+    type: Sequelize.STRING(50),
     allowNull: false,
-    references: { model: "bens_e_servico", key: "tipo_bem_servico" },
+    references: { model: "bens_e_servicos", key: "tipo_bem_servico" },
+    onDelete: "CASCADE",
    },
    descricao: {
     type: Sequelize.STRING(255),
@@ -35,6 +37,6 @@ module.exports = {
  },
 
  async down(queryInterface) {
-  await queryInterface.dropTable("bens_e_servico_negocio");
+  await queryInterface.dropTable("bens_e_servicos_negocio");
  },
 };

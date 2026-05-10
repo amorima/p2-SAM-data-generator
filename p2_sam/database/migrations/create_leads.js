@@ -34,14 +34,10 @@ module.exports = {
    id_pedido: {
     type: Sequelize.INTEGER,
     allowNull: false,
-    references: { model: "pedido_bens_e_servicos", key: "id_pedido" },
-    onDelete: "CASCADE",
    },
    item_pedido: {
-    type: Sequelize.STRING(100),
+    type: Sequelize.STRING(50),
     allowNull: false,
-    references: { model: "pedido_bens_e_servicos", key: "tipo_bem_servico" },
-    onDelete: "CASCADE",
    },
    estado: {
     type: Sequelize.ENUM("ENTREGUE", "PENDENTE", "EXPIRADO"),
@@ -57,6 +53,18 @@ module.exports = {
     references: { model: "locker_inteligente", key: "id_locker" },
     onDelete: "CASCADE",
    },
+  });
+
+  await queryInterface.addConstraint("leads", {
+   fields: ["id_pedido", "item_pedido"],
+   type: "foreign key",
+   name: "fk_leads_pedido_bens_e_servicos",
+   references: {
+    table: "pedido_bens_e_servicos",
+    fields: ["id_pedido", "tipo_bem_servico"],
+   },
+   onDelete: "CASCADE",
+   onUpdate: "CASCADE",
   });
  },
 

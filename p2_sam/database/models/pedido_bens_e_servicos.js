@@ -7,11 +7,11 @@ module.exports = (sequelize) => {
    id_pedido: {
     type: DataTypes.INTEGER,
     primaryKey: true,
-    autoIncrement: true,
     allowNull: false,
    },
    tipo_bem_servico: {
-    type: DataTypes.STRING(100),
+    type: DataTypes.STRING(50),
+    primaryKey: true,
     allowNull: false,
    },
    publico: {
@@ -22,22 +22,22 @@ module.exports = (sequelize) => {
   {
    tableName: "pedido_bens_e_servicos",
    timestamps: false,
-  }
+  },
  );
 
  Pedido_Bens_E_Servicos.associate = (models) => {
-  // Cada doação pertence a um mecenas
-  Pedido_Bens_E_Servicos.hasOne(models.Pedido, {
+  Pedido_Bens_E_Servicos.belongsTo(models.Pedido, {
    foreignKey: "id_pedido",
    as: "pedido",
   });
-  Pedido_Bens_E_Servicos.hasOne(models.Bens_E_Servico, {
+  Pedido_Bens_E_Servicos.belongsTo(models.Bens_E_Servico, {
    foreignKey: "tipo_bem_servico",
    as: "bens_e_servico",
   });
-  Pedido_Bens_E_Servicos.hasOne(models.Lead, {
+  Pedido_Bens_E_Servicos.hasMany(models.Lead, {
    foreignKey: "id_pedido",
-   as: "lead",
+   sourceKey: "id_pedido",
+   as: "leads",
   });
  };
 

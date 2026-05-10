@@ -7,13 +7,14 @@ module.exports = {
     type: Sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,
-    autoIncrement: true,
     references: { model: "pedido", key: "id_pedido" },
+    onDelete: "CASCADE",
    },
    tipo_bem_servico: {
-    type: Sequelize.STRING(255),
+    type: Sequelize.STRING(50),
+    primaryKey: true,
     allowNull: false,
-    references: { model: "bem_e_servicos", key: "tipo" },
+    references: { model: "bens_e_servicos", key: "tipo_bem_servico" },
     onDelete: "CASCADE",
    },
    publico: {

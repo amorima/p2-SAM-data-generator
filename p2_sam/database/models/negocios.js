@@ -28,16 +28,16 @@ module.exports = (sequelize) => {
   {
    tableName: "negocio",
    timestamps: false,
-  }
+  },
  );
 
- negocio.associate = (models) => {
+ Negocio.associate = (models) => {
   // Cada negocio tem uma entidade e varias Bens_E_Servicos_Negocio
-  negocio.belongsTo(models.Entidade, {
+  Negocio.belongsTo(models.Entidade, {
    foreignKey: "nif_nipc",
    as: "entidade",
   });
-  negocio.hasMany(models.Bens_E_Servicos_Negocio, {
+  Negocio.hasMany(models.Bens_E_Servicos_Negocio, {
    foreignKey: "negocio_nif_nipc",
    as: "bens_e_servicos_negocio",
   });
