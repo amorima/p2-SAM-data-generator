@@ -1,80 +1,88 @@
+import random
+import time
+import ssl
 import pgeocode
 from faker import Faker
-import time
-import math
-import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
-
 
 faker = Faker("pt_PT")
 geo = pgeocode.Nominatim("PT")
+_valid_localidades: list[dict] | None = None    # cache de localidades validas
+
+
+def _get_valid_localidades() -> list[dict]:
+    """Obtem e gera localidades válidas do dataset do pgeocode"""
+    global _valid_localidades
+
+    if _valid_localidades is None:
+        dados = geo._data.dropna(
+            subset=["postal_code", "latitude", "longitude"]
+        ).drop_duplicates(subset=["postal_code"])
+
+        _valid_localidades = dados.to_dict("records")
+
+    return _valid_localidades
 
 
 def generate_localidade() -> dict | None:
-    """
-    Gera um registo de Localidade válido.
-    Sem latitude/longitude — essas pertencem a Instituicao e Negocio.
-    """
-    cp = faker.postcode()
-    r = geo.query_postal_code(cp)
-
-    if math.isnan(r["latitude"]) or math.isnan(r["longitude"]):
-        return None
+    r = random.choice(_get_valid_localidades())
+    cp = r["postal_code"]
 
     return {
         "codigo_postal": cp,
         "rua": faker.street_name()[:45],
-        "freguesia": r["place_name"][:45] if isinstance(r["place_name"],  str) else None,
+        "freguesia": r["place_name"][:45] if isinstance(r["place_name"], str) else None,
         "concelho": r["county_name"][:45] if isinstance(r["county_name"], str) else None,
-        "distrito": r["state_name"][:45] if isinstance(r["state_name"],  str) else None,
-        "n_porta": faker.numerify("##"),
+        "distrito": r["state_name"][:45] if isinstance(r["state_name"], str) else None,
+        "n_porta": faker.numerify("###"),
         "pais": "Portugal",
-        # guardamos lat/lon internamente para uso por outras entidades
-        # estes campos NÃO existem na tabela Localidade da BD
-        "_latitude": round(float(r["latitude"]),  8),
+        "_latitude": round(float(r["latitude"]), 8),
         "_longitude": round(float(r["longitude"]), 8),
     }
 
 
 def generate_localidades(n: int = 100) -> list[dict]:
-    """
-    Gera n localidades únicas e válidas com progresso e estatísticas.
-    """
-    resultados = []
-    tentativas = 0
-    codigos_vistos = set()
     inicio = time.time()
+    validas = _get_valid_localidades()
+
+    if n > len(validas):
+        raise ValueError(
+            f"Só existem {len(validas)} localidades válidas disponíveis."
+        )
 
     print(f"A gerar {n} localidades válidas...\n")
 
-    while len(resultados) < n:
-        tentativas += 1
-        registo = generate_localidade()
-
-        if registo is None:
-            continue
-
-        cp = registo["codigo_postal"]
-        if cp in codigos_vistos:
-            continue
-
-        codigos_vistos.add(cp)
-        resultados.append(registo)
+    resultados = []
+    for r in random.sample(validas, n):
+        resultados.append({
+            "codigo_postal": r["postal_code"],
+            "rua": faker.street_name()[:45],
+            "freguesia": r["place_name"][:45] if isinstance(r["place_name"], str) else None,
+            "concelho": r["county_name"][:45] if isinstance(r["county_name"], str) else None,
+            "distrito": r["state_name"][:45] if isinstance(r["state_name"], str) else None,
+            "n_porta": faker.numerify("##"),
+            "pais": "Portugal",
+            "_latitude": round(float(r["latitude"]), 8),
+            "_longitude": round(float(r["longitude"]), 8),
+        })
 
     total = time.time() - inicio
     minutos, segundos = divmod(total, 60)
+
     print(f"\n{chr(9472) * 50}")
-    print(f"  Concluído!")
+    print("  Concluído!")
     print(f"  Registos válidos : {len(resultados)}")
-    print(f"  Total tentativas : {tentativas}")
-    if minutos > 0:
-        print(f"  Tempo total      : {int(minutos)}m {segundos:.1f}s")
-    else:
-        print(f"  Tempo total      : {segundos:.1f}s")
+    print(f"  Total tentativas : {len(resultados)}")
+    print(f"  Tempo total      : {int(minutos)}m {segundos:.1f}s" if minutos >
+          0 else f"  Tempo total      : {segundos:.1f}s")
     print(f"{chr(9472) * 50}\n")
+
     return resultados
 
 
 def strip_internal_fields(localidades: list[dict]) -> list[dict]:
-    """Remove campos gerados para outras entidades (_latitude, _longitude) antes de exportar."""
-    return [{k: v for k, v in loc.items() if not k.startswith("_")} for loc in localidades]
+    """Remove campos internos antes de exportar a tabela Localidade."""
+    return [
+        {k: v for k, v in localidade.items() if not k.startswith("_")}
+        for localidade in localidades
+    ]
