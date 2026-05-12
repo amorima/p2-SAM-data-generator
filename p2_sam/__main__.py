@@ -5,6 +5,7 @@ from p2_sam.entities.doacao.generator import generate_mecenas
 from p2_sam.entities.negocio.generator import generate_negocios
 from p2_sam.entities.instituicao.generator import generate_instituicoes
 from p2_sam.entities.entidade.generator import generate_entidades
+from p2_sam.entities.localidade_entidade.generator import generate_localidade_entidade
 from p2_sam.entities.contacto.generator import generate_contactos
 from p2_sam.entities.doacao.generator import generate_doacoes
 from p2_sam.entities.painel_digital.generator import generate_paineis
@@ -56,6 +57,10 @@ def main() -> None:
     )
     export_csv(entidades,  "entidade", OUTPUT_DIR)
     export_json(entidades, "entidade", OUTPUT_DIR)
+
+    localidade_entidade = generate_localidade_entidade(entidades=entidades)
+    export_csv(localidade_entidade,  "localidade_entidade", OUTPUT_DIR)
+    export_json(localidade_entidade, "localidade_entidade", OUTPUT_DIR)
 
     # 4 — Contacto herda NIFs de entidade
     contactos = generate_contactos(

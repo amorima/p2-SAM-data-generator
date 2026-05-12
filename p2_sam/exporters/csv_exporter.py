@@ -4,10 +4,10 @@ from pathlib import Path
 
 def export_csv(data: list[dict], nome: str, output_dir: Path) -> None:
     """
-    Exporta uma lista de dicionários para um ficheiro CSV.
-    Apaga o ficheiro existente antes de escrever.
+    Exporta uma lista de dicionários para um ficheiro CSV
+    Apaga o ficheiro existente antes de escrever
 
-    Args:
+    Argumentos:
         data:       lista de registos a exportar
         nome:       nome base do ficheiro (sem extensão)
         output_dir: diretório de destino
