@@ -106,7 +106,7 @@ def main() -> None:
 
     # 10 — Lead (depende de paineis, pedidos, lockers e cidadaos)
     leads = generate_leads(
-        n=100, paineis=paineis, pedidos=pedidos,
+        n=100, paineis=paineis, pedidos_bens=pedidos_bens,
         lockers=lockers, cidadaos=cidadaos
     )
     export_csv(leads,  "lead", OUTPUT_DIR)

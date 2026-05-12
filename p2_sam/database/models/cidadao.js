@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
  const Cidadao = sequelize.define(
-  "Cidadao",
+  "cidadao",
   {
    nome: {
     type: DataTypes.STRING(50),
@@ -18,16 +18,16 @@ module.exports = (sequelize) => {
    },
   },
   {
-   tableName: "Contacto",
+   tableName: "cidadao",
    timestamps: false,
   },
  );
 
  Cidadao.associate = (models) => {
-  // Cidadao pertence a entidade
-  Cidadao.belongsTo(models.Leads, {
-   foreignKey: "entidade_nif_nipc",
-   as: "entidade",
+  Cidadao.hasMany(models.Lead, {
+   foreignKey: "nome_cidadao",
+   sourceKey: "nome",
+   as: "leads",
   });
  };
 

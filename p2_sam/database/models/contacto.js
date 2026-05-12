@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
  const Contacto = sequelize.define(
-  "Contacto",
+  "contacto",
   {
    contacto: {
     type: DataTypes.STRING(45),
@@ -22,9 +22,9 @@ module.exports = (sequelize) => {
    },
   },
   {
-   tableName: "Contacto",
+   tableName: "contacto",
    timestamps: false,
-  }
+  },
  );
 
  Contacto.associate = (models) => {
