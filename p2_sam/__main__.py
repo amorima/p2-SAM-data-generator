@@ -41,8 +41,8 @@ def main() -> None:
     export_json(mecenas, "mecena", OUTPUT_DIR)
 
     negocios = generate_negocios(n=50, localidades=localidades)
-    export_csv(negocios,  "negocio", OUTPUT_DIR)
-    export_json(negocios, "negocio", OUTPUT_DIR)
+    export_csv(strip_internal_fields(negocios),  "negocio", OUTPUT_DIR)
+    export_json(strip_internal_fields(negocios), "negocio", OUTPUT_DIR)
 
     instituicoes = generate_instituicoes(n=50, localidades=localidades)
     export_csv(instituicoes,  "instituicao", OUTPUT_DIR)
