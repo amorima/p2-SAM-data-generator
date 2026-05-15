@@ -13,7 +13,8 @@ from p2_sam.entities.locker.generator import generate_lockers
 from p2_sam.entities.cidadao.generator import generate_cidadaos
 from p2_sam.entities.pedido.generator import generate_pedidos
 from p2_sam.entities.bens_servicos.generator import generate_bens_servicos
-from p2_sam.entities.pedido_bens_servico.generator import generate_pedidos_bens_servicos, generate_bens_servicos_negocio
+from p2_sam.entities.pedido_bens_servico.generator import generate_pedidos_bens_servicos
+from p2_sam.entities.bens_e_servicos_negocio.generator import generate_bens_servicos_negocio
 from p2_sam.entities.lead.generator import generate_leads
 from p2_sam.exporters.csv_exporter import export_csv
 from p2_sam.exporters.json_exporter import export_json
