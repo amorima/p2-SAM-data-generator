@@ -29,6 +29,14 @@ module.exports = {
     type: Sequelize.STRING(8),
     allowNull: false,
    },
+   profile_pic: {
+    type: Sequelize.STRING(255),
+    allowNull: true,
+   },
+   role: {
+    type: Sequelize.ENUM("patron", "business", "institution", "admin"),
+    allowNull: false,
+   },
   });
  },
 

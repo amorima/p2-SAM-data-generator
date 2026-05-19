@@ -21,8 +21,10 @@ def export_csv(data: list[dict], nome: str, output_dir: Path) -> None:
     csv_path = output_dir / f"{nome}.csv"
     csv_path.unlink(missing_ok=True)
 
+    fieldnames = list(dict.fromkeys(key for row in data for key in row.keys()))
+
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(data)
 

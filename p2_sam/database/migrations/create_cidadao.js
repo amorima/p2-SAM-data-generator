@@ -17,6 +17,21 @@ module.exports = {
     type: Sequelize.TINYINT,
     allowNull: false,
    },
+   blocked: {
+    type: Sequelize.TINYINT,
+    allowNull: false,
+    defaultValue: 0,
+   },
+   role: {
+    type: Sequelize.STRING(255),
+    allowNull: false,
+    defaultValue: null,
+   },
+   reason: {
+    type: Sequelize.STRING(255),
+    allowNull: true,
+    defaultValue: null,
+   },
   });
  },
 

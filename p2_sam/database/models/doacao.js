@@ -22,10 +22,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    tipo_donativo: {
-    type: DataTypes.ENUM(
-     "ESPECIE",
-     "NUMERARIO",
-    ), // caso se adicione um novo metodo de pagamento, adicionar aqui
+    type: DataTypes.ENUM("REFERENCIA", "NUMERARIO", "CHEQUE", "TRANFERENCIA"), // caso se adicione um novo metodo de pagamento, adicionar aqui
     allowNull: false,
    },
    anonimo: {
@@ -44,7 +41,7 @@ module.exports = (sequelize) => {
   {
    tableName: "doacao",
    timestamps: false,
-  }
+  },
  );
 
  Doacao.associate = (models) => {

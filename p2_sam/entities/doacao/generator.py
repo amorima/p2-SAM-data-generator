@@ -5,7 +5,7 @@ from faker import Faker
 faker = Faker("pt_PT")
 
 # Tipos de donativo conforme diagrama (ENUM)
-TIPOS_DONATIVO = ["NUMERARIO", "ESPECIE"]
+TIPOS_DONATIVO = ["NUMERARIO", "REFERENCIA", "CHEQUE", "TRANSFERENCIA"]
 
 # Estados da doação (ENUM)
 ESTADOS_DOACAO = ["PENDENTE", "ACEITE", "REJEITADO"]
@@ -23,7 +23,7 @@ def _gerar_nif_mecena() -> str:
     """
     prefixo = random.choices(
         ["1", "2", "5", "9"],
-        weights=[10, 5, 25, 60], # aplicar peso ao prefixo de cada nif 
+        weights=[10, 5, 25, 60],  # aplicar peso ao prefixo de cada nif
         k=1
     )[0]
     return prefixo + faker.numerify("########")
@@ -35,20 +35,20 @@ def generate_mecena() -> dict:
     Mecena herda de Entidade (nif_nipc é a PK partilhada).
     """
     return {
-        "nif_nipc" : _gerar_nif_mecena(),
+        "nif_nipc": _gerar_nif_mecena(),
     }
 
 
 def generate_mecenas(n: int = 50) -> list[dict]:
     """Gera n mecenas únicos (por nif_nipc)."""
-    resultados  = []
+    resultados = []
     nifs_vistos = set()
 
     print(f"A gerar {n} mecenas...\n")
 
     while len(resultados) < n:
         registo = generate_mecena()
-        nif     = registo["nif_nipc"]
+        nif = registo["nif_nipc"]
 
         if nif in nifs_vistos:
             continue
@@ -63,8 +63,8 @@ def generate_mecenas(n: int = 50) -> list[dict]:
 def _data_aleatoria(anos_atras: int = 5) -> str:
     """Gera uma data aleatória nos últimos n anos."""
     inicio = datetime.now() - timedelta(days=anos_atras * 365)
-    delta  = datetime.now() - inicio
-    data   = inicio + timedelta(days=random.randint(0, delta.days))
+    delta = datetime.now() - inicio
+    data = inicio + timedelta(days=random.randint(0, delta.days))
     return data.strftime("%Y-%m-%d %H:%M:%S")
 
 
@@ -72,20 +72,20 @@ def generate_doacao(mecenas: list[dict]) -> dict:
     """
     Gera um registo de Doação ligado a um Mecena existente
     """
-    mecena   = random.choice(mecenas)
-    anonimo  = random.choices([0, 1], weights=[60, 40], k=1)[0]
-    tipo     = random.choice(TIPOS_DONATIVO)
-    valor    = round(random.uniform(50, 50000), 2)
-    nif      = mecena["nif_nipc"]
+    mecena = random.choice(mecenas)
+    anonimo = random.choices([0, 1], weights=[60, 40], k=1)[0]
+    tipo = random.choice(TIPOS_DONATIVO)
+    valor = round(random.uniform(50, 50000), 2)
+    nif = mecena["nif_nipc"]
 
     return {
-        "mecena_nif_nipc"  : nif,
-        "data"             : _data_aleatoria(anos_atras=5),
-        "valor_transacao"  : valor,
-        "tipo_donativo"    : tipo,
-        "anonimo"          : anonimo,
-        "url_comprovativo" : f"https://comprovativos.mecenas.pt/{nif}-{faker.numerify('######')}.pdf",
-        "estado"           : random.choice(ESTADOS_DOACAO),
+        "mecena_nif_nipc": nif,
+        "data": _data_aleatoria(anos_atras=5),
+        "valor_transacao": valor,
+        "tipo_donativo": tipo,
+        "anonimo": anonimo,
+        "url_comprovativo": f"https://comprovativos.mecenas.pt/{nif}-{faker.numerify('######')}.pdf",
+        "estado": random.choice(ESTADOS_DOACAO),
     }
 
 

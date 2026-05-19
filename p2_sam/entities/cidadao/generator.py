@@ -3,6 +3,13 @@ from faker import Faker
 
 faker = Faker("pt_PT")
 
+MOTIVOS_SUSPENSAO_CIDADAO = {
+    1: "Incumprimento dos termos de utilização",
+    2: "Atividade suspeita ou potencial fraude",
+    3: "Pedido do próprio cidadão",
+    4: "Dados pessoais inválidos ou desatualizados",
+}
+
 
 def _gerar_contacto() -> str:
     """Número de telemóvel português: 9X com 9 dígitos."""
@@ -11,22 +18,30 @@ def _gerar_contacto() -> str:
 
 
 def generate_cidadao() -> dict:
-    return {
-        "nome"     : faker.name()[:50],
-        "contacto" : _gerar_contacto(),
-        "rgpd"     : random.choices([0, 1], weights=[10, 90], k=1)[0],
+    blocked = random.choices([0, 1], weights=[50, 50], k=1)[0]
+    cidadao = {
+        "nome": faker.name()[:50],
+        "contacto": _gerar_contacto(),
+        "rgpd": random.choices([0, 1], weights=[10, 90], k=1)[0],
+        "blocked": blocked,
     }
+
+    if blocked == 1:
+        cidadao["reason"] = random.choice(
+            list(MOTIVOS_SUSPENSAO_CIDADAO.values()))
+
+    return cidadao
 
 
 def generate_cidadaos(n: int = 100) -> list[dict]:
-    resultados      = []
+    resultados = []
     contactos_vistos = set()
 
     print(f"A gerar {n} cidadãos...\n")
 
     while len(resultados) < n:
-        registo   = generate_cidadao()
-        contacto  = registo["contacto"]
+        registo = generate_cidadao()
+        contacto = registo["contacto"]
 
         if contacto in contactos_vistos:
             continue

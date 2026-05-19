@@ -15,7 +15,7 @@ module.exports = (sequelize) => {
     unique: true,
    },
    password: {
-    type: DataTypes.STRING(45),
+    type: DataTypes.STRING(255),
     allowNull: false,
    },
    nome_entidade: {
@@ -31,11 +31,19 @@ module.exports = (sequelize) => {
     type: DataTypes.STRING(8),
     allowNull: false,
    },
+   profile_pic: {
+    type: DataTypes.STRING(255),
+    allowNull: true,
+   },
+   role: {
+    type: DataTypes.ENUM("patron", "business", "institution", "admin"),
+    allowNull: false,
+   },
   },
   {
    tableName: "entidade",
    timestamps: false,
-  }
+  },
  );
 
  Entidade.associate = (models) => {
