@@ -48,7 +48,7 @@ def generate_contactos(entidades: list[dict], contactos_por_entidade: int = 1) -
                 "contacto": contacto,
                 "entidade_nif_nipc": entidade["nif_nipc"],
                 "nome_contacto": entidade["nome_entidade"][:100],
-                "descricao": faker.sentence(nb_words=8)[:500],
+                "descricao": "Lorem Ipsum neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"
             })
             criados += 1
 

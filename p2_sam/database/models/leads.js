@@ -22,7 +22,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    contacto_cidadao: {
-    type: DataTypes.STRING(13),
+    type: DataTypes.STRING(50),
     allowNull: false,
    },
    id_pedido: {

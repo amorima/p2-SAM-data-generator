@@ -26,7 +26,7 @@ module.exports = {
     onDelete: "CASCADE",
    },
    contacto_cidadao: {
-    type: Sequelize.STRING(13),
+    type: Sequelize.STRING(50),
     allowNull: false,
     references: { model: "cidadao", key: "contacto" },
     onDelete: "CASCADE",

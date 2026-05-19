@@ -1,7 +1,10 @@
 import random
+import unicodedata
 from faker import Faker
 
 faker = Faker("pt_PT")
+
+DOMINIOS_EMAIL = ["gmail", "hotmail", "outlook", "sapo", "mail"]
 
 MOTIVOS_SUSPENSAO_CIDADAO = {
     1: "Incumprimento dos termos de utilização",
@@ -11,17 +14,26 @@ MOTIVOS_SUSPENSAO_CIDADAO = {
 }
 
 
-def _gerar_contacto() -> str:
-    """Número de telemóvel português: 9X com 9 dígitos."""
-    prefixo = random.choice(["91", "92", "93", "96"])
-    return prefixo + faker.numerify("#######")
+def _normalizar_email(texto: str) -> str:
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = texto.encode("ascii", "ignore").decode("ascii")
+    return "".join(c for c in texto.lower() if c.isalnum() or c in ".-_")
+
+
+def _gerar_contacto(nome: str) -> str:
+    partes = nome.strip().split()
+    primeiro = _normalizar_email(partes[0] if partes else "cidadao")
+    ultimo = _normalizar_email(partes[-1] if len(partes) > 1 else "sam")
+    dominio = random.choice(DOMINIOS_EMAIL)
+    return f"{primeiro}.{ultimo}@{dominio}.com"[:50]
 
 
 def generate_cidadao() -> dict:
     blocked = random.choices([0, 1], weights=[50, 50], k=1)[0]
+    nome = faker.name()[:50]
     cidadao = {
-        "nome": faker.name()[:50],
-        "contacto": _gerar_contacto(),
+        "nome": nome,
+        "contacto": _gerar_contacto(nome),
         "rgpd": random.choices([0, 1], weights=[10, 90], k=1)[0],
         "blocked": blocked,
         "role": "citizen",

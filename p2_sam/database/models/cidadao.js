@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
     primaryKey: true,
    },
    contacto: {
-    type: DataTypes.STRING(13),
+    type: DataTypes.STRING(50),
     allowNull: false,
    },
    rgpd: {

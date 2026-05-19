@@ -11,4 +11,4 @@ build/
 venv/
 .env
 output/
-
+node_modules/

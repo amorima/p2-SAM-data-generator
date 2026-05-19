@@ -150,7 +150,9 @@ As coleções NoSQL são geradas após toda a geração SQL, pois referenciam PK
 
 **Bens_E_Servicos** — geração estática a partir de dois dicionários: `BENS_POR_CATEGORIA` e `SERVICOS_POR_CATEGORIA`. Cada entrada é única e serve como PK da tabela. Os valores não têm acentos nem maiúsculas para compatibilidade com a BD. O campo `tipo_bem` mapeia para o ENUM do model: `"bem"` ou `"servico"`.
 
-**Cidadao** — cada cidadão tem `blocked` (`0` ou `1`) e `role` com valor `"citizen"`. O campo `reason` só é gerado quando `blocked` é `1`; cidadãos não bloqueados não têm motivo de bloqueio.
+**Cidadao** — cada cidadão tem `blocked` (`0` ou `1`) e `role` com valor `"citizen"`. O campo `contacto` é um email gerado a partir do primeiro e último nome (`primeiro.ultimo@dominio.com`). O campo `reason` só é gerado quando `blocked` é `1`; cidadãos não bloqueados não têm motivo de bloqueio.
+
+**Lead** — referencia apenas pedidos cujo `tipo_bem_servico` corresponde a um item com `tipo_bem = "bem"`. Serviços podem existir em `pedido_bens_servicos`, mas não são escolhidos para gerar leads.
 
 **Financial_Log** — cada doação gera exatamente um log financeiro, partilhando a mesma data. Garante cobertura total de auditoria sem registos órfãos.
 

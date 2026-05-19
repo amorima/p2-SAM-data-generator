@@ -9,7 +9,7 @@ module.exports = {
     allowNull: false,
    },
    contacto: {
-    type: Sequelize.STRING(13),
+    type: Sequelize.STRING(50),
     allowNull: false,
     unique: true,
    },
