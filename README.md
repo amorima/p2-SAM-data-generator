@@ -17,7 +17,7 @@ Projeto académico desenvolvido no âmbito da Licenciatura em Tecnologias e Sist
 - [Instalação](#instalação)
 - [Utilização](#utilização)
 - [Output](#output)
-- [Migração para a Base de Dados](#migração-para-a-base-de-dados)
+- [Importação para a Base de Dados](#importação-para-a-base-de-dados)
 
 ---
 
@@ -60,84 +60,36 @@ p2-SAM-data-generator/
 ├── p2_sam/
 │   ├── __main__.py                        # Ponto de entrada — orquestra toda a geração
 │   ├── entities/
-│   │   ├── localidade/
-│   │   │   └── generator.py               # Gera códigos postais válidos via GeoNames
+│   │   ├── localidade/                    # Geradores SQL
 │   │   ├── entidade/
-│   │   │   └── generator.py               # Agrega NIFs de mecenas, negócios e instituições
 │   │   ├── mecena/
-│   │   │   └── generator.py
 │   │   ├── doacao/
-│   │   │   └── generator.py
 │   │   ├── negocio/
-│   │   │   └── generator.py
 │   │   ├── instituicao/
-│   │   │   └── generator.py
 │   │   ├── contacto/
-│   │   │   └── generator.py
 │   │   ├── pedido/
-│   │   │   └── generator.py
 │   │   ├── bens_servicos/
-│   │   │   └── generator.py               # Dicionário estático de bens e serviços
-│   │   ├── pedido_bens_servico/
-│   │   │   └── generator.py
 │   │   ├── painel_digital/
-│   │   │   └── generator.py
 │   │   ├── locker/
-│   │   │   └── generator.py
 │   │   ├── cidadao/
-│   │   │   └── generator.py
 │   │   ├── lead/
-│   │   │   └── generator.py
-│   │   └── nosql/
-│   │       ├── locker_telemetry_generator.py
-│   │       ├── financial_log_generator.py  # Um log por cada doação gerada
-│   │       ├── interaction_log_generator.py
-│   │       ├── notification_generator.py
-│   │       └── voucher_generator.py
-│   └── exporters/
-│       ├── csv_exporter.py                # Exporta qualquer entidade para CSV
-│       ├── json_exporter.py               # Exporta qualquer entidade para JSON
-│       └── mongodb_exporter.py            # Exporta coleções NoSQL para JSON
-├── models/                                # Models Sequelize (MySQL)
-│   ├── index.js
-│   ├── entidade.js
-│   ├── mecenas.js
-│   ├── doacao.js
-│   ├── negocio.js
-│   ├── instituicao.js
-│   ├── localidade.js
-│   ├── localidade_entidade.js
-│   ├── contacto.js
-│   ├── pedido.js
-│   ├── bens_e_servico.js
-│   ├── bens_e_servicos_negocio.js
-│   ├── pedido_bens_e_servicos.js
-│   ├── painel.js
-│   ├── locker_inteligente.js
-│   └── lead.js
-├── migrations/                            # Migrations Sequelize (MySQL)
-│   ├── 01-create-localidade.js
-│   ├── 02-create-entidade.js
-│   ├── 03-create-localidade-entidade.js
-│   ├── 04-create-mecena.js
-│   ├── 05-create-doacao.js
-│   ├── 06-create-negocio.js
-│   ├── 07-create-instituicao.js
-│   ├── 08-create-contacto.js
-│   ├── 09-create-bens-e-servico.js
-│   ├── 10-create-bens-e-servicos-negocio.js
-│   ├── 11-create-pedido.js
-│   ├── 12-create-pedido-bens-e-servicos.js
-│   ├── 13-create-painel.js
-│   ├── 14-create-locker-inteligente.js
-│   ├── 15-create-cidadao.js
-│   └── 16-create-lead.js
-├── seeders/                               # Seeders Sequelize (MySQL)
-│   ├── 01-seed-localidade.js
-│   ├── 02-seed-entidade.js
-│   └── 03-seed-localidade-entidade.js
-├── config/
-│   └── database.js                        # Configuração da ligação Sequelize
+│   │   └── nosql/                         # Geradores MongoDB
+│   ├── exporters/
+│   │   ├── csv_exporter.py
+│   │   ├── json_exporter.py
+│   │   └── mongodb_exporter.py
+│   └── database/
+│       ├── models/                        # Models Sequelize (MySQL)
+│       ├── migrations/                    # Migrations Sequelize (MySQL)
+│       ├── seeders/
+│       │   ├── seed_sql_from_output.js    # Importa output/*.json para MySQL
+│       │   └── seed_nosql_from_output.js  # Importa output/nosql_*.json para MongoDB
+│       ├── nosql/
+│       │   ├── connections.js             # Ligação MongoDB/Mongoose
+│       │   └── schemas/                   # Schemas Mongoose
+│       ├── config/
+│       │   └── database.js                # Configuração da ligação Sequelize
+│       └── package.json                   # Scripts de seed SQL/NoSQL
 ├── output/                                # Ficheiros gerados (JSON + CSV) — não versionado
 ├── tests/
 │   └── codigo_postal_rua.py               # Testes isolados
@@ -165,7 +117,7 @@ A geração segue a ordem de dependências — entidades sem dependências são 
 | 8 | `Painel_Digital` | 30 | Localidade |
 | 9 | `Locker_Inteligente` | 30 | Localidade |
 | 10 | `Cidadao` | 100 | — |
-| 11 | `Bens_E_Servicos` | ~55 (estático) | — |
+| 11 | `Bens_E_Servicos` | ~73 (estático) | — |
 | 12 | `Pedido` | 100 | Entidade |
 | 13 | `Pedido_Bens_E_Servicos` | 150 | Pedido + Bens_E_Servicos |
 | 14 | `Bens_E_Servicos_Negocio` | 100 | Negocio + Bens_E_Servicos |
@@ -196,7 +148,9 @@ As coleções NoSQL são geradas após toda a geração SQL, pois referenciam PK
 
 **Entidade** — não gera NIFs próprios. Agrega os NIFs já gerados por `Mecena`, `Negocio` e `Instituicao`, e cria para cada um o `email_login` (formato `primeiro.ultimo@dominio` para pessoas, `nomedaorganizacao@dominio` para organizações), `password`, `iban` e endereço.
 
-**Bens_E_Servicos** — geração estática a partir de dois dicionários: `BENS_POR_CATEGORIA` e `SERVICOS_POR_CATEGORIA`. Cada entrada é única e serve como PK da tabela. Os valores não têm acentos nem maiúsculas para compatibilidade com a BD. O campo `tipo` mapeia para o ENUM do model: `"bem"` ou `"servico"`.
+**Bens_E_Servicos** — geração estática a partir de dois dicionários: `BENS_POR_CATEGORIA` e `SERVICOS_POR_CATEGORIA`. Cada entrada é única e serve como PK da tabela. Os valores não têm acentos nem maiúsculas para compatibilidade com a BD. O campo `tipo_bem` mapeia para o ENUM do model: `"bem"` ou `"servico"`.
+
+**Cidadao** — cada cidadão tem `blocked` (`0` ou `1`) e `role` com valor `"citizen"`. O campo `reason` só é gerado quando `blocked` é `1`; cidadãos não bloqueados não têm motivo de bloqueio.
 
 **Financial_Log** — cada doação gera exatamente um log financeiro, partilhando a mesma data. Garante cobertura total de auditoria sem registos órfãos.
 
@@ -205,7 +159,9 @@ As coleções NoSQL são geradas após toda a geração SQL, pois referenciam PK
 ## Pré-requisitos
 
 - Python 3.11+
-- Node.js 18+ (para os models, migrations e seeders Sequelize)
+- Node.js 18+ (para os models, migrations e seeders)
+- MySQL, se quiser importar os dados SQL
+- MongoDB, se quiser importar os dados NoSQL
 
 ---
 
@@ -224,9 +180,16 @@ source .venv/bin/activate  # macOS/Linux
 
 # Instalar dependências Python
 pip install -e .
+
+# Instalar dependências Node da camada database
+cd p2_sam/database
+npm install
+cd ../..
 ```
 
-As dependências principais são `faker`, `pgeocode` e `pandas`, declaradas no `pyproject.toml`.
+As dependências Python principais são `faker`, `pgeocode` e `pandas`, declaradas no `pyproject.toml`.
+
+As dependências Node incluem `sequelize`, `mysql2` e `mongoose`, declaradas em `p2_sam/database/package.json`.
 
 ---
 
@@ -288,32 +251,79 @@ A pasta `output/` está no `.gitignore` — os ficheiros gerados não são versi
 
 ---
 
-## Migração para a Base de Dados
+## Importação para a Base de Dados
+
+Antes de importar, gerar os ficheiros em `output/`:
+
+```bash
+python -m p2_sam
+```
 
 ### MySQL — Sequelize
+
+Configurar a ligação MySQL através de variáveis de ambiente:
+
+```bash
+export DB_USER=root
+export DB_PASSWORD="password"
+export DB_NAME=database_development
+export DB_HOST=127.0.0.1
+```
 
 Correr as migrations para criar as tabelas:
 
 ```bash
+cd p2_sam/database
 npx sequelize-cli db:migrate
 ```
 
-Correr os seeders para popular a base de dados com os dados gerados:
+Importar todos os ficheiros SQL de `output/*.json` com `bulkInsert`:
 
 ```bash
-npx sequelize-cli db:seed:all
+npm run seed:sql
 ```
 
-A ordem de execução respeita automaticamente as foreign keys pela numeração dos ficheiros (`01-`, `02-`, etc.).
+O seeder SQL lê os ficheiros JSON, normaliza campos opcionais quando necessário e insere as tabelas pela ordem das foreign keys.
 
-### MongoDB
-
-Os ficheiros `nosql_*.json` podem ser importados diretamente com o `mongoimport`:
+Por defeito, os dados das tabelas são limpos antes da importação. Para inserir sem limpar:
 
 ```bash
-mongoimport --db sam --collection locker_telemetry --file output/nosql_locker_telemetry.json --jsonArray
-mongoimport --db sam --collection financial_log     --file output/nosql_financial_log.json     --jsonArray
-mongoimport --db sam --collection interaction_log   --file output/nosql_interaction_log.json   --jsonArray
-mongoimport --db sam --collection notification      --file output/nosql_notification.json      --jsonArray
-mongoimport --db sam --collection vouchers          --file output/nosql_vouchers.json          --jsonArray
+SEED_CLEAR=false npm run seed:sql
+```
+
+Também é possível apontar para outra pasta de output:
+
+```bash
+OUTPUT_DIR=/caminho/para/output npm run seed:sql
+```
+
+### MongoDB — Mongoose
+
+Configurar a ligação MongoDB:
+
+```bash
+export MONGODB_URI="mongodb://localhost:27017"
+export MONGODB_DB_NAME=sam
+```
+
+Importar todos os ficheiros `output/nosql_*.json`:
+
+```bash
+cd p2_sam/database
+npm run seed:nosql
+```
+
+O seeder NoSQL usa os schemas Mongoose e normaliza os documentos gerados para os nomes usados nos schemas. Por defeito, as coleções são recriadas antes da importação. Para inserir sem limpar:
+
+```bash
+SEED_CLEAR=false npm run seed:nosql
+```
+
+### Importação completa
+
+Para correr SQL e NoSQL em sequência:
+
+```bash
+cd p2_sam/database
+npm run seed:all
 ```

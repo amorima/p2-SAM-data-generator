@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "seed:sql": "node seeders/seed_sql_from_output.js",
+    "seed:nosql": "node seeders/seed_nosql_from_output.js",
+    "seed:all": "npm run seed:sql && npm run seed:nosql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +14,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "mongoose": "^8.16.5",
     "mysql2": "^3.22.3",
     "sequelize": "^6.37.8"
   }

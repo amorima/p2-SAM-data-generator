@@ -8,7 +8,6 @@ const InteractionLogSchema = new mongoose.Schema({
  lead_sql_id: {
   type: Number,
   require: true,
-  unique: true,
  },
  tipo: {
   type: String,

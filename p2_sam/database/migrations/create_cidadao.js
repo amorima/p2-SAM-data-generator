@@ -25,7 +25,7 @@ module.exports = {
    role: {
     type: Sequelize.STRING(255),
     allowNull: false,
-    defaultValue: null,
+    defaultValue: "citizen",
    },
    reason: {
     type: Sequelize.STRING(255),
