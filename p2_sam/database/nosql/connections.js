@@ -37,6 +37,9 @@ loadRootEnv();
 const connectMongoDB = async () => {
  try {
   await mongoose.connect(process.env.MONGODB_URI, {
+   user: process.env.MONGODB_USER,
+   pass: process.env.MONGODB_PASSWORD,
+   authSource: process.env.MONGODB_AUTH_SOURCE,
    dbName: process.env.MONGODB_DB_NAME,
   });
   console.log("MongoDB conectado com sucesso");

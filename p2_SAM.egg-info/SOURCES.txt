@@ -5,12 +5,9 @@ p2_sam/__main__.py
 p2_sam.egg-info/PKG-INFO
 p2_sam.egg-info/SOURCES.txt
 p2_sam.egg-info/dependency_links.txt
-p2_sam.egg-info/requirements.txt
 p2_sam.egg-info/requires.txt
 p2_sam.egg-info/top_level.txt
 p2_sam/config/__init__.py
-p2_sam/core/__init__.py
-p2_sam/core/validator.py
 p2_sam/entities/__init__.py
 p2_sam/entities/bens_e_servicos_negocio/__init__.py
 p2_sam/entities/bens_e_servicos_negocio/generator.py
