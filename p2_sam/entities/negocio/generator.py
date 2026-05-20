@@ -28,6 +28,7 @@ def generate_negocio(localidades: list[dict]) -> dict:
 
     return {
         "nif_nipc"              : nipc,
+        "_codigo_postal"        : loc["codigo_postal"],
         "geo_latitude"          : loc["_latitude"],
         "geo_longitude"         : loc["_longitude"],
         "url_certidao_permanente": f"https://certidoes.negocio.pt/{nipc}.pdf",

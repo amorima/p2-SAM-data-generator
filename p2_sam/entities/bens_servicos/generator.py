@@ -65,7 +65,7 @@ def generate_bens_servicos() -> list[dict]:
     """
     Gera um registo por cada bem e serviço dos dicionários.
     tipo_bem_servico é a PK — cada entrada é única e estática.
-    tipo mapeia para o ENUM do model: 'bem' ou 'servico'.
+    tipo_bem mapeia para o ENUM do model: 'bem' ou 'servico'.
     """
     resultados = []
 
@@ -73,14 +73,14 @@ def generate_bens_servicos() -> list[dict]:
         for bem in bens:
             resultados.append({
                 "tipo_bem_servico": bem,
-                "tipo": "bem",
+                "tipo_bem": "bem",
             })
 
     for categoria, servicos in SERVICOS_POR_CATEGORIA.items():
         for servico in servicos:
             resultados.append({
                 "tipo_bem_servico": servico,
-                "tipo": "servico",
+                "tipo_bem": "servico",
             })
 
     print(f"  Concluído! {len(resultados)} bens e serviços gerados.\n")

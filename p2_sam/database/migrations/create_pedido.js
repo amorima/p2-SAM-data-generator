@@ -11,7 +11,6 @@ module.exports = {
    nif_nipc: {
     type: Sequelize.STRING(9),
     allowNull: false,
-    unique: true,
     references: { model: "instituicao", key: "nif_nipc" },
    },
    estado: {

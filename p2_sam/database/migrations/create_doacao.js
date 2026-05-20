@@ -23,7 +23,7 @@ module.exports = {
     allowNull: false,
    },
    tipo_donativo: {
-    type: Sequelize.ENUM("ESPECIE", "NUMERARIO"),
+    type: Sequelize.ENUM("TRANSFERENCIA", "NUMERARIO", "CHEQUE", "REFERENCIA"),
     allowNull: false,
    },
    anonimo: {

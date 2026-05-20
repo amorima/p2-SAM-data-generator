@@ -16,7 +16,7 @@ module.exports = {
     type: Sequelize.DECIMAL(11, 8),
     allowNull: false,
    },
-   url_comprovativo_permanente: {
+   url_certidao_permanente: {
     type: Sequelize.TEXT,
     allowNull: false,
    },

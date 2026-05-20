@@ -14,11 +14,6 @@ def _data_aleatoria(anos_atras: int = 3) -> str:
     return data.strftime("%Y-%m-%d %H:%M:%S")
 
 
-def _gerar_pin() -> str:
-    """PIN de entrega alfanumérico de 16 caracteres."""
-    return faker.bothify("????####????####")[:16].upper()
-
-
 def generate_lead(paineis: list[dict], pedidos_bens: list[dict],
                   lockers: list[dict], cidadaos: list[dict]) -> dict:
     painel = random.choice(paineis)
@@ -30,21 +25,36 @@ def generate_lead(paineis: list[dict], pedidos_bens: list[dict],
         "data": _data_aleatoria(),
         "id_painel": painel["id_dispositivo"],
         "nome_cidadao": cidadao["nome"][:50],
-        "contacto_cidadao": cidadao["contacto"][:13],
+        "contacto_cidadao": cidadao["contacto"][:50],
         "id_pedido": pedido_bem["id_pedido"],
         "item_pedido": pedido_bem["tipo_bem_servico"][:100],
         "estado": random.choice(ESTADOS_LEAD),
-        "pin_entrega": _gerar_pin(),
+        "pin_entrega": faker.numerify("######"),
         "id_locker": locker["id_locker"],
     }
 
 
 def generate_leads(n: int = 100, paineis: list[dict] = None,
                    pedidos_bens: list[dict] = None, lockers: list[dict] = None,
-                   cidadaos: list[dict] = None) -> list[dict]:
+                   cidadaos: list[dict] = None,
+                   bens_servicos: list[dict] = None) -> list[dict]:
     if not all([paineis, pedidos_bens, lockers, cidadaos]):
         raise ValueError(
             "É necessário fornecer paineis, pedidos_bens, lockers e cidadaos.")
+
+    if bens_servicos is not None:
+        tipos_bem = {
+            item["tipo_bem_servico"]
+            for item in bens_servicos
+            if item["tipo_bem"] == "bem"
+        }
+        pedidos_bens = [
+            pedido_bem for pedido_bem in pedidos_bens
+            if pedido_bem["tipo_bem_servico"] in tipos_bem
+        ]
+
+    if not pedidos_bens:
+        raise ValueError("Não existem pedidos de bens para gerar leads.")
 
     resultados = []
 

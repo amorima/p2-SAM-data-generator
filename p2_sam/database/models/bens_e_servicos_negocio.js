@@ -4,11 +4,6 @@ module.exports = (sequelize) => {
  const Bens_E_Servicos_Negocio = sequelize.define(
   "bens_e_servicos_negocio",
   {
-   id_oferta: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-   },
    negocio_nif_nipc: {
     type: DataTypes.STRING(9),
     allowNull: false,
@@ -33,7 +28,7 @@ module.exports = (sequelize) => {
   {
    tableName: "bens_e_servicos_negocio",
    timestamps: false,
-  }
+  },
  );
 
  Bens_E_Servicos_Negocio.associate = (models) => {

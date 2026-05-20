@@ -8,7 +8,7 @@ module.exports = (sequelize) => {
     type: DataTypes.STRING(50),
     primaryKey: true,
    },
-   tipo: {
+   tipo_bem: {
     type: DataTypes.ENUM("bem", "servico"),
     allowNull: false,
    },
