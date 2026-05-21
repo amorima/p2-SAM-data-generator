@@ -229,6 +229,21 @@ async function seedLeads(queryInterface) {
  console.log(`[SQL] leads: ${records.length} registos inseridos`);
 }
 
+async function fixLeadsIdItem() {
+ try {
+  await sequelize.query(`
+   UPDATE leads l
+   INNER JOIN pedido_bens_e_servicos pbs
+    ON pbs.id_pedido = l.id_pedido AND pbs.tipo_bem_servico = l.item_pedido
+   SET l.id_item = pbs.id_item
+   WHERE l.id_item IS NULL
+  `);
+  console.log("[SQL] fixLeadsIdItem: leads.id_item populated from pedido_bens_e_servicos");
+ } catch (e) {
+  console.warn(`[SQL] fixLeadsIdItem: ${e.message}`);
+ }
+}
+
 async function fixAutoIncrements() {
  const fixes = [
   "ALTER TABLE `doacao` MODIFY `id_doacao` INT NOT NULL AUTO_INCREMENT",
@@ -294,6 +309,7 @@ async function main() {
 
   await seedLeads(queryInterface);
   await fixAutoIncrements(queryInterface);
+  await fixLeadsIdItem();
   await seedAdmin(queryInterface);
  } finally {
   await sequelize.close();

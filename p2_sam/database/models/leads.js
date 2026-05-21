@@ -29,6 +29,10 @@ module.exports = (sequelize) => {
     type: DataTypes.INTEGER,
     allowNull: false,
    },
+   id_item: {
+    type: DataTypes.INTEGER,
+    allowNull: true,
+   },
    item_pedido: {
     type: DataTypes.STRING(100),
     allowNull: false,
