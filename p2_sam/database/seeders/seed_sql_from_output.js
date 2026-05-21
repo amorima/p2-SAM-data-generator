@@ -25,6 +25,21 @@ function onlyFields(record, fields) {
  }, {});
 }
 
+function dedupEmailLogin(records) {
+ const seen = new Map();
+ return records.map((r) => {
+  const base = r.email_login;
+  if (!seen.has(base)) {
+   seen.set(base, 1);
+   return r;
+  }
+  const count = seen.get(base) + 1;
+  seen.set(base, count);
+  const [local, domain] = base.split("@");
+  return { ...r, email_login: `${local}${count}@${domain}`.slice(0, 45) };
+ });
+}
+
 function normalizeCidadao(record) {
  return {
   ...record,
@@ -50,13 +65,14 @@ const seedPlan = [
  {
   table: "entidade",
   file: "entidade.json",
+  transform: (r) => ({ ...r, iban: r.iban?.slice(0, 23), nome_entidade: r.nome_entidade?.slice(0, 45) }),
+  postProcess: dedupEmailLogin,
   fields: [
    "nif_nipc",
    "email_login",
    "password",
    "nome_entidade",
    "iban",
-   "codigo_postal",
    "profile_pic",
    "role",
   ],
@@ -148,7 +164,7 @@ const seedPlan = [
  {
   table: "pedido_bens_e_servicos",
   file: "pedido_bens_servicos.json",
-  fields: ["id_pedido", "tipo_bem_servico", "publico"],
+  fields: ["id_pedido", "tipo_bem_servico"],
  },
  {
   table: "bens_e_servicos_negocio",
@@ -161,22 +177,7 @@ const seedPlan = [
    "desconto",
   ],
  },
- {
-  table: "leads",
-  file: "lead.json",
-  fields: [
-   "id_lead",
-   "data",
-   "id_painel",
-   "nome_cidadao",
-   "contacto_cidadao",
-   "id_pedido",
-   "item_pedido",
-   "estado",
-   "pin_entrega",
-   "id_locker",
-  ],
- },
+ { table: "leads" }, // cleared here; seeded separately after pedido_bens_e_servicos query
 ];
 
 async function clearTables(queryInterface) {
@@ -191,10 +192,14 @@ async function clearTables(queryInterface) {
 
 async function seedTable(queryInterface, step) {
  const source = readOutput(step.file);
- const records = source.map((record) => {
+ let records = source.map((record) => {
   const normalized = step.transform ? step.transform(record) : record;
   return onlyFields(normalized, step.fields);
  });
+
+ if (step.postProcess) {
+  records = step.postProcess(records);
+ }
 
  if (!records.length) {
   console.log(`[SQL] ${step.table}: sem registos`);
@@ -203,6 +208,24 @@ async function seedTable(queryInterface, step) {
 
  await queryInterface.bulkInsert(step.table, records, {});
  console.log(`[SQL] ${step.table}: ${records.length} registos inseridos`);
+}
+
+async function seedLeads(queryInterface) {
+ const source = readOutput("lead.json");
+ const records = source.map((r) =>
+  onlyFields(r, [
+   "id_lead", "data", "id_painel", "nome_cidadao", "contacto_cidadao",
+   "id_pedido", "item_pedido", "estado", "pin_entrega", "id_locker",
+  ])
+ );
+
+ if (!records.length) {
+  console.log("[SQL] leads: sem registos");
+  return;
+ }
+
+ await queryInterface.bulkInsert("leads", records, {});
+ console.log(`[SQL] leads: ${records.length} registos inseridos`);
 }
 
 async function main() {
@@ -216,8 +239,11 @@ async function main() {
   }
 
   for (const step of seedPlan) {
+   if (!step.file) continue; // clear-only entries (e.g. leads)
    await seedTable(queryInterface, step);
   }
+
+  await seedLeads(queryInterface);
  } finally {
   await sequelize.close();
  }

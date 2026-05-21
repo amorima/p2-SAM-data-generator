@@ -52,15 +52,30 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
     import random
 
     resultados = []
+    used_emails: set[str] = set()
+
+    def unique_email(base: str) -> str:
+        base = base[:45]
+        if base not in used_emails:
+            used_emails.add(base)
+            return base
+        local, domain = base.rsplit("@", 1)
+        counter = 2
+        while True:
+            candidate = f"{local}{counter}@{domain}"[:45]
+            if candidate not in used_emails:
+                used_emails.add(candidate)
+                return candidate
+            counter += 1
 
     # Mecenas — nome de pessoa, email no formato primeiro.ultimo@dominio
     for mecena in mecenas:
         nome = faker.name()
         resultados.append({
             "nif_nipc": mecena["nif_nipc"],
-            "email_login": email_pessoa(nome),
+            "email_login": unique_email(email_pessoa(nome)),
             "password": faker.password(length=12, special_chars=True)[:45],
-            "nome_entidade": nome[:100],
+            "nome_entidade": nome[:45],
             "iban": faker.iban(),
             "codigo_postal": random.choice(codigos_postais) if codigos_postais else None,
             "role": "patron",
@@ -73,9 +88,9 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
         nome = nomes_neg[i % len(nomes_neg)] + f" {faker.numerify('##')}"
         resultados.append({
             "nif_nipc": n["nif_nipc"],
-            "email_login": email_organizacao(nome),
+            "email_login": unique_email(email_organizacao(nome)),
             "password": faker.password(length=12, special_chars=True)[:45],
-            "nome_entidade": nome[:100],
+            "nome_entidade": nome[:45],
             "iban": faker.iban(),
             "codigo_postal": n.get("_codigo_postal") or (
                 random.choice(codigos_postais) if codigos_postais else None
@@ -90,9 +105,9 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
         nome = nomes_inst[i % len(nomes_inst)] + f" de {faker.city()}"
         resultados.append({
             "nif_nipc": inst["nif_nipc"],
-            "email_login": email_organizacao(nome),
+            "email_login": unique_email(email_organizacao(nome)),
             "password": faker.password(length=12, special_chars=True)[:45],
-            "nome_entidade": nome[:100],
+            "nome_entidade": nome[:45],
             "iban": faker.iban(),
             "codigo_postal": inst.get("codigo_postal") or inst.get("_codigo_postal") or (
                 random.choice(codigos_postais) if codigos_postais else None

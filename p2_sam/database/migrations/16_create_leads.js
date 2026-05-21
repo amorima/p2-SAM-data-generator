@@ -55,6 +55,17 @@ module.exports = {
    },
   });
 
+  // Garante que existe um índice composto em pedido_bens_e_servicos
+  // (pode já ter sido criada pelo back-end sem esse índice)
+  try {
+   await queryInterface.addIndex("pedido_bens_e_servicos", {
+    fields: ["id_pedido", "tipo_bem_servico"],
+    name: "idx_pbs_composite",
+   });
+  } catch (err) {
+   if (!err.message.includes("Duplicate key name")) throw err;
+  }
+
   await queryInterface.addConstraint("leads", {
    fields: ["id_pedido", "item_pedido"],
    type: "foreign key",

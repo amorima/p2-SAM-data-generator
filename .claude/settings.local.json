@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Rename-Item *)",
+      "Bash(npm run *)",
+      "Bash(node seeders/seed_sql_from_output.js)",
+      "Bash(Select-String -Pattern \"^\\\\[SQL\\\\]|erro|Error|Duplicate|Data too|ER_\")",
+      "Bash(Out-String)",
+      "PowerShell($data = Get-Content \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\output\\\\bens_servicos_negocio.json\" | ConvertFrom-Json; $data[0..4] | Select-Object tipo_bem_servico | ForEach-Object { \"$\\($_.tipo_bem_servico\\) \\(len=$\\($_.tipo_bem_servico.Length\\)\\)\" })",
+      "PowerShell($data = Get-Content \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\output\\\\bens_servicos_negocio.json\" | ConvertFrom-Json; $data | ForEach-Object { $_.tipo_bem_servico } | Sort-Object { $_.Length } -Descending | Select-Object -First 10 | ForEach-Object { \"$_ \\(len=$\\($_.Length\\)\\)\" })",
+      "PowerShell($data = Get-Content \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\output\\\\bens_servicos_negocio.json\" | ConvertFrom-Json; $data[0..4] | Select-Object negocio_nif_nipc, tipo_bem_servico, @{N='len';E={$_.tipo_bem_servico.Length}})",
+      "PowerShell($data = Get-Content \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\output\\\\bens_servicos_negocio.json\" -Raw | ConvertFrom-Json; foreach \\($r in $data[0..4]\\) { \"$\\($r.tipo_bem_servico\\) \\($\\($r.tipo_bem_servico.Length\\)\\)\" })",
+      "PowerShell($data = Get-Content \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\output\\\\lead.json\" -Raw | ConvertFrom-Json; $data[0..2] | Select-Object contacto_cidadao, nome_cidadao | ForEach-Object { \"contacto=$\\($_.contacto_cidadao\\) \\(len=$\\($_.contacto_cidadao.Length\\)\\) nome=$\\($_.nome_cidadao\\) \\(len=$\\($_.nome_cidadao.Length\\)\\)\" })",
+      "PowerShell(cd \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\p2_sam\\\\database\"; node seeders/seed_sql_from_output.js; echo \"EXIT CODE: $LASTEXITCODE\")",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\anton\\\\.claude\\\\projects\\\\C--SAM-p2-SAM-data-generator\\\\ae183771-b021-446e-b35b-6a622af8ee3a\\\\tool-results\\\\bo1k6tj85.txt\" -Raw; $lines = $content -split \"`n\"; $lines | Where-Object { $_ -match \"^\\\\[SQL\\\\]|EXIT CODE|erro|ER_\" })",
+      "PowerShell(Select-String *)",
+      "PowerShell(cd \"C:\\\\SAM\\\\p2-SAM-data-generator\\\\p2_sam\\\\database\"; node check_col.js 2>&1 | Where-Object { $_ -notmatch \"^Executing\" })",
+      "Bash(npx sequelize-cli *)"
+    ]
+  }
+}
