@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const bcrypt = require("bcryptjs");
 const { sequelize } = require("../models");
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR
@@ -228,6 +229,38 @@ async function seedLeads(queryInterface) {
  console.log(`[SQL] leads: ${records.length} registos inseridos`);
 }
 
+async function seedAdmin(queryInterface) {
+ const adminNif = process.env.ADMIN_NIF;
+ const adminEmail = process.env.ADMIN_EMAIL;
+ const adminPassword = process.env.ADMIN_PASSWORD;
+ const adminName = process.env.ADMIN_NAME || "Administrador SAM";
+
+ if (!adminNif || !adminEmail || !adminPassword) {
+  console.log("[SQL] admin: ADMIN_NIF, ADMIN_EMAIL ou ADMIN_PASSWORD não definidos, a ignorar");
+  return;
+ }
+
+ // Ensure columns support admin entity (bcrypt hash + nullable iban)
+ await sequelize.query("ALTER TABLE `entidade` MODIFY COLUMN `password` VARCHAR(255) NOT NULL");
+ await sequelize.query("ALTER TABLE `entidade` MODIFY COLUMN `iban` VARCHAR(23) NULL");
+
+ const hashedPassword = await bcrypt.hash(adminPassword, 10);
+
+ // Remove any existing admin row (safe after clear or on re-seed without clear)
+ await queryInterface.bulkDelete("entidade", { nif_nipc: adminNif }, {});
+
+ await queryInterface.bulkInsert("entidade", [{
+  nif_nipc: adminNif,
+  email_login: adminEmail,
+  password: hashedPassword,
+  nome_entidade: adminName,
+  iban: null,
+  role: "admin",
+ }], {});
+
+ console.log(`[SQL] admin: entidade criada (nif=${adminNif})`);
+}
+
 async function main() {
  const queryInterface = sequelize.getQueryInterface();
 
@@ -244,6 +277,7 @@ async function main() {
   }
 
   await seedLeads(queryInterface);
+  await seedAdmin(queryInterface);
  } finally {
   await sequelize.close();
  }
