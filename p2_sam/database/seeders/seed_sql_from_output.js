@@ -229,6 +229,22 @@ async function seedLeads(queryInterface) {
  console.log(`[SQL] leads: ${records.length} registos inseridos`);
 }
 
+async function fixAutoIncrements() {
+ const fixes = [
+  "ALTER TABLE `doacao` MODIFY `id_doacao` INT NOT NULL AUTO_INCREMENT",
+  "ALTER TABLE `leads` MODIFY `id_lead` INT NOT NULL AUTO_INCREMENT",
+  "ALTER TABLE `pedido` MODIFY `id_pedido` INT NOT NULL AUTO_INCREMENT",
+ ];
+ for (const sql of fixes) {
+  try {
+   await sequelize.query(sql);
+  } catch (e) {
+   console.warn(`[SQL] fixAutoIncrements: ${e.message}`);
+  }
+ }
+ console.log("[SQL] fixAutoIncrements: colunas AUTO_INCREMENT verificadas");
+}
+
 async function seedAdmin(queryInterface) {
  const adminNif = process.env.ADMIN_NIF;
  const adminEmail = process.env.ADMIN_EMAIL;
@@ -277,6 +293,7 @@ async function main() {
   }
 
   await seedLeads(queryInterface);
+  await fixAutoIncrements(queryInterface);
   await seedAdmin(queryInterface);
  } finally {
   await sequelize.close();
