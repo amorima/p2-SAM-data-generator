@@ -1,17 +1,10 @@
 import random
-from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica
 
 faker = Faker("pt_PT")
 
 ESTADOS_LEAD = ["ENTREGUE", "PENDENTE", "EXPIRADO"]
-
-
-def _data_aleatoria(anos_atras: int = 3) -> str:
-    inicio = datetime.now() - timedelta(days=anos_atras * 365)
-    delta = datetime.now() - inicio
-    data = inicio + timedelta(days=random.randint(0, delta.days))
-    return data.strftime("%Y-%m-%d %H:%M:%S")
 
 
 def generate_lead(paineis: list[dict], pedidos_bens: list[dict],
@@ -22,7 +15,7 @@ def generate_lead(paineis: list[dict], pedidos_bens: list[dict],
     cidadao = random.choice(cidadaos)
 
     return {
-        "data": _data_aleatoria(),
+        "data": data_organica(),
         "id_painel": painel["id_dispositivo"],
         "nome_cidadao": cidadao["nome"][:50],
         "contacto_cidadao": cidadao["contacto"][:50],

@@ -45,7 +45,6 @@ function normalizeCidadao(record) {
  return {
   ...record,
   blocked: record.blocked ?? 0,
-  role: record.role ?? "citizen",
  };
 }
 
@@ -114,7 +113,7 @@ const seedPlan = [
   table: "cidadao",
   file: "cidadao.json",
   transform: normalizeCidadao,
-  fields: ["nome", "contacto", "rgpd", "blocked", "role", "reason"],
+  fields: ["nome", "contacto", "rgpd", "blocked", "reason"],
  },
  {
   table: "doacao",
