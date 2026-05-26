@@ -1,3 +1,4 @@
+import math
 import random
 import time
 import ssl
@@ -8,6 +9,21 @@ ssl._create_default_https_context = ssl._create_unverified_context
 faker = Faker("pt_PT")
 geo = pgeocode.Nominatim("PT")
 _valid_localidades: list[dict] | None = None    # cache de localidades validas
+
+# O painel vai ser testado em Vila do Conde — garantir cobertura local.
+VILA_DO_CONDE_LAT = 41.3522
+VILA_DO_CONDE_LNG = -8.7497
+VILA_DO_CONDE_RAIO_KM = 25
+MIN_LOCALIDADES_PROXIMAS_VDC = 30
+
+
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    r = 6371
+    d_lat = math.radians(lat2 - lat1)
+    d_lon = math.radians(lon2 - lon1)
+    a = (math.sin(d_lat / 2) ** 2
+         + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(d_lon / 2) ** 2)
+    return r * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
 def _get_valid_localidades() -> list[dict]:
@@ -50,10 +66,29 @@ def generate_localidades(n: int = 100) -> list[dict]:
             f"Só existem {len(validas)} localidades válidas disponíveis."
         )
 
-    print(f"A gerar {n} localidades válidas...\n")
+    # Separar localidades perto de Vila do Conde para garantir presença mínima.
+    proximas_vdc = [
+        v for v in validas
+        if isinstance(v.get("latitude"), float) and isinstance(v.get("longitude"), float)
+        and _haversine_km(VILA_DO_CONDE_LAT, VILA_DO_CONDE_LNG, v["latitude"], v["longitude"]) <= VILA_DO_CONDE_RAIO_KM
+    ]
+    n_proximas = min(MIN_LOCALIDADES_PROXIMAS_VDC, len(proximas_vdc), n)
+    amostra_proxima = random.sample(proximas_vdc, n_proximas) if n_proximas else []
+
+    cps_proximas = {p["postal_code"] for p in amostra_proxima}
+    restantes = [v for v in validas if v["postal_code"] not in cps_proximas]
+    amostra_resto = random.sample(restantes, n - n_proximas)
+
+    amostra = amostra_proxima + amostra_resto
+    random.shuffle(amostra)
+
+    print(
+        f"A gerar {n} localidades válidas "
+        f"({n_proximas} garantidas até {VILA_DO_CONDE_RAIO_KM}km de Vila do Conde)...\n"
+    )
 
     resultados = []
-    for r in random.sample(validas, n):
+    for r in amostra:
         resultados.append({
             "codigo_postal": r["postal_code"],
             "rua": faker.street_name()[:45],

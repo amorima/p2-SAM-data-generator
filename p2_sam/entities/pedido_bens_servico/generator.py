@@ -21,13 +21,18 @@ def generate_pedidos_bens_servicos(n: int = 150, pedidos: list[dict] = None, ben
     if not pedidos or not bens_servicos:
         raise ValueError("É necessário fornecer pedidos e bens_servicos.")
 
+    # Painel só aceita bens físicos para doação — exclui serviços
+    apenas_bens = [b for b in bens_servicos if b.get("tipo_bem") == "bem"]
+    if not apenas_bens:
+        raise ValueError("Não existem bens (tipo_bem='bem') para gerar pedidos.")
+
     resultados = []
     pares_vistos = set()
 
     print(f"A gerar {n} pedido_bens_serviços...\n")
 
     while len(resultados) < n:
-        registo = generate_pedido_bem_servico(pedidos, bens_servicos)
+        registo = generate_pedido_bem_servico(pedidos, apenas_bens)
         par = (registo["id_pedido"], registo["tipo_bem_servico"])
 
         if par in pares_vistos:

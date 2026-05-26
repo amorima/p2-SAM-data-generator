@@ -3,6 +3,11 @@ from faker import Faker
 
 faker = Faker("pt_PT")
 
+
+def _apresentar(nome: str) -> str:
+    """Primeira letra maiúscula, mantém acentos — pronto para mostrar no painel."""
+    return nome[:1].upper() + nome[1:] if nome else nome
+
 BENS_POR_CATEGORIA = {
     "alimentação": [
         "arroz", "feijão", "massa", "azeite", "açúcar", "sal",
@@ -72,14 +77,14 @@ def generate_bens_servicos() -> list[dict]:
     for categoria, bens in BENS_POR_CATEGORIA.items():
         for bem in bens:
             resultados.append({
-                "tipo_bem_servico": bem,
+                "tipo_bem_servico": _apresentar(bem),
                 "tipo_bem": "bem",
             })
 
     for categoria, servicos in SERVICOS_POR_CATEGORIA.items():
         for servico in servicos:
             resultados.append({
-                "tipo_bem_servico": servico,
+                "tipo_bem_servico": _apresentar(servico),
                 "tipo_bem": "servico",
             })
 
