@@ -1,6 +1,6 @@
 import random
-from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica
 
 faker = Faker("pt_PT")
 
@@ -60,14 +60,6 @@ def generate_mecenas(n: int = 50) -> list[dict]:
     return resultados
 
 
-def _data_aleatoria(anos_atras: int = 5) -> str:
-    """Gera uma data aleatória nos últimos n anos."""
-    inicio = datetime.now() - timedelta(days=anos_atras * 365)
-    delta = datetime.now() - inicio
-    data = inicio + timedelta(days=random.randint(0, delta.days))
-    return data.strftime("%Y-%m-%d %H:%M:%S")
-
-
 def generate_doacao(mecenas: list[dict]) -> dict:
     """
     Gera um registo de Doação ligado a um Mecena existente
@@ -80,7 +72,7 @@ def generate_doacao(mecenas: list[dict]) -> dict:
 
     return {
         "mecena_nif_nipc": nif,
-        "data": _data_aleatoria(anos_atras=5),
+        "data": data_organica(),
         "valor_transacao": valor,
         "tipo_donativo": tipo,
         "anonimo": anonimo,

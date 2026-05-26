@@ -1,6 +1,6 @@
 import random
-from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica_iso
 
 faker = Faker("pt_PT")
 
@@ -9,12 +9,6 @@ ESTADOS_ENVIO = ["ENVIADO", "FALHOU", "PENDENTE", "CANCELADO"]
 MOTIVOS_ERRO = [
     "EMAIL_INVALIDO", "SMS_FALHOU", "TIMEOUT", "DESTINATARIO_INEXISTENTE", None, None,
 ]
-
-
-def _data_aleatoria(dias_atras: int = 90) -> str:
-    inicio = datetime.now() - timedelta(days=dias_atras)
-    delta = datetime.now() - inicio
-    return (inicio + timedelta(seconds=random.randint(0, int(delta.total_seconds())))).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def generate_notification(leads: list[dict]) -> dict:
@@ -45,7 +39,7 @@ def generate_notification(leads: list[dict]) -> dict:
         "lead_sql_id": lead["id_lead"],
         "tipo": tipo,
         "destinatario_hash": faker.md5()[:16],
-        "data_envio": _data_aleatoria(),
+        "data_envio": data_organica_iso(),
         "estado_envio": estado,
         "tentativas": tentativas,
         "motivo_erro": motivo_erro,

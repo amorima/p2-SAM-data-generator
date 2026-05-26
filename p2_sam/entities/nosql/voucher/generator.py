@@ -1,16 +1,11 @@
 import random
 from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica_iso
 
 faker = Faker("pt_PT")
 
 ESTADOS_VOUCHER = ["ATIVO", "USADO", "EXPIRADO", "CANCELADO"]
-
-
-def _data_aleatoria(dias_atras: int = 180) -> str:
-    inicio = datetime.now() - timedelta(days=dias_atras)
-    delta = datetime.now() - inicio
-    return (inicio + timedelta(seconds=random.randint(0, int(delta.total_seconds())))).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def _data_validade(dias_frente: int = 365) -> str:
@@ -31,8 +26,8 @@ def generate_voucher(entidades: list[dict], negocios: list[dict]) -> dict:
     entidade = random.choice(entidades)
     negocio = random.choice(negocios)
     montante = round(random.uniform(10, 500), 2)
-    data_emissao = _data_aleatoria()
-    data_uso = _data_aleatoria(dias_atras=30) if estado == "USADO" else None
+    data_emissao = data_organica_iso()
+    data_uso = data_organica_iso(anos=30/365) if estado == "USADO" else None
 
     return {
         "montante": str(montante),

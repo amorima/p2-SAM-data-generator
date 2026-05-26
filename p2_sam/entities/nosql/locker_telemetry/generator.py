@@ -1,6 +1,6 @@
 import random
-from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica_iso
 
 faker = Faker("pt_PT")
 
@@ -9,12 +9,6 @@ EVENTOS = ["HEARTBEAT", "OVERHEAT", "ERRO_SENSOR",
 TIPOS_DISPOSITIVO = ["LOCKER", "PAINEL"]
 AVISOS = ["NENHUM", "TEMPERATURA_ALTA",
           "BATERIA_BAIXA", "SINAL_FRACO", "FALHA_SENSOR"]
-
-
-def _data_aleatoria(dias_atras: int = 90) -> str:
-    inicio = datetime.now() - timedelta(days=dias_atras)
-    delta = datetime.now() - inicio
-    return (inicio + timedelta(seconds=random.randint(0, int(delta.total_seconds())))).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def generate_locker_telemetry(lockers: list[dict], paineis: list[dict]) -> dict:
@@ -55,7 +49,7 @@ def generate_locker_telemetry(lockers: list[dict], paineis: list[dict]) -> dict:
         aviso = random.choice(["SINAL_FRACO", "FALHA_SENSOR"])
 
     return {
-        "timestamp": _data_aleatoria(),
+        "timestamp": data_organica_iso(),
         "evento": evento,
         "locker_id": dispositivo_id,
         "tipo": tipo,

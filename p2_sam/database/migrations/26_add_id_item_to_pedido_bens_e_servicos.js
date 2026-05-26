@@ -1,25 +1,42 @@
 "use strict";
 
+async function columnExists(queryInterface, table, column) {
+  const [[{ cnt }]] = await queryInterface.sequelize.query(`
+    SELECT COUNT(*) as cnt
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_SCHEMA = DATABASE()
+      AND TABLE_NAME = :table
+      AND COLUMN_NAME = :column
+  `, { replacements: { table, column } });
+  return cnt > 0;
+}
+
 module.exports = {
   async up(queryInterface) {
     const sequelize = queryInterface.sequelize;
 
-    // Drop existing composite FK from leads (may not exist if migration 16 partially ran)
+    // Drop existing composite FK from leads (may not exist)
     try {
       await sequelize.query("ALTER TABLE `leads` DROP FOREIGN KEY `fk_leads_pedido_bens_e_servicos`");
     } catch {
       // FK did not exist — continue
     }
 
-    // Replace composite PK with surrogate id_item
-    await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` DROP PRIMARY KEY");
-    await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` ADD COLUMN `id_item` INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST");
-    await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` ADD UNIQUE KEY `uq_pbs_pedido_item` (`id_pedido`, `tipo_bem_servico`)");
+    // Only restructure pedido_bens_e_servicos if id_item doesn't exist yet
+    const pbsHasIdItem = await columnExists(queryInterface, "pedido_bens_e_servicos", "id_item");
+    if (!pbsHasIdItem) {
+      await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` DROP PRIMARY KEY");
+      await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` ADD COLUMN `id_item` INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST");
+      await sequelize.query("ALTER TABLE `pedido_bens_e_servicos` ADD UNIQUE KEY `uq_pbs_pedido_item` (`id_pedido`, `tipo_bem_servico`)");
+    }
 
-    // Add id_item FK column to leads (nullable so existing rows are not broken)
-    await sequelize.query("ALTER TABLE `leads` ADD COLUMN `id_item` INT NULL");
+    // Only add id_item to leads if it doesn't exist yet
+    const leadsHasIdItem = await columnExists(queryInterface, "leads", "id_item");
+    if (!leadsHasIdItem) {
+      await sequelize.query("ALTER TABLE `leads` ADD COLUMN `id_item` INT NULL");
+    }
 
-    // Populate id_item in existing leads rows from the matching pedido_bens_e_servicos row
+    // Populate id_item in leads from matching pedido_bens_e_servicos rows
     await sequelize.query(`
       UPDATE leads l
       INNER JOIN pedido_bens_e_servicos pbs

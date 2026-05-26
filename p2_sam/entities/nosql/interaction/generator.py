@@ -1,6 +1,6 @@
 import random
-from datetime import datetime, timedelta
 from faker import Faker
+from p2_sam.utils.dates import data_organica_iso
 
 faker = Faker("pt_PT")
 
@@ -9,12 +9,6 @@ FLUXOS_POSSIVEIS = ["Home", "Mapa", "Ver_Necessidade",
 IDIOMAS = ["pt", "en", "fr", "es"]
 PASSOS_ABANDONO = ["Home", "Mapa",
                    "Ver_Necessidade", "Doar", "Inserir_Contacto"]
-
-
-def _data_aleatoria(dias_atras: int = 90) -> str:
-    inicio = datetime.now() - timedelta(days=dias_atras)
-    delta = datetime.now() - inicio
-    return (inicio + timedelta(seconds=random.randint(0, int(delta.total_seconds())))).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def generate_interaction_log(paineis: list[dict]) -> dict:
@@ -38,7 +32,7 @@ def generate_interaction_log(paineis: list[dict]) -> dict:
     return {
         "sessao_id": faker.uuid4(),
         "painel_id": painel["id_dispositivo"],
-        "inicio_sessao": _data_aleatoria(),
+        "inicio_sessao": data_organica_iso(),
         "duracao_interacao": duracao,
         "fluxo_navegacao": fluxo,
         "concluiu_doacao": concluiu,
