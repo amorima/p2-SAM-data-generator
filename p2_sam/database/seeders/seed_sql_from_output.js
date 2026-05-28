@@ -48,6 +48,15 @@ function normalizeCidadao(record) {
  };
 }
 
+function dedupCidadaoByNome(records) {
+ const seen = new Set();
+ return records.filter((r) => {
+  if (seen.has(r.nome)) return false;
+  seen.add(r.nome);
+  return true;
+ });
+}
+
 const seedPlan = [
  {
   table: "localidade",
@@ -113,6 +122,7 @@ const seedPlan = [
   table: "cidadao",
   file: "cidadao.json",
   transform: normalizeCidadao,
+  postProcess: dedupCidadaoByNome,
   fields: ["nome", "contacto", "rgpd", "blocked", "reason"],
  },
  {
@@ -190,6 +200,8 @@ async function clearTables(queryInterface) {
  await sequelize.query("SET FOREIGN_KEY_CHECKS = 1");
 }
 
+const validCidadaoContactos = new Set();
+
 async function seedTable(queryInterface, step) {
  const source = readOutput(step.file);
  let records = source.map((record) => {
@@ -199,6 +211,12 @@ async function seedTable(queryInterface, step) {
 
  if (step.postProcess) {
   records = step.postProcess(records);
+ }
+
+ if (step.table === "cidadao") {
+  for (const r of records) {
+   if (r.contacto) validCidadaoContactos.add(r.contacto);
+  }
  }
 
  if (!records.length) {
@@ -212,12 +230,21 @@ async function seedTable(queryInterface, step) {
 
 async function seedLeads(queryInterface) {
  const source = readOutput("lead.json");
- const records = source.map((r) =>
+ const allRecords = source.map((r) =>
   onlyFields(r, [
    "id_lead", "data", "id_painel", "nome_cidadao", "contacto_cidadao",
    "id_pedido", "item_pedido", "estado", "pin_entrega", "id_locker",
   ])
  );
+
+ const records = validCidadaoContactos.size
+  ? allRecords.filter((r) => validCidadaoContactos.has(r.contacto_cidadao))
+  : allRecords;
+
+ const skipped = allRecords.length - records.length;
+ if (skipped > 0) {
+  console.log(`[SQL] leads: ${skipped} registos ignorados (cidadão inexistente após dedup)`);
+ }
 
  if (!records.length) {
   console.log("[SQL] leads: sem registos");
