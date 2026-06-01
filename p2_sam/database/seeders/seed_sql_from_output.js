@@ -169,7 +169,7 @@ const seedPlan = [
  {
   table: "pedido",
   file: "pedido.json",
-  fields: ["id_pedido", "nif_nipc", "estado"],
+  fields: ["id_pedido", "nif_nipc", "estado", "data"],
  },
  {
   table: "pedido_bens_e_servicos",

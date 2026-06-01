@@ -17,6 +17,11 @@ module.exports = (sequelize) => {
     type: DataTypes.ENUM("PENDENTE", "ACEITE", "REJEITADO"),
     allowNull: false,
    },
+   data: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    defaultValue: DataTypes.NOW,
+   },
   },
   {
    tableName: "pedido",

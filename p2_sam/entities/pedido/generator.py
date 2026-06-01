@@ -1,5 +1,6 @@
 import random
 from faker import Faker
+from p2_sam.utils.dates import data_organica
 
 faker = Faker("pt_PT")
 
@@ -13,9 +14,10 @@ def generate_pedido(instituicoes: list[dict]) -> dict:
         "nif_nipc" : instituicao["nif_nipc"],
         "estado"   : random.choices(
                         ESTADOS_PEDIDO,
-                        weights=[40, 10, 50], # mais pedidos aceites 
+                        weights=[40, 10, 50], # mais pedidos aceites
                         k=1
                      )[0],
+        "data"     : data_organica(),
     }
 
 
