@@ -23,7 +23,7 @@ module.exports = (sequelize) => {
     allowNull: false,
    },
    iban: {
-    type: DataTypes.STRING(23),
+    type: DataTypes.STRING(34),
     allowNull: true,
     unique: true,
    },
