@@ -45,11 +45,9 @@ def main() -> None:
     export_csv(strip_internal_fields(localidades),  "localidade", OUTPUT_DIR)
     export_json(strip_internal_fields(localidades), "localidade", OUTPUT_DIR)
 
-    # 2 — Entidades próprias (geram os seus NIFs)
-    _mostrar_etapa(2, TOTAL_ETAPAS, "mecenas")
+    # 2 — Gera NIFs de mecenas (sem tabela própria — são entidades com role='patron')
+    _mostrar_etapa(2, TOTAL_ETAPAS, "mecenas (entidades)")
     mecenas = generate_mecenas(n=50)
-    export_csv(mecenas,  "mecena", OUTPUT_DIR)
-    export_json(mecenas, "mecena", OUTPUT_DIR)
 
     _mostrar_etapa(3, TOTAL_ETAPAS, "negocios")
     negocios = generate_negocios(n=50, localidades=localidades)

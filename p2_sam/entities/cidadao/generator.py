@@ -36,7 +36,6 @@ def generate_cidadao() -> dict:
         "contacto": _gerar_contacto(nome),
         "rgpd": random.choices([0, 1], weights=[10, 90], k=1)[0],
         "blocked": blocked,
-        "role": "citizen",
     }
 
     if blocked == 1:
