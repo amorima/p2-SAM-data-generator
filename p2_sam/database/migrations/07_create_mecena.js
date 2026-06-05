@@ -1,18 +1,9 @@
 "use strict";
 
+// Mecena era uma tabela intermédia IS-A sem colunas de dados.
+// Após normalização, o papel de mecenas é identificado por entidade.role = 'patron'.
+// Esta migration é mantida por compatibilidade de sequência mas não cria tabela.
 module.exports = {
- async up(queryInterface, Sequelize) {
-  await queryInterface.createTable("mecena", {
-   nif_nipc: {
-    type: Sequelize.STRING(9),
-    primaryKey: true,
-    allowNull: false,
-    references: { model: "entidade", key: "nif_nipc" },
-   },
-  });
- },
-
- async down(queryInterface) {
-  await queryInterface.dropTable("mecena");
- },
+ async up() {},
+ async down() {},
 };

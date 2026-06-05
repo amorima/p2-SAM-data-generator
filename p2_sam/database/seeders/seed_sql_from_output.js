@@ -86,7 +86,6 @@ const seedPlan = [
    "role",
   ],
  },
- { table: "mecena", file: "mecena.json", fields: ["nif_nipc"] },
  {
   table: "negocio",
   file: "negocio.json",

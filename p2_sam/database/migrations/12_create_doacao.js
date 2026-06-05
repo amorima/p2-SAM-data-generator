@@ -12,7 +12,7 @@ module.exports = {
    mecena_nif_nipc: {
     type: Sequelize.STRING(9),
     allowNull: false,
-    references: { model: "mecena", key: "nif_nipc" },
+    references: { model: "entidade", key: "nif_nipc" },
     onDelete: "CASCADE",
    },
    data: {
