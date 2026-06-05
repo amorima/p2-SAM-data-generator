@@ -79,6 +79,8 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
             "iban": faker.iban(),
             "codigo_postal": random.choice(codigos_postais) if codigos_postais else None,
             "role": "patron",
+            "blocked": 0,
+            "reason": None,
         })
 
     # Negócios — nome do dicionário de negócios
@@ -96,6 +98,8 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
                 random.choice(codigos_postais) if codigos_postais else None
             ),
             "role": "business",
+            "blocked": 0,
+            "reason": None,
         })
 
     # Instituições — nome do dicionário de instituições
@@ -113,6 +117,8 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
                 random.choice(codigos_postais) if codigos_postais else None
             ),
             "role": "institution",
+            "blocked": 0,
+            "reason": None,
         })
 
     print(f"  Concluído! {len(resultados)} entidades geradas.\n")

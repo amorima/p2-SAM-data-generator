@@ -74,7 +74,7 @@ const seedPlan = [
  {
   table: "entidade",
   file: "entidade.json",
-  transform: (r) => ({ ...r, iban: r.iban?.slice(0, 23), nome_entidade: r.nome_entidade?.slice(0, 45) }),
+  transform: (r) => ({ ...r, iban: r.iban?.slice(0, 23), nome_entidade: r.nome_entidade?.slice(0, 45), blocked: r.blocked ?? 0, reason: r.reason ?? null }),
   postProcess: dedupEmailLogin,
   fields: [
    "nif_nipc",
@@ -84,6 +84,8 @@ const seedPlan = [
    "iban",
    "profile_pic",
    "role",
+   "blocked",
+   "reason",
   ],
  },
  {
