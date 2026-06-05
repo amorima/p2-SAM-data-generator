@@ -74,7 +74,7 @@ const seedPlan = [
  {
   table: "entidade",
   file: "entidade.json",
-  transform: (r) => ({ ...r, iban: r.iban?.slice(0, 23), nome_entidade: r.nome_entidade?.slice(0, 45), blocked: r.blocked ?? 0, reason: r.reason ?? null }),
+  transform: (r) => ({ ...r, iban: r.iban?.slice(0, 34), nome_entidade: r.nome_entidade?.slice(0, 45), blocked: r.blocked ?? 0, reason: r.reason ?? null }),
   postProcess: dedupEmailLogin,
   fields: [
    "nif_nipc",
@@ -300,7 +300,7 @@ async function seedAdmin(queryInterface) {
 
  // Ensure columns support admin entity (bcrypt hash + nullable iban)
  await sequelize.query("ALTER TABLE `entidade` MODIFY COLUMN `password` VARCHAR(255) NOT NULL");
- await sequelize.query("ALTER TABLE `entidade` MODIFY COLUMN `iban` VARCHAR(23) NULL");
+ await sequelize.query("ALTER TABLE `entidade` MODIFY COLUMN `iban` VARCHAR(34) NULL");
 
  const hashedPassword = await bcrypt.hash(adminPassword, 10);
 
@@ -314,6 +314,8 @@ async function seedAdmin(queryInterface) {
   nome_entidade: adminName,
   iban: null,
   role: "admin",
+  blocked: 0,
+  reason: null,
  }], {});
 
  console.log(`[SQL] admin: entidade criada (nif=${adminNif})`);
