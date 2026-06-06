@@ -61,5 +61,14 @@ def generate_cidadaos(n: int = 100) -> list[dict]:
         contactos_vistos.add(contacto)
         resultados.append(registo)
 
+    # Fixture de teste — contacto fixo para o Postman chain
+    if "910099001" not in contactos_vistos:
+        resultados.append({
+            "nome": "Cidadão Teste Chain",
+            "contacto": "910099001",
+            "rgpd": 1,
+            "blocked": 0,
+        })
+
     print(f"  Concluído! {len(resultados)} cidadãos gerados.\n")
     return resultados

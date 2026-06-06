@@ -102,5 +102,15 @@ def generate_instituicoes(n: int = 50, localidades: list[dict] = None) -> list[d
         nipcs_vistos.add(nipc)
         resultados.append(registo)
 
+    # Fixture de teste — NIF fixo para o Postman chain
+    if "599999998" not in nipcs_vistos:
+        resultados.append({
+            "nif_nipc": "599999998",
+            "codigo_postal": localidades[0]["codigo_postal"],
+            "geo_latitude": 41.3522,
+            "geo_longitude": -8.7497,
+            "url_comprovativo_estatuto": "https://docs.instituicoes.pt/599999998.pdf",
+        })
+
     print(f"  Concluído! {len(resultados)} instituições geradas.\n")
     return resultados

@@ -88,5 +88,8 @@ def generate_bens_servicos() -> list[dict]:
                 "tipo_bem": "servico",
             })
 
+    # Fixture de teste — tipo fixo para o Postman chain
+    resultados.append({"tipo_bem_servico": "ZZZ_Teste_Chain", "tipo_bem": "bem"})
+
     print(f"  Concluído! {len(resultados)} bens e serviços gerados.\n")
     return resultados

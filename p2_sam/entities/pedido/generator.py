@@ -34,5 +34,13 @@ def generate_pedidos(n: int = 100, instituicoes: list[dict] = None) -> list[dict
         registo["id_pedido"] = i
         resultados.append(registo)
 
+    # Fixture de teste — pedido PENDENTE para a instituição fixture (599999998)
+    resultados.append({
+        "id_pedido": n + 1,
+        "nif_nipc": "599999998",
+        "estado": "PENDENTE",
+        "data": "2026-01-01 00:00:00",
+    })
+
     print(f"  Concluído! {len(resultados)} pedidos gerados.\n")
     return resultados

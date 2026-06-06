@@ -121,5 +121,47 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
             "reason": None,
         })
 
+    # Fixtures de teste — NIFs fixos para o Postman chain
+    fixture_nifs = {e["nif_nipc"] for e in resultados}
+    TEST_FIXTURES = [
+        {
+            "nif_nipc": "199999999",
+            "email_login": "test.patron@sam.pt",
+            "password": "Test@Patron1",
+            "nome_entidade": "Mecenas Teste Chain",
+            "iban": "PT50000201231234567890154",
+            "codigo_postal": codigos_postais[0] if codigos_postais else None,
+            "role": "patron",
+            "blocked": 0,
+            "reason": None,
+        },
+        {
+            "nif_nipc": "599999997",
+            "email_login": "test.business@sam.pt",
+            "password": "Test@Business1",
+            "nome_entidade": "Empresa Teste Chain SA",
+            "iban": "PT50000201231234567890155",
+            "codigo_postal": codigos_postais[0] if codigos_postais else None,
+            "role": "business",
+            "blocked": 0,
+            "reason": None,
+        },
+        {
+            "nif_nipc": "599999998",
+            "email_login": "test.institution@sam.pt",
+            "password": "Test@Institution1",
+            "nome_entidade": "Instituição Teste Chain",
+            "iban": "PT50000201231234567890156",
+            "codigo_postal": codigos_postais[0] if codigos_postais else None,
+            "role": "institution",
+            "blocked": 0,
+            "reason": None,
+        },
+    ]
+    for fixture in TEST_FIXTURES:
+        if fixture["nif_nipc"] not in fixture_nifs:
+            used_emails.add(fixture["email_login"])
+            resultados.append(fixture)
+
     print(f"  Concluído! {len(resultados)} entidades geradas.\n")
     return resultados

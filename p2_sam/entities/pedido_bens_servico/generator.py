@@ -41,6 +41,17 @@ def generate_pedidos_bens_servicos(n: int = 150, pedidos: list[dict] = None, ben
         pares_vistos.add(par)
         resultados.append(registo)
 
+    # Fixture de teste — item ZZZ_Teste_Chain para o pedido fixture (599999998)
+    fixture_pedido = next((p for p in pedidos if p.get("nif_nipc") == "599999998"), None)
+    if fixture_pedido:
+        par = (fixture_pedido["id_pedido"], "ZZZ_Teste_Chain")
+        if par not in pares_vistos:
+            resultados.append({
+                "id_pedido": fixture_pedido["id_pedido"],
+                "tipo_bem_servico": "ZZZ_Teste_Chain",
+                "publico": 1,
+            })
+
     print(f"  Concluído! {len(resultados)} pedido_bens_serviços gerados.\n")
     return resultados
 

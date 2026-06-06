@@ -54,5 +54,16 @@ def generate_negocios(n: int = 50, localidades: list[dict] = None) -> list[dict]
         nipcs_vistos.add(nipc)
         resultados.append(registo)
 
+    # Fixture de teste — NIF fixo para o Postman chain
+    if "599999997" not in nipcs_vistos:
+        resultados.append({
+            "nif_nipc": "599999997",
+            "_codigo_postal": localidades[0]["codigo_postal"],
+            "geo_latitude": 41.3526,
+            "geo_longitude": -8.7396,
+            "url_certidao_permanente": "https://certidoes.negocio.pt/599999997.pdf",
+            "inicio_atividade": "2020-01-01 00:00:00",
+        })
+
     print(f"  Concluído! {len(resultados)} negócios gerados.\n")
     return resultados
