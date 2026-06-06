@@ -321,6 +321,22 @@ async function seedAdmin(queryInterface) {
  console.log(`[SQL] admin: entidade criada (nif=${adminNif})`);
 }
 
+// Fixture entities are seeded with plaintext passwords. Hash them so the
+// Postman chain can log in with the expected credentials without re-creating them.
+const FIXTURE_PASSWORDS = [
+ { nif_nipc: "199999999", plain: "Test@Patron1" },
+ { nif_nipc: "599999997", plain: "Empresa@2024" }, // must match Postman "Login como Negócio"
+ { nif_nipc: "599999998", plain: "Test@Institution1" },
+];
+
+async function hashFixturePasswords(queryInterface) {
+ for (const { nif_nipc, plain } of FIXTURE_PASSWORDS) {
+  const hash = await bcrypt.hash(plain, 10);
+  await queryInterface.bulkUpdate("entidade", { password: hash }, { nif_nipc });
+ }
+ console.log("[SQL] fixture passwords hashed");
+}
+
 async function main() {
  const queryInterface = sequelize.getQueryInterface();
 
@@ -339,6 +355,7 @@ async function main() {
   await seedLeads(queryInterface);
   await fixAutoIncrements(queryInterface);
   await fixLeadsIdItem();
+  await hashFixturePasswords(queryInterface);
   await seedAdmin(queryInterface);
  } finally {
   await sequelize.close();
