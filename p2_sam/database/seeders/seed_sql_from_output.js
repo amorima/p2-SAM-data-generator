@@ -48,11 +48,11 @@ function normalizeCidadao(record) {
  };
 }
 
-function dedupCidadaoByNome(records) {
+function dedupCidadaoByContacto(records) {
  const seen = new Set();
  return records.filter((r) => {
-  if (seen.has(r.nome)) return false;
-  seen.add(r.nome);
+  if (seen.has(r.contacto)) return false;
+  seen.add(r.contacto);
   return true;
  });
 }
@@ -123,7 +123,7 @@ const seedPlan = [
   table: "cidadao",
   file: "cidadao.json",
   transform: normalizeCidadao,
-  postProcess: dedupCidadaoByNome,
+  postProcess: dedupCidadaoByContacto,
   fields: ["nome", "contacto", "rgpd", "blocked", "reason"],
  },
  {
