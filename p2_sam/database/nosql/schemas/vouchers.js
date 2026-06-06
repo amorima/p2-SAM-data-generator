@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-// Regista vouchers emitidos
-
 const InteractionLogSchema = new mongoose.Schema({
  montante: {
   type: Number,

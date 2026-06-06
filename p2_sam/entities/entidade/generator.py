@@ -2,7 +2,6 @@ from faker import Faker
 
 faker = Faker("pt_PT")
 
-# Dicionário de nomes falsos de instituições
 NOMES_INSTITUICOES = [
     "Casa do Povo", "Lar dos Avós", "Centro de Apoio Social",
     "Fundação Esperança", "Associação Renascer", "Cooperativa Horizonte",
@@ -13,7 +12,6 @@ NOMES_INSTITUICOES = [
     "Fundação Terra Nova", "União do Bem",
 ]
 
-# Dicionário de nomes falsos de negócios
 NOMES_NEGOCIOS = [
     "TechLuso", "InovaMais", "DigitalPorto", "SolTec", "NovaMed",
     "EcoVerde", "UrbanBuild", "AgroConde", "MarInov", "LogiFlow",
@@ -27,7 +25,6 @@ def email_pessoa(nome_completo: str) -> str:
     primeiro = partes[0].lower() if partes else "user"
     ultimo = partes[-1].lower() if len(partes) > 1 else "user"
     dominio = faker.free_email_domain()
-    # remove acentos simples para o email
     for a, b in [("ã", "a"), ("á", "a"), ("à", "a"), ("â", "a"), ("é", "e"), ("ê", "e"),
                  ("í", "i"), ("ó", "o"), ("ô", "o"), ("õ", "o"), ("ú", "u"), ("ç", "c")]:
         primeiro = primeiro.replace(a, b)
@@ -83,7 +80,6 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
             "reason": None,
         })
 
-    # Negócios — nome do dicionário de negócios
     nomes_neg = NOMES_NEGOCIOS.copy()
     random.shuffle(nomes_neg)
     for i, n in enumerate(negocios):
@@ -102,7 +98,6 @@ def generate_entidades(mecenas: list[dict], negocios: list[dict], instituicoes: 
             "reason": None,
         })
 
-    # Instituições — nome do dicionário de instituições
     nomes_inst = NOMES_INSTITUICOES.copy()
     random.shuffle(nomes_inst)
     for i, inst in enumerate(instituicoes):

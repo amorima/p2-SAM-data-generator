@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 const { ENUM } = require("sequelize");
 
-// Regista notificações
-
 const InteractionLogSchema = new mongoose.Schema({
  // Referencia a BD SQL (lead.id_lead)
  lead_sql_id: {
