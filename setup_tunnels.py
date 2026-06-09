@@ -1,3 +1,5 @@
+"""Script para configurar túneis SSH e gerir seeds da base de dados do SAM."""
+
 import os
 import sys
 import time
@@ -5,6 +7,7 @@ import shutil
 import socket
 import argparse
 import subprocess
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -23,10 +26,7 @@ LOCAL_IP = "192.168.188.102"
 CLOUDFLARE_HOST = "ssh.netdw.tech"
 
 # Mapeamento de portos: Local -> Remoto
-TUNNELS = [
-    ("3307", "localhost:3306"),   # MySQL
-    ("27018", "localhost:27017")  # MongoDB
-]
+TUNNELS = [("3307", "localhost:3306"), ("27018", "localhost:27017")]  # MySQL  # MongoDB
 
 # Endpoints locais que o seed deve usar (derivados de TUNNELS, não do .env).
 MYSQL_LOCAL_PORT = TUNNELS[0][0]
@@ -37,12 +37,16 @@ REPO_ROOT = Path(__file__).resolve().parent
 ENV_PATH = REPO_ROOT / ".env"
 DATABASE_DIR = REPO_ROOT / "p2_sam" / "database"
 
-CLOUDFLARED_URL = "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe"
+CLOUDFLARED_URL = (
+    "https://github.com/cloudflare/cloudflared/releases/latest/download/"
+    "cloudflared-windows-amd64.exe"
+)
 INSTALL_DIR = Path.home() / ".cloudflared"
 CLOUDFLARED_EXE = INSTALL_DIR / "cloudflared.exe"
 
 
 def setup_ssh_key():
+    """Cria o ficheiro de chave SSH privada em ~/.ssh e ajusta as permissões."""
     ssh_dir = Path.home() / ".ssh"
     key_path = ssh_dir / SSH_KEY_NAME
 
@@ -51,19 +55,31 @@ def setup_ssh_key():
 
     if not key_path.exists():
         print(f"[*] Instalando certificado SSH em {key_path}...")
-        with open(key_path, "w", newline="\n") as f:
+        with open(key_path, "w", newline="\n", encoding="utf-8") as f:
             f.write(SSH_KEY_CONTENT.strip() + "\n")
 
         if sys.platform == "win32":
             user = os.getlogin()
-            subprocess.run(["icacls", str(key_path), "/inheritance:r"], check=True, capture_output=True)
-            subprocess.run(["icacls", str(key_path), "/grant:r", f"{user}:R"], check=True, capture_output=True)
+            subprocess.run(
+                ["icacls", str(key_path), "/inheritance:r"],
+                check=True,
+                capture_output=True,
+            )
+            subprocess.run(
+                ["icacls", str(key_path), "/grant:r", f"{user}:R"],
+                check=True,
+                capture_output=True,
+            )
         else:
             key_path.chmod(0o600)
     return str(key_path)
 
 
 def install_cloudflared():
+    """Descarrega e instala o cloudflared se ainda não existir.
+
+    Devolve o caminho ou None em caso de erro.
+    """
     if CLOUDFLARED_EXE.exists():
         return str(CLOUDFLARED_EXE)
 
@@ -75,7 +91,7 @@ def install_cloudflared():
     try:
         urllib.request.urlretrieve(CLOUDFLARED_URL, CLOUDFLARED_EXE)
         print(f"[V] Cloudflared instalado em {CLOUDFLARED_EXE}")
-    except Exception as e:
+    except (OSError, urllib.error.URLError) as e:
         print(f"[ERRO] Falha ao baixar cloudflared: {e}")
         return None
 
@@ -83,24 +99,28 @@ def install_cloudflared():
 
 
 def configure_ssh_config():
+    """Adiciona (ou atualiza) a entrada ProxyCommand do cloudflared no ~/.ssh/config."""
     ssh_config = Path.home() / ".ssh" / "config"
-    entry = f"\nHost {CLOUDFLARE_HOST}\n  ProxyCommand \"{CLOUDFLARED_EXE}\" access ssh --hostname %h\n"
+    entry = (
+        f"\nHost {CLOUDFLARE_HOST}\n"
+        f'  ProxyCommand "{CLOUDFLARED_EXE}" access ssh --hostname %h\n'
+    )
 
     content = ""
     if ssh_config.exists():
-        with open(ssh_config, "r") as f:
+        with open(ssh_config, "r", encoding="utf-8") as f:
             content = f.read()
 
     if CLOUDFLARE_HOST not in content:
-        print(f"[*] Configurando ~/.ssh/config para túnel Cloudflare...")
-        with open(ssh_config, "a") as f:
+        print("[*] Configurando ~/.ssh/config para túnel Cloudflare...")
+        with open(ssh_config, "a", encoding="utf-8") as f:
             f.write(entry)
     else:
         # Atualiza o caminho do executável caso tenha mudado
         if str(CLOUDFLARED_EXE) not in content:
             print("[*] Atualizando caminho do cloudflared no config SSH...")
             # Simplificação: apenas anexa a nova config, o SSH usa a primeira que encontrar
-            with open(ssh_config, "a") as f:
+            with open(ssh_config, "a", encoding="utf-8") as f:
                 f.write(entry)
 
 
@@ -136,10 +156,16 @@ def open_tunnels(key_path):
 
     print("[*] Testando conectividade local...")
     target_host = LOCAL_IP
-    ping_cmd = ["ping", "-n", "1", "-w", "500", LOCAL_IP] if sys.platform == "win32" else ["ping", "-c", "1", "-W", "1", LOCAL_IP]
+    ping_cmd = (
+        ["ping", "-n", "1", "-w", "500", LOCAL_IP]
+        if sys.platform == "win32"
+        else ["ping", "-c", "1", "-W", "1", LOCAL_IP]
+    )
 
     try:
-        subprocess.run(ping_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(
+            ping_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+        )
         print(f"[V] Servidor local encontrado em {LOCAL_IP}")
     except subprocess.CalledProcessError:
         print(f"[!] Servidor local offline. Mudando para Cloudflare: {CLOUDFLARE_HOST}")
@@ -192,7 +218,9 @@ def build_seed_env():
     mongo_uri = read_env_value("MONGODB_URI")
     if mongo_uri:
         # Reescreve só o porto remoto (27017) para o porto local do túnel (27018).
-        env["MONGODB_URI"] = mongo_uri.replace(f":{MONGO_REMOTE_PORT}", f":{MONGO_LOCAL_PORT}")
+        env["MONGODB_URI"] = mongo_uri.replace(
+            f":{MONGO_REMOTE_PORT}", f":{MONGO_LOCAL_PORT}"
+        )
 
     # Evita o crash de encoding cp1252 em consolas Windows.
     env.setdefault("PYTHONIOENCODING", "utf-8")
@@ -209,7 +237,7 @@ def _node_tool(name):
 def run_step(label, cmd, cwd, env):
     """Corre um comando, faz log e devolve True/False conforme o código de saída."""
     print(f"\n[*] {label}: {' '.join(cmd)}")
-    result = subprocess.run(cmd, cwd=str(cwd), env=env)
+    result = subprocess.run(cmd, cwd=str(cwd), env=env, check=False)
     if result.returncode != 0:
         print(f"[ERRO] {label} falhou (código {result.returncode}).")
         return False
@@ -226,7 +254,7 @@ def _python_for_generator():
     """
     candidates = [
         REPO_ROOT / ".venv" / "Scripts" / "python.exe",  # Windows
-        REPO_ROOT / ".venv" / "bin" / "python",          # POSIX
+        REPO_ROOT / ".venv" / "bin" / "python",  # POSIX
     ]
     for c in candidates:
         if c.exists():
@@ -236,14 +264,22 @@ def _python_for_generator():
 
 def run_generator(env):
     """Gera os ficheiros sintéticos em output/ (python -m p2_sam)."""
-    return run_step("Gerador", [_python_for_generator(), "-m", "p2_sam"], REPO_ROOT, env)
+    return run_step(
+        "Gerador", [_python_for_generator(), "-m", "p2_sam"], REPO_ROOT, env
+    )
 
 
 def run_migrations(env):
+    """Corre as migrations do Sequelize para garantir o schema MySQL atualizado."""
     if not DATABASE_DIR.exists():
         print(f"[ERRO] Pasta de base de dados não encontrada: {DATABASE_DIR}")
         return False
-    return run_step("Migrations", [_node_tool("npx"), "sequelize-cli", "db:migrate"], DATABASE_DIR, env)
+    return run_step(
+        "Migrations",
+        [_node_tool("npx"), "sequelize-cli", "db:migrate"],
+        DATABASE_DIR,
+        env,
+    )
 
 
 def seed_mysql(env):
@@ -253,17 +289,23 @@ def seed_mysql(env):
         return False
     if not run_migrations(env):
         return False
-    return run_step("Seed MySQL", [_node_tool("npm"), "run", "seed:sql"], DATABASE_DIR, env)
+    return run_step(
+        "Seed MySQL", [_node_tool("npm"), "run", "seed:sql"], DATABASE_DIR, env
+    )
 
 
 def seed_mongodb(env):
+    """Semeia a base de dados MongoDB via npm run seed:nosql."""
     if not DATABASE_DIR.exists():
         print(f"[ERRO] Pasta de base de dados não encontrada: {DATABASE_DIR}")
         return False
-    return run_step("Seed MongoDB", [_node_tool("npm"), "run", "seed:nosql"], DATABASE_DIR, env)
+    return run_step(
+        "Seed MongoDB", [_node_tool("npm"), "run", "seed:nosql"], DATABASE_DIR, env
+    )
 
 
 def seed_all(env):
+    """Corre seed_mysql seguido de seed_mongodb; aborta se o primeiro falhar."""
     return seed_mysql(env) and seed_mongodb(env)
 
 
@@ -313,11 +355,15 @@ def menu_loop(env):
 
 
 def main():
+    """Ponto de entrada: configura o túnel SSH e lança o menu interativo (ou modo --no-menu)."""
     parser = argparse.ArgumentParser(
         description="Abre o túnel SSH para o SAM e mostra um menu (gerador / seeds)."
     )
-    parser.add_argument("--no-menu", action="store_true",
-                        help="Apenas abre o túnel e mantém-no aberto (sem menu).")
+    parser.add_argument(
+        "--no-menu",
+        action="store_true",
+        help="Apenas abre o túnel e mantém-no aberto (sem menu).",
+    )
     args = parser.parse_args()
 
     proc = None
@@ -344,7 +390,7 @@ def main():
     except KeyboardInterrupt:
         print("\n[*] Interrompido pelo utilizador.")
         return 0
-    except Exception as e:
+    except Exception as e:  # pylint: disable=broad-exception-caught
         print(f"\n[ERRO] {e}")
         return 1
     finally:
